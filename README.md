@@ -502,21 +502,20 @@ El éxito se medirá en la reducción de fallas inesperadas, la optimización de
 
 ### 2.1. Competidores
 
-**Competidor 1: ServiceTitan**
-ServiceTitan es una plataforma de gestión de servicios basada en la nube que ofrece soluciones de software para empresas de servicios, incluidos técnicos de HVAC, fontaneros y electricistas. Proporciona funcionalidades de programación, gestión de trabajos, facturación y más. Esta plataforma es conocida por su facilidad de uso y por ayudar a las empresas a optimizar sus operaciones de servicio técnico en tiempo real.
+**Competidor 1: Infraspeak**
+Infraspeak: Es uno de los softwares de mantenimiento y gestión de órdenes de trabajo, con buen reconocimiento puesto que cuenta con módulos robustos, tareas preventivas y un buen soporte
 
 
 ---
 
-**Competidor 2: CoolMaster**
-CoolMaster es una solución de software diseñada específicamente para el sector de refrigeración comercial. Ofrece monitoreo remoto de sistemas de refrigeración, alertas tempranas de fallas y gestión eficiente del consumo energético. La plataforma está orientada a optimizar la eficiencia operativa de negocios que dependen críticamente de sistemas de frío, como supermercados y centros de distribución.
+**Competidor 2: Persat**
+Con sedes en Latinoamérica, sus funciones más relevantes cuentan con asignación de tareas de servicio, una buena localización regional así como un gran enfoque al servicio técnico
 
 
 ---
 
-**Competidor 3: TempGenius**
-TempGenius es un software de monitoreo de temperatura y humedad en tiempo real para diversas industrias, incluida la de la refrigeración comercial. Permite a los usuarios realizar un seguimiento de sus equipos de refrigeración mediante sensores conectados a la nube, generar reportes y recibir alertas automáticas por variaciones en los niveles de temperatura. Su principal enfoque es mejorar la visibilidad y control de las operaciones de refrigeración para evitar pérdidas económicas.
-
+**Competidor 3: Kiconex**
+ Este software basado en el control remoto en la nube para equipos de refrigeración cuenta con fuertes monitorios, sensores, iot y un buen soporte de hardware profesional, dedicados mayormente en Europa.
 #### 2.1.1. Análisis competitivo
 
 <table> 
@@ -528,22 +527,22 @@ TempGenius es un software de monitoreo de temperatura y humedad en tiempo real p
     <td colspan="5"> Pregunta </td>
   </tr>
   <tr>
-    <td colspan="5"> Respuesta </td>
+    <td colspan="5"> Para poder evaluar el posicionamiento competitivo de nuestra app frente a competidores perfecto para identificar fortalezas, debilidades, oportunidades y amenazas en el mercado peruano de gestión y monitoreo de refrigeración. </td>
   </tr>
   <tr>
     <td colspan="2"> Productos </td>
-    <td> OsitoPolar </td>
-    <td> ServiceTitan </td>
-    <td> CoolMaster </td>
-    <td> TempGenius </td>
+    <td> PolarNet  </td>
+    <td> Infraspeak </td>
+    <td> Persat </td>
+    <td> Kiconex </td>
   </tr>
   <tr>
     <td rowspan="2">Perfil</td>
     <td>Overview</td>
-    <td> OsitoPolar es una plataforma integral de monitoreo y gestión para sistemas de refrigeración, que conecta negocios con técnicos especializados. Ofrece monitoreo en tiempo real, alertas automáticas, mantenimiento preventivo, y trazabilidad de cada equipo. </td>
-    <td> ServiceTitan es una plataforma de gestión de servicios basada en la nube que ofrece soluciones de software para empresas de servicios, incluidos técnicos de HVAC, fontaneros y electricistas. </td>
-    <td> CoolMaster es una solución de software diseñada específicamente para el sector de refrigeración comercial. Ofrece monitoreo remoto de sistemas de refrigeración, alertas preventivas y gestión energética. </td>
-    <td> TempGenius es un software de monitoreo de temperatura y humedad en tiempo real para diversas industrias, incluida la refrigeración comercial. Permite a los usuarios gestionar y recibir alertas automáticas sobre sus equipos. </td>
+    <td>App móvil enfocada en monitoreo y mantenimiento preventivo de refrigeración comercial. </td>
+    <td> Plataforma internacional para mantenimiento y monitoreo.. </td>
+    <td> App de gestión de equipos de campo y mantenimiento. </td>
+    <td> App de refrigeración industrial con sistema. </td>
   </tr>
   <tr>
     <td>Ventaja competitiva ¿Qué valor ofrece a los clientes?</td>

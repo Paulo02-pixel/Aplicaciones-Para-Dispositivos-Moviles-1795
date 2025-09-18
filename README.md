@@ -704,7 +704,7 @@ Hemos identificado diversas estrategias y tácticas para diferenciarse y competi
 - **Edad:** 25
 - **Distrito:** San Martín de Porres
 
-![Interview-2-segment-1.jpg](<img width="942" height="524" alt="entrevista 2" src="https://github.com/user-attachments/assets/4a7f1409-436b-4c2e-9b49-4a5b9e9bac92" />)
+![Entrevista 2](images/entrevista%202.PNG)
 - **Inicio:** 0:02
 - **Duración:** 1:50 min
 - **URL:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313419_upc_edu_pe/EQl3y6bGWi9ArBB2C0V_6-ABZiouXaloDBWMnfE-n-0CRA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SQ7nw4
@@ -721,7 +721,7 @@ Hemos identificado diversas estrategias y tácticas para diferenciarse y competi
 - **Distrito:** Los Olivos
 
 
-- ![Interview-1-segment-2.png](<img width="1241" height="567" alt="entrevista 3" src="https://github.com/user-attachments/assets/67c2fd5f-58e7-4377-8987-e57cbddf97cb" />)
+![Entrevista 3](images/entrevista%203.PNG)
 
 
 - **Inicio:** 0:02

@@ -506,16 +506,3 @@ Escriba en el recuadro la pregunta que busca responder o el objetivo de este an�
 
 ---
 
-| (En la cabecera colocar por cada competidor nombre y logo) | Su startup | Competidor 1 | Competidor 2 | Competidor 3 |
-|------------------------------------------------------------|------------|--------------|--------------|--------------|
-| **Perfil - Overview** | | | | |
-| **Ventaja competitiva (¿Qué valor ofrece a los clientes?)** | | | | |
-| **Mercado objetivo** | | | | |
-| **Estrategias de marketing** | | | | |
-| **Perfil de Producto - Productos & Servicios** | | | | |
-| **Precios & Costos** | | | | |
-| **Canales de distribución (Web y/o Móvil)** | | | | |
-| **Análisis SWOT - Fortalezas** | | | | |
-| **Debilidades** | | | | |
-| **Oportunidades** | | | | |
-| **Amenazas** | | | | |

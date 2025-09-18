@@ -1,21 +1,502 @@
-# **COURSE PROJECT**
-
 <p align="center">
-  <img src="Imagenes/<img width="200" height="200" alt="upc_logo_200x200_jao73r" src="https://github.com/user-attachments/assets/97dccf6f-22d6-47a8-8969-ec0992fb7415" />
-" alt="Logo de la UPC" />
+  <img src="images/logo-upc.png" alt="Logo de la UPC" />
 </p>
 
 <p align="center"><strong>Universidad Peruana de Ciencias Aplicadas</strong></p>
 
 <p align="center"><strong>Ingeniería de Software</strong><br>
-Aplicaciones para Dispositivos Móviles<br>
-<strong>Profesor:</strong>Jorge Luis Mayta Guillermo</p>
+Desarrollo de Aplicaciones Open Source <br>
+<strong>Profesor:</strong> Alberto Wilmer Sanchez Seña </p>
 
 <h2 align="center">INFORME</h2>
+<h2 align="center">2025 - 10</h2>
 
-<h3 align="center">Startup:</h3>
-<p align="center"><strong>PolarNet</strong></p>
+<h3 align="center">Startup: ChabeCode</h3>
+<h3 align="center">1ASI0729-2510-4313</h3>
+
+<p align="center"><strong>Producto: SplitEasy</strong></p>
 
 <h3 align="center">Team Members:</h3>
 
 <div align="center">
+
+| **Member**                           | **Code**     |
+|--------------------------------------|--------------|
+|  Paulo Percy Quincho Gamarra     |   U20191E562 |
+|   Geronimo Quispe Pablo Antonio     | u202314304  |
+|    Sandro Dinklange Arevalo   |  u202313419 |
+|   Marzál Pérez, Jamir Ángel     |  u201824409 |
+|       |    |
+
+</div>
+
+<p align="center"><strong>Julio 2025</strong></p>
+
+<div style="page-break-before: always;"></div>
+
+# Registro de Versiones del Informe
+| Versión | Fecha       | Autor(es)                                                              | Descripción                                                                                                                                         |
+|---------|-------------|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| TB1     | 13/09/2025  | Paulo Percy Quincho Gamarra       | Desarrollo del capítulo I: Introducción                                                                                                             |
+| TB1     | 14/09/2025  | Geronimo Quispe Pablo Antonio       | Desarrollo del capítulo II                                                                                                            |
+| TB1     | 15/09/2025  | Sandro Dinklange Arevalo      | Desarrollo del capítulo II                                                                                                               |
+| TB1     | 16/09/2025  | Marzál Pérez, Jamir Ángel      | Desarrollo del capítulo II                                                                                                               |
+| TB1     | 17/09/2025  |       | Desarrollo del capítulo II                              |
+
+# Project Report Collaboration Insights
+Link del repositorio: https://github.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795.git
+
+# Tabla de Contenidos
+
+- [Capítulo I: Presentación](#capítulo-i-presentación)  
+  - [1.1. Startup Profile](#11-startup-profile)  
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)  
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)  
+  - [1.2. Solution Profile](#12-solution-profile)  
+    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)  
+    - [1.2.2. Lean UX Process](#122-lean-ux-process)  
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)  
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)  
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)  
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)  
+  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)  
+
+- [Capítulo II: Requirements Development and Software Solution Design](#capítulo-ii-requirements-development-and-software-solution-design)  
+  - [2.1. Competidores](#21-competidores)  
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)  
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)  
+  - [2.2. Entrevistas](#22-entrevistas)  
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)  
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)  
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)  
+  - [2.3. Needfinding](#23-needfinding)  
+    - [2.3.1. User Personas](#231-user-personas)  
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)  
+    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)  
+    - [2.3.4. Empathy Mapping](#234-empathy-mapping)  
+    - [2.3.5. Ubiquitous Language](#235-ubiquitous-language)  
+  - [2.4. Requirements specification](#24-requirements-specification)  
+    - [2.4.1. User Stories](#241-user-stories)  
+    - [2.4.2. Impact Mapping](#242-impact-mapping)  
+    - [2.4.3. Product Backlog](#243-product-backlog)  
+  - [2.5. Strategic-Level Domain-Driven Design](#25-strategic-level-domain-driven-design)  
+    - [2.5.1. EventStorming](#251-eventstorming)  
+      - [2.5.1.1. Candidate Context Discovery](#2511-candidate-context-discovery)  
+      - [2.5.1.2. Domain Message Flows Modeling](#2512-domain-message-flows-modeling)  
+      - [2.5.1.3. Bounded Context Canvases](#2513-bounded-context-canvases)  
+    - [2.5.2. Context Mapping](#252-context-mapping)  
+    - [2.5.3. Software Architecture](#253-software-architecture)  
+      - [2.5.3.1. Context Level Diagrams](#2531-software-architecture-context-level-diagrams)  
+      - [2.5.3.2. Container Level Diagrams](#2532-software-architecture-container-level-diagrams)  
+      - [2.5.3.3. Deployment Diagrams](#2533-software-architecture-deployment-diagrams)  
+  - [2.6. Tactical-Level Domain-Driven Design](#26-tactical-level-domain-driven-design)  
+    - [2.6.x. Bounded Context](#26x-bounded-context)  
+      - [2.6.x.1. Domain Layer](#26x1-domain-layer)  
+      - [2.6.x.2. Interface Layer](#26x2-interface-layer)  
+      - [2.6.x.3. Application Layer](#26x3-application-layer)  
+      - [2.6.x.4. Infrastructure Layer](#26x4-infrastructure-layer)  
+      - [2.6.x.5. Component Level Diagrams](#26x5-bounded-context-software-architecture-component-level-diagrams)  
+      - [2.6.x.6. Code Level Diagrams](#26x6-bounded-context-software-architecture-code-level-diagrams)  
+        - [2.6.x.6.1. Domain Layer Class Diagrams](#26x61-bounded-context-domain-layer-class-diagrams)  
+        - [2.6.x.6.2. Database Design Diagram](#26x62-bounded-context-database-design-diagram)  
+
+- [Capítulo III: Solution UI/UX Design](#capítulo-iii-solution-uiux-design)  
+  - [3.1. Product design](#31-product-design)  
+    - [3.1.1. Style Guidelines](#311-style-guidelines)  
+      - [3.1.1.1. General Style Guidelines](#3111-general-style-guidelines)  
+    - [3.1.2. Information Architecture](#312-information-architecture)  
+      - [3.1.2.1. Organization Systems](#3121-organization-systems)  
+      - [3.1.2.2. Labelling Systems](#3122-labelling-systems)  
+      - [3.1.2.3. SEO Tags and Meta Tags](#3123-seo-tags-and-meta-tags)  
+      - [3.1.2.4. Searching Systems](#3124-searching-systems)  
+      - [3.1.2.5. Navigation Systems](#3125-navigation-systems)  
+    - [3.1.3. Landing Page UI Design](#313-landing-page-ui-design)  
+      - [3.1.3.1. Wireframe](#3131-landing-page-wireframe)  
+      - [3.1.3.2. Mock-up](#3132-landing-page-mock-up)  
+    - [3.1.4. Mobile Applications UX/UI Design](#314-mobile-applications-uxui-design)  
+      - [3.1.4.1. Wireframes](#3141-mobile-applications-wireframes)  
+      - [3.1.4.2. Wireflow Diagrams](#3142-mobile-applications-wireflow-diagrams)  
+      - [3.1.4.3. Mock-ups](#3143-mobile-applications-mock-ups)  
+      - [3.1.4.4. User Flow Diagrams](#3144-mobile-applications-user-flow-diagrams)  
+      - [3.1.4.5. Prototyping](#3145-mobile-applications-prototyping)  
+
+- [Capítulo IV: Product Implementation & Validation](#capítulo-iv-product-implementation--validation)  
+  - [4.1. Software Configuration Management](#41-software-configuration-management)  
+    - [4.1.1. Development Environment Configuration](#411-software-development-environment-configuration)  
+    - [4.1.2. Source Code Management](#412-source-code-management)  
+    - [4.1.3. Source Code Style Guide & Conventions](#413-source-code-style-guide--conventions)  
+    - [4.1.4. Deployment Configuration](#414-software-deployment-configuration)  
+  - [4.2. Landing Page & Mobile Application Implementation](#42-landing-page--mobile-application-implementation)  
+    - [4.2.1. Sprint n](#421-sprint-n)  
+      - [4.2.1.1. Sprint Planning n](#4211-sprint-planning-n)  
+      - [4.2.1.2. Sprint Backlog n](#4212-sprint-backlog-n)  
+      - [4.2.1.3. Development Evidence](#4213-development-evidence-for-sprint-review)  
+      - [4.2.1.4. Testing Suite Evidence](#4214-testing-suite-evidence-for-sprint-review)  
+      - [4.2.1.5. Execution Evidence](#4215-execution-evidence-for-sprint-review)  
+      - [4.2.1.6. Services Documentation](#4216-services-documentation-evidence-for-sprint-review)  
+      - [4.2.1.7. Software Deployment Evidence](#4217-software-deployment-evidence-for-sprint-review)  
+      - [4.2.1.8. Team Collaboration Insights](#4218-team-collaboration-insights-during-sprint)  
+  - [4.3. Validation Interviews](#43-validation-interviews)  
+    - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)  
+    - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)  
+    - [4.3.3. Evaluaciones según heurísticas](#433-evaluaciones-según-heurísticas)  
+
+## Anexos
+
+# Student Outcome
+
+| **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
+|-------------------------|--------------------------|------------------|
+| Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de ingeniería de software. | **TB1: Paulo Percy Quincho Gamarra (U20191E562)** <br> Investigó y aplicó conceptos de programación backend con Python y Node.js, reforzando conocimientos en bases de datos SQL y NoSQL. <br><br> **TB1: Geronimo Quispe Pablo Antonio (U202314304)** <br> Estudió metodologías ágiles y las aplicó en la organización del proyecto, mejorando la planificación de tareas y la coordinación del equipo. <br><br> **TB1: Sandro Dinklange Arevalo (U202313419)** <br> Actualizó sus conocimientos en arquitectura de software y modelado de base de datos, contribuyendo al diseño estructurado de la solución. <br><br> **TB1: Jamir Ángel Marzál Pérez (U201824409)** <br> Reforzó conocimientos en programación orientada a objetos y patrones de diseño, aplicándolos en la implementación de módulos del sistema. | Cada integrante actualizó y aplicó conceptos clave de software en el proyecto, asegurando un mejor entendimiento técnico y fortaleciendo sus competencias profesionales para proyectos reales. |
+| Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de tecnologías de ingeniería de software. | **TB1: Paulo Percy Quincho Gamarra (U20191E562)** <br> Participó en la revisión de nuevas herramientas y frameworks, demostrando apertura al aprendizaje continuo para fortalecer el backend del proyecto. <br><br> **TB1: Geronimo Quispe Pablo Antonio (U202314304)** <br> Investigó sobre herramientas de gestión colaborativa como Trello y GitHub, mostrando interés en ampliar su experiencia en entornos profesionales. <br><br> **TB1: Sandro Dinklange Arevalo (U202313419)** <br> Estudió sobre servicios en la nube y su impacto en aplicaciones móviles, comprendiendo la importancia de actualizarse en nuevas tecnologías. <br><br> **TB1: Jamir Ángel Marzál Pérez (U201824409)** <br> Reconoció la necesidad de mejorar constantemente en lenguajes modernos como TypeScript y frameworks frontend, buscando aplicarlos en futuros proyectos. | Los integrantes demostraron compromiso con el aprendizaje permanente, entendiendo que la actualización constante es clave para desenvolverse en proyectos de software y adaptarse a los cambios tecnológicos. |
+
+
+
+
+# Capítulo I: Introducción
+
+## 1.1 Startup Profile
+
+### 1.1.1 Descripción de la Startup
+**PolarNet** es una aplicación móvil desarrollada para optimizar la gestión y el mantenimiento de sistemas de refrigeración en negocios que dependen del frío de manera crítica, como supermercados, minimarkets, laboratorios, restaurantes y empresas de los sectores alimentario o farmacéutico.  
+
+La app permite a los usuarios mantenerse conectados en todo momento con sus equipos y con técnicos o proveedores especializados, ofreciendo una administración integral, preventiva y automatizada desde la comodidad del celular.  
+
+De igual manera, **PolarNet** incluye un módulo especializado para técnicos y proveedores, donde pueden visualizar todos los equipos que atienden, organizar visitas de servicio, consultar historiales técnicos y generar reportes de manera ágil y eficiente, directamente desde la app.  
+
+**Misión:** En PolarNet, nuestra misión es proporcionar una solución móvil inteligente que proteja el inventario de los negocios y potencie la gestión de sus sistemas de refrigeración, al mismo tiempo que brinda herramientas prácticas para mejorar la productividad de técnicos y proveedores.  
+
+**Visión:** Convertirnos en la aplicación líder en gestión y mantenimiento de equipos de refrigeración, iniciando en Lima y expandiéndonos a nivel nacional, facilitando el acceso móvil a la tecnología en todo el Perú.  
+
+---
+
+### 1.1.2 Perfiles de integrantes del equipo
+
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <td style="text-align: center" align="center">
+      <p align="center">
+        Paulo Percy Quincho Gamarra - U20191E562  
+        <br>
+        <img src="images/paulo-foto.PNG" alt="Foto Paulo" width="45%">
+      </p>
+    </td>
+    <td style="text-align: center" align="center">
+      Soy una persona responsable, comprometida con mis objetivos y soy puntual, lo que me permite realizar todos los trabajos a tiempo. Me gusta tener buena comunicación con el equipo. 
+    </td>
+    <td style="text-align: center" align="center">
+      Conocimientos en Python, JavaScript, TypeScript, SQL y NoSQL. Disfruto entregar los mejores resultados posibles y fomentar la buena comunicación en grupo.
+    </td>
+  </tr>
+  
+  <tr>
+    <td style="text-align: center" align="center">
+      <p align="center">
+        Geronimo Quispe Pablo Antonio - U202314304  
+        <br>
+        <img src="images/pablo-foto.PNG" alt="Foto Geronimo" width="45%">
+      </p>
+    </td>
+    <td style="text-align: center" align="center">
+      Mi nombre es Pablo,tengo 20 años y soy estudiante de Ingeniería de Software en la UPC, sede San Miguel. Soy una persona decidida, confiable, responsable y honesta con mi grupo de trabajo ,siendo lo más útil posible.
+    </td>
+    <td style="text-align: center" align="center">
+      Tengo conocimientos en C++,C# y php. Cada día trato de dar una mejor versión de mi y aprender de mis errores.
+    </td>
+  </tr>
+  
+  <tr>
+    <td style="text-align: center" align="center">
+      <p align="center">
+        Sandro Dinklange Arevalo - U202313419  
+        <br>
+        <img src="images/sandro-foto.PNG" alt="Foto Sandro" width="45%">
+      </p>
+    </td>
+    <td style="text-align: center" align="center">
+      Soy un estudiante de 18 años que cursa la carrera de Ingeniería de Software, en sexto ciclo, en la Universidad Peruana de Ciencias Aplicadas (UPC).
+    </td>
+    <td style="text-align: center" align="center">
+      Cuento con conocimientos en C++.
+    </td>
+  </tr>
+  
+  <tr>
+    <td style="text-align: center" align="center">
+      <p align="center">
+        Jamir Ángel Marzál Pérez - U201824409  
+        <br>
+        <img src="images/jamir-foto.PNG" alt="Foto Jamir" width="45%">
+      </p>
+    </td>
+    <td style="text-align: center" align="center">
+      Me gusta colaborar con mis compañeros, aportar ideas y trabajar de forma organizada para lograr objetivos comunes.
+    </td>
+    <td style="text-align: center" align="center">
+      Conocimientos en Python, C#, Java y SQL. Enfocado en mejorar continuamente mis habilidades técnicas.
+    </td>
+  </tr>
+  
+  <tr>
+    <td style="text-align: center" align="center">
+      <p align="center">
+        [Nombre del 5° Integrante] - [Código]  
+        <br>
+        <img src="images/integrante5.png" alt="Foto Integrante 5" width="45%">
+      </p>
+    </td>
+    <td style="text-align: center" align="center">
+      [Descripción breve del integrante].
+    </td>
+    <td style="text-align: center" align="center">
+      [Conocimientos técnicos y habilidades].
+    </td>
+  </tr>
+</table>
+
+## 1.2 Solution Profile
+
+**Nombre del producto:** PolarNet  
+
+**Descripción:**  
+PolarNet es una aplicación móvil innovadora y eficiente, creada para optimizar la gestión y el mantenimiento de equipos de congelación en negocios que dependen críticamente del frío, como supermercados, laboratorios, restaurantes y compañías de los sectores alimentario y farmacéutico.  
+
+Desde el celular, los usuarios pueden acceder a un monitoreo constante en tiempo real, recibir alertas automáticas ante fallos, programar mantenimientos inteligentes y consultar reportes detallados del rendimiento de los equipos, todo desde una sola app.  
+
+La solución centraliza la gestión en el dispositivo móvil y facilita la conexión directa entre negocios, técnicos y proveedores especializados, permitiendo una operación más segura, económica y sostenible en cualquier momento y lugar.  
+
+**Monetización:**  
+PolarNet monetiza su aplicación móvil a través de un modelo de suscripciones y tarifas por servicio. Los negocios podrán elegir entre diferentes planes mensuales.  
+
+Por otro lado, los proveedores de servicios y técnicos podrán pagar una suscripción mensual para usar un módulo centralizado dentro de la aplicación, donde gestionan solicitudes de mantenimiento, organizan su flujo de trabajo y mejoran la calidad de la atención desde su dispositivo móvil.  
+
+Además, la app permitirá habilitar tarifas por transacción para intervenciones técnicas no incluidas en el plan de suscripción, garantizando flexibilidad y nuevas oportunidades de ingresos.  
+
+---
+
+### 1.2.1 Antecedentes y problemática
+PolarNet busca dar solución a los principales desafíos que enfrentan los negocios en la gestión de equipos de congelación, como supermercados, restaurantes y empresas del sector farmacéutico, que deben mantener la cadena de frío de manera constante.  
+
+Estos negocios suelen lidiar con la falta de soluciones móviles accesibles, la dificultad de realizar mantenimientos preventivos efectivos y la ausencia de herramientas que permitan monitorear y gestionar el rendimiento de los equipos en tiempo real.  
+
+Con su aplicación móvil, PolarNet pone todo este control en la palma de la mano del usuario, ofreciendo monitoreo constante, alertas inmediatas y una gestión automatizada que facilita la prevención de fallos y mejora la eficiencia operativa desde cualquier lugar.
+
+## 5Ws y 2Hs
+
+| Pregunta   | Descripción |
+|------------|-------------|
+| **What?** <br> ¿Cuál es el problema? | Los negocios que dependen de sistemas de congelación enfrentan grandes retos operativos por fallas imprevistas y la falta de un mantenimiento adecuado. La ausencia de monitoreo constante, el consumo energético elevado no detectado a tiempo y los problemas de temperatura pueden ocasionar pérdidas de productos, afectar la calidad del servicio y generar importantes costos económicos. |
+| **When?** <br> ¿Cuándo ocurre este problema? | Estas situaciones suelen presentarse durante la operación continua de los equipos, en especial cuando no hay técnicos disponibles de inmediato o no se realiza un seguimiento periódico del estado de los sistemas. |
+| **Where?** <br> ¿Dónde sucede este problema? | Este tipo de inconvenientes se da en negocios a nivel nacional, con mayor incidencia en Lima, donde mantener la cadena de frío es crítico en sectores como el alimentario, farmacéutico y logístico. Asimismo, impacta a las empresas proveedoras de refrigeración que atienden a múltiples clientes sin una herramienta centralizada para la gestión. |
+| **Who?** <br> ¿Quiénes están implicados? | El problema afecta tanto a los dueños y administradores de negocios que utilizan congeladoras como a los técnicos y proveedores responsables del mantenimiento de estos equipos. |
+| **Why?** <br> ¿Qué origina este problema? | La causa principal es la falta de soluciones tecnológicas integrales y accesibles que combinen funciones como monitoreo, alertas, historial de uso y planificación de mantenimientos. Muchas empresas aún dependen de procesos manuales o carecen de controles preventivos, quedando vulnerables a fallas críticas. |
+| **How?** <br> ¿Cómo se llegó a esta situación? | Esta situación se ha generado por la acumulación de incidentes inesperados y la poca digitalización del mantenimiento preventivo. Como resultado, los negocios dependen en gran medida de acciones reactivas en lugar de planes anticipados, lo que incrementa los costos, retrasa las atenciones y aumenta la carga operativa. |
+| **How much?** <br> ¿Cuál es el impacto económico? | Las pérdidas económicas varían según el tipo de negocio, pero una falla en un sistema de congelación puede representar desde cientos hasta miles de soles en productos dañados. A esto se suman los tiempos de inactividad, la insatisfacción de clientes y los gastos derivados de reparaciones o sustituciones de equipos. |
+
+---
+
+## 1.2.2 Lean UX Process
+
+### 1.2.2.1 Lean UX Problem Statement
+El sector de la refrigeración comercial y técnica enfrenta grandes retos en la administración, el mantenimiento y la trazabilidad de los equipos de congelación. Negocios que dependen críticamente del frío como supermercados, minimarkets, restaurantes, laboratorios y empresas del rubro alimentario o farmacéutico aún operan sin un monitoreo en tiempo real y con mantenimientos mayormente reactivos, lo que genera pérdidas económicas, consumo energético ineficiente y riesgo constante sobre el inventario.  
+
+Las soluciones disponibles no cubren la necesidad de una aplicación confiable y automatizada que centralice la gestión y ofrezca un enfoque predictivo y transparente tanto para negocios como para técnicos y proveedores. La falta de historial técnico digital, reportes accesibles y alertas preventivas limita la capacidad de reacción frente a fallas y afecta la calidad del servicio.  
+
+**PolarNet** responde a este escenario con una aplicación móvil integral que conecta a negocios y técnicos especializados, brindando funciones como monitoreo en tiempo real de temperatura y consumo, programación inteligente de mantenimientos, notificaciones instantáneas por fallos, reportes automáticos y trazabilidad completa de cada equipo.  
+
+Además, ofrece a los proveedores de servicios un módulo dentro de la app para gestionar equipos atendidos, planificar visitas y consultar historiales técnicos de manera ágil. La primera etapa de implementación se enfocará en Lima, apoyando a negocios que requieren garantizar el rendimiento de sus sistemas de congelación y a proveedores que buscan modernizar sus operaciones con herramientas digitales avanzadas.  
+
+El éxito se medirá en la reducción de fallas inesperadas, la optimización del consumo energético, la mejora en la eficiencia de los técnicos y el aumento de la satisfacción de los clientes, asegurando continuidad operativa y fidelización de los usuarios de la app.
+
+---
+
+### 1.2.2.2 Lean UX Assumptions
+
+**Business Outcomes**
+
+- Incrementar en un 15% los usuarios activos de la aplicación móvil PolarNet, consolidando su presencia en el mercado.  
+- Potenciar la visibilidad en redes sociales, especialmente en sectores como alimentos y técnicos en refrigeración, destacando la app como herramienta innovadora.  
+- Generar confianza en la efectividad del monitoreo y mantenimiento automatizado, mostrando la app como un aliado confiable para proteger inventario y optimizar operaciones.  
+- Mantener informados a los usuarios mediante notificaciones móviles en tiempo real, sobre fallas térmicas, cortes de energía o anomalías en los equipos.  
+- Consolidar una base de usuarios dispuestos a adquirir membresías premium desde la app, con beneficios como mantenimiento predictivo, reportes personalizados y soporte técnico prioritario.  
+- Establecer alianzas con plataformas de geolocalización como Google Maps, para mejorar el alcance y la programación de visitas técnicas desde dispositivos móviles.  
+- Fomentar la participación activa de los usuarios en la app, a través de encuestas, valoraciones de técnicos y comentarios sobre el desempeño de los equipos.  
+- Diseñar una interfaz sencilla, intuitiva y pensada para móvil, que ofrezca una experiencia atractiva sin sobrecargar de información.  
+- Implementar inteligencia artificial en la aplicación, para optimizar mantenimientos inteligentes, rutas de técnicos y recomendaciones preventivas frente a posibles fallos.  
+
+## User Outcomes
+
+### ¿Quién será nuestro usuario?
+- Negocios que dependen de manera crítica de sistemas de refrigeración, como supermercados, minimarkets, restaurantes, laboratorios y empresas en los sectores alimentario y farmacéutico.  
+- Técnicos especializados en refrigeración encargados del mantenimiento de estos equipos.  
+- Proveedores de equipos de refrigeración que desean ofrecer un servicio postventa más eficiente.  
+
+---
+
+### ¿Dónde encaja nuestro producto en su vida?
+- En situaciones donde los negocios deben garantizar el funcionamiento continuo de sus sistemas de frío para evitar pérdidas económicas por fallas imprevistas.  
+- En la rutina diaria de los técnicos, quienes gestionan múltiples clientes, visitas y tareas de mantenimiento.  
+- En las operaciones diarias de los negocios que requieren registros detallados y reportes precisos sobre el rendimiento de sus sistemas de refrigeración.  
+
+---
+
+### ¿Qué problemas tiene nuestro producto y cómo se pueden resolver?
+- **Problema:** Garantizar que los datos de monitoreo (temperatura, consumo energético, fallas, etc.) sean precisos y confiables.  
+  **Solución:** Integrar sensores calibrados y sistemas automáticos de verificación de datos antes de almacenarlos.  
+
+- **Problema:** La adopción inicial por parte de usuarios no familiarizados con la tecnología.  
+  **Solución:** Ofrecer una interfaz sencilla, guías paso a paso y soporte técnico accesible para facilitar el uso.  
+
+---
+
+### ¿Cómo y cuándo se utiliza nuestro producto?
+- Se accede a través de la aplicación web, disponible tanto para computadoras como dispositivos móviles.  
+- Se usa a diario para monitorear los equipos de refrigeración, recibir alertas, programar mantenimientos y revisar historiales técnicos.  
+- También se activa automáticamente en segundo plano al integrar sensores de monitoreo con la plataforma.  
+
+---
+
+### ¿Qué problemas tiene nuestro producto?
+- En sus fases iniciales, podría carecer de integraciones con algunos dispositivos de terceros.  
+- Algunos usuarios necesitarán formación para aprovechar al máximo las funcionalidades avanzadas.  
+- Los técnicos tradicionales pueden resistirse al cambio hacia un sistema digital.  
+
+---
+
+### ¿Qué características son esenciales para la app?
+- Monitoreo en tiempo real de temperatura, consumo energético y tiempo de uso.  
+- Alertas automáticas ante fallos en los equipos.  
+- Historial técnico completo con reportes exportables en PDF.  
+- Calendario de mantenimiento preventivo con notificaciones programadas.  
+- Módulo exclusivo para técnicos con gestión de visitas y clientes.  
+- Soporte técnico inteligente y recomendaciones predictivas mediante IA.  
+- Registro de múltiples ubicaciones y usuarios con distintos roles.  
+- Interfaz minimalista e intuitiva para facilitar la adopción.  
+
+---
+
+### ¿Cómo debe verse y comportarse nuestro producto?
+- **Interfaz amigable y confiable:** clara, ordenada y fácil de navegar, con gráficos e indicadores intuitivos.  
+- **Diseño centrado en tareas críticas:** acceso rápido a fallos, próximas visitas y reportes de equipos.  
+- **Accesibilidad multiplataforma:** disponible en web y móvil, adaptada para oficina y campo, con notificaciones inmediatas.  
+- **Simplicidad:** panel centralizado para ver clientes, equipos en riesgo y visitas programadas, con generación de reportes rápida y fácil.  
+
+---
+
+### ¿Qué valor busca el cliente?
+- **Gestión técnica simplificada:** mantenimiento predictivo, historiales claros y clientes organizados.  
+- **Seguridad operativa y sin sorpresas:** monitoreo constante, alertas automáticas y control total.  
+- **Eficiencia energética y trazabilidad:** detección anticipada de problemas, identificación de equipos en riesgo.  
+
+---
+
+### ¿Qué beneficios adicionales obtendrá el cliente?
+- Visibilidad total del estado de sus equipos desde cualquier lugar y en cualquier momento.  
+- Soporte técnico ágil gracias al historial detallado y alertas automáticas.  
+- Reducción de costos operativos mediante mantenimientos preventivos y mayor eficiencia energética.  
+- Reportes personalizados y exportables.  
+- Automatización de visitas técnicas al detectar patrones de fallas.  
+
+---
+
+### ¿Cómo atraeremos usuarios?
+- Marketing dirigido a nichos clave: supermercados, restaurantes y empresas del sector frío mediante LinkedIn, correos y llamadas estratégicas.  
+- Alianzas con proveedores de equipos para incluir PolarNet en sus paquetes postventa.  
+- Prueba gratuita de 14 días de versiones premium, con monitoreo limitado, para mostrar el valor en tiempo real.  
+
+---
+
+### ¿Cómo generaremos ingresos?
+- **Suscripción mensual para negocios:** según número de equipos, tipos de reportes y funcionalidades.  
+- **Modelo freemium:** versión gratuita con funciones limitadas y anuncios.  
+- **Publicidad dirigida (opcional):** visibilidad para marcas de refrigeración dentro de la plataforma.  
+
+---
+
+### ¿Cuál es nuestra competencia y cómo la superamos?
+- **Competencia:** Otras aplicaciones centradas en gestión de datos y mantenimiento de equipos de refrigeración.  
+- **Nuestra ventaja:** PolarNet está diseñado exclusivamente para negocios que dependen del frío, detecta anomalías en tiempo real, genera alertas y automatiza acciones.  
+
+---
+
+### ¿Cuál es el mayor riesgo para el producto?
+- **Adopción lenta:** proveedores que aún usan agendas físicas o Excel.  
+- **Falta de adopción inicial:** convencer a los primeros usuarios de la utilidad y confiabilidad de la app.  
+- **Desconfianza en la precisión de los sensores:** riesgo de perder valor si los datos no son precisos.  
+
+---
+
+### ¿Cómo lo resolveremos?
+- **Algoritmos de validación:** IA para verificar precisión y filtrar información incorrecta.  
+- **Capacitación y soporte:** tutoriales, videos y soporte técnico accesible.  
+- **Estrategia progresiva de integraciones:** empezar con los equipos más utilizados y luego ampliar compatibilidad con APIs.  
+- **Sensores certificados:** integrar solo dispositivos validados para garantizar precisión.  
+
+---
+
+## 1.2.2.3 Lean UX Hypothesis
+
+1. **Hipótesis 1: Mejora en la eficiencia operativa y reducción de fallas inesperadas**  
+   Al centralizar en una sola app todas las funciones de monitoreo, mantenimiento y gestión de equipos de refrigeración, los negocios y proveedores podrán operar con mayor eficiencia, simplificando procesos y reduciendo el riesgo de fallas inesperadas.  
+   Validación: reducción en reportes de fallas térmicas y mejor organización de mantenimientos preventivos.  
+
+2. **Hipótesis 2: Control de pérdidas operativas y consumo energético**  
+   Si ofrecemos herramientas de análisis en tiempo real y alertas automáticas, los usuarios podrán anticiparse a fallas, reducir pérdidas y optimizar su consumo energético.  
+   Validación: incremento en el uso de estas funciones y reducción de costos por interrupciones.  
+
+3. **Hipótesis 3: Mejora en el servicio técnico predictivo y personalizado**  
+   Con reportes automáticos e históricos de cada equipo, los técnicos podrán brindar un servicio más predictivo y personalizado.  
+   Validación: técnicos valoran la utilidad de los reportes y clientes expresan mayor satisfacción.  
+
+4. **Hipótesis 4: Trazabilidad y seguridad de la información técnica**  
+   Si garantizamos trazabilidad en cada acción y protegemos la información técnica, generaremos confianza en negocios y proveedores.  
+   Validación: mayor fidelidad de usuarios y reducción en incidencias por pérdida de datos.  
+
+5. **Hipótesis 5: Transición a una gestión moderna y digitalizada de refrigeración**  
+   Al ofrecer una solución digital sencilla y especializada, ayudaremos a negocios y técnicos a migrar hacia una gestión moderna.  
+   Validación: rápida adopción, baja tasa de abandono y uso frecuente de funciones clave.  
+
+## 1.2.2.4 Lean UX Canvas
+
+<p align="center">
+  <img src="images/canva.PNG" alt="Canvas" />
+</p>
+
+## 1.3 Segmentos objetivo
+
+### Segmento Objetivo #1: Negocios que utilizan sistemas de refrigeración
+
+**Aspectos demográficos:**
+- Tipo de negocio: Empresas de diferentes tamaños, desde pequeñas hasta grandes.  
+- Sectores: Alimentación, farmacéutico, restauración y comercio minorista.  
+- Nivel de necesidad: Alta dependencia de equipos de refrigeración.  
+
+**Aspectos geográficos:**
+- Nacionalidad: Peruana.  
+- Ubicación: Áreas urbanas.  
+- Región: Lima, con planes de expansión a nivel nacional.  
+
+**Aspectos psicográficos:**
+- Empresas que buscan evitar pérdidas económicas debido a fallas en los sistemas de refrigeración.  
+- Negocios que necesitan un control eficiente del consumo energético.  
+- Administradores interesados en implementar soluciones tecnológicas para optimizar operaciones y preservar la calidad del inventario.  
+
+---
+
+### Segmento Objetivo #2: Proveedores de servicios y equipos de refrigeración
+
+**Aspectos demográficos:**
+- Tipo de empresa: Técnicos independientes, pequeñas y medianas empresas (PYMES), y proveedores especializados en refrigeración.  
+- Rol: Técnicos de mantenimiento, instaladores y empresas de soporte técnico.  
+
+**Aspectos geográficos:**
+- Nacionalidad: Peruana.  
+- Ubicación: Áreas urbanas.  
+- Región: Lima, con planes de expansión a nivel nacional.  
+
+**Aspectos psicográficos:**
+- Técnicos que desean organizar y gestionar sus visitas de manera más eficiente y centralizada.  
+- Empresas que buscan mejorar la trazabilidad de sus servicios, con la capacidad de generar reportes automáticos.  
+- Profesionales que desean ofrecer un servicio más personalizado y predictivo a sus clientes.  
+=======
+

@@ -690,8 +690,7 @@ Hemos identificado diversas estrategias y tácticas para diferenciarse y competi
 - **Distrito:** San Martín de Porres
 
 
-- ![Interview-1-segment-1.png](<img width="831" height="469" alt="entrevista 1" src="https://github.com/user-attachments/assets/e975238a-ae5b-4877-8477-dc586d88452f" />
-)
+- ![Interview-1-segment-1.png](images/entrevista 1.PNG)
 
 
 - **Inicio:** 0:02

@@ -24,7 +24,7 @@ Aplicaciones para Dispositivos Móviles<br>
 |   Geronimo Quispe Pablo Antonio     | u202314304  |
 |    Sandro Dinklange Arevalo   |  u202313419 |
 |   Marzál Pérez, Jamir Ángel     |  u201824409 |
-|       |    |
+|  Ayrton Damian Inga Hernandez     | u201924756   |
 
 </div>
 
@@ -39,7 +39,7 @@ Aplicaciones para Dispositivos Móviles<br>
 | TB1     | 14/09/2025  | Geronimo Quispe Pablo Antonio       | Desarrollo del capítulo II                                                                                                            |
 | TB1     | 15/09/2025  | Sandro Dinklange Arevalo      | Desarrollo del capítulo II                                                                                                               |
 | TB1     | 16/09/2025  | Marzál Pérez, Jamir Ángel      | Desarrollo del capítulo II                                                                                                               |
-| TB1     | 17/09/2025  |       | Desarrollo del capítulo II                              |
+| TB1     | 17/09/2025  | Ayrton Damian Inga Hernandez      | Desarrollo del capítulo II                              |
 
 # Project Report Collaboration Insights
 Link del repositorio: https://github.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795.git
@@ -938,11 +938,11 @@ Mediante este diagrama podemos apreciar la comunicación que existe entre el Sis
 
 ![Flow 1](images/Flow1.png)
 
-Mediante eel siguiente diagrama podemos apreciar la comunicación que existe entre el Sistema de Monitoreo de Equipos y el Sistema de notificaciones cuando el usuario realiza el registro de un nuevo equipo de refrigeracion.
+Mediante el siguiente diagrama podemos apreciar la comunicación que existe entre el Sistema de Monitoreo de Equipos y el Sistema de notificaciones cuando el usuario realiza el registro de un nuevo equipo de refrigeracion.
 
 ![Flow 2](images/Flow2.png)
 
-Mediante eel siguiente diagrama podemos apreciar la comunicación que existe entre el Sistema de Solicitud de Servicios y el Sistema de notificaciones cuando el usuario realiza la compra o alquiler de un nuevo equipo de refrigeracion.
+Mediante el siguiente diagrama podemos apreciar la comunicación que existe entre el Sistema de Solicitud de Servicios y el Sistema de notificaciones cuando el usuario realiza la compra o alquiler de un nuevo equipo de refrigeracion.
 
 ![Flow 3](images/flow3.png)
 

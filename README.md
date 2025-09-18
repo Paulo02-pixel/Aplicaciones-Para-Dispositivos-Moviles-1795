@@ -499,3 +499,23 @@ El éxito se medirá en la reducción de fallas inesperadas, la optimización de
 - Profesionales que desean ofrecer un servicio más personalizado y predictivo a sus clientes.  
 =======
 
+# Competitive analysis landscape
+
+## ¿Por qué llevar a cabo este análisis?
+Escriba en el recuadro la pregunta que busca responder o el objetivo de este análisis.
+
+---
+
+| (En la cabecera colocar por cada competidor nombre y logo) | Su startup | Competidor 1 | Competidor 2 | Competidor 3 |
+|------------------------------------------------------------|------------|--------------|--------------|--------------|
+| **Perfil - Overview** | | | | |
+| **Ventaja competitiva (¿Qué valor ofrece a los clientes?)** | | | | |
+| **Mercado objetivo** | | | | |
+| **Estrategias de marketing** | | | | |
+| **Perfil de Producto - Productos & Servicios** | | | | |
+| **Precios & Costos** | | | | |
+| **Canales de distribución (Web y/o Móvil)** | | | | |
+| **Análisis SWOT - Fortalezas** | | | | |
+| **Debilidades** | | | | |
+| **Oportunidades** | | | | |
+| **Amenazas** | | | | |

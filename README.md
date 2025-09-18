@@ -145,8 +145,8 @@ Link del repositorio: https://github.com/Paulo02-pixel/Aplicaciones-Para-Disposi
 
 | **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
 |-------------------------|--------------------------|------------------|
-| Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de ingeniería de software. | **TB1: Paulo Percy Quincho Gamarra (U20191E562)** <br> Investigó y aplicó conceptos de programación backend con Python y Node.js, reforzando conocimientos en bases de datos SQL y NoSQL. <br><br> **TB1: Geronimo Quispe Pablo Antonio (U202314304)** <br> Estudió metodologías ágiles y las aplicó en la organización del proyecto, mejorando la planificación de tareas y la coordinación del equipo. <br><br> **TB1: Sandro Dinklange Arevalo (U202313419)** <br> Actualizó sus conocimientos en arquitectura de software y modelado de base de datos, contribuyendo al diseño estructurado de la solución. <br><br> **TB1: Jamir Ángel Marzál Pérez (U201824409)** <br> Reforzó conocimientos en programación orientada a objetos y patrones de diseño, aplicándolos en la implementación de módulos del sistema. | Cada integrante actualizó y aplicó conceptos clave de software en el proyecto, asegurando un mejor entendimiento técnico y fortaleciendo sus competencias profesionales para proyectos reales. |
-| Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de tecnologías de ingeniería de software. | **TB1: Paulo Percy Quincho Gamarra (U20191E562)** <br> Participó en la revisión de nuevas herramientas y frameworks, demostrando apertura al aprendizaje continuo para fortalecer el backend del proyecto. <br><br> **TB1: Geronimo Quispe Pablo Antonio (U202314304)** <br> Investigó sobre herramientas de gestión colaborativa como Trello y GitHub, mostrando interés en ampliar su experiencia en entornos profesionales. <br><br> **TB1: Sandro Dinklange Arevalo (U202313419)** <br> Estudió sobre servicios en la nube y su impacto en aplicaciones móviles, comprendiendo la importancia de actualizarse en nuevas tecnologías. <br><br> **TB1: Jamir Ángel Marzál Pérez (U201824409)** <br> Reconoció la necesidad de mejorar constantemente en lenguajes modernos como TypeScript y frameworks frontend, buscando aplicarlos en futuros proyectos. | Los integrantes demostraron compromiso con el aprendizaje permanente, entendiendo que la actualización constante es clave para desenvolverse en proyectos de software y adaptarse a los cambios tecnológicos. |
+| Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de ingeniería de software. | **TB1: Paulo Percy Quincho Gamarra (U20191E562)** <br> Investigó y aplicó conceptos de programación backend con Python y Node.js, reforzando conocimientos en bases de datos SQL y NoSQL. <br><br> **TB1: Geronimo Quispe Pablo Antonio (U202314304)** <br> Estudió metodologías ágiles y las aplicó en la organización del proyecto, mejorando la planificación de tareas y la coordinación del equipo. <br><br> **TB1: Sandro Dinklange Arevalo (U202313419)** <br> Actualizó sus conocimientos en arquitectura de software y modelado de base de datos, contribuyendo al diseño estructurado de la solución. <br><br> **TB1: Jamir Ángel Marzál Pérez (U201824409)** <br> Reforzó conocimientos en programación orientada a objetos y patrones de diseño, aplicándolos en la implementación de módulos del sistema. <br><br> **TB1: Ayrton Damian Inga Hernandez (U201924756)** <br> Aplicó los métodos de Domain Driven Design en la elaboración de los Bounded Context Canvases.  | Cada integrante actualizó y aplicó conceptos clave de software en el proyecto, asegurando un mejor entendimiento técnico y fortaleciendo sus competencias profesionales para proyectos reales.  |
+| Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de tecnologías de ingeniería de software. | **TB1: Paulo Percy Quincho Gamarra (U20191E562)** <br> Participó en la revisión de nuevas herramientas y frameworks, demostrando apertura al aprendizaje continuo para fortalecer el backend del proyecto. <br><br> **TB1: Geronimo Quispe Pablo Antonio (U202314304)** <br> Investigó sobre herramientas de gestión colaborativa como Trello y GitHub, mostrando interés en ampliar su experiencia en entornos profesionales. <br><br> **TB1: Sandro Dinklange Arevalo (U202313419)** <br> Estudió sobre servicios en la nube y su impacto en aplicaciones móviles, comprendiendo la importancia de actualizarse en nuevas tecnologías. <br><br> **TB1: Jamir Ángel Marzál Pérez (U201824409)** <br> Reconoció la necesidad de mejorar constantemente en lenguajes modernos como TypeScript y frameworks frontend, buscando aplicarlos en futuros proyectos. <br><br> **TB1: Ayrton Damian Inga Hernandez (U201924756)** <br> Investigó la herramienta designada para la elaboración del software architecture y lo desarrolló.| Los integrantes demostraron compromiso con el aprendizaje permanente, entendiendo que la actualización constante es clave para desenvolverse en proyectos de software y adaptarse a los cambios tecnológicos. |
 
 
 
@@ -238,16 +238,16 @@ De igual manera, **PolarNet** incluye un módulo especializado para técnicos y 
   <tr>
     <td style="text-align: center" align="center">
       <p align="center">
-        [Nombre del 5° Integrante] - [Código]  
+        Ayrton Damian Inga Hernandez - U201924756  
         <br>
-        <img src="images/integrante5.png" alt="Foto Integrante 5" width="45%">
+        <img src="images\Ayrton-foto.png" alt="Foto Integrante 5" width="45%">
       </p>
     </td>
     <td style="text-align: center" align="center">
-      [Descripción breve del integrante].
+      Me considero una persona que se esfuerza para seguir adelante en mis estudios mientras intento equilibrar mi vida laboral.
     </td>
     <td style="text-align: center" align="center">
-      [Conocimientos técnicos y habilidades].
+      Cuento con conocimientos de Python, JavaScript, C++ y base de datos.
     </td>
   </tr>
 </table>
@@ -903,7 +903,83 @@ Se elaboraron mapas de empatía para cada User Persona utilizando la herramienta
 
 
 
+## 2.5 Strategic-Level Domain-Driven Design
+### 2.5.1 EventStorming
 
+Con el fin de plantear una aproximación del modelado de nivel general para el dominio del problema, utilizamos el proceso de EventStorming. Para esto, se decidió organizar una sesión en donde los integrantes del grupo empezarían el modelamiento.
+
+![EventStorming 1](images/Storming1.png)
+
+Continuando con los pasos del EventStorming, se decidió organizar los eventos del dominio en el orden en que ocurren en el dominio empresarial.
+
+![EventStorming 2](images/Storming2.png)
+
+Se identificaron los puntos que puedan dar complicaciones durante el proceso (Pain Points) y se agregaron a la línea de tiempo. Asimismo, se identificaron los eventos comerciales importantes (Pivotal Points) y se marcaron con una barra vertical.
+
+![EventStorming 3](images/Storming3.png)
+
+Se agregaron los commands a la línea de tiempo, así como los policies y los read models.
+
+![EventStorming 4](images/Storming4.png)
+
+#### 2.5.1.1 Candidate Context Discovery
+
+Para poder identificar los bounded contexts se tuvo que modificar la línea de tiempo del modelado del dominio que se hizo a partir del EventStorming, se organizaron los conceptos que tenían relación por medio de aggregates.
+
+![EventStorming 5](images/Storming5.png)
+
+#### 2.5.1.2 Domain Message Flow Modeling
+
+En esta sección se muestran los principales flujos identificados donde existe colaboración entre los diferentes bounded context identificador. Para una mayor comprensión se utiliza la técnica de visualización Domain Storytelling.
+
+#### User creates a new account
+
+Mediante este diagrama podemos apreciar la comunicación que existe entre el Sistema de Autenticacion y el Sistema de notificaciones cuando el usuario realiza la creación de su perfil.
+
+![Flow 1](images/Flow1.png)
+
+Mediante eel siguiente diagrama podemos apreciar la comunicación que existe entre el Sistema de Monitoreo de Equipos y el Sistema de notificaciones cuando el usuario realiza el registro de un nuevo equipo de refrigeracion.
+
+![Flow 2](images/Flow2.png)
+
+Mediante eel siguiente diagrama podemos apreciar la comunicación que existe entre el Sistema de Solicitud de Servicios y el Sistema de notificaciones cuando el usuario realiza la compra o alquiler de un nuevo equipo de refrigeracion.
+
+![Flow 3](images/flow3.png)
+
+#### 2.5.1.3 Bounded Context Canvases
+
+Para la presente sección, elaboramos el Bounded Context Canvas de cada uno de los Bounded Context candidatos que identificamos. Aplicamos el modelo versión 5 propuesto por el Domain Driven Design Group.
+En cada uno de los canvases registramos las secciones específicas como el Context Overview Definition, Business Rules Distillation y el Ubiquitous Language, identificando claramente el tipo de Bounded Context y sus interacciones de entrada y salida con otros contextos.
+
+
+![Autenticacion](images/Autenticacion.png)
+
+![Monitoreo](images/Monitoreo.png)
+
+![Servicios](images/Servicios.png)
+
+![Notificaciones](images/Notificacion.png)
+
+### 2.5.2 Context Mapping
+
+En el context mapping podemos definir las relaciones entre los bounded context. Identificamos las relaciones analizando sus patrones, entre ellos destacamos que el Sistema de Autenticacion, solicitud de servicios y de notificacion cuentan con un anticorruption layer debido a que estos bounded context interactuan con sistemas de terceros.
+
+![Context Map](images/ContextMap.png)
+
+### 2.5.3 Software Arquitecture
+#### 2.5.3.1 Context Level Diagram
+
+En el software architecture context diagram se puede apreciar los componentes mas importantes que componen el sistema,asi como los usuarios y las principales funciones.
+
+![ContextSys](images/PolarContext.png)
+
+#### 2.5.3.2 Container Level Diagram
+
+En el software architecture container diagram se puede apreciar la forma de más alto nivel de la arquitectura del software y como se distribuyen las responsabilidades en ella.También muestra las principales opciones tecnológicas y cómo los contenedores se comunican entre sí.
+
+![ContainerSys](images/PolarContainer.png)
+
+#### 2.5.3.3 Deployment Diagram
 
 
 

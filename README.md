@@ -742,3 +742,18 @@ Basándonos en las entrevistas, hemos llevado a cabo un análisis en el que dest
 - Algunos entrevistados señalaron que los costos iniciales pueden ser un obstáculo, pero estarían dispuestos a pagar más por una solución que ahorre tiempo y reduzca fallos.
 - Se identificó que los negocios pequeños tienen mayores dificultades para capacitar a su personal y valoran capacitación rápida y soporte remoto.
 - La gran mayoría manifestó interés en que las plataformas ofrezcan tutoriales o guías interactivas para facilitar el aprendizaje.
+
+### 2.3. Needfinding.
+#### 2.2.1. User personas
+
+Para la construcción de las User Personas se analizaron los segmentos definidos previamente (negocios que dependen de la cadena de frío y proveedores/técnicos de refrigeración). Estos arquetipos representan de manera ficticia, pero fundamentada en los hallazgos, a usuarios clave de PolarNet.
+
+**Segmento Objetivo #1: Negocios que utilizan equipos de refrigeración**
+
+![User Persona – Administrador de Restaurant](./images/Carlos%20Ramírez.png)
+
+**Segmento Objetivo #2: Empresas proveedoras de servicios y equipos de refrigeración**
+
+![User Persona – Técnico de Refrigeración](./images/Jorge%20Martínez.png)
+
+

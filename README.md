@@ -1528,13 +1528,19 @@ si pueden lo hacen porfa no me da el tiempo
 <img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/databaseservices.png">
 ##2.6.3. Bounded Context:Equipment monitoringBounded Context
 ###2.6.3.1.Domain Layer
+<img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/dmonitoring.png">
 ###2.6.3.2. Interface Layer
+<img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/monitoringinterface.png">
 ###2.6.3.3. Application Layer
+<img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/aplicationmonitoring.png">
 ###2.6.3.4  Infrastructure Layer
+<img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/infrastructuremonitoring.png">
 ###2.6.3.5. Bounded Context Software Architecture Component Level Diagrams 
 ###2.6.3.6. Bounded Context Software Architecture Code Level Diagrams   
 ####2.6.3.6.1. Bounded Context Domain Layer Class Diagrams 
+<img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/Monitoringdomain.png">
 ####2.6.3.6.2. Bounded Context Database Design Diagram 
+<img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/databasemonitoring.png">
 
 ##2.6.4. Bounded Context:Notification Bounded Context
 ###2.6.4.1.Domain Layer

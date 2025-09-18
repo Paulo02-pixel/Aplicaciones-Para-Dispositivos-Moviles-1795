@@ -546,76 +546,76 @@ Con sedes en Latinoamérica, sus funciones más relevantes cuentan con asignaci�
   </tr>
   <tr>
     <td>Ventaja competitiva ¿Qué valor ofrece a los clientes?</td>
-    <td> Ofrece una solución automatizada y centralizada para negocios que necesitan monitorear y gestionar sus equipos de refrigeración. Permite a los técnicos optimizar sus visitas y el mantenimiento preventivo, mejorando la eficiencia operativa. </td>
-    <td> Ofrece una plataforma todo-en-uno para la gestión de servicios con características como la programación de citas, facturación y seguimiento en tiempo real de proyectos. </td>
-    <td> Ofrece soluciones específicas para la gestión de sistemas de refrigeración, con funcionalidades avanzadas de monitoreo, alertas y análisis de consumo energético. </td>
-    <td> Ofrece monitoreo preciso en tiempo real de la temperatura y humedad, con alertas automáticas, y un enfoque especial en la fiabilidad y precisión de los datos. </td>
+    <td> Interfaz simple, costos accesibles, soporte local, alertas predictivas en tiempo real. </td>
+    <td> Solución integral con muchos módulos y certificaciones internacionales. </td>
+    <td> Amplia red de técnicos y logística integrada.. </td>
+    <td> Experiencia técnica en refrigeración industrial y hardware especializado.. </td>
   </tr>
   <tr>
     <td rowspan="2">Perfil de Marketing</td>
     <td> Mercado Objetivo </td>
-    <td> Negocios que dependen de sistemas de refrigeración, como supermercados, minimarkets, laboratorios, restaurantes, entre otros. También incluye técnicos de refrigeración y proveedores de equipos. </td>
-    <td> Empresas de servicios como HVAC, fontaneros, electricistas, y otros proveedores de servicios técnicos. </td>
-    <td> Negocios que dependen de sistemas de refrigeración como supermercados, laboratorios, restaurantes y otros en el sector alimentario y farmacéutico. </td>
-    <td> Usuarios de diversas industrias, especialmente en áreas que requieren monitoreo continuo de temperatura y humedad, como el sector alimentario y farmacéutico. </td>
+    <td> Supermercados, restaurantes y cadenas minoristas. </td>
+    <td> Grandes empresas y facilities. </td>
+    <td> Empresas de servicios técnicos, distribuidores. </td>
+    <td> Plantas industriales, exportadoras. </td>
   </tr>
   <tr>
     <td> Estrategias de Marketing </td>
-    <td> Marketing digital, colaboraciones estratégicas con empresas del sector alimentario y farmacéutico, demostraciones gratuitas y promociones en redes sociales. </td>
-    <td> Marketing digital, colaboraciones con empresas de servicios y promoción en plataformas de negocio. </td>
-    <td> Marketing dirigido a negocios en el sector alimentario y farmacéutico, con énfasis en la reducción de fallas y el ahorro energético. </td>
-    <td> Marketing en redes sociales, promociones para nuevos usuarios y colaboraciones con industrias reguladas como la farmacéutica y alimentaria. </td>
+    <td> Marketing digital, alianzas con proveedores, asociaciones locales,etc. </td>
+    <td> Ventas consultivas a grandes cuentas, partners globales. </td>
+    <td> Marketing basado en casos de éxito y distribuidores. </td>
+    <td> Promoción a través de fabricantes e instaladores, ferias industriales. </td>
   </tr>
   <tr>
     <td rowspan="3">Perfil de Producto</td>
     <td> Productos & Servicios </td>
-    <td> Gestión de equipos de refrigeración en tiempo real, alertas automáticas, mantenimiento preventivo, reportes técnicos automáticos y trazabilidad de cada equipo. </td>
-    <td> Plataforma de gestión de servicios que incluye programación de citas, gestión de personal, facturación, y seguimiento de proyectos en tiempo real. </td>
-    <td> Plataforma de monitoreo y gestión de sistemas de refrigeración, con alertas preventivas, informes automáticos y análisis de rendimiento energético. </td>
-    <td> Plataforma de monitoreo de temperatura y humedad en tiempo real, con alertas automáticas, reportes detallados y gestión de datos históricos. </td>
+    <td> App móvil, IoT para monitoreo, reportes automáticos. </td>
+    <td> Plataforma modular, integraciones con IoT. </td>
+    <td> App móvil y web para gestión de técnicos y mantenimiento. </td>
+    <td> Sistemas de refrigeración y hardware para control remoto. </td>
   </tr>
   <tr>
     <td> Precios & Costos </td>
-    <td> Modelo basado en comisiones bajas por cada reserva o cita pagada para negocios, con una versión gratuita para usuarios. </td>
-    <td> Suscripción mensual o anual, con tarifas adicionales por características avanzadas o soporte personalizado. </td>
-    <td> Varía según el plan y características seleccionadas, con opciones para negocios grandes o pequeños. </td>
-    <td> Varía según la cantidad de equipos monitoreados y las características seleccionadas, con modelos de suscripción mensual o anual. </td>
+    <td> Modelo mensual accesible, pago por equipo monitoreado. </td>
+    <td> Modelo empresarial con precios premium. </td>
+    <td> Suscripción mensual media, pago por usuario técnico. </td>
+    <td> Precios altos ligados al hardware e instalación. </td>
   </tr>
   <tr> 
     <td>Canales de distribución (Web y/o Móvil)</td>
-    <td> Plataforma en línea y aplicación móvil disponible para dispositivos iOS y Android. </td>
-    <td> Plataforma en línea y aplicación móvil disponible para dispositivos iOS y Android. </td>
-    <td> Plataforma en línea y aplicación móvil. </td>
-    <td> Aplicación móvil disponible en tiendas de aplicaciones y plataforma en línea. </td>
+    <td> App móvil y dashboard web con soporte local. </td>
+    <td> Web, app móvil, integraciones API. </td>
+    <td> App móvil y web, CRM integrado. </td>
+    <td> Hardware y software propio, canal de distribuidores. </td>
   </tr>
   <tr>
     <td rowspan="4"> Análisis SWOT </td>
     <td> Fortalezas </td>
-    <td> Monitoreo en tiempo real, alertas automáticas y mantenimiento preventivo para evitar fallas críticas. Función de trazabilidad completa de los equipos. </td>
-    <td> Amplia funcionalidad para gestión de servicios y seguimiento en tiempo real de proyectos. </td>
-    <td> Especialización en el monitoreo y la gestión de sistemas de refrigeración, con enfoque en ahorro energético. </td>
-    <td> Precisión en el monitoreo de temperatura y humedad, con alertas automáticas y un enfoque flexible en diferentes industrias. </td>
+    <td> Soporte local, precios competitivos, adaptación rápida a normativas, UI amigable. </td>
+    <td> Amplia trayectoria, reputación internacional, plataforma completa. </td>
+    <td> Experiencia en gestión de técnicos y logística integrada. </td>
+    <td> Hardware especializado en refrigeración industrial. </td>
   </tr>
   <tr>
     <td> Debilidades </td>
-    <td> Dependencia de la adopción inicial por parte de los usuarios, lo que podría afectar la expansión. </td>
-    <td> Puede ser más complejo de usar para pequeñas empresas sin experiencia en gestión de software. </td>
-    <td> Enfoque limitado al sector de refrigeración, lo que puede dificultar la expansión a otros mercados. </td>
-    <td> Puede resultar costoso para pequeñas empresas debido a las suscripciones y los costos adicionales por dispositivos. </td>
+    <td> Marca nueva, menos funcionalidades avanzadas que otras empresas internacionales. </td>
+    <td> Costos elevados, menor flexibilidad. </td>
+    <td> Poca especialización en refrigeración crítica. </td>
+    <td> Requiere inversión inicial alta y poca presencia local en Perú. </td>
   </tr>
   <tr>
     <td> Oportunidades </td>
-    <td> Expansión en el sector de la gestión de refrigeración, con foco en la eficiencia operativa y la reducción de costos. </td>
-    <td> Expansión a nuevos mercados, introducción de nuevos servicios, mejorar la experiencia del usuario. </td>
-    <td> Expansión a nuevos mercados, mejora continua de características y funciones, colaboraciones estratégicas con otros servicios. </td>
-    <td> Expansión a nuevos mercados, introducción de nuevas características y servicios, colaboraciones estratégicas con marcas de belleza. </td>
+    <td> Creciente necesidad de monitoreo y cumplimiento normativo en Perú, alianzas con proveedores de equipos. </td>
+    <td> Expansión a mercados emergentes con soluciones más accesibles. </td>
+    <td> Especializarse en nichos críticos </td>
+    <td> Ampliar servicios en Latam con soporte remoto. </td>
   </tr>
   <tr>
     <td> Amenazas </td>
-    <td> Competencia de aplicaciones ya establecidas en la gestión de refrigeración y mantenimiento. </td>
-    <td> Competencia de otras plataformas de gestión de servicios que ofrecen características similares. </td>
-    <td> Alta competencia en el mercado de soluciones para refrigeración y dependencia de la infraestructura de clientes. </td>
-    <td> Competencia de otras plataformas de monitoreo de temperatura y humedad, con características similares y precios más bajos. </td>
+    <td> Entrada de competidores internacionales con precios agresivos o alianzas locales.</td>
+    <td> Startups locales más baratas y ágiles. </td>
+    <td> Competidores globales con más capital. </td>
+    <td> Sustitución tecnológica por soluciones puras sin hardware. </td>
   </tr>
 </table>
 

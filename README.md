@@ -987,18 +987,29 @@ En el software architecture container diagram se puede apreciar la forma de más
 
 
 ## 2.6.1. Bounded Context:Authentification Bounded Context
+
 ### 2.6.1.1.Domain Layer
+
 <img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/iamd.png">
+
 ### 2.6.1.2. Interface Layer
+
 <img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/iaminterface.png">
+
 ### 2.6.1.3. Application Layer
+
 <img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/aplicationiam.png">
+
 ### 2.6.1.4  Infrastructure Layer
+
 <img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/infrastructure.png">
 
 ### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams 
+
 si pueden lo hacen porfa no me da el tiempo
-### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams   
+
+### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
+
 #### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams 
 
 #### 2.6.1.6.2. Bounded Context Database Design Diagram 
@@ -1007,16 +1018,31 @@ si pueden lo hacen porfa no me da el tiempo
 ## 2.6.2. Bounded Context:Service request Bounded Context
 
 ### 2.6.2.1.Domain Layer
+
 <img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/servicedomain.png">
 
+
 ### 2.6.2.2. Interface Layer
+<img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/interfaceservice.png">
+
 ### 2.6.2.3. Application Layer
+
+<img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/aplicationservice.png">
+
+
 ### 2.6.2.4  Infrastructure Layer
+
+<img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/infrastructureservice.png">
+
 ### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams 
+
 ### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams   
 #### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams 
+
+<img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/domainlayerservice.png">
 #### 2.6.2.6.2. Bounded Context Database Design Diagram 
 
+<img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/databaseservices.png">
 ##2.6.3. Bounded Context:Equipment monitoringBounded Context
 ###2.6.3.1.Domain Layer
 ###2.6.3.2. Interface Layer

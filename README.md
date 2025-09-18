@@ -5,16 +5,15 @@
 <p align="center"><strong>Universidad Peruana de Ciencias Aplicadas</strong></p>
 
 <p align="center"><strong>Ingeniería de Software</strong><br>
-Desarrollo de Aplicaciones Open Source <br>
-<strong>Profesor:</strong> Alberto Wilmer Sanchez Seña </p>
+Aplicaciones para Dispositivos Móviles<br>
+<strong>Profesor:</strong> Jorge Luis Mayta  </p>
+<h3 align="center">Seccion: 1795  </h3>
 
 <h2 align="center">INFORME</h2>
-<h2 align="center">2025 - 10</h2>
+<h2 align="center">2025 - 20</h2>
 
-<h3 align="center">Startup: ChabeCode</h3>
-<h3 align="center">1ASI0729-2510-4313</h3>
-
-<p align="center"><strong>Producto: SplitEasy</strong></p>
+<h3 align="center">Startup: PolarNet</h3>
+<p align="center"><strong>Producto: CoolGuard </strong></p>
 
 <h3 align="center">Team Members:</h3>
 

@@ -743,8 +743,8 @@ Basándonos en las entrevistas, hemos llevado a cabo un análisis en el que dest
 - Se identificó que los negocios pequeños tienen mayores dificultades para capacitar a su personal y valoran capacitación rápida y soporte remoto.
 - La gran mayoría manifestó interés en que las plataformas ofrezcan tutoriales o guías interactivas para facilitar el aprendizaje.
 
-### 2.3. Needfinding.
-#### 2.3.1. User personas
+## 2.3. Needfinding.
+### 2.3.1. User personas
 
 Para la construcción de las User Personas se analizaron los segmentos definidos previamente (negocios que dependen de la cadena de frío y proveedores/técnicos de refrigeración). Estos arquetipos representan de manera ficticia, pero fundamentada en los hallazgos, a usuarios clave de PolarNet.
 
@@ -756,7 +756,7 @@ Para la construcción de las User Personas se analizaron los segmentos definidos
 
 ![User Persona – Técnico de Refrigeración](./images/Jorge%20Martínez.png)
 
-#### 2.3.2. User Task Matrix
+### 2.3.2. User Task Matrix
 
 Se identificaron las principales tareas que los segmentos objetivo realizan actualmente para cumplir con sus responsabilidades. A continuación, se presenta el User Task Matrix que relaciona a cada User Persona con las tareas detectadas, considerando frecuencia e importancia.
 
@@ -827,7 +827,7 @@ Se identificaron las principales tareas que los segmentos objetivo realizan actu
     </tbody>
 </table>
 
-#### 2.3.3. User Journey Mapping
+### 2.3.3. User Journey Mapping
 
 **Segmento objetivo #1: Negocios que utilizan equipos de refrigeración**
 
@@ -841,7 +841,7 @@ Este User Journey Map representa el recorrido actual de Jorge Martínez. El mapa
 
 ![User Journey Mapping – Técnico](./images/Customer%20journey%20map%202.png)
 
-#### 2.3.4. Empathy Mapping
+### 2.3.4. Empathy Mapping
 
 Se elaboraron mapas de empatía para cada User Persona utilizando la herramienta indicada. A continuación, se resumen los principales hallazgos:
 
@@ -885,9 +885,9 @@ Se elaboraron mapas de empatía para cada User Persona utilizando la herramienta
 
 15.**Traceability (Trazabilidad)**: Capacidad de registrar y acceder a toda la información relevante sobre acciones realizadas en los equipos y servicios.
 
-### 2.4. Requirements specification
+## 2.4. Requirements specification
 
-#### 2.4.1. User Stories
+### 2.4.1. User Stories
 
 <table>
   <thead>
@@ -1295,9 +1295,14 @@ Se elaboraron mapas de empatía para cada User Persona utilizando la herramienta
   </tbody>
 </table>
 
-#### 2.4.2. Impact Mapping
+### 2.4.2. Impact Mapping
 
+El siguiente Impact Mapping fue desarrollado en UXPressia de manera colaborativa para alinear los objetivos de negocio con los
+requerimientos funcionales de la plataforma.
 
+![Impact Mapping](images/impacmap.png)
+
+### 
 
 
 

@@ -839,7 +839,19 @@ Este User Journey Map representa el recorrido actual de Carlos Ramírez. El mapa
 
 Este User Journey Map representa el recorrido actual de Jorge Martínez. El mapa ilustra su experiencia completa desde que gestiona continuamente las solicitudes y mantenimientos de sus clientes hasta el seguimiento posterior a la realización de los servicios. Esta sección refleja la situación actual sin intervención de soluciones tecnológicas, mostrando los puntos de contacto, tareas clave, emociones y posibles fricciones que enfrenta en su día a día. Este recorrido permite entender los desafíos que enfrenta Jorge, incluyendo la sobrecarga de trabajo por urgencias imprevistas, la falta de historial técnico centralizado y la dificultad para planificar rutas y visitas de manera eficiente.
 
-![User Journey Mapping – Administrador de restaurant](./images/Customer%20journey%20map%202.png)
+![User Journey Mapping – Técnico](./images/Customer%20journey%20map%202.png)
+
+### 2.3.4. Empathy Mapping
+
+Se elaboraron mapas de empatía para cada User Persona utilizando la herramienta indicada. A continuación, se resumen los principales hallazgos:
+
+**Segmento 1: Negocios que utilizan equipos de refrigeración (representado por Carlos Ramírez).**
+
+![Empathy Mapping – Administrador de restaurant](./images/Empathy%20map%20Carlos%20Ramírez.png)
+
+**Segmento 2:Empresas proveedoras de servicios y equipos de refrigeración (representado por Jorge Martínez).**
+
+![Empathy Mapping – Administrador de restaurant](./images/Empathy%20map%20Jorge%20Martínez.png)
 
 
 

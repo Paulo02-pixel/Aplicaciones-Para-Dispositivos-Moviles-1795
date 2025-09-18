@@ -1,4 +1,4 @@
-<p align="center">
+<img width="1241" height="567" alt="image" src="https://github.com/user-attachments/assets/4ac9e2ad-0dda-4eb7-8767-25adb5c1d967" /><p align="center">
   <img src="images/logo-upc.png" alt="Logo de la UPC" />
 </p>
 
@@ -691,12 +691,12 @@ Hemos identificado diversas estrategias y tácticas para diferenciarse y competi
 - **Distrito:** San Martín de Porres
 
 
-- ![Interview-1-segment-1.png](assets/chapter02/Interview-1-segment-1.png)
+- ![Interview-1-segment-1.png](<img width="831" height="469" alt="entrevista 1" src="https://github.com/user-attachments/assets/7224fdc1-63d7-442e-b1ce-5c74e5f15395" />)
 
 
 - **Inicio:** 0:02
-- **Duración:** 3:18 min
-- **URL:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220138_upc_edu_pe/EUSnM9J2IAJHggHYL2AGJEIBWavDtsQsp8swvVetaNGNOQ?e=0TNgA1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+- **Duración:** 3:00 min
+- **URL:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313419_upc_edu_pe/EbAKUznIOb1Hj52G0gDEO4cB5aB_zzFbWqKma_ojJr-KDw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=0bIob4
 - **Resumen:** Nuestro primer entrevistador nos explica que es nuevo con respecto a las máquinas de refrigeración y que su mayor preocupación es la dificultad del hardware, explica que quiere UI más intuitivas..
 
 ---
@@ -705,10 +705,10 @@ Hemos identificado diversas estrategias y tácticas para diferenciarse y competi
 - **Edad:** 25
 - **Distrito:** San Martín de Porres
 
-![Interview-2-segment-1.jpg](assets/chapter02/Interview-2-segment-1.jpg)
-- **Inicio:** 0:25
-- **Duración:** 9:03 min
-- **URL:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202223286_upc_edu_pe/EZpUpn4-Z8lEi6EC5ARiL_IBd8r8a3gLXm2QQ0OMfL59dw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=o03M2P
+![Interview-2-segment-1.jpg](<img width="942" height="524" alt="entrevista 2" src="https://github.com/user-attachments/assets/4a7f1409-436b-4c2e-9b49-4a5b9e9bac92" />)
+- **Inicio:** 0:02
+- **Duración:** 1:50 min
+- **URL:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313419_upc_edu_pe/EQl3y6bGWi9ArBB2C0V_6-ABZiouXaloDBWMnfE-n-0CRA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SQ7nw4
 - **Resumen:** Nuestro segundo entrevistador menciona que lo más importante es el soporte y la atención que brindan las empresas, menciona también el uso de tablets para un mejor monitoreo y la confianza con los trabajadores.
 
 
@@ -717,19 +717,18 @@ Hemos identificado diversas estrategias y tácticas para diferenciarse y competi
 ---
 #### Entrevista 1:
 
-- **Nombres y apellidos:** Wilder Canchan
-- **Edad:** 45
+- **Nombres y apellidos:** Adrian Barzola
+- **Edad:** 25
 - **Distrito:** Los Olivos
 
 
-- ![Interview-1-segment-2.png](assets/chapter02/Interview-1-segment-2.png)
+- ![Interview-1-segment-2.png](<img width="1241" height="567" alt="entrevista 3" src="https://github.com/user-attachments/assets/67c2fd5f-58e7-4377-8987-e57cbddf97cb" />)
 
 
-- **Inicio:** 0:43
-- **Duración:** 7:03 min
-- **URL:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220138_upc_edu_pe/ES1Kw9TJaNZGszXWCTKRDwMBAXSTN5Xfq1nkndAnOnWqzA?e=4eLG4i&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
-- **Resumen:** Wilder es un empresario con 7 años de experiencia en mantenimiento de equipos de refrigeración y aire acondicionado. Él atiende entre 20 a 25 clientes al mes, principalmente restaurantes, bares y bodegas. En cuanto a la atención al cliente, su empresa solo utiliza un número telefónico para coordinar las visitas técnicas. Una de las dificultades que enfrenta su empresa es la mala coordinación entre el cliente y el servidor de mantenimiento en cuanto al punto de llegada. Esto se debe a la imprecisión de la ubicación que brindan ciertas herramientas de software y el tráfico vehicular. Su equipo técnico utiliza Google Maps para planificar rutas. Wilder considera útil una aplicación que le ayude a mejorar la gestión de los equipos de mantenimiento y de los técnicos, con reportes de fallas en tiempo real y mejor comunicación con el cliente. Él cree que el impacto de una aplicación así sería muy positiva, pues mejoraría la precisión de los servicios y conseguiría la satisfacción de sus clientes.
-
+- **Inicio:** 0:02
+- **Duración:** 2:24 min
+- **URL:** https://upcedupe-my.sharepoint.com/personal/u202313419_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202313419%5Fupc%5Fedu%5Fpe%2FDocuments%2Fentrevista%203%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E684695f3%2Da04a%2D4389%2D98b5%2Dd95b0223728e
+- **Resumen:** Nuestro tercer entrevistador menciona que es importante una relación de calidad-precio y una empresa destacaría más aprovechando las redes sociales
 ---
 
 
@@ -739,44 +738,10 @@ Basándonos en las entrevistas, hemos llevado a cabo un análisis en el que dest
 **Segmento objetivo #2: EMPRESAS PROVEEDORAS DE SERVICIOS Y EQUIPOS DE REFRIGERACIÓN**
 
 **Hallazgos:**
-- Algunos tienen más de 10 años de experiencia en el rubro.
-- Todos los entrevistados tienen como motivación principal brindar equipos de calidad y mejorar la eficiencia del servicio que ofrecen a sus clientes. Buscan optimizar los tiempos de respuesta y asegurar la satisfacción del cliente, especialmente en sectores que requieren atención técnica frecuente, como la refrigeración y el mantenimiento de equipos.
-- Los entrevistados comparten una motivación común, aunque sus prioridades varían en áreas como la optimización de la gestión de datos, la precisión en las intervenciones y la atención al cliente.
-- Todos mencionan que la coordinación de rutas es una dificultad, ya que actualmente se realiza de manera manual mediante WhatsApp, Google Maps, o cronogramas proporcionados por los clientes.
-- Algunos se centran más en los problemas asociados a la gestión de datos, mientras que otros destacan las dificultades relacionadas con las ubicaciones imprecisas y el tráfico vehicular.
-- La mayoría cree que a veces la labor ineficiente de coordinación del cliente es un problema, tanto para brindar su ubicación como para precisar la falla o problema de su equipo de refrigeración.
-- La falta de un sistema digital que centralice y facilite el acceso a los datos de los equipos y las intervenciones es otra limitante que impacta en la eficiencia de sus operaciones.
-- La mayoría de los entrevistados utilizan métodos tradicionales como Excel para gestionar el historial técnico de los equipos.
-- Todos están interesados en recibir alertas sobre fallas en los equipos en tiempo real, lo que les permitiría responder más rápido y con mayor precisión a los problemas.
-- Todos creen que una solución digital tendría un impacto positivo en su empresa.
-- Algunos anticipan un mayor impacto positivo en áreas específicas, como una buena gestión de tiempo, la reducción de costos y el aumento de la satisfacción tanto de los clientes como de los técnicos con los que colaboran.
-- Ninguno ha probado antes una solución digital que mejore la venta, gestión y mantenimiento de equipos de refrigeración más allá de las tradicionales.
-
-**Análisis estadístico**
-
-![pie_chart-1-segment-2.png](assets/chapter02/pie_chart-1-segment-2.png)
-- Más del 50% de los empresarios tiene un número mayor a 10 años de experiencia en el rubro.
-
----
-
-![pie_chart-2-segment-2.png](assets/chapter02/pie_chart-2-segment-2.png)
-- Los empresarios tienen diferentes frecuencias de ciertas dificultades, a pesar de que tienen casi los mismos problemas.
-
----
-![pie_chart-3-segment-2.png](assets/chapter02/pie_chart-3-segment-2.png)
-- El 67% de los empresarios creen que el cliente es parcialmente causante de su problema de mayor frecuencia. Algunos de ellos han expresado su inconformidad respecto a los clientes que no explican bien las fallas de sus equipos.
-
----
-
-![pie_chart-4-segment-2.png](assets/chapter02/pie_chart-4-segment-2.png)
-- El 100% está interesado en recibir notificaciones sobre fallos que ocurren en equipos de refrigeración. Ellos creen que con dicha funcionalidad podrían hacer un mantenimiento preventivo más eficiente y lograr la satisfacción del cliente.
-
----
-![pie_chart-5-segment-2.png](assets/chapter02/pie_chart-5-segment-2.png)
-- Ni uno de los empresarios ha usado una plataforma digital que se asemeje a la que se muestran interesados. Ellos usaron aplicaciones para mejorar la eficiencia de su trabajo como WhatsApp y Maps o programas como Microsoft Excel. Sin embargo, estos no poseen todas las funcionalidades que necesitan.
-
----
-![pie_chart-6-segment-2.png](assets/chapter02/pie_chart-6-segment-2.png)
-- Cada empresario tiene una meta deseada de mayor prioridad diferente al resto a pesar de que todos ellos comparten los mismos deseos y esperan que una plataforma digital pueda ayudarles a obtenerlos.
-
----
+- La mayoría de los entrevistados percibe que los sistemas de refrigeración actuales son complejos, sobre todo para nuevos usuarios.
+- Se valora altamente la facilidad de uso y las interfaces intuitivas, que reduzcan la curva de aprendizaje y aumenten la eficiencia.
+- El soporte técnico y la atención al cliente son factores decisivos para elegir proveedor; la confianza en la empresa es clave para la adopción de la tecnología.
+- Preferencia por dispositivos móviles y tablets para monitorear y controlar los equipos; buscan experiencias ágiles, modernas y accesibles desde cualquier lugar.
+- Algunos entrevistados señalaron que los costos iniciales pueden ser un obstáculo, pero estarían dispuestos a pagar más por una solución que ahorre tiempo y reduzca fallos.
+- Se identificó que los negocios pequeños tienen mayores dificultades para capacitar a su personal y valoran capacitación rápida y soporte remoto.
+- La gran mayoría manifestó interés en que las plataformas ofrezcan tutoriales o guías interactivas para facilitar el aprendizaje.

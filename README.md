@@ -1532,7 +1532,7 @@ si pueden lo hacen porfa no me da el tiempo
 ###2.6.3.2. Interface Layer
 <img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/monitoringinterface.png">
 ###2.6.3.3. Application Layer
-<img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/aplicationmonitoring.png">
+<img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/aplicationMonitoring.png">
 ###2.6.3.4  Infrastructure Layer
 <img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/infrastructuremonitoring.png">
 ###2.6.3.5. Bounded Context Software Architecture Component Level Diagrams 

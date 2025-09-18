@@ -1,4 +1,4 @@
-  <img src="images/logo-upc.png" alt="Logo de la UPC" />
+<div align = "center">  <img src="images/logo-upc.png" alt="Logo de la UPC" />
 </p>
 
 <p align="center"><strong>Universidad Peruana de Ciencias Aplicadas</strong></p>

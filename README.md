@@ -764,30 +764,9 @@ Se identificaron las principales tareas que los segmentos objetivo realizan actu
 
 **Segmento 2: Empresas proveedoras de servicios y equipos de refrigeración (representado por Jorge Martínez).**
 
-
-
-<!-- User Task Matrix - PolarNet -->
-<section aria-labelledby="utm-title" style="font-family: Arial, Helvetica, sans-serif; max-width:900px; margin:auto;">
   
 
-  <style>
-    .utm-table { width:100%; border-collapse: collapse; }
-    .utm-table th, .utm-table td { border: 1px solid #e0e0e0; padding: 10px; text-align: center; }
-    .utm-table th { background: #f7f7f7; color: #111; font-weight: 600; }
-    .level-very-high { background:#b30000; color:#fff; } /* rojo oscuro */
-    .level-high { background:#ff7f50; color:#111; }     /* naranja */
-    .level-medium { background:#ffd166; color:#111; }   /* amarillo claro */
-    .level-low { background:#d9eaf7; color:#111; }      /* azul pálido */
-    .legend { display:flex; gap:8px; align-items:center; margin-top:12px; flex-wrap:wrap; }
-    .legend .item { display:flex; gap:6px; align-items:center; font-size:0.95rem; }
-    .swatch { width:18px; height:18px; border-radius:4px; border:1px solid #ccc; display:inline-block; }
-    /* small screens */
-    @media (max-width:720px){
-      .utm-table td, .utm-table th { padding:8px; font-size:0.92rem; }
-    }
-  </style>
-
-  <table class="utm-table" role="table" aria-label="User Task Matrix for PolarNet">
+<table class="utm-table" role="table" aria-label="User Task Matrix for PolarNet">
     <thead>
       <tr>
         <th>Tarea / Task</th>
@@ -846,19 +825,26 @@ Se identificaron las principales tareas que los segmentos objetivo realizan actu
         <td class="level-very-high">Muy Alta</td>
       </tr>
     </tbody>
-  </table>
+</table>
 
-  <div class="legend" aria-hidden="true">
-    <div class="item"><span class="swatch level-very-high"></span> Muy Alta</div>
-    <div class="item"><span class="swatch level-high"></span> Alta</div>
-    <div class="item"><span class="swatch level-medium"></span> Media</div>
-    <div class="item"><span class="swatch level-low"></span> Baja</div>
-  </div>
+### 2.3.3. User Journey Mapping
 
-  <p style="font-size:0.95rem; color:#444; margin-top:10px;">
-    Nota: los colores representan la prioridad (frecuencia / importancia). 
-  </p>
-</section>
+**Segmento objetivo #1: Negocios que utilizan equipos de refrigeración**
+
+Este User Journey Map representa el recorrido actual de Carlos Ramírez. El mapa ilustra su experiencia completa desde que maneja continuamente los datos registrados de su restaurante hasta el seguimiento posterior a la ejecución de los mantenimientos o reparaciones. Esta sección refleja la situación actual sin intervención de soluciones tecnológicas, mostrando los puntos de contacto, tareas clave, emociones y posibles fricciones que enfrenta en su día a día. Este recorrido permite entender los desafíos que enfrenta Carlos, incluyendo la falta de historial confiable, la dependencia de técnicos disponibles a última hora y la dificultad de consolidar información para tomar decisiones rápidas.
+
+![User Journey Mapping – Administrador de restaurant](./images/Customer%20journey%20map%201.png)
+
+**Segmento objetivo #2: Técnicos y empresas proveedoras de servicios de refrigeración**
+
+Este User Journey Map representa el recorrido actual de Jorge Martínez. El mapa ilustra su experiencia completa desde que gestiona continuamente las solicitudes y mantenimientos de sus clientes hasta el seguimiento posterior a la realización de los servicios. Esta sección refleja la situación actual sin intervención de soluciones tecnológicas, mostrando los puntos de contacto, tareas clave, emociones y posibles fricciones que enfrenta en su día a día. Este recorrido permite entender los desafíos que enfrenta Jorge, incluyendo la sobrecarga de trabajo por urgencias imprevistas, la falta de historial técnico centralizado y la dificultad para planificar rutas y visitas de manera eficiente.
+
+![User Journey Mapping – Administrador de restaurant](./images/Customer%20journey%20map%202.png)
+
+
+
+  
+
 
 
 

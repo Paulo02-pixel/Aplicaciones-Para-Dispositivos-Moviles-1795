@@ -744,7 +744,7 @@ Basándonos en las entrevistas, hemos llevado a cabo un análisis en el que dest
 - La gran mayoría manifestó interés en que las plataformas ofrezcan tutoriales o guías interactivas para facilitar el aprendizaje.
 
 ### 2.3. Needfinding.
-#### 2.2.1. User personas
+#### 2.3.1. User personas
 
 Para la construcción de las User Personas se analizaron los segmentos definidos previamente (negocios que dependen de la cadena de frío y proveedores/técnicos de refrigeración). Estos arquetipos representan de manera ficticia, pero fundamentada en los hallazgos, a usuarios clave de PolarNet.
 
@@ -755,5 +755,110 @@ Para la construcción de las User Personas se analizaron los segmentos definidos
 **Segmento Objetivo #2: Empresas proveedoras de servicios y equipos de refrigeración**
 
 ![User Persona – Técnico de Refrigeración](./images/Jorge%20Martínez.png)
+
+#### 2.3.2. User Task Matrix
+
+Se identificaron las principales tareas que los segmentos objetivo realizan actualmente para cumplir con sus responsabilidades. A continuación, se presenta el User Task Matrix que relaciona a cada User Persona con las tareas detectadas, considerando frecuencia e importancia.
+
+**Segmento 1: Negocios que utilizan equipos de refrigeración (representado por Carlos Ramírez).**
+
+**Segmento 2: Empresas proveedoras de servicios y equipos de refrigeración (representado por Jorge Martínez).**
+
+
+
+<!-- User Task Matrix - PolarNet -->
+<section aria-labelledby="utm-title" style="font-family: Arial, Helvetica, sans-serif; max-width:900px; margin:auto;">
+  
+
+  <style>
+    .utm-table { width:100%; border-collapse: collapse; }
+    .utm-table th, .utm-table td { border: 1px solid #e0e0e0; padding: 10px; text-align: center; }
+    .utm-table th { background: #f7f7f7; color: #111; font-weight: 600; }
+    .level-very-high { background:#b30000; color:#fff; } /* rojo oscuro */
+    .level-high { background:#ff7f50; color:#111; }     /* naranja */
+    .level-medium { background:#ffd166; color:#111; }   /* amarillo claro */
+    .level-low { background:#d9eaf7; color:#111; }      /* azul pálido */
+    .legend { display:flex; gap:8px; align-items:center; margin-top:12px; flex-wrap:wrap; }
+    .legend .item { display:flex; gap:6px; align-items:center; font-size:0.95rem; }
+    .swatch { width:18px; height:18px; border-radius:4px; border:1px solid #ccc; display:inline-block; }
+    /* small screens */
+    @media (max-width:720px){
+      .utm-table td, .utm-table th { padding:8px; font-size:0.92rem; }
+    }
+  </style>
+
+  <table class="utm-table" role="table" aria-label="User Task Matrix for PolarNet">
+    <thead>
+      <tr>
+        <th>Tarea / Task</th>
+        <th colspan="2">Carlos Ramírez</th>
+        <th colspan="2">Jorge Martínez</th>
+      </tr>
+      <tr>
+        <th></th>
+        <th>Frecuencia</th>
+        <th>Importancia</th>
+        <th>Frecuencia</th>
+        <th>Importancia</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align:left;">Monitorear temperatura equipos</td>
+        <td class="level-high">Alta</td>
+        <td class="level-high">Alta</td>
+        <td class="level-medium">Media</td>
+        <td class="level-high">Alta</td>
+      </tr>
+      <tr>
+        <td style="text-align:left;">Recibir alertas de fallos</td>
+        <td class="level-high">Alta</td>
+        <td class="level-very-high">Muy Alta</td>
+        <td class="level-high">Alta</td>
+        <td class="level-high">Alta</td>
+      </tr>
+      <tr>
+        <td style="text-align:left;">Programar mantenimientos</td>
+        <td class="level-medium">Media</td>
+        <td class="level-high">Alta</td>
+        <td class="level-high">Alta</td>
+        <td class="level-very-high">Muy Alta</td>
+      </tr>
+      <tr>
+        <td style="text-align:left;">Generar reportes de rendimiento</td>
+        <td class="level-medium">Media</td>
+        <td class="level-high">Alta</td>
+        <td class="level-low">Baja</td>
+        <td class="level-medium">Media</td>
+      </tr>
+      <tr>
+        <td style="text-align:left;">Contactar técnicos/proveedores</td>
+        <td class="level-high">Alta</td>
+        <td class="level-very-high">Muy Alta</td>
+        <td class="level-medium">Media</td>
+        <td class="level-medium">Media</td>
+      </tr>
+      <tr>
+        <td style="text-align:left;">Acceder a historial de fallos</td>
+        <td class="level-medium">Media</td>
+        <td class="level-high">Alta</td>
+        <td class="level-high">Alta</td>
+        <td class="level-very-high">Muy Alta</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="legend" aria-hidden="true">
+    <div class="item"><span class="swatch level-very-high"></span> Muy Alta</div>
+    <div class="item"><span class="swatch level-high"></span> Alta</div>
+    <div class="item"><span class="swatch level-medium"></span> Media</div>
+    <div class="item"><span class="swatch level-low"></span> Baja</div>
+  </div>
+
+  <p style="font-size:0.95rem; color:#444; margin-top:10px;">
+    Nota: los colores representan la prioridad (frecuencia / importancia). 
+  </p>
+</section>
+
 
 

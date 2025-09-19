@@ -1544,10 +1544,15 @@ si pueden lo hacen porfa no me da el tiempo
 
 ##2.6.4. Bounded Context:Notification Bounded Context
 ###2.6.4.1.Domain Layer
+<img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/domainNotification.png">
 ###2.6.4.2. Interface Layer
+<img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/interfaceNotification.png">
 ###2.6.4.3. Application Layer
+<img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/aplication.png">
 ###2.6.4.4  Infrastructure Layer
+<img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/infrastructurenotification.png">
 ###2.6.4.5. Bounded Context Software Architecture Component Level Diagrams 
 ###2.6.4.6. Bounded Context Software Architecture Code Level Diagrams   
 ####2.6.4.6.1. Bounded Context Domain Layer Class Diagrams 
 ####2.6.4.6.2. Bounded Context Database Design Diagram 
+<img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/databasediagramnotification.png">

@@ -24,7 +24,7 @@ Aplicaciones para Dispositivos Móviles<br>
 |   Geronimo Quispe Pablo Antonio     | u202314304  |
 |    Sandro Dinklange Arevalo   |  u202313419 |
 |   Marzál Pérez, Jamir Ángel     |  u201824409 |
-|       |    |
+|  Ayrton Damian Inga Hernandez     | u201924756   |
 
 </div>
 
@@ -39,7 +39,7 @@ Aplicaciones para Dispositivos Móviles<br>
 | TB1     | 14/09/2025  | Geronimo Quispe Pablo Antonio       | Desarrollo del capítulo II                                                                                                            |
 | TB1     | 15/09/2025  | Sandro Dinklange Arevalo      | Desarrollo del capítulo II                                                                                                               |
 | TB1     | 16/09/2025  | Marzál Pérez, Jamir Ángel      | Desarrollo del capítulo II                                                                                                               |
-| TB1     | 17/09/2025  |       | Desarrollo del capítulo II                              |
+| TB1     | 17/09/2025  | Ayrton Damian Inga Hernandez      | Desarrollo del capítulo II                              |
 
 # Project Report Collaboration Insights
 Link del repositorio: https://github.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795.git
@@ -145,8 +145,8 @@ Link del repositorio: https://github.com/Paulo02-pixel/Aplicaciones-Para-Disposi
 
 | **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
 |-------------------------|--------------------------|------------------|
-| Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de ingeniería de software. | **TB1: Paulo Percy Quincho Gamarra (U20191E562)** <br> Investigó y aplicó conceptos de programación backend con Python y Node.js, reforzando conocimientos en bases de datos SQL y NoSQL. <br><br> **TB1: Geronimo Quispe Pablo Antonio (U202314304)** <br> Estudió metodologías ágiles y las aplicó en la organización del proyecto, mejorando la planificación de tareas y la coordinación del equipo. <br><br> **TB1: Sandro Dinklange Arevalo (U202313419)** <br> Actualizó sus conocimientos en arquitectura de software y modelado de base de datos, contribuyendo al diseño estructurado de la solución. <br><br> **TB1: Jamir Ángel Marzál Pérez (U201824409)** <br> Reforzó conocimientos en programación orientada a objetos y patrones de diseño, aplicándolos en la implementación de módulos del sistema. | Cada integrante actualizó y aplicó conceptos clave de software en el proyecto, asegurando un mejor entendimiento técnico y fortaleciendo sus competencias profesionales para proyectos reales. |
-| Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de tecnologías de ingeniería de software. | **TB1: Paulo Percy Quincho Gamarra (U20191E562)** <br> Participó en la revisión de nuevas herramientas y frameworks, demostrando apertura al aprendizaje continuo para fortalecer el backend del proyecto. <br><br> **TB1: Geronimo Quispe Pablo Antonio (U202314304)** <br> Investigó sobre herramientas de gestión colaborativa como Trello y GitHub, mostrando interés en ampliar su experiencia en entornos profesionales. <br><br> **TB1: Sandro Dinklange Arevalo (U202313419)** <br> Estudió sobre servicios en la nube y su impacto en aplicaciones móviles, comprendiendo la importancia de actualizarse en nuevas tecnologías. <br><br> **TB1: Jamir Ángel Marzál Pérez (U201824409)** <br> Reconoció la necesidad de mejorar constantemente en lenguajes modernos como TypeScript y frameworks frontend, buscando aplicarlos en futuros proyectos. | Los integrantes demostraron compromiso con el aprendizaje permanente, entendiendo que la actualización constante es clave para desenvolverse en proyectos de software y adaptarse a los cambios tecnológicos. |
+| Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de ingeniería de software. | **TB1: Paulo Percy Quincho Gamarra (U20191E562)** <br> Investigó y aplicó conceptos de programación backend con Python y Node.js, reforzando conocimientos en bases de datos SQL y NoSQL. <br><br> **TB1: Geronimo Quispe Pablo Antonio (U202314304)** <br> Estudió metodologías ágiles y las aplicó en la organización del proyecto, mejorando la planificación de tareas y la coordinación del equipo. <br><br> **TB1: Sandro Dinklange Arevalo (U202313419)** <br> Actualizó sus conocimientos en arquitectura de software y modelado de base de datos, contribuyendo al diseño estructurado de la solución. <br><br> **TB1: Jamir Ángel Marzál Pérez (U201824409)** <br> Reforzó conocimientos en programación orientada a objetos y patrones de diseño, aplicándolos en la implementación de módulos del sistema. <br><br> **TB1: Ayrton Damian Inga Hernandez (U201924756)** <br> Aplicó los métodos de Domain Driven Design en la elaboración de los Bounded Context Canvases.  | Cada integrante actualizó y aplicó conceptos clave de software en el proyecto, asegurando un mejor entendimiento técnico y fortaleciendo sus competencias profesionales para proyectos reales.  |
+| Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de tecnologías de ingeniería de software. | **TB1: Paulo Percy Quincho Gamarra (U20191E562)** <br> Participó en la revisión de nuevas herramientas y frameworks, demostrando apertura al aprendizaje continuo para fortalecer el backend del proyecto. <br><br> **TB1: Geronimo Quispe Pablo Antonio (U202314304)** <br> Investigó sobre herramientas de gestión colaborativa como Trello y GitHub, mostrando interés en ampliar su experiencia en entornos profesionales. <br><br> **TB1: Sandro Dinklange Arevalo (U202313419)** <br> Estudió sobre servicios en la nube y su impacto en aplicaciones móviles, comprendiendo la importancia de actualizarse en nuevas tecnologías. <br><br> **TB1: Jamir Ángel Marzál Pérez (U201824409)** <br> Reconoció la necesidad de mejorar constantemente en lenguajes modernos como TypeScript y frameworks frontend, buscando aplicarlos en futuros proyectos. <br><br> **TB1: Ayrton Damian Inga Hernandez (U201924756)** <br> Investigó la herramienta designada para la elaboración del software architecture y lo desarrolló.| Los integrantes demostraron compromiso con el aprendizaje permanente, entendiendo que la actualización constante es clave para desenvolverse en proyectos de software y adaptarse a los cambios tecnológicos. |
 
 
 
@@ -238,16 +238,16 @@ De igual manera, **PolarNet** incluye un módulo especializado para técnicos y 
   <tr>
     <td style="text-align: center" align="center">
       <p align="center">
-        [Nombre del 5° Integrante] - [Código]  
+        Ayrton Damian Inga Hernandez - U201924756  
         <br>
-        <img src="images/integrante5.png" alt="Foto Integrante 5" width="45%">
+        <img src="images\Ayrton-foto.png" alt="Foto Integrante 5" width="45%">
       </p>
     </td>
     <td style="text-align: center" align="center">
-      [Descripción breve del integrante].
+      Me considero una persona que se esfuerza para seguir adelante en mis estudios mientras intento equilibrar mi vida laboral.
     </td>
     <td style="text-align: center" align="center">
-      [Conocimientos técnicos y habilidades].
+      Cuento con conocimientos de Python, JavaScript, C++ y base de datos.
     </td>
   </tr>
 </table>
@@ -742,3 +742,817 @@ Basándonos en las entrevistas, hemos llevado a cabo un análisis en el que dest
 - Algunos entrevistados señalaron que los costos iniciales pueden ser un obstáculo, pero estarían dispuestos a pagar más por una solución que ahorre tiempo y reduzca fallos.
 - Se identificó que los negocios pequeños tienen mayores dificultades para capacitar a su personal y valoran capacitación rápida y soporte remoto.
 - La gran mayoría manifestó interés en que las plataformas ofrezcan tutoriales o guías interactivas para facilitar el aprendizaje.
+
+## 2.3. Needfinding.
+### 2.3.1. User personas
+
+Para la construcción de las User Personas se analizaron los segmentos definidos previamente (negocios que dependen de la cadena de frío y proveedores/técnicos de refrigeración). Estos arquetipos representan de manera ficticia, pero fundamentada en los hallazgos, a usuarios clave de PolarNet.
+
+**Segmento Objetivo #1: Negocios que utilizan equipos de refrigeración**
+
+![User Persona – Administrador de Restaurant](./images/Carlos%20Ramírez.png)
+
+**Segmento Objetivo #2: Empresas proveedoras de servicios y equipos de refrigeración**
+
+![User Persona – Técnico de Refrigeración](./images/Jorge%20Martínez.png)
+
+### 2.3.2. User Task Matrix
+
+Se identificaron las principales tareas que los segmentos objetivo realizan actualmente para cumplir con sus responsabilidades. A continuación, se presenta el User Task Matrix que relaciona a cada User Persona con las tareas detectadas, considerando frecuencia e importancia.
+
+**Segmento 1: Negocios que utilizan equipos de refrigeración (representado por Carlos Ramírez).**
+
+**Segmento 2: Empresas proveedoras de servicios y equipos de refrigeración (representado por Jorge Martínez).**
+
+  
+
+<table class="utm-table" role="table" aria-label="User Task Matrix for PolarNet">
+    <thead>
+      <tr>
+        <th>Tarea / Task</th>
+        <th colspan="2">Carlos Ramírez</th>
+        <th colspan="2">Jorge Martínez</th>
+      </tr>
+      <tr>
+        <th></th>
+        <th>Frecuencia</th>
+        <th>Importancia</th>
+        <th>Frecuencia</th>
+        <th>Importancia</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align:left;">Monitorear temperatura equipos</td>
+        <td class="level-high">Alta</td>
+        <td class="level-high">Alta</td>
+        <td class="level-medium">Media</td>
+        <td class="level-high">Alta</td>
+      </tr>
+      <tr>
+        <td style="text-align:left;">Recibir alertas de fallos</td>
+        <td class="level-high">Alta</td>
+        <td class="level-very-high">Muy Alta</td>
+        <td class="level-high">Alta</td>
+        <td class="level-high">Alta</td>
+      </tr>
+      <tr>
+        <td style="text-align:left;">Programar mantenimientos</td>
+        <td class="level-medium">Media</td>
+        <td class="level-high">Alta</td>
+        <td class="level-high">Alta</td>
+        <td class="level-very-high">Muy Alta</td>
+      </tr>
+      <tr>
+        <td style="text-align:left;">Generar reportes de rendimiento</td>
+        <td class="level-medium">Media</td>
+        <td class="level-high">Alta</td>
+        <td class="level-low">Baja</td>
+        <td class="level-medium">Media</td>
+      </tr>
+      <tr>
+        <td style="text-align:left;">Contactar técnicos/proveedores</td>
+        <td class="level-high">Alta</td>
+        <td class="level-very-high">Muy Alta</td>
+        <td class="level-medium">Media</td>
+        <td class="level-medium">Media</td>
+      </tr>
+      <tr>
+        <td style="text-align:left;">Acceder a historial de fallos</td>
+        <td class="level-medium">Media</td>
+        <td class="level-high">Alta</td>
+        <td class="level-high">Alta</td>
+        <td class="level-very-high">Muy Alta</td>
+      </tr>
+    </tbody>
+</table>
+
+### 2.3.3. User Journey Mapping
+
+**Segmento objetivo #1: Negocios que utilizan equipos de refrigeración**
+
+Este User Journey Map representa el recorrido actual de Carlos Ramírez. El mapa ilustra su experiencia completa desde que maneja continuamente los datos registrados de su restaurante hasta el seguimiento posterior a la ejecución de los mantenimientos o reparaciones. Esta sección refleja la situación actual sin intervención de soluciones tecnológicas, mostrando los puntos de contacto, tareas clave, emociones y posibles fricciones que enfrenta en su día a día. Este recorrido permite entender los desafíos que enfrenta Carlos, incluyendo la falta de historial confiable, la dependencia de técnicos disponibles a última hora y la dificultad de consolidar información para tomar decisiones rápidas.
+
+![User Journey Mapping – Administrador de restaurant](./images/Customer%20journey%20map%201.png)
+
+**Segmento objetivo #2: Técnicos y empresas proveedoras de servicios de refrigeración**
+
+Este User Journey Map representa el recorrido actual de Jorge Martínez. El mapa ilustra su experiencia completa desde que gestiona continuamente las solicitudes y mantenimientos de sus clientes hasta el seguimiento posterior a la realización de los servicios. Esta sección refleja la situación actual sin intervención de soluciones tecnológicas, mostrando los puntos de contacto, tareas clave, emociones y posibles fricciones que enfrenta en su día a día. Este recorrido permite entender los desafíos que enfrenta Jorge, incluyendo la sobrecarga de trabajo por urgencias imprevistas, la falta de historial técnico centralizado y la dificultad para planificar rutas y visitas de manera eficiente.
+
+![User Journey Mapping – Técnico](./images/Customer%20journey%20map%202.png)
+
+### 2.3.4. Empathy Mapping
+
+Se elaboraron mapas de empatía para cada User Persona utilizando la herramienta indicada. A continuación, se resumen los principales hallazgos:
+
+**Segmento 1: Negocios que utilizan equipos de refrigeración (representado por Carlos Ramírez).**
+
+![Empathy Mapping – Administrador de restaurant](./images/Empathy%20map%20Carlos%20Ramírez.png)
+
+**Segmento 2:Empresas proveedoras de servicios y equipos de refrigeración (representado por Jorge Martínez).**
+
+![Empathy Mapping – Administrador de restaurant](./images/Empathy%20map%20Jorge%20Martínez.png)
+
+#### 2.3.5. Ubiquitous Language
+
+1.**Cold Chain (Cadena de frío)**: Conjunto de procesos y controles para mantener productos refrigerados a la temperatura adecuada durante almacenamiento y transporte.
+
+2.**Refrigeration Unit (Equipo de refrigeración)**: Aparato o sistema utilizado para enfriar o mantener alimentos y productos a baja temperatura.
+
+3.**Preventive Maintenance (Mantenimiento Preventivo)**: Conjunto de acciones programadas para revisar y mantener equipos, evitando fallas antes de que ocurran.
+
+4.**Emergency Repair (Reparación de emergencia)**: Servicio realizado cuando un equipo falla inesperadamente, buscando restaurar su funcionamiento lo antes posible.
+
+5.**Service Request (Solicitud de servicio)**: Petición realizada por un cliente para la revisión, mantenimiento o reparación de un equipo.
+
+6.**Technician (Técnico)**: Profesional encargado de realizar mantenimientos, reparaciones y supervisión de equipos de refrigeración.
+
+7.**Service Report (Reporte de servicio)**: Documento que registra las acciones realizadas durante un mantenimiento o reparación, incluyendo diagnóstico y resultados.
+
+8.**Equipment History (Historial de equipos)**: Registro completo de mantenimientos, reparaciones y fallas de un equipo de refrigeración.
+
+9.**Route Planning (Planificación de rutas)**: Organización eficiente de visitas a clientes según ubicación geográfica y prioridad de tareas.
+
+10.**Remote Monitoring (Monitoreo remoto)**: Supervisión de equipos de refrigeración a distancia mediante sensores y alertas en tiempo real.
+
+11.**Alert (Alerta)**: Notificación que indica una anomalía, fallo o condición crítica en un equipo de refrigeración.
+
+12.**Client (Cliente)**: Negocio o persona que contrata servicios de mantenimiento y reparación de equipos de refrigeración.
+
+13.**Work Order (Orden de trabajo)**: Documento o registro que detalla las tareas a realizar por un técnico en un mantenimiento o reparación.
+
+14.**Downtime (Tiempo de inactividad)**: Periodo durante el cual un equipo no está operativo debido a falla o mantenimiento.
+
+15.**Traceability (Trazabilidad)**: Capacidad de registrar y acceder a toda la información relevante sobre acciones realizadas en los equipos y servicios.
+
+## 2.4. Requirements specification
+
+### 2.4.1. User Stories
+
+<table>
+  <thead>
+    <tr>
+      <th>Epic / User Story ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Criterios de Aceptación</th>
+      <th>Relacionado con (Epic ID)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US-01</td>
+      <td>Registro de usuario</td>
+      <td>Como nuevo usuario, quiero registrarme para acceder a la plataforma y empezar a gestionar mis equipos de refrigeración.</td>
+      <td>Esc 1: Crear cuenta exitosamente → cuenta creada.<br>Esc 2: Intento con email ya registrado → mensaje de error.</td>
+      <td>EP-01</td>
+    </tr>
+    <tr>
+      <td>US-02</td>
+      <td>Inicio de sesión</td>
+      <td>Como usuario, quiero acceder a mi cuenta en la plataforma de manera rápida y segura para utilizar sus funcionalidades.</td>
+      <td>Esc 1: Inicio correcto → acceso a panel.<br>Esc 2: Datos incorrectos → mensaje de error.<br>Esc 3: Desde Landing Page → redirige al login.</td>
+      <td>EP-01</td>
+    </tr>
+    <tr>
+      <td>US-03</td>
+      <td>Solicitar servicio de reparación</td>
+      <td>Como cliente, quiero solicitar un servicio de reparación para mis equipos de refrigeración cuando detecto fallas.</td>
+      <td>Esc 1: Cliente solicita servicio → genera solicitud.<br>Esc 2: Solicitud recibida → confirmación mostrada.</td>
+      <td>EP-03</td>
+    </tr>
+    <tr>
+      <td>US-04</td>
+      <td>Ver estado del servicio solicitado</td>
+      <td>Como cliente, quiero ver el estado actual de mi solicitud de servicio para estar informado sobre el avance del proceso.</td>
+      <td>Esc 1: Cliente consulta → ve estado actualizado.<br>Esc 2: Técnico inicia trabajo → estado se actualiza.</td>
+      <td>EP-03</td>
+    </tr>
+    <tr>
+      <td>US-05</td>
+      <td>Ver reporte de servicio realizado</td>
+      <td>Como cliente, quiero ver el reporte de servicio detallado para saber qué reparaciones se hicieron en mi equipo.</td>
+      <td>Esc 1: Servicio completado → genera reporte.<br>Esc 2: Reporte generado → envío por correo.</td>
+      <td>EP-04</td>
+    </tr>
+    <tr>
+      <td>US-06</td>
+      <td>Agregar equipos</td>
+      <td>Como cliente, quiero agregar mis equipos de refrigeración en la plataforma para llevar un control.</td>
+      <td>Esc 1: Ingresa datos de equipo → sistema lo registra.<br>Esc 2: Edita equipo → sistema actualiza información.</td>
+      <td>EP-02</td>
+    </tr>
+    <tr>
+      <td>US-07</td>
+      <td>Recibir alerta de falla en equipo</td>
+      <td>Como cliente, quiero recibir una alerta automática cuando mi equipo de refrigeración presente una falla para tomar acción rápidamente.</td>
+      <td>Esc 1: Falla detectada → alerta enviada.<br>Esc 2: Mantenimiento preventivo → alerta preventiva.</td>
+      <td>EP-05</td>
+    </tr>
+    <tr>
+      <td>US-08</td>
+      <td>Solicitar mantenimiento preventivo</td>
+      <td>Como cliente, quiero solicitar mantenimiento preventivo para evitar fallas futuras en mis equipos de refrigeración.</td>
+      <td>Esc 1: Cliente selecciona opción → programa fecha/hora.<br>Esc 2: Solicitud registrada → confirmación con detalles.</td>
+      <td>EP-03</td>
+    </tr>
+    <tr>
+      <td>US-09</td>
+      <td>Ver consumo energético de equipos</td>
+      <td>Como cliente, quiero ver un informe del consumo energético de mis equipos para analizar su eficiencia.</td>
+      <td>Esc 1: Cliente ingresa → visualiza informe.<br>Esc 2: Selecciona 2 equipos → sistema compara consumo.</td>
+      <td>EP-04</td>
+    </tr>
+    <tr>
+      <td>US-10</td>
+      <td>Recepción de alertas automáticas para servicio</td>
+      <td>Como empresario, quiero recibir alertas automáticas cuando un cliente solicite un servicio de reparación o mantenimiento para brindar el servicio inmediatamente.</td>
+      <td>Esc 1: Solicitud de servicio → alerta enviada.<br>Esc 2: Solicitud preventiva → alerta enviada.</td>
+      <td>EP-05</td>
+    </tr>
+    <tr>
+      <td>US-11</td>
+      <td>Asignar técnico a solicitud de servicio</td>
+      <td>Como empresario, quiero asignar un técnico a una solicitud de servicio para garantizar que se realice el trabajo adecuado.</td>
+      <td>Esc 1: Empresario asigna técnico → sistema registra.<br>Esc 2: Asignación confirmada → notificación al técnico.</td>
+      <td>EP-03</td>
+    </tr>
+    <tr>
+      <td>US-12</td>
+      <td>Ver historial de servicios realizados</td>
+      <td>Como empresario, quiero ver el historial de servicios realizados para cada cliente y equipo, para llevar un control adecuado.</td>
+      <td>Esc 1: Accede a historial → ve servicios completos.<br>Esc 2: Filtra por cliente/equipo → resultados filtrados.</td>
+      <td>EP-04</td>
+    </tr>
+    <tr>
+      <td>US-13</td>
+      <td>Realizar seguimiento a solicitudes de servicio</td>
+      <td>Como empresario, quiero realizar un seguimiento detallado a las solicitudes de servicio de mis técnicos, para saber cómo van.</td>
+      <td>Esc 1: Accede al sistema → ve estados actualizados.<br>Esc 2: Técnico actualiza → sistema muestra en tiempo real.</td>
+      <td>EP-03</td>
+    </tr>
+    <tr>
+      <td>US-14</td>
+      <td>Generar reporte de desempeño de técnicos</td>
+      <td>Como empresario, quiero generar reportes sobre el desempeño de mis técnicos para evaluar su eficiencia y productividad.</td>
+      <td>Esc 1: Selecciona opción → genera informe.<br>Esc 2: Reporte generado → permite descarga PDF.</td>
+      <td>EP-04</td>
+    </tr>
+    <tr>
+      <td>US-15</td>
+      <td>Configurar alertas de mantenimiento</td>
+      <td>Como empresario, quiero configurar alertas automáticas para el mantenimiento preventivo de los equipos.</td>
+      <td>Esc 1: Ingreso de parámetros → sistema configura.<br>Esc 2: Cambia frecuencia → sistema actualiza.</td>
+      <td>EP-05</td>
+    </tr>
+    <tr>
+      <td>US-16</td>
+      <td>Visualizar clientes y servicios asociados</td>
+      <td>Como empresario, quiero ver todos los clientes que han solicitado servicio para organizar el trabajo de los técnicos.</td>
+      <td>Esc 1: Accede a funcionalidad → lista clientes/servicios.<br>Esc 2: Aplica filtro por estado → muestra resultados.</td>
+      <td>EP-04</td>
+    </tr>
+    <tr>
+      <td>US-17</td>
+      <td>Visualizar equipos entregados a clientes</td>
+      <td>Como empresario, quiero ver todos los equipos que fueron entregados a clientes para realizar su seguimiento.</td>
+      <td>Esc 1: Accede a listado → consulta equipos asociados.<br>Esc 2: Aplica filtros → muestra equipos correspondientes.</td>
+      <td>EP-02</td>
+    </tr>
+    <tr>
+      <td>US-18</td>
+      <td>Recibir notificaciones de eventos importantes</td>
+      <td>Como cliente, quiero recibir notificaciones sobre eventos importantes como el progreso del servicio para mantenerme informado.</td>
+      <td>Esc 1: Técnico detecta problema → notificación al cliente.<br>Esc 2: Estado cambia → notificación enviada.</td>
+      <td>EP-05</td>
+    </tr>
+    <tr>
+      <td>US-19</td>
+      <td>Realizar evaluación de servicio</td>
+      <td>Como cliente, quiero evaluar el servicio para mostrar mi conformidad.</td>
+      <td>Esc 1: Finalizado servicio → registra calificación 1–5.<br>Esc 2: Modifica dentro de plazo → sistema actualiza.</td>
+      <td>EP-06</td>
+    </tr>
+    <tr>
+      <td>US-20</td>
+      <td>Registrar técnicos</td>
+      <td>Como empresario, quiero registrar técnicos en la plataforma para integrarlos a mi red de soporte técnico.</td>
+      <td>Esc 1: Completa datos y confirma → técnico registrado.<br>Esc 2: Datos incompletos → sistema bloquea.</td>
+      <td>EP-01</td>
+    </tr>
+    <tr>
+      <td>US-21</td>
+      <td>Visualizar perfil del técnico</td>
+      <td>Como empresario, quiero visualizar el perfil de cada técnico, incluyendo sus datos personales y métricas de desempeño, para evaluar su rendimiento.</td>
+      <td>Esc 1: Selecciona técnico → consulta datos completos.<br>Esc 2: Técnico sin evaluaciones → no muestra métricas.</td>
+      <td>EP-01</td>
+    </tr>
+    <tr>
+      <td>US-22</td>
+      <td>Recibir alertas de fallas en equipos</td>
+      <td>Como empresario, quiero recibir alertas cuando alguno de los equipos de mis clientes presenta fallas, para notificar al cliente y organizar atención.</td>
+      <td>Esc 1: Falla detectada → alerta inmediata.<br>Esc 2: Empresario revisa → puede notificar al cliente.</td>
+      <td>EP-05</td>
+    </tr>
+    <tr>
+      <td>US-23</td>
+      <td>Visualizar propuesta de valor principal</td>
+      <td>Como visitante, quiero conocer la propuesta de valor de OsitoPolar, para entender si la plataforma se ajusta a mis necesidades.</td>
+      <td>Esc 1: Página carga → propuesta visible.<br>Esc 2: Visitante segmento 1 → propuesta orientada a gestión/monitoreo.</td>
+      <td>EP-07</td>
+    </tr>
+    <tr>
+      <td>US-24</td>
+      <td>Explorar soluciones específicas para mi rubro</td>
+      <td>Como visitante, quiero conocer las soluciones específicas que ofrece OsitoPolar para mi tipo de negocio.</td>
+      <td>Esc 1: Accede a soluciones → info para negocios usuarios.<br>Esc 2: Accede a soluciones → info para proveedores.</td>
+      <td>EP-07</td>
+    </tr>
+    <tr>
+      <td>US-25</td>
+      <td>Comprender funcionalidades destacadas</td>
+      <td>Como visitante, quiero comprender las funcionalidades clave de la plataforma, para evaluar si se adapta a mi operación.</td>
+      <td>Esc 1: Consulta características → identifica opciones clave.<br>Esc 2: Evalúa descripciones → entiende beneficios.</td>
+      <td>EP-07</td>
+    </tr>
+    <tr>
+      <td>US-26</td>
+      <td>Solicitar una demo fácilmente</td>
+      <td>Como visitante, quiero solicitar una demo de la plataforma, para iniciar contacto con OsitoPolar.</td>
+      <td>Esc 1: Busca opción → encuentra cómo solicitar.<br>Esc 2: Selecciona opción → accede a canal de contacto.</td>
+      <td>EP-07</td>
+    </tr>
+    <tr>
+      <td>US-27</td>
+      <td>Conocer misión y visión de la startup</td>
+      <td>Como visitante, quiero conocer la misión y visión de OsitoPolar, para entender su enfoque y propuesta de valor.</td>
+      <td>Esc 1: Revisa info corporativa → encuentra misión.<br>Esc 2: Revisa contenido estratégico → encuentra visión.</td>
+      <td>EP-07</td>
+    </tr>
+    <tr>
+      <td>US-28</td>
+      <td>Contactar fácilmente con ventas</td>
+      <td>Como visitante empresario, quiero contactar fácilmente con el equipo de ventas.</td>
+      <td>Esc 1: Busca info → opción clara de contacto.<br>Esc 2: Selecciona → redirige a canal funcional.</td>
+      <td>EP-07</td>
+    </tr>
+    <tr>
+      <td>US-29</td>
+      <td>Acceder fácilmente a la plataforma</td>
+      <td>Como visitante, quiero acceder fácilmente al inicio de sesión, para ingresar rápidamente a mi cuenta.</td>
+      <td>Esc 1: Busca login → opción visible.<br>Esc 2: Selecciona → redirige al formulario de autenticación.</td>
+      <td>EP-07</td>
+    </tr>
+    <tr>
+      <td>US-30</td>
+      <td>Descargar la app móvil desde la web</td>
+      <td>Como visitante interesado en usar OsitoPolar desde el celular, quiero descargar fácilmente la app móvil.</td>
+      <td>Esc 1: Explora plataforma → encuentra enlace.<br>Esc 2: Selecciona enlace → redirige a la tienda según SO.</td>
+      <td>EP-07</td>
+    </tr>
+    <tr>
+      <td>US-31</td>
+      <td>Controlar encendido y apagado del equipo</td>
+      <td>Como cliente, quiero poder encender y apagar remotamente mis equipos de refrigeración desde la plataforma.</td>
+      <td>Esc 1: Ejecuta acción → cambia a encendido.<br>Esc 2: Ejecuta apagado → cambia a apagado.</td>
+      <td>EP-02</td>
+    </tr>
+    <tr>
+      <td>US-32</td>
+      <td>Ajustar temperatura del equipo</td>
+      <td>Como cliente, quiero ajustar la temperatura de mis equipos de refrigeración desde la plataforma.</td>
+      <td>Esc 1: Incrementa valor → sistema actualiza.<br>Esc 2: Reduce valor → sistema actualiza.</td>
+      <td>EP-02</td>
+    </tr>
+    <tr>
+      <td>US-33</td>
+      <td>Ver video explicativo sobre el producto en el Landing Page</td>
+      <td>Como visitante, quiero ver un video explicativo sobre el producto.</td>
+      <td>Esc 1: Página carga → video visible.<br>Esc 2: Selecciona video → se reproduce sin interrupciones.</td>
+      <td>EP-07</td>
+    </tr>
+    <tr>
+      <td>US-34</td>
+      <td>Ver video sobre el equipo en el Landing Page</td>
+      <td>Como visitante, quiero ver un video sobre el equipo detrás del producto.</td>
+      <td>Esc 1: Página carga → video visible.<br>Esc 2: Selecciona video → se reproduce sin interrupciones.</td>
+      <td>EP-07</td>
+    </tr>
+    <tr>
+      <td>US-35</td>
+      <td>Barra de navegación actualizada tras inicio de sesión</td>
+      <td>Como usuario autenticado, quiero que la barra de navegación refleje mi estado de sesión.</td>
+      <td>Esc 1: Accede barra → ve opciones autenticadas.<br>Esc 2: Inicia sesión → barra se actualiza automáticamente.</td>
+      <td>EP-01</td>
+    </tr>
+    <tr>
+      <td>TS-36</td>
+      <td>Integrar sistema IAM en el backend</td>
+      <td>Como equipo de desarrollo, queremos integrar un sistema de Identity Access Management (IAM) en el backend para gestionar de forma segura el acceso de los usuarios a los endpoints del frontend.</td>
+      <td>Esc 1: Usuario autenticado accede a endpoint protegido → recibe respuesta exitosa.<br>Esc 2: Usuario no autenticado intenta acceder → recibe error de acceso denegado.</td>
+      <td>EP-01</td>
+    </tr>
+    <tr>
+      <td>TS-37</td>
+      <td>Implementar autenticación en el backend</td>
+      <td>Como equipo de desarrollo, queremos implementar autenticación en el backend para permitir a los usuarios iniciar sesión de manera segura.</td>
+      <td>Esc 1: Usuario envía credenciales válidas → backend genera token de autenticación.<br>Esc 2: Usuario envía credenciales inválidas → backend devuelve error.</td>
+      <td>EP-01</td>
+    </tr>
+    <tr>
+      <td>TS-39</td>
+      <td>Usar llave secreta para crear usuarios</td>
+      <td>Como administrador, quiero usar una llave secreta para crear usuarios en el backend para garantizar que solo personal autorizado pueda registrar nuevos usuarios.</td>
+      <td>Esc 1: Admin usa llave válida → usuario creado correctamente.<br>Esc 2: Admin usa llave inválida → sistema devuelve error de acceso denegado.</td>
+      <td>EP-01</td>
+    </tr>
+    <tr>
+      <td>TS-40</td>
+      <td>Registrar nuevo usuario a través de API RESTful</td>
+      <td>Como desarrollador, quiero exponer un endpoint para registrar nuevos usuarios en la plataforma, validando datos como correo único y formato de contraseña.</td>
+      <td>Esc 1: POST /api/v1/users con datos válidos → responde 201 y devuelve usuario registrado.<br>Esc 2: POST con correo existente → responde 400 con “Email already registered”.</td>
+      <td>EP-01</td>
+    </tr>
+    <tr>
+      <td>TS-41</td>
+      <td>Consultar estado de solicitud de servicio por API</td>
+      <td>Como desarrollador, quiero exponer un endpoint para consultar el estado de una solicitud de servicio.</td>
+      <td>Esc 1: GET /api/v1/requests/{id} con ID válido → responde 200 con estado actual.<br>Esc 2: GET con ID inexistente → responde 404 con “Request not found”.</td>
+      <td>EP-03</td>
+    </tr>
+    <tr>
+      <td>TS-42</td>
+      <td>Solicitar mantenimiento preventivo vía API</td>
+      <td>Como desarrollador, quiero implementar un endpoint para registrar solicitudes de mantenimiento preventivo, diferenciadas de las de reparación.</td>
+      <td>Esc 1: POST /api/v1/preventive-maintenance con datos válidos → responde 201 y guarda la solicitud.<br>Esc 2: Falta campo obligatorio → responde 400 con error.</td>
+      <td>EP-03</td>
+    </tr>
+    <tr>
+      <td>TS-43</td>
+      <td>Asignar técnico a solicitud de servicio por API</td>
+      <td>Como desarrollador, quiero crear un endpoint que permita asignar un técnico a una solicitud de servicio.</td>
+      <td>Esc 1: PUT /api/v1/requests/{id}/assigntechnician con técnico válido → responde 200 y actualiza solicitud.<br>Esc 2: ID de técnico inválido → responde 404 “Technician not found”.</td>
+      <td>EP-03</td>
+    </tr>
+    <tr>
+      <td>TS-44</td>
+      <td>Consultar historial de servicios por API</td>
+      <td>Como desarrollador, quiero exponer un endpoint para consultar el historial de servicios por cliente o equipo.</td>
+      <td>Esc 1: GET /api/v1/service-history?client_id={id} → responde 200 con lista de servicios.<br>Esc 2: Filtro por equipo → devuelve solo servicios asociados al equipo.</td>
+      <td>EP-04</td>
+    </tr>
+    <tr>
+      <td>TS-45</td>
+      <td>Generar y exportar reporte de desempeño técnico</td>
+      <td>Como desarrollador, quiero implementar la generación de reportes de desempeño técnico y permitir su descarga en PDF.</td>
+      <td>Esc 1: GET /api/v1/reports/performance → devuelve métricas de desempeño.<br>Esc 2: Solicita descarga → entrega archivo PDF.</td>
+      <td>EP-04</td>
+    </tr>
+    <tr>
+      <td>TS-46</td>
+      <td>Consultar clientes con sus servicios asociados por API</td>
+      <td>Como desarrollador, quiero implementar un endpoint que permita listar clientes junto con los servicios que tienen registrados.</td>
+      <td>Esc 1: GET /api/v1/clients/services → responde con lista de clientes y servicios.<br>Esc 2: Parámetro estado=in_progress → devuelve solo clientes con servicios en progreso.</td>
+      <td>EP-04</td>
+    </tr>
+    <tr>
+      <td>TS-47</td>
+      <td>Consultar equipos entregados y su estado por API</td>
+      <td>Como desarrollador, quiero exponer un endpoint para visualizar los equipos entregados a clientes.</td>
+      <td>Esc 1: GET /api/v1/delivered-devices → devuelve lista de equipos y estados.<br>Esc 2: Parámetro tipo/estado → devuelve lista filtrada.</td>
+      <td>EP-02</td>
+    </tr>
+    <tr>
+      <td>TS-48</td>
+      <td>Sistema de envío de notificaciones por eventos relevantes</td>
+      <td>Como desarrollador, quiero que el sistema pueda enviar notificaciones automáticas o manuales ante eventos clave.</td>
+      <td>Esc 1: Cambio de estado a “in progress” → sistema envía notificación automática.<br>Esc 2: Técnico detecta evento crítico → registra y cliente recibe notificación.</td>
+      <td>EP-05</td>
+    </tr>
+    <tr>
+      <td>TS-49</td>
+      <td>Consultar perfil del técnico con métricas por API</td>
+      <td>Como desarrollador, quiero crear un endpoint que muestre el perfil completo de un técnico incluyendo datos personales, historial y métricas.</td>
+      <td>Esc 1: GET /api/v1/technicians/{id} con técnico existente → devuelve información completa.<br>Esc 2: Técnico sin historial → devuelve mensaje sin datos de desempeño.</td>
+      <td>EP-01</td>
+    </tr>
+    <tr>
+      <td>TS-50</td>
+      <td>Arreglar conexión entre endpoints y frontend</td>
+      <td>Como equipo de desarrollo, queremos arreglar la conexión entre los endpoints del backend y el frontend para garantizar un flujo de datos estable y sin errores.</td>
+      <td>Esc 1: Endpoints configurados → frontend recibe respuesta exitosa sin errores.<br>Esc 2: Falla de conexión → sistema devuelve mensaje de error claro.</td>
+      <td>EP-01</td>
+    </tr>
+    <tr>
+      <td>EP-01</td>
+      <td>Gestión de Usuarios</td>
+      <td>Esta epic se enfoca en la creación, autenticación y gestión de las cuentas de usuario en la plataforma. Incluye el registro de nuevos usuarios, inicio de sesión, y la administración de los perfiles.</td>
+      <td>–</td>
+      <td>–</td>
+    </tr>
+    <tr>
+      <td>EP-02</td>
+      <td>Gestión de Equipos</td>
+      <td>Esta epic cubre las funcionalidades relacionadas con la gestión de los equipos de refrigeración. Permite a los clientes agregar, editar, y visualizar sus equipos registrados en la plataforma.</td>
+      <td>–</td>
+      <td>–</td>
+    </tr>
+    <tr>
+      <td>EP-03</td>
+      <td>Solicitudes de Servicio</td>
+      <td>Esta epic abarca todo lo relacionado con la solicitud de servicios de reparación y mantenimiento por parte de los clientes, así como el seguimiento de esas solicitudes hasta su resolución.</td>
+      <td>–</td>
+      <td>–</td>
+    </tr>
+    <tr>
+      <td>EP-04</td>
+      <td>Informes y Reportes</td>
+      <td>Esta epic se refiere a la generación, visualización y envío de informes detallados sobre los servicios realizados, el consumo energético de los equipos y el desempeño de los técnicos.</td>
+      <td>–</td>
+      <td>–</td>
+    </tr>
+    <tr>
+      <td>EP-05</td>
+      <td>Alertas y Notificaciones</td>
+      <td>Esta epic se encarga de la creación de alertas automáticas y notificaciones para clientes y empresarios, relacionadas con fallas de equipos, mantenimiento preventivo y el progreso de los servicios.</td>
+      <td>–</td>
+      <td>–</td>
+    </tr>
+    <tr>
+      <td>EP-06</td>
+      <td>Evaluación de Servicios</td>
+      <td>Esta epic está orientada a permitir que los clientes puedan evaluar los servicios recibidos, para proporcionar retroalimentación y permitir que se realicen correcciones si es necesario.</td>
+      <td>–</td>
+      <td>–</td>
+    </tr>
+    <tr>
+      <td>EP-07</td>
+      <td>Sitio Web y Experiencia Web (Landing Page)</td>
+      <td>Esta epic se enfoca en las funcionalidades de la página de aterrizaje, incluyendo la visualización de la propuesta de valor, la facilidad para solicitar demos, y el acceso a canales de contacto directo con el equipo de ventas.</td>
+      <td>–</td>
+      <td>–</td>
+    </tr>
+  </tbody>
+</table>
+
+### 2.4.2. Impact Mapping
+
+El siguiente Impact Mapping fue desarrollado en UXPressia de manera colaborativa para alinear los objetivos de negocio con los
+requerimientos funcionales de la plataforma.
+
+![Impact Mapping](images/impacmap.png)
+
+### 2.4.3. Product Backlog
+
+A continuación, se presenta el Product Backlog, el cual reúne todas las funcionalidades y características necesarias para el desarrollo de la plataforma. Este listado integra tanto las Historias de Usuario (US) como las Historias Técnicas (TS), asegurando que se cubran de manera integral las necesidades funcionales y los requerimientos técnicos del sistema.
+Para la priorización y estimación del esfuerzo, se ha utilizado la escala de Story Points basada en la serie Fibonacci (1, 2, 3, 5, 8, 13, 21). Esta escala permite estimar el esfuerzo relativo requerido para completar cada tarea, considerando su complejidad, dependencias y riesgos asociados.
+
+1 punto: tareas muy pequeñas que se completan rápidamente.
+
+2 puntos: tareas de baja complejidad o que demandan poco esfuerzo.
+
+3 puntos: tareas de complejidad media que requieren un mayor nivel de análisis o desarrollo.
+
+5 puntos: tareas complejas o con dependencias entre distintos componentes.
+
+8 puntos: tareas de alta complejidad, que impactan a varias áreas o requieren coordinación significativa.
+
+<table>
+  <thead>
+    <tr>
+      <th>Orden</th>
+      <th>ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Story Points</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>US-01</td><td>Registro de usuario</td><td>Como nuevo usuario, quiero registrarme para acceder a la plataforma y empezar a gestionar mis equipos de refrigeración.</td><td>5</td></tr>
+    <tr><td>2</td><td>US-02</td><td>Inicio de sesión</td><td>Como usuario, quiero acceder a mi cuenta en la plataforma de manera rápida y segura para utilizar sus funcionalidades.</td><td>3</td></tr>
+    <tr><td>3</td><td>US-03</td><td>Solicitar servicio de reparación</td><td>Como cliente, quiero solicitar un servicio de reparación para mis equipos de refrigeración cuando detecto fallas.</td><td>5</td></tr>
+    <tr><td>4</td><td>US-04</td><td>Ver estado del servicio solicitado</td><td>Como cliente, quiero ver el estado actual de mi solicitud de servicio para estar informado sobre el avance del proceso.</td><td>3</td></tr>
+    <tr><td>5</td><td>US-05</td><td>Ver reporte de servicio realizado</td><td>Como cliente, quiero ver el reporte de servicio detallado para saber qué reparaciones se hicieron en mi equipo.</td><td>3</td></tr>
+    <tr><td>6</td><td>US-06</td><td>Agregar equipos</td><td>Como cliente, quiero agregar mis equipos de refrigeración en la plataforma para llevar un control.</td><td>5</td></tr>
+    <tr><td>7</td><td>US-07</td><td>Recibir alerta de falla en equipo</td><td>Como cliente, quiero recibir una alerta automática cuando mi equipo presente una falla para tomar acción rápidamente.</td><td>8</td></tr>
+    <tr><td>8</td><td>US-08</td><td>Solicitar mantenimiento preventivo</td><td>Como cliente, quiero solicitar mantenimiento preventivo para evitar fallas futuras en mis equipos de refrigeración.</td><td>5</td></tr>
+    <tr><td>9</td><td>US-09</td><td>Ver consumo energético de equipos</td><td>Como cliente, quiero ver un informe del consumo energético de mis equipos para analizar su eficiencia.</td><td>5</td></tr>
+    <tr><td>10</td><td>US-10</td><td>Recepción de alertas automáticas para servicio</td><td>Como empresario, quiero recibir alertas automáticas cuando un cliente solicite un servicio de reparación o mantenimiento.</td><td>8</td></tr>
+    <tr><td>11</td><td>US-11</td><td>Asignar técnico a solicitud de servicio</td><td>Como empresario, quiero asignar un técnico a una solicitud de servicio para garantizar que se realice el trabajo adecuado.</td><td>5</td></tr>
+    <tr><td>12</td><td>US-12</td><td>Ver historial de servicios realizados</td><td>Como empresario, quiero ver el historial de servicios realizados para cada cliente y equipo.</td><td>5</td></tr>
+    <tr><td>13</td><td>US-13</td><td>Realizar seguimiento a solicitudes de servicio</td><td>Como empresario, quiero realizar un seguimiento detallado a las solicitudes de servicio de mis técnicos.</td><td>8</td></tr>
+    <tr><td>14</td><td>US-14</td><td>Generar reporte de desempeño de técnicos</td><td>Como empresario, quiero generar reportes sobre el desempeño de mis técnicos.</td><td>5</td></tr>
+    <tr><td>15</td><td>US-15</td><td>Configurar alertas de mantenimiento</td><td>Como empresario, quiero configurar alertas automáticas para el mantenimiento preventivo de los equipos.</td><td>8</td></tr>
+    <tr><td>16</td><td>US-16</td><td>Visualizar clientes y servicios asociados</td><td>Como empresario, quiero ver todos los clientes que han solicitado servicio para organizar el trabajo de los técnicos.</td><td>5</td></tr>
+    <tr><td>17</td><td>US-17</td><td>Visualizar equipos entregados a clientes</td><td>Como empresario, quiero ver todos los equipos entregados a clientes para realizar su seguimiento.</td><td>5</td></tr>
+    <tr><td>18</td><td>US-18</td><td>Recibir notificaciones de eventos importantes</td><td>Como cliente, quiero recibir notificaciones sobre eventos importantes como el progreso del servicio.</td><td>8</td></tr>
+    <tr><td>19</td><td>US-19</td><td>Realizar evaluación de servicio</td><td>Como cliente, quiero evaluar el servicio recibido para mostrar mi conformidad.</td><td>3</td></tr>
+    <tr><td>20</td><td>US-20</td><td>Registrar técnicos</td><td>Como empresario, quiero registrar técnicos en la plataforma para integrarlos a mi red de soporte técnico.</td><td>5</td></tr>
+    <tr><td>21</td><td>US-21</td><td>Visualizar perfil del técnico</td><td>Como empresario, quiero visualizar el perfil de cada técnico, incluyendo sus métricas de desempeño.</td><td>5</td></tr>
+    <tr><td>22</td><td>US-22</td><td>Recibir alertas de fallas en equipos</td><td>Como empresario, quiero recibir alertas cuando equipos de clientes presentan fallas.</td><td>8</td></tr>
+    <tr><td>23</td><td>US-23</td><td>Visualizar propuesta de valor principal</td><td>Como visitante, quiero conocer la propuesta de valor de OsitoPolar en la landing page.</td><td>3</td></tr>
+    <tr><td>24</td><td>US-24</td><td>Explorar soluciones específicas para mi rubro</td><td>Como visitante, quiero conocer las soluciones específicas que ofrece OsitoPolar para mi negocio.</td><td>5</td></tr>
+    <tr><td>25</td><td>US-25</td><td>Comprender funcionalidades destacadas</td><td>Como visitante, quiero comprender las funcionalidades clave de la plataforma.</td><td>5</td></tr>
+    <tr><td>26</td><td>US-26</td><td>Solicitar una demo fácilmente</td><td>Como visitante, quiero solicitar una demo desde la landing page.</td><td>3</td></tr>
+    <tr><td>27</td><td>US-27</td><td>Conocer misión y visión de la startup</td><td>Como visitante, quiero conocer la misión y visión de OsitoPolar.</td><td>2</td></tr>
+    <tr><td>28</td><td>US-28</td><td>Contactar fácilmente con ventas</td><td>Como visitante empresario, quiero contactar fácilmente con el equipo de ventas.</td><td>3</td></tr>
+    <tr><td>29</td><td>US-29</td><td>Acceder fácilmente al inicio de sesión</td><td>Como visitante, quiero acceder rápidamente a mi cuenta desde un botón de “Iniciar sesión” visible.</td><td>3</td></tr>
+    <tr><td>30</td><td>US-30</td><td>Descargar la app móvil desde la web</td><td>Como visitante, quiero descargar la app móvil desde la landing page.</td><td>5</td></tr>
+    <tr><td>31</td><td>TS-40</td><td>Registrar nuevo usuario vía API RESTful</td><td>Como desarrollador, quiero exponer un endpoint para registrar nuevos usuarios en la plataforma.</td><td>5</td></tr>
+    <tr><td>32</td><td>TS-43</td><td>Eliminar/Asignar técnico a solicitud de servicio vía API</td><td>Como desarrollador, quiero crear un endpoint que permita asignar/eliminar técnicos de solicitudes de servicio.</td><td>5</td></tr>
+    <tr><td>33</td><td>TS-48</td><td>Sistema de notificaciones por eventos relevantes</td><td>Como desarrollador, quiero implementar un sistema de notificaciones automáticas/manuales por eventos críticos.</td><td>8</td></tr>
+    <tr><td>34</td><td>TS-42</td><td>Solicitar mantenimiento preventivo vía API</td><td>Como desarrollador, quiero implementar un endpoint para registrar solicitudes de mantenimiento preventivo.</td><td>5</td></tr>
+    <tr><td>35</td><td>TS-44</td><td>Consultar historial de servicios vía API</td><td>Como desarrollador, quiero exponer un endpoint para consultar el historial de servicios.</td><td>5</td></tr>
+    <tr><td>36</td><td>TS-36</td><td>Integrar sistema IAM en el backend</td><td>Como equipo de desarrollo, queremos integrar un sistema IAM en el backend para proteger el acceso a endpoints.</td><td>3</td></tr>
+    <tr><td>37</td><td>TS-37</td><td>Implementar autenticación en el backend</td><td>Como equipo de desarrollo, queremos implementar autenticación en el backend para permitir inicios de sesión seguros.</td><td>8</td></tr>
+  </tbody>
+</table>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+## 2.5 Strategic-Level Domain-Driven Design
+### 2.5.1 EventStorming
+
+Con el fin de plantear una aproximación del modelado de nivel general para el dominio del problema, utilizamos el proceso de EventStorming. Para esto, se decidió organizar una sesión en donde los integrantes del grupo empezarían el modelamiento.
+
+![EventStorming 1](images/Storming1.png)
+
+Continuando con los pasos del EventStorming, se decidió organizar los eventos del dominio en el orden en que ocurren en el dominio empresarial.
+
+![EventStorming 2](images/Storming2.png)
+
+Se identificaron los puntos que puedan dar complicaciones durante el proceso (Pain Points) y se agregaron a la línea de tiempo. Asimismo, se identificaron los eventos comerciales importantes (Pivotal Points) y se marcaron con una barra vertical.
+
+![EventStorming 3](images/Storming3.png)
+
+Se agregaron los commands a la línea de tiempo, así como los policies y los read models.
+
+![EventStorming 4](images/Storming4.png)
+
+#### 2.5.1.1 Candidate Context Discovery
+
+Para poder identificar los bounded contexts se tuvo que modificar la línea de tiempo del modelado del dominio que se hizo a partir del EventStorming, se organizaron los conceptos que tenían relación por medio de aggregates.
+
+![EventStorming 5](images/Storming5.png)
+
+#### 2.5.1.2 Domain Message Flow Modeling
+
+En esta sección se muestran los principales flujos identificados donde existe colaboración entre los diferentes bounded context identificador. Para una mayor comprensión se utiliza la técnica de visualización Domain Storytelling.
+
+#### User creates a new account
+
+Mediante este diagrama podemos apreciar la comunicación que existe entre el Sistema de Autenticacion y el Sistema de notificaciones cuando el usuario realiza la creación de su perfil.
+
+![Flow 1](images/Flow1.png)
+
+Mediante el siguiente diagrama podemos apreciar la comunicación que existe entre el Sistema de Monitoreo de Equipos y el Sistema de notificaciones cuando el usuario realiza el registro de un nuevo equipo de refrigeracion.
+
+![Flow 2](images/Flow2.png)
+
+Mediante el siguiente diagrama podemos apreciar la comunicación que existe entre el Sistema de Solicitud de Servicios y el Sistema de notificaciones cuando el usuario realiza la compra o alquiler de un nuevo equipo de refrigeracion.
+
+![Flow 3](images/flow3.png)
+
+#### 2.5.1.3 Bounded Context Canvases
+
+Para la presente sección, elaboramos el Bounded Context Canvas de cada uno de los Bounded Context candidatos que identificamos. Aplicamos el modelo versión 5 propuesto por el Domain Driven Design Group.
+En cada uno de los canvases registramos las secciones específicas como el Context Overview Definition, Business Rules Distillation y el Ubiquitous Language, identificando claramente el tipo de Bounded Context y sus interacciones de entrada y salida con otros contextos.
+
+
+![Autenticacion](images/Autenticacion.png)
+
+![Monitoreo](images/Monitoreo.png)
+
+![Servicios](images/Servicios.png)
+
+![Notificaciones](images/Notificacion.png)
+
+### 2.5.2 Context Mapping
+
+En el context mapping podemos definir las relaciones entre los bounded context. Identificamos las relaciones analizando sus patrones, entre ellos destacamos que el Sistema de Autenticacion, solicitud de servicios y de notificacion cuentan con un anticorruption layer debido a que estos bounded context interactuan con sistemas de terceros.
+
+![Context Map](images/ContextMap.png)
+
+### 2.5.3 Software Arquitecture
+#### 2.5.3.1 Context Level Diagram
+
+En el software architecture context diagram se puede apreciar los componentes mas importantes que componen el sistema,asi como los usuarios y las principales funciones.
+
+![ContextSys](images/PolarContext.png)
+
+#### 2.5.3.2 Container Level Diagram
+
+En el software architecture container diagram se puede apreciar la forma de más alto nivel de la arquitectura del software y como se distribuyen las responsabilidades en ella.También muestra las principales opciones tecnológicas y cómo los contenedores se comunican entre sí.
+
+![ContainerSys](images/PolarContainer.png)
+
+#### 2.5.3.3 Deployment Diagram
+
+![DeploymentSys](images/PolarDeployment.png)
+
+
+
+
+## 2.6.1. Bounded Context:Authentification Bounded Context
+
+### 2.6.1.1.Domain Layer
+
+<img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/iamd.png">
+
+### 2.6.1.2. Interface Layer
+
+<img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/iaminterface.png">
+
+### 2.6.1.3. Application Layer
+
+<img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/aplicationiam.png">
+
+### 2.6.1.4  Infrastructure Layer
+
+<img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/infrastructure.png">
+
+### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams 
+
+si pueden lo hacen porfa no me da el tiempo
+
+### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
+
+#### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams 
+
+#### 2.6.1.6.2. Bounded Context Database Design Diagram 
+<img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/dbiam.png">
+
+## 2.6.2. Bounded Context:Service request Bounded Context
+
+### 2.6.2.1.Domain Layer
+
+<img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/servicedomain.png">
+
+
+### 2.6.2.2. Interface Layer
+<img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/interfaceservice.png">
+
+### 2.6.2.3. Application Layer
+
+<img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/aplicationservice.png">
+
+
+### 2.6.2.4  Infrastructure Layer
+
+<img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/infrastructureservice.png">
+
+### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams 
+
+### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams   
+#### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams 
+
+<img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/domainlayerservice.png">
+#### 2.6.2.6.2. Bounded Context Database Design Diagram 
+
+<img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/databaseservices.png">
+##2.6.3. Bounded Context:Equipment monitoringBounded Context
+###2.6.3.1.Domain Layer
+<img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/dmonitoring.png">
+###2.6.3.2. Interface Layer
+<img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/monitoringinterface.png">
+###2.6.3.3. Application Layer
+<img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/aplicationMonitoring.png">
+###2.6.3.4  Infrastructure Layer
+<img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/infrastructuremonitoring.png">
+###2.6.3.5. Bounded Context Software Architecture Component Level Diagrams 
+###2.6.3.6. Bounded Context Software Architecture Code Level Diagrams   
+####2.6.3.6.1. Bounded Context Domain Layer Class Diagrams 
+<img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/Monitoringdomain.png">
+####2.6.3.6.2. Bounded Context Database Design Diagram 
+<img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/databasemonitoring.png">
+
+##2.6.4. Bounded Context:Notification Bounded Context
+###2.6.4.1.Domain Layer
+<img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/domainNotification.png">
+###2.6.4.2. Interface Layer
+<img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/interfaceNotification.png">
+###2.6.4.3. Application Layer
+<img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/aplication.png">
+###2.6.4.4  Infrastructure Layer
+<img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/infrastructurenotification.png">
+###2.6.4.5. Bounded Context Software Architecture Component Level Diagrams 
+###2.6.4.6. Bounded Context Software Architecture Code Level Diagrams   
+####2.6.4.6.1. Bounded Context Domain Layer Class Diagrams 
+####2.6.4.6.2. Bounded Context Database Design Diagram 
+<img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/databasediagramnotification.png">

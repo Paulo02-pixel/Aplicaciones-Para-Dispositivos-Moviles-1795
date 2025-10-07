@@ -1578,7 +1578,40 @@ En el software architecture container diagram se puede apreciar la forma de más
 ## 4.2 Landing Page & Mobile Application Implementation
 ### 4.2.1 Sprint 1
 #### 4.2.1.1 Sprint Planning 1
+
+El Sprint Planning 1 es una reunión esencial para iniciar el primer sprint de un proyecto, donde el equipo define los objetivos y la estrategia para cumplirlos. En este caso, nuestro objetivo principal es implementar la landing page de la aplicación, asegurando una presentación efectiva del producto.
+
+| Sprint #                             | Sprint 1                                                                                               |
+|--------------------------------|--------------------------------------------------------------------------------------------------------|
+| **Date**       |     2025-10-05        |
+| Time           | 10:00 PM                      |
+| Location       | Virtual - Meet               |
+| Prepared By    | xxxxxxxxx              |
+| Attendees (to planning meeting)| xxxxxxx, xxxxxxx, xxxxx, Ayrton Inga, xxxxxxx                |
+| Sprint n - 1 Review Summary    | Este es el primer Sprint, por lo que este campo no aplica.                                            |
+| Sprint n - 1 Retrospective Summary | Este es el primer Sprint, por lo que este campo no aplica.                                       |
+| Sprint 1 Goal                  | Nuestra prioridad en este sprint es implementar la landing page de nuestra aplicación. Creemos que esto brindará una presentación satisfactoria de nuestro producto a los posibles usuarios. Esto se confirmará cuando las visitas a nuestra landing page superen un cierto índice. |
+| Sprint 1 Velocity              | Nuestro equipo puede aceptar hasta xx Story Points.                                                  |
+| Sum of Story Points            | La suma de Story Points atendidos es de  .                 
+
 #### 4.2.1.2 Sprint Backlog 1
+
+Para el primer sprint, desarrollamos la estructura y las funcionalidades básicas de la landing page, así como el diseño visual y la barra de navegación.
+
+| **Sprint #**   | Sprint 1   |             |             |             |             |             |             |
+|----------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|
+| **User Story** |             | **Work-Item/task** |             |             |             |             |             |
+| **ID**         | **Título**  | **ID**             | **Título**   | **Descripción**        | **Estimación (hrs)** | **Assigned to**    | **Status** |
+| US-23 | Visualizar propuesta de valor principal | T01 | Mostrar propuesta de valor principal | Crear una sección en la landing page donde se muestren los beneficios clave de la app. | xx  | xxxxx  | Done |
+| US-23 | Visualizar propuesta de valor principal | T02 | Añadir estilos CSS | Aplicar estilos según el diseño aprobado. | xx  | xxxxx  | Done |
+| US-23 | Visualizar propuesta de valor principal | T03 | Añadir interacciones con JS | Agregar efectos y validaciones según el diseño | xx  | xxxxx  | Done |
+| US-24 | Explorar soluciones específicas para mi rubro | T04 | Crear la sección 'Beneficios' | Añadir la sección donde se visualizan las soluciones específicas a cada segmento (beneficios) | xx  | xxxxx  | Done |
+| US-24 | Explorar soluciones específicas para mi rubro | T05 | Añadir estilos CSS | Aplicar estilos según el diseño aprobado de 'Beneficios' | xx  | xxxxx  | Done |
+| US-24 | Explorar soluciones específicas para mi rubro | T06 | Añadir interacciones con JS | Agregar efectos y validaciones según el diseño de 'Beneficios' | xx  | xxxxx  | Done |
+| US-25 | Comprender funcionalidades destacadas | T07 | Crear la sección 'Funcionalidades' | Añadir la sección donde se visualizan las funciones principales de la plataforma | xx  | xxxxx  | Done |
+| US-25 | Comprender funcionalidades destacadas | T08 | Añadir estilos CSS | Aplicar estilos según el diseño aprobado de 'Funcionalidades' | xx  | xxxxx  | Done |
+| US-25 | Comprender funcionalidades destacadas | T09 | Añadir interacciones con JS | Agregar efectos y validaciones según el diseño de 'Funcionalidades' | xx  | xxxxx  | Done |
+
 #### 4.2.1.3 Development Evidence
 #### 4.2.1.4 Testing Suite Evidence
 #### 4.2.1.5 Execution Evidence

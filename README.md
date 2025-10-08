@@ -144,18 +144,6 @@ Link del repositorio: https://github.com/Paulo02-pixel/Aplicaciones-Para-Disposi
 
 Repositorio App Movil: https://github.com/1ACC0238-2520-1795-G01-POLARNET/App 
 
-## Student Outcome
-
-**Descripción:**  
-El *Student Outcome* evalúa la capacidad del estudiante para **actualizar y aplicar conocimientos de ingeniería de software**, así como su **compromiso con el aprendizaje permanente** para su desarrollo profesional.  
-Este resultado busca evidenciar la **mejora continua en competencias técnicas, metodológicas y éticas**, necesarias para diseñar, desarrollar y mantener **soluciones tecnológicas innovadoras y sostenibles**.
-
-
-| **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
-|-------------------------|--------------------------|------------------|
-| Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de ingeniería de software. | **Paulo Percy Quincho Gamarra (U20191E562)**<br>Revisó fundamentos de análisis de requerimientos y documentación técnica para la elaboración del Capítulo I. Aplicó conceptos de ingeniería de software relacionados con la justificación del problema y los objetivos del proyecto.<br><br>**Geronimo Quispe Pablo Antonio (U202314304)**<br>Actualizó conocimientos sobre metodologías ágiles y estructuras de informes técnicos, aplicándolos en la redacción del Capítulo II. <br><br>**Sandro Dinklange Arevalo (U202313419)**<br>Reforzó conceptos de modelado de sistemas y usabilidad, colaborando en la elaboración de diagramas y descripciones del análisis funcional. <br><br>**Jamir Ángel Marzál Pérez (U201824409)**<br>Actualizó conocimientos en técnicas de *needfinding* y especificación de requisitos, elaborando artefactos como *User Personas* y *User Journey Mapping*. <br><br>**Ayrton Damian Inga Hernandez (U201924756)**<br>Reforzó conocimientos sobre documentación estructurada y coherencia técnica en informes de software, participando en la organización y revisión de los capítulos. | **Paulo:** Fortaleció su capacidad de análisis y redacción técnica al aplicar conceptos teóricos en el desarrollo del informe.<br><br>**Geronimo:** Consolidó sus conocimientos en gestión ágil y documentación, contribuyendo a la claridad del contenido técnico.<br><br>**Sandro:** Mejoró su comprensión del modelado de sistemas y su aplicación en documentos de ingeniería.<br><br>**Jamir:** Potenció sus habilidades en investigación de usuarios y especificación de requerimientos.<br><br>**Ayrton:** Desarrolló competencias en la elaboración de documentación técnica estructurada y colaborativa. |
-| Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de tecnologías de ingeniería de software. | **Paulo Percy Quincho Gamarra (U20191E562)**<br>Mostró interés en actualizarse en redacción académica y normas de citación aplicadas al informe técnico.<br><br>**Geronimo Quispe Pablo Antonio (U202314304)**<br>Investigó nuevas herramientas de planificación y coordinación de tareas para mejorar la gestión del trabajo en equipo.<br><br>**Sandro Dinklange Arevalo (U202313419)**<br>Se capacitó de manera autónoma en herramientas de diagramación digital y documentación colaborativa.<br><br>**Jamir Ángel Marzál Pérez (U201824409)**<br>Buscó información sobre tendencias actuales en ingeniería de software y su documentación, integrándolas al desarrollo del capítulo asignado.<br><br>**Ayrton Damian Inga Hernandez (U201924756)**<br>Investigó sobre buenas prácticas de redacción técnica y su aplicación en informes académicos. | **Paulo:** Reconoció la importancia de mantener una actitud de mejora continua en la elaboración de informes técnicos.<br><br>**Geronimo:** Entendió que el aprendizaje permanente es clave para mejorar la organización y productividad del equipo.<br><br>**Sandro:** Comprendió que la actualización constante en herramientas tecnológicas favorece la calidad del trabajo técnico.<br><br>**Jamir:** Valoró la necesidad de investigar continuamente para mantenerse actualizado en metodologías y tendencias del área.<br><br>**Ayrton:** Reafirmó la importancia del aprendizaje constante para lograr informes con mayor claridad y rigor técnico. |
-
 
 # Capítulo I: Introducción
 
@@ -1433,7 +1421,154 @@ El sistema de búsqueda en **PolarNet** se ha diseñado para ofrecer **acceso r�
 - **Revisiones y Comentarios:**  
   Los técnicos y proveedores pueden dejar observaciones sobre intervenciones o reportes previos, ayudando a mejorar la trazabilidad y la calidad del servicio.
 
+# Anexo A
+
+## Student Outcome
+
+**Descripción:**  
+El *Student Outcome* evalúa la capacidad del estudiante para **actualizar y aplicar conocimientos de ingeniería de software**, así como su **compromiso con el aprendizaje permanente** para su desarrollo profesional.  
+Este resultado busca evidenciar la **mejora continua en competencias técnicas, metodológicas y éticas**, necesarias para diseñar, desarrollar y mantener **soluciones tecnológicas innovadoras y sostenibles**.
+
+
+| **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
+|-------------------------|--------------------------|------------------|
+| Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de ingeniería de software. | **Paulo Percy Quincho Gamarra (U20191E562)**<br>Revisó fundamentos de análisis de requerimientos y documentación técnica para la elaboración del Capítulo I. Aplicó conceptos de ingeniería de software relacionados con la justificación del problema y los objetivos del proyecto.<br><br>**Geronimo Quispe Pablo Antonio (U202314304)**<br>Actualizó conocimientos sobre metodologías ágiles y estructuras de informes técnicos, aplicándolos en la redacción del Capítulo II. <br><br>**Sandro Dinklange Arevalo (U202313419)**<br>Reforzó conceptos de modelado de sistemas y usabilidad, colaborando en la elaboración de diagramas y descripciones del análisis funcional. <br><br>**Jamir Ángel Marzál Pérez (U201824409)**<br>Actualizó conocimientos en técnicas de *needfinding* y especificación de requisitos, elaborando artefactos como *User Personas* y *User Journey Mapping*. <br><br>**Ayrton Damian Inga Hernandez (U201924756)**<br>Reforzó conocimientos sobre documentación estructurada y coherencia técnica en informes de software, participando en la organización y revisión de los capítulos. | **Paulo:** Fortaleció su capacidad de análisis y redacción técnica al aplicar conceptos teóricos en el desarrollo del informe.<br><br>**Geronimo:** Consolidó sus conocimientos en gestión ágil y documentación, contribuyendo a la claridad del contenido técnico.<br><br>**Sandro:** Mejoró su comprensión del modelado de sistemas y su aplicación en documentos de ingeniería.<br><br>**Jamir:** Potenció sus habilidades en investigación de usuarios y especificación de requerimientos.<br><br>**Ayrton:** Desarrolló competencias en la elaboración de documentación técnica estructurada y colaborativa. |
+| Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de tecnologías de ingeniería de software. | **Paulo Percy Quincho Gamarra (U20191E562)**<br>Mostró interés en actualizarse en redacción académica y normas de citación aplicadas al informe técnico.<br><br>**Geronimo Quispe Pablo Antonio (U202314304)**<br>Investigó nuevas herramientas de planificación y coordinación de tareas para mejorar la gestión del trabajo en equipo.<br><br>**Sandro Dinklange Arevalo (U202313419)**<br>Se capacitó de manera autónoma en herramientas de diagramación digital y documentación colaborativa.<br><br>**Jamir Ángel Marzál Pérez (U201824409)**<br>Buscó información sobre tendencias actuales en ingeniería de software y su documentación, integrándolas al desarrollo del capítulo asignado.<br><br>**Ayrton Damian Inga Hernandez (U201924756)**<br>Investigó sobre buenas prácticas de redacción técnica y su aplicación en informes académicos. | **Paulo:** Reconoció la importancia de mantener una actitud de mejora continua en la elaboración de informes técnicos.<br><br>**Geronimo:** Entendió que el aprendizaje permanente es clave para mejorar la organización y productividad del equipo.<br><br>**Sandro:** Comprendió que la actualización constante en herramientas tecnológicas favorece la calidad del trabajo técnico.<br><br>**Jamir:** Valoró la necesidad de investigar continuamente para mantenerse actualizado en metodologías y tendencias del área.<br><br>**Ayrton:** Reafirmó la importancia del aprendizaje constante para lograr informes con mayor claridad y rigor técnico. |
+
+# Anexo B
+
+## Participant Performance Report
+
+| **Nombre de Startup** | **Polar Net** | **Nombre de Producto** | **CoolGuard** |
+|------------------------|---------------|-------------------------|----------------|
+| **Entrega** | TP1 | **Team Leader** | Paulo Percy Quincho Gamarra |
+
 ---
+
+### Evaluación de Participantes
+
+| Ítem | Estudiante | Responsabilidades | Cumplió a tiempo | Cumplió a destiempo | Cumplió parcialmente | No cumplió (Cero) | Calificación asignada (20 / 16 / 13 / 07 / 0) |
+|:----:|-------------|------------------|:----------------:|:------------------:|:--------------------:|:----------------:|:---------------------------------------------:|
+| 1 | **Paulo Percy Quincho Gamarra** | TB1 <br> CAP 1<br> TP1 <br>CAP 3.1 – 3.2 | X |  |  |  | 20 |
+| 2 | **Geronimo Quispe Pablo Antonio** | TB1 <br> CAP 2<br> TP1 <br> CAP 4.1 – 4.2 | X |  |  |  | 20 |
+| 3 | **Sandro Dinklange Arevalo** |TB1 <br> CAP 2<br>TP1<br>CAP 3.3 – 3.4 | X |  |  |  | 20 |
+| 4 | **Inga Hernandez, Ayrton Damian** | TB1<br>CAP 2<br>TP1 <br>CAP 4.3 | X |  |  |  | 20 |
+| 5 | **Marzál Pérez, Jamir Ángel** | TB1<br>CAP 2<br>TP1<br>CAP 4.3 | X |  |  |  | 20 |
+
+# Anexo C
+
+# Anexo D. Spike Story
+
+## Spike: Investigación sobre la Integración de Monitoreo IoT en Tiempo Real para Equipos de Congelación en la Plataforma PolarNet
+
+### Contexto
+
+La plataforma **PolarNet** es una aplicación móvil inteligente orientada a optimizar la **gestión, monitoreo y mantenimiento de equipos de congelación** en sectores críticos como el alimentario, farmacéutico, de investigación y servicios de restauración.  
+
+El sistema está desarrollado como una aplicación **Android nativa** en **Kotlin**, con **arquitectura MVVM**, uso de **Room** para persistencia local, **Hilt** para inyección de dependencias y **coroutines/flows** para operaciones asíncronas. La compilación y gestión de dependencias se realiza mediante **Gradle**.  
+
+El backend está implementado con **Spring Boot 3.5.5 (Java 24)**, utilizando **Spring Data JPA**, **Spring Web**, **Spring Security** y **JWT** para autenticación. Además, se está evaluando la integración de **Supabase** como plataforma de base de datos y autenticación en la nube, complementada con servicios de **Firebase** para mensajería en tiempo real, almacenamiento o notificaciones push, según el caso de uso.  
+
+El objetivo de este *Spike* es **investigar la integración de un sistema de monitoreo IoT en tiempo real** para capturar datos de sensores (temperatura, humedad, vibración, voltaje, entre otros), procesarlos mediante un **servicio en la nube (Firebase Realtime Database, Supabase Realtime o MQTT Broker)**, y visualizarlos dinámicamente en la app móvil PolarNet.  
+
+Este Spike permitirá determinar la viabilidad técnica de integrar sensores IoT y establecer una arquitectura escalable que soporte monitoreo constante, alertas automáticas ante fallas y registro histórico de rendimiento de los equipos.  
+
+#### Fundamentación Académica
+
+La optimización del monitoreo y mantenimiento de equipos de congelación es fundamental en sectores sensibles como el alimentario y farmacéutico. En la literatura, se ha demostrado que la implementación de tecnologías **IoT (Internet of Things)** permite monitorear variables críticas como **temperatura y humedad** en tiempo real, detectar anomalías y prevenir pérdidas económicas significativas (Gillespie et al., 2023) [Fuente: *MDPI*].  
+
+Además, en el ámbito del transporte en cadena de frío, se han desplegado soluciones basadas en **sensores inalámbricos y redes de sensores (WSN)** para supervisar contenedores y activar alertas tempranas frente a desviaciones ambientales (SpringerOpen, 2022) [Fuente: *SpringerOpen Journal of Shipping and Trade*].  
+
+Según **Badía-Melis et al. (2018)**, las tecnologías emergentes como **RFID** y **WSN** son esenciales para mejorar la trazabilidad y visibilidad en todo el proceso logístico [Fuente: *ScienceDirect*]. Sin embargo, su adopción enfrenta retos técnicos y económicos que dificultan la integración en soluciones móviles asequibles (PMCID, 2023) [Fuente: *PMC*].  
+
+Frente a estos desafíos, **PolarNet** busca cerrar la brecha entre investigación académica y aplicación práctica, ofreciendo una solución móvil accesible que integre **monitoreo IoT, gestión de mantenimiento y comunicación técnica** en un único entorno digital.
+
+---
+
+## Spike Story
+
+**Como equipo de desarrollo (móvil y backend),**  
+quiero investigar y prototipar la integración de sensores IoT en la aplicación móvil PolarNet y su backend,  
+**para** comprender las implicaciones técnicas, riesgos potenciales y esfuerzo requerido para habilitar el monitoreo en tiempo real de equipos de congelación.
+
+---
+
+## Criterios de Aceptación (Formato Given–When–Then)
+
+1. **Revisión de Tecnologías IoT**
+   - **Dado** que el equipo necesita comprender las opciones de comunicación IoT disponibles,  
+   - **Cuando** el desarrollador analiza alternativas como *Firebase Realtime Database*, *Supabase Realtime*, *MQTT (Mosquitto/Broker)* o *AWS IoT Core*,  
+   - **Entonces** se documentan las ventajas, limitaciones y compatibilidad con Android/Kotlin y Spring Boot.
+
+2. **Evaluación de la Integración con Android**
+   - **Dado** que la app PolarNet utiliza Kotlin, Room y Hilt,  
+   - **Cuando** se investiga cómo consumir datos de sensores en tiempo real (vía MQTT, Supabase o Firebase SDK),  
+   - **Entonces** se documentan los requisitos técnicos, dependencias Gradle y configuración necesaria (e.g., conexión MQTT, listeners de Supabase Realtime o Firebase, coroutines/flows).
+
+3. **Evaluación del Backend**
+   - **Dado** que el backend usa Spring Boot 3.5.5,  
+   - **Cuando** se analizan estrategias para recibir, almacenar y procesar datos de sensores (e.g., endpoints REST, WebSocket, integración con brokers IoT o Supabase Realtime),  
+   - **Entonces** se documenta un esquema base de endpoints y entidad `SensorReading` con campos como `temperature`, `humidity`, `timestamp` y `deviceId`.
+
+4. **Prototipo de Comunicación**
+   - **Dado** que se debe validar la conectividad,  
+   - **Cuando** se construye un *Proof of Concept (PoC)* enviando datos simulados desde un dispositivo IoT (e.g., ESP32 o Raspberry Pi) al backend y visualizándolos en la app móvil,  
+   - **Entonces** el PoC demuestra comunicación estable y visualización en tiempo real.
+
+5. **Análisis de Seguridad**
+   - **Dado** que los datos de sensores son sensibles para la operación del negocio,  
+   - **Cuando** se revisa la transmisión y almacenamiento de datos,  
+   - **Entonces** se incluyen mecanismos de autenticación (JWT), cifrado TLS/HTTPS, y reglas de acceso en Supabase, Firebase o MQTT.
+
+6. **Evaluación de Rendimiento**
+   - **Dado** que el sistema debe procesar múltiples lecturas por minuto,  
+   - **Cuando** se evalúan la latencia de envío, consumo de batería y uso de red,  
+   - **Entonces** se documentan métricas y posibles optimizaciones (e.g., reducción de frecuencia de envío, compresión de payloads).
+
+7. **Revisión de Cumplimiento**
+   - **Dado** que los datos pueden incluir información de operación crítica,  
+   - **Cuando** el desarrollador revisa normativas aplicables (GDPR, ISO 27001),  
+   - **Entonces** documenta consideraciones de privacidad y retención segura de datos.
+
+8. **Identificación de Dependencias y Costos**
+   - **Dado** que la integración IoT puede requerir servicios externos,  
+   - **Cuando** se identifican dependencias (Firebase SDK, Supabase client, paho-mqtt, Spring MQTT, sensores ESP32/DHT11),  
+   - **Entonces** se listan costos asociados (hardware, nube, almacenamiento).
+
+9. **Prueba de Integración**
+   - **Dado** el PoC configurado,  
+   - **Cuando** se transmiten datos reales o simulados,  
+   - **Entonces** la app muestra actualizaciones automáticas de temperatura/humedad en una vista “Dashboard”.
+
+10. **Estimación de Esfuerzo**
+    - **Dado** la información recopilada,  
+    - **Cuando** se desglosan tareas de implementación (e.g., integración MQTT en backend: 5h, PoC Android: 6h, Supabase/Firebase configuración: 4h, seguridad TLS: 3h),  
+    - **Entonces** se estiman puntos de historia y esfuerzo total para la integración final.
+
+11. **Documentación y Revisión**
+    - **Dado** que el Spike finaliza,  
+    - **Cuando** el equipo compila hallazgos y prototipo,  
+    - **Entonces** se genera un informe con pros/contras, arquitectura recomendada (MQTT vs Supabase vs Firebase), riesgos y pasos siguientes, revisado en sesión técnica.
+
+---
+
+## Definition of Done (DoD)
+
+- El código del PoC está en una rama del repositorio (`feature/iot-monitoring-spike`).  
+- El informe del Spike está documentado en formato Markdown y compartido en la wiki del proyecto.  
+- Se presenta una demostración funcional de comunicación IoT en tiempo real (PoC).  
+- Se definen historias de usuario derivadas para la implementación definitiva.  
+- El Spike se completa dentro del sprint, con duración máxima de 8–16 horas.  
+
+---
+
+## Referencias
+
+- Gillespie, J. et al. (2023). *IoT-Based Cold Chain Monitoring Systems for Food Safety: A Review*. MDPI Sensors Journal.  
+- SpringerOpen (2022). *Wireless Sensor Networks in Cold Chain Logistics Monitoring*. *Journal of Shipping and Trade*.  
+- Badía-Melis, R., Ruiz-García, L., & García-Hierro, J. (2018). *New trends in cold chain monitoring using RFID and WSN technologies*. *ScienceDirect, Trends in Food Science & Technology*.  
+- Bai, L. et al. (2023). *Food Losses in Cold Chain Logistics: Causes and Mitigation through IoT Integration*. *PMC*.  
+
 
 ### Referencias bibliográficas
 
@@ -1442,3 +1577,4 @@ El sistema de búsqueda en **PolarNet** se ha diseñado para ofrecer **acceso r�
 - Badía-Melis, R., Ruiz-García, L., & Garcia-Hierro, J. (2018). *New Trends in Cold Chain Monitoring Using IoT Technologies*. **Food Control**, 85, 168–182. [https://www.sciencedirect.com/science/article/abs/pii/S0956713517305558](https://www.sciencedirect.com/science/article/abs/pii/S0956713517305558)  
 - PMCID (2023). *Cold Chain Monitoring Systems: Integration Challenges and IoT Applications*. **National Center for Biotechnology Information**. [https://pmc.ncbi.nlm.nih.gov/articles/PMC11244810/](https://pmc.ncbi.nlm.nih.gov/articles/PMC11244810/)  
 - Bai, Y. et al. (2023). *Reducing Food Waste through Smart Cold Chain Management*. **PMC**, Article 10417803. [https://pmc.ncbi.nlm.nih.gov/articles/PMC10417803/](https://pmc.ncbi.nlm.nih.gov/articles/PMC10417803/)
+

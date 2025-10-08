@@ -1242,6 +1242,199 @@ En el software architecture container diagram se puede apreciar la forma de más
 
 <img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/databasediagramnotification.png">
 
+## Capítulo III: Solution UI/UX Design <a id="c4"></a>
+
+### 3.1. Style Guidelines
+
+Las **guías de estilo** definen los principios visuales y comunicativos que orientan el diseño del producto.  
+Su propósito es mantener una apariencia coherente, accesible y profesional en todas las interfaces de **PolarNet**, garantizando una experiencia de usuario clara, atractiva y consistente en distintos dispositivos y contextos.
+
+Estas guías abarcan aspectos como la identidad visual, la tipografía, la paleta de colores, el espaciado y la estructura general de los elementos.  
+De esta forma, se establece una base sólida para el desarrollo del diseño y la comunicación visual del sistema, asegurando uniformidad y reconocimiento de marca en todas las plataformas.
+
+
+#### 3.1.1. General Style Guidelines
+
+El diseño de **PolarNet** busca mantener un equilibrio entre profesionalismo y accesibilidad, utilizando un lenguaje claro, empático y respetuoso. El objetivo es atraer a nuevos usuarios y conservar a los actuales mediante una experiencia visual moderna, coherente y funcional.
+
+Se ha elegido una paleta de colores fríos pero amigables, acompañada de una tipografía moderna que combina formalidad y legibilidad, adaptándose tanto a entornos web como móviles.
+
+---
+
+### **Branding**
+
+La identidad visual de **PolarNet** busca transmitir **seguridad, innovación y cercanía**.
+
+**Logo:**  
+El logotipo representa un **oso polar** combinado con un **símbolo de conectividad y tecnología**, reflejando la esencia de un sistema confiable y moderno. Se encuentra disponible en versiones para fondos claros y oscuros, así como en formatos monocromático, horizontal y vertical.
+
+---
+
+### **Typography**
+
+Para mantener la formalidad y accesibilidad de la interfaz de usuario de **PolarNet**, se establecen las tipografías **Helvetica** y **Open Sans** por sus características funcionales, estéticas y su alta compatibilidad en entornos digitales.  
+**Helvetica** se utilizará como tipografía principal y **Open Sans** como complementaria en textos de apoyo y contenido.
+
+
+<figure style="page-break-inside: avoid; text-align: center;">
+  <img src="images/tipografia-helvetica.png"
+       alt="Ejemplo de la tipografía Helvetica, mostrando su uso y características."
+       style="max-width: 90%; height: auto; display: block; margin: 0 auto;">
+  <figcaption style="font-size: 0.9em; color: #555;">
+    <strong>Figura 1:</strong> Tipografía Helvetica.
+  </figcaption>
+</figure>
+
+<figure style="page-break-inside: avoid; text-align: center;">
+  <img src="images/tipografia-open.png"
+       alt="Ejemplo de la tipografía Open Sans, mostrando sus características y uso."
+       style="max-width: 90%; height: auto; display: block; margin: 0 auto;">
+  <figcaption style="font-size: 0.9em; color: #555;">
+    <strong>Figura 2:</strong> Tipografía Open Sans.
+  </figcaption>
+</figure>
+
+---
+
+### **Colors**
+
+La paleta cromática fue diseñada para representar **ambientes fríos y tecnológicos**, transmitiendo **confianza, innovación y limpieza visual**.
+
+El **color principal** es un tono de **celeste polar**, que refuerza la identidad de la marca.  
+Los **colores neutros** (blanco, negro y gris) se utilizan para fondos, tipografía y componentes secundarios.  
+Además, se emplean **variantes de verde, rojo, azul y amarillo** para comunicar estados de alerta, servicio o interacción.
+
+<figure style="page-break-inside: avoid; text-align: center;">
+  <img src="images/Colors-General.PNG"
+       alt="Guías Generales de Estilo de Colores: Paleta principal y secundaria de la marca."
+       style="max-width: 95%; height: auto; display: block; margin: 0 auto;">
+  <figcaption style="font-size: 0.9em; color: #555;">
+    <strong>Figura 3:</strong> Guías Generales de Estilo – Colores.
+  </figcaption>
+</figure>
+
+---
+
+### **Spacing & Layout**
+
+Se establece una **unidad base de espaciado de 8 px**, con un **margen mínimo de 16 px** para mantener coherencia y armonía visual entre los componentes.
+
+Para el **diseño modular**, se implementarán **grillas flexibles** que se adapten a los distintos dispositivos:
+
+- **Web:** 12 columnas con márgenes laterales de 16–24 px.  
+- **Móvil:** 4 columnas con márgenes laterales de 8–12 px, garantizando legibilidad y accesibilidad táctil.
+
+El diseño **responsive** se basará en principios de adaptabilidad, manteniendo consistencia visual y funcionalidad en pantallas de distintos tamaños.
+
+---
+
+## 3.2. Information Architecture
+
+### 3.2.1. Organization Systems
+
+En **PolarNet**, la arquitectura de información ha sido diseñada para facilitar la navegación desde dispositivos móviles, priorizando la **claridad, rapidez de acceso y usabilidad táctil**.  
+La disposición visual del contenido se estructura según los siguientes sistemas de organización:
+
+- **Jerárquica (Visual Hierarchy):**  
+  Se utiliza para destacar los elementos más relevantes, como el estado de los equipos, alertas y acciones prioritarias. Los íconos, colores y tamaños de texto ayudan a que el usuario identifique rápidamente información crítica.
+
+- **Organización Secuencial (Step-by-Step):**  
+  Aplicada en procesos donde el usuario necesita completar tareas guiadas, como la **creación de una orden de mantenimiento**, el **registro de un nuevo equipo** o la **solicitud de servicio técnico**, garantizando un flujo lógico y fácil de seguir en pantallas móviles.
+
+- **Organización Matricial:**  
+  Implementada en secciones donde es necesario **comparar datos o equipos**, como el historial de consumo energético o las estadísticas de rendimiento. Estas vistas se presentan mediante tablas o tarjetas deslizables optimizadas para pantallas táctiles.
+
+---
+
+### 3.2.2. Labeling Systems
+
+Los sistemas de etiquetado en **PolarNet** se diseñan para mantener consistencia visual y comprensión inmediata por parte del usuario móvil.  
+
+- **Jerarquía Visual:**  
+  La app resalta información clave, como **alertas críticas**, **estado operativo** o **necesidades de mantenimiento**, usando íconos de color y tipografía contrastante.
+
+- **Organización Secuencial:**  
+  Los procesos guiados, como **reportar una falla**, **programar una visita técnica** o **registrar un equipo**, siguen pasos claros y numerados, adaptados a la navegación móvil.
+
+- **Organización Matricial:**  
+  Se emplean tarjetas comparativas o listas interactivas para mostrar **diferencias entre planes de servicio**, **rendimiento energético** o **prioridades de atención**, ayudando al usuario a tomar decisiones informadas con una vista compacta y visual.
+
+---
+
+### 3.2.3. SEO Tags and Meta Tags
+
+Aunque **PolarNet** es una **aplicación móvil**, cuenta con una **Landing Page informativa** y un **panel web de soporte técnico**. A continuación, se detallan las etiquetas meta actualizadas:
+
+**Landing Page**
+- **Title:** PolarNet – Monitorea y Gestiona tus Equipos de Refrigeración desde tu Móvil  
+- **Meta Description:** PolarNet es la aplicación móvil que te permite monitorear y gestionar el estado de tus equipos de refrigeración en tiempo real. Optimiza el rendimiento, evita fallas y coordina mantenimientos desde tu celular.  
+- **Meta Keywords:** monitoreo de refrigeradores, mantenimiento preventivo, equipos de frío, gestión móvil, PolarNet, técnicos de refrigeración, alertas inteligentes  
+- **Meta Author:** PolarNet
+
+**Panel Técnico Web**
+- **Title:** PolarNet – Plataforma Técnica para Gestión y Mantenimiento de Equipos de Refrigeración  
+- **Meta Description:** PolarNet permite a técnicos y proveedores gestionar equipos, registrar mantenimientos, analizar datos y generar reportes de manera eficiente desde cualquier dispositivo.  
+- **Meta Keywords:** plataforma técnica, mantenimiento de refrigeración, gestión de equipos de frío, reportes técnicos, PolarNet, eficiencia energética  
+- **Meta Author:** PolarNet
+
+---
+
+### 3.2.4. Searching Systems
+
+El sistema de búsqueda en **PolarNet** se ha diseñado para ofrecer **acceso rápido, filtrado inteligente y resultados relevantes**, optimizados para dispositivos móviles.
+
+**Opciones de Búsqueda**
+
+- **Barra de Búsqueda:**  
+  Permite ingresar términos como el nombre del equipo, tipo de servicio o estado del equipo. Los resultados se actualizan dinámicamente conforme el usuario escribe.
+
+- **Categorías:**  
+  Los usuarios pueden buscar dentro de categorías como:
+  - Equipos: *Congeladoras, Refrigeradores, Cámaras Frías*  
+  - Servicios: *Mantenimiento Preventivo, Correctivo, Instalaciones, Consultorías*  
+  - Alertas: *Críticas, Pendientes, Solucionadas*
+
+- **Etiquetas Populares:**  
+  Términos como *“Mantenimiento Programado”*, *“Falla Sensor”* o *“Eficiencia Energética”* ayudan a ubicar información relevante y frecuente.
+
+---
+
+**Filtros Disponibles**
+
+- **Por Tipo de Equipo:**  
+  - Congeladoras  
+  - Refrigeradores  
+  - Cámaras de Conservación  
+
+- **Por Estado del Equipo:**  
+  - En Funcionamiento  
+  - En Reparación  
+  - Requiere Mantenimiento  
+
+- **Por Fecha de Última Revisión:**  
+  Permite seleccionar períodos como “Últimos 7 días”, “Últimos 30 días” o “Últimos 6 meses”.
+
+- **Por Consumo Energético:**  
+  Posibilita ajustar un rango para filtrar equipos según su nivel de eficiencia energética.
+
+---
+
+**Apariencia de los Datos Después de la Búsqueda**
+
+- **Listados de Resultados:**  
+  Los resultados se presentan como **tarjetas móviles**, mostrando el nombre del equipo, su estado, consumo y próximas fechas de mantenimiento. Cada tarjeta incluye un botón de acción rápida (“Ver detalles”, “Agendar visita”).
+
+- **Resumen y Descripción:**  
+  Cada resultado incluye una breve descripción del historial técnico y alertas recientes, ayudando al usuario a evaluar rápidamente la situación del equipo.
+
+- **Opciones de Ordenación:**  
+  Los resultados pueden ordenarse por **relevancia**, **estado del equipo** o **consumo energético**, y los filtros activos se muestran claramente en la parte superior.
+
+- **Revisiones y Comentarios:**  
+  Los técnicos y proveedores pueden dejar observaciones sobre intervenciones o reportes previos, ayudando a mejorar la trazabilidad y la calidad del servicio.
+
+---
+
 ### Referencias bibliográficas
 
 - Gillespie, A. et al. (2023). *IoT-Enabled Refrigeration Monitoring for Sustainable Cold Chains*. **MDPI – Sustainability**, 15(3), 2255. [https://www.mdpi.com/2071-1050/15/3/2255](https://www.mdpi.com/2071-1050/15/3/2255)  

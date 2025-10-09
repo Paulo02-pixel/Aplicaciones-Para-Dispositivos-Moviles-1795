@@ -1537,15 +1537,97 @@ El wireframe que hemos diseñado para nuestra empresa PolarNet cuenta con una na
 
 <img width="277" height="605" alt="login" src="https://github.com/user-attachments/assets/ba6aa616-87c5-486f-b9ff-40aa187acda7" />
 
+**User**
 
+<img width="242" height="532" alt="user" src="https://github.com/user-attachments/assets/eb829577-07a9-4521-b915-9e91fb592e9e" />
 
+**User 2**
+
+<img width="242" height="529" alt="user2" src="https://github.com/user-attachments/assets/fb20ee94-c1e1-4c58-842f-3c9e91113c21" />
+
+**Plan**
+
+<img width="246" height="413" alt="plan" src="https://github.com/user-attachments/assets/8f8aa837-ee5a-4576-94e2-619b75c6e469" />
+
+**Notifications**
+
+<img width="216" height="420" alt="Noti" src="https://github.com/user-attachments/assets/cd831698-0de3-4cf5-b4d8-708ebde8c35a" />
+
+**Products**
+
+<img width="192" height="413" alt="Product" src="https://github.com/user-attachments/assets/d625b25c-c1f8-4dd2-a38d-417e4336c49c" />
+
+**Monitoring**
+
+<img width="194" height="408" alt="monitoring" src="https://github.com/user-attachments/assets/d76ffb75-25a9-4e19-a79c-034e13de67d0" />
 
 
 ### 3.1.4.2. Mobile Applications Wireframe Diagrams
+
+<img width="1007" height="862" alt="diagram" src="https://github.com/user-attachments/assets/59a71103-f9b7-4701-a0fa-882eca2374f5" />
+
+https://www.figma.com/board/GEzLVBXaA4J8wWvV1EKmSc/Untitled?node-id=0-1&t=3k7O2JUUaLIRhUgH-1
+
+
+
 ### 3.1.4.3. Mobile Applications Mock-ups
+
+**Main**
+
+<img width="289" height="537" alt="main" src="https://github.com/user-attachments/assets/cfb5c6f3-4376-4281-9557-81f4cb34159c" />
+
+
+**Registration**
+
+<img width="270" height="567" alt="registration" src="https://github.com/user-attachments/assets/58eed614-e1e7-48cd-b09d-bbe9e1cd8a3d" />
+
+
+**Login**
+
+<img width="269" height="590" alt="login2" src="https://github.com/user-attachments/assets/4dd9e7e7-989f-41af-8eb5-f609bd40b453" />
+
+
+**User**
+
+<img width="223" height="464" alt="user11" src="https://github.com/user-attachments/assets/79193a55-99d3-4f5c-9edd-215989a084b1" />
+
+
+**User 2**
+
+<img width="228" height="464" alt="user22" src="https://github.com/user-attachments/assets/168a060e-4e90-42db-aae8-b7ebf8ce107b" />
+
+
+**Plan**
+
+<img width="239" height="466" alt="plan1" src="https://github.com/user-attachments/assets/a65148e0-7c2f-4736-8256-2ae47f06748f" />
+
+
+**Notifications**
+
+<img width="261" height="498" alt="ntoif" src="https://github.com/user-attachments/assets/cc5c7df5-fb08-4f63-b84e-f7807262c310" />
+
+
+**Products**
+
+<img width="252" height="496" alt="prdocut" src="https://github.com/user-attachments/assets/17f28485-42b1-4e73-8d33-b55bbd199848" />
+
+
+**Monitoring**
+
+<img width="236" height="489" alt="monitt" src="https://github.com/user-attachments/assets/65a1ea80-727a-4b05-a4ed-f657ce2d5aef" />
+
+
 ### 3.1.4.4. Mobile Applications User Flow Diagrams
+
+
+
+
 ### 3.1.4.5. Mobile Applications Protyping
 
+
+<img width="879" height="744" alt="prototyping" src="https://github.com/user-attachments/assets/a78005cb-3030-4a35-b794-c8a41cf25e0a" />
+
+https://www.figma.com/board/D5H6SKd4wHFpcu3XknBjed/Untitled?node-id=0-1&t=syJc5FJQUYZsqfgO-1
 
 
 

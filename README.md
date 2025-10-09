@@ -1616,6 +1616,8 @@ El diagrama de componentes muestra cómo interactúan los distintos módulos den
 4. Si todo es correcto, `JWTProvider` genera el token JWT.  
 5. La respuesta es enviada de vuelta al cliente.
 
+
+<img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/main/images/chapter-II/authentificationc4.png">
 ---
 
 
@@ -1788,7 +1790,7 @@ Envia notificaciones al bounded context de **Notificaciones** cuando una solicit
 3. Los *handlers* usan `ServiceRequestRepository` para leer/escribir datos.  
 4. `NotificationAdapter` informa a otros bounded contexts (por ejemplo, notificaciones).  
 5. Toda persistencia se realiza mediante `ServiceRequestRepositoryImpl`.
-
+<img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/main/images/chapter-II/servicerequestbc.png">
 ---
 ### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams   
 
@@ -2002,7 +2004,7 @@ Permite recibir datos de sensores IoT en tiempo real mediante protocolos como MQ
 6. `MonitoringController` expone los resultados a los usuarios.
 
 ---
-
+<img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/main/images/chapter-II/monitoringbc.png">
 #### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams 
 <img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/Monitoringdomain.png">
 
@@ -2211,6 +2213,9 @@ Permite enviar notificaciones a otros sistemas externos o microservicios mediant
 4. `NotificationRepositoryImpl` persiste los cambios.  
 5. `EmailNotifier` o `SystemNotifier` envían el mensaje al usuario.  
 6. `MessageBrokerAdapter` comunica alertas a otros bounded contexts.
+
+
+<img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/main/images/chapter-II/notificationbc.png">
 
 ### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams   
 

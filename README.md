@@ -1432,8 +1432,8 @@ Este resultado busca evidenciar la **mejora continua en competencias técnicas, 
 
 | **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
 |-------------------------|--------------------------|------------------|
-| Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de ingeniería de software. | **Paulo Percy Quincho Gamarra (U20191E562)**<br>Revisó fundamentos de análisis de requerimientos y documentación técnica para la elaboración del Capítulo I. Aplicó conceptos de ingeniería de software relacionados con la justificación del problema y los objetivos del proyecto.<br><br>**Geronimo Quispe Pablo Antonio (U202314304)**<br>Actualizó conocimientos sobre metodologías ágiles y estructuras de informes técnicos, aplicándolos en la redacción del Capítulo II. <br><br>**Sandro Dinklange Arevalo (U202313419)**<br>Reforzó conceptos de modelado de sistemas y usabilidad, colaborando en la elaboración de diagramas y descripciones del análisis funcional. <br><br>**Jamir Ángel Marzál Pérez (U201824409)**<br>Actualizó conocimientos en técnicas de *needfinding* y especificación de requisitos, elaborando artefactos como *User Personas* y *User Journey Mapping*. <br><br>**Ayrton Damian Inga Hernandez (U201924756)**<br>Reforzó conocimientos sobre documentación estructurada y coherencia técnica en informes de software, participando en la organización y revisión de los capítulos. | **Paulo:** Fortaleció su capacidad de análisis y redacción técnica al aplicar conceptos teóricos en el desarrollo del informe.<br><br>**Geronimo:** Consolidó sus conocimientos en gestión ágil y documentación, contribuyendo a la claridad del contenido técnico.<br><br>**Sandro:** Mejoró su comprensión del modelado de sistemas y su aplicación en documentos de ingeniería.<br><br>**Jamir:** Potenció sus habilidades en investigación de usuarios y especificación de requerimientos.<br><br>**Ayrton:** Desarrolló competencias en la elaboración de documentación técnica estructurada y colaborativa. |
-| Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de tecnologías de ingeniería de software. | **Paulo Percy Quincho Gamarra (U20191E562)**<br>Mostró interés en actualizarse en redacción académica y normas de citación aplicadas al informe técnico.<br><br>**Geronimo Quispe Pablo Antonio (U202314304)**<br>Investigó nuevas herramientas de planificación y coordinación de tareas para mejorar la gestión del trabajo en equipo.<br><br>**Sandro Dinklange Arevalo (U202313419)**<br>Se capacitó de manera autónoma en herramientas de diagramación digital y documentación colaborativa.<br><br>**Jamir Ángel Marzál Pérez (U201824409)**<br>Buscó información sobre tendencias actuales en ingeniería de software y su documentación, integrándolas al desarrollo del capítulo asignado.<br><br>**Ayrton Damian Inga Hernandez (U201924756)**<br>Investigó sobre buenas prácticas de redacción técnica y su aplicación en informes académicos. | **Paulo:** Reconoció la importancia de mantener una actitud de mejora continua en la elaboración de informes técnicos.<br><br>**Geronimo:** Entendió que el aprendizaje permanente es clave para mejorar la organización y productividad del equipo.<br><br>**Sandro:** Comprendió que la actualización constante en herramientas tecnológicas favorece la calidad del trabajo técnico.<br><br>**Jamir:** Valoró la necesidad de investigar continuamente para mantenerse actualizado en metodologías y tendencias del área.<br><br>**Ayrton:** Reafirmó la importancia del aprendizaje constante para lograr informes con mayor claridad y rigor técnico. |
+| Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de ingeniería de software. | **Paulo Percy Quincho Gamarra (U20191E562)**<br>Revisó fundamentos de análisis de requerimientos y documentación técnica para la elaboración del Capítulo I. Aplicó conceptos de ingeniería de software relacionados con la justificación del problema y los objetivos del proyecto.<br><br>**Geronimo Quispe Pablo Antonio (U202314304)**<br>Actualizó conocimientos sobre metodologías ágiles y estructuras de informes técnicos, aplicándolos en la redacción del Capítulo II. <br><br>**Sandro Dinklange Arevalo (U202313419)**<br>Reforzó conceptos de modelado de sistemas y usabilidad, colaborando en la elaboración de diagramas y descripciones del análisis funcional. <br><br>**Jamir Ángel Marzál Pérez (U201824409)**<br>**TB1:** Actualizó conocimientos en técnicas de *needfinding* y especificación de requisitos, elaborando artefactos como *User Personas* y *User Journey Mapping*. <br>**TP1:** Se realizaron entrevistas de validación y evaluaciones heurísticas para identificar mejoras en la aplicación PolarNet. Estas actividades permitieron actualizar conocimientos sobre usabilidad, diseño centrado en el usuario y validación de interfaces. <br><br>**Ayrton Damian Inga Hernandez (U201924756)**<br>Reforzó conocimientos sobre documentación estructurada y coherencia técnica en informes de software, participando en la organización y revisión de los capítulos. | **Paulo:** Fortaleció su capacidad de análisis y redacción técnica al aplicar conceptos teóricos en el desarrollo del informe.<br><br>**Geronimo:** Consolidó sus conocimientos en gestión ágil y documentación, contribuyendo a la claridad del contenido técnico.<br><br>**Sandro:** Mejoró su comprensión del modelado de sistemas y su aplicación en documentos de ingeniería.<br><br>**Jamir TB1:** Potenció sus habilidades en investigación de usuarios y especificación de requerimientos.<br><br>**Jamir TP1:** Se fortalecieron las competencias técnicas y analíticas aplicadas al desarrollo de soluciones de software, reconociendo la importancia de adaptar el diseño a las necesidades del usuario.<br><br>**Ayrton:** Desarrolló competencias en la elaboración de documentación técnica estructurada y colaborativa.  |
+| Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de tecnologías de ingeniería de software. | **Paulo Percy Quincho Gamarra (U20191E562)**<br>Mostró interés en actualizarse en redacción académica y normas de citación aplicadas al informe técnico.<br><br>**Geronimo Quispe Pablo Antonio (U202314304)**<br>Investigó nuevas herramientas de planificación y coordinación de tareas para mejorar la gestión del trabajo en equipo.<br><br>**Sandro Dinklange Arevalo (U202313419)**<br>Se capacitó de manera autónoma en herramientas de diagramación digital y documentación colaborativa.<br><br>**Jamir Ángel Marzál Pérez (U201824409)**<br>**TB1**Buscó información sobre tendencias actuales en ingeniería de software y su documentación, integrándolas al desarrollo del capítulo asignado.<br><br>**TP1**BDurante el proceso se investigaron principios de usabilidad e inclusive design, aplicándolos en la evaluación del prototipo. Esto implicó aprendizaje autónomo y actualización constante.<br><br>**Ayrton Damian Inga Hernandez (U201924756)**<br>Investigó sobre buenas prácticas de redacción técnica y su aplicación en informes académicos. | **Paulo:** Reconoció la importancia de mantener una actitud de mejora continua en la elaboración de informes técnicos.<br><br>**Geronimo:** Entendió que el aprendizaje permanente es clave para mejorar la organización y productividad del equipo.<br><br>**Sandro:** Comprendió que la actualización constante en herramientas tecnológicas favorece la calidad del trabajo técnico.<br><br>**Jamir TB1:** Valoró la necesidad de investigar continuamente para mantenerse actualizado en metodologías y tendencias del área.<br><br>**Jamir TP1:** Se reafirmó la importancia del aprendizaje continuo para mejorar la calidad de los proyectos y adaptarse a nuevas metodologías en ingeniería de software.<br><br>**Ayrton:** Reafirmó la importancia del aprendizaje constante para lograr informes con mayor claridad y rigor técnico. |
 
 # Anexo B
 
@@ -1743,7 +1743,11 @@ Nelson considera que el formulario de inicio de sesión es simple y directo, per
 </table>
 
 <p><strong>Resumen:</strong><br>
-Anthony comentó que el inicio de sesión le resultó claro, aunque sugirió incluir un botón de acceso rápido. En la vista principal, destacó que la organización de los equipos facilita la búsqueda y consideró importante recibir notificaciones antes de que un alquiler venza. En el inventario, mencionó que los colores ayudan a identificar los estados, pero propuso mejorar el tamaño de las etiquetas. El proceso de agregar equipos le pareció fácil y rápido. En la sección de perfil, valoró la idea de poder visualizar su historial de alquileres y consideró útil incluir un resumen estadístico del uso de los equipos.
+Anthony considera que la aplicación es clara y funcional en general, aunque sugiere mejorar el diseño visual para hacerlo más atractivo. En la vista de **inicio de sesión**, le parece simple ingresar, pero recomienda incluir opciones como *“recordar usuario”* o *inicio con Google* para mayor comodidad.  
+En la vista de **inicio**, menciona que la información sobre los equipos se presenta de forma clara, pero cree que sería muy útil implementar un sistema de alertas o *dashboard* que advierta sobre equipos próximos a vencer o con bajo stock.  
+En **inventario**, destaca la buena organización de la información y sugiere añadir filtros por tipo de equipo para agilizar la búsqueda.  
+Durante la prueba de la vista **agregar**, señaló que el formulario es sencillo y bien estructurado, ya que cada campo tiene una descripción clara.  
+Finalmente, en la vista de **perfil**, valoró la posibilidad de visualizar los datos del usuario, y propuso incluir un *historial de alquileres* y un módulo de *estadísticas* sobre el uso y mantenimiento de los equipos, lo cual considera importante para una mejor gestión de su negocio.
 </p>
 
 **Entrevista 3: Proveedores de equipos de refrigeración**
@@ -1783,3 +1787,134 @@ Estefano indica que ingresar a la aplicación es sencillo, aunque preferiría un
 
 
 ### 4.3.3 Evaluaciones según heurísticas
+En este capítulo se presenta la evaluación de la aplicación  basada en principios heurísticos de **usabilidad**, **arquitectura de la información** e **inclusive design**.  
+El objetivo de esta evaluación es identificar posibles problemas de interacción, diseño visual o accesibilidad que puedan afectar la experiencia del usuario durante el uso de las diferentes vistas de la aplicación: **Inicio de sesión**, **Inicio**, **Inventario**, **Agregar** y **Perfil**.  
+
+Las observaciones se sustentan en las entrevistas realizadas a los usuarios, quienes probaron las funciones principales de la aplicación y brindaron retroalimentación sobre su facilidad de uso, claridad visual y eficiencia en las tareas.  
+A partir de estos hallazgos, se determinan los principales problemas detectados, su nivel de severidad y las heurísticas afectadas, junto con recomendaciones para optimizar la experiencia general.
+
+>UX Heuristics & Principles Evaluation  
+Usability – Inclusive Design – Information Architecture  
+
+- **Carrera:** Ingeniería de Software  
+- **Curso:** Aplicaciones para Dispositivos Móviles  
+- **Sección:** 1795  
+- **Profesores:** Todos  
+- **Auditor:** Equipo de desarrollo Grupo 1 - PolarNet  
+- **Cliente(s):** PolarNet   
+
+**Sitio o app a evaluar:** CoolGuard - Sistema de gestión de alquiler de equipos frioríficos  
+
+**Tareas a evaluar:**  
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:  
+- Inicio de sesión  
+- Visualización de equipos disponibles  
+- Gestión del inventario  
+- Registro de nuevos equipos  
+- Visualización de perfil del usuario  
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:  
+- Reportes estadísticos avanzados  
+- Integración con pagos  
+- Módulo de notificaciones o alertas  
+
+---
+
+### Escala de severidad
+Los errores fueron evaluados según la siguiente escala:
+
+<table border="1">
+	<tbody>
+        <tr>
+            <td style="text-align:center;"><strong>Nivel</strong></td>
+            <td style="text-align:center;"><strong>Descripción</strong></td>
+        </tr>
+		<tr>
+			<td>1</td>
+            <td>Problema superficial: puede ser fácilmente superado por el usuario o ocurre con poca frecuencia. No requiere corrección inmediata.</td>
+		</tr>
+        <tr>
+            <td>2</td>
+            <td>Problema menor: ocurre ocasionalmente o genera leve confusión. Puede corregirse en futuras versiones.</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Problema mayor: ocurre con frecuencia o afecta la eficiencia de uso. Se recomienda corregir antes del lanzamiento.</td>
+        </tr>
+	    <tr>
+            <td>4</td>
+            <td>Problema crítico: impide la continuidad de las tareas principales. Requiere corrección inmediata.</td>
+        </tr>	
+	</tbody>
+</table>
+
+---
+
+### Tabla de resumen
+
+<table border="1">
+	<tbody>
+        <tr>
+            <td style="text-align:center;"><strong>#</strong></td>
+            <td style="text-align:center;"><strong>Problema</strong></td>
+            <td style="text-align:center;"><strong>Escala de severidad</strong></td>
+            <td style="text-align:center;"><strong>Heurística/Principio violado</strong></td>
+        </tr>
+		<tr>
+			<td>1</td>
+            <td>Los textos y etiquetas en el inventario son pequeños, dificultando la lectura.</td>
+            <td>2</td>
+            <td>Usabilidad – Visibilidad y legibilidad del sistema</td>
+		</tr>
+        <tr>
+            <td>2</td>
+            <td>No existen alertas visibles sobre la expiración del periodo de alquiler.</td>
+            <td>3</td>
+            <td>Information Architecture – Feedback del sistema</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>El inicio de sesión carece de opciones rápidas como “recordar usuario” o “inicio con Google”.</td>
+            <td>2</td>
+            <td>Usabilidad – Flexibilidad y eficiencia de uso</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Falta un apartado de estadísticas en el perfil para visualizar el uso e ingresos de los equipos.</td>
+            <td>3</td>
+            <td>Information Architecture – Visibilidad del estado del sistema</td>
+        </tr>
+	</tbody>
+</table>
+
+---
+
+### Descripción de problemas
+
+**Problema #1:** Los textos y etiquetas en el inventario son pequeños, dificultando la lectura.  
+**Severidad:** 2  
+**Heurística violada:** Usabilidad – Visibilidad y legibilidad del sistema  
+**Problema:** Durante las entrevistas, algunos usuarios (como Nelson) mencionaron que ciertos textos en la vista de inventario eran demasiado pequeños, dificultando identificar los estados de los equipos.  
+**Recomendación:** Aumentar el tamaño de texto y contraste de color en las etiquetas “Disponible”, “Alquilado” y “En mantenimiento”.  
+<br>
+
+**Problema #2:** No existen alertas visibles sobre la expiración del periodo de alquiler.  
+**Severidad:** 3  
+**Heurística violada:** Information Architecture – Feedback del sistema  
+**Problema:** Los usuarios (Nelson y Estefano) destacaron la necesidad de recibir alertas o notificaciones sobre los equipos próximos a vencer, ya que esta ausencia podría generar olvidos o retrasos.  
+**Recomendación:** Implementar un sistema de notificaciones visuales y alertas automáticas en el panel principal.  
+<br>
+
+**Problema #3:** El inicio de sesión carece de opciones rápidas como “recordar usuario” o “inicio con Google”.  
+**Severidad:** 2  
+**Heurística violada:** Usabilidad – Flexibilidad y eficiencia de uso  
+**Problema:** Los entrevistados expresaron que escribir el correo cada vez es tedioso y preferirían alternativas rápidas de acceso.  
+**Recomendación:** Agregar las opciones de “Recordar usuario” y “Inicio con Google” para optimizar el proceso de autenticación.  
+<br>
+
+**Problema #4:** Falta un apartado de estadísticas en el perfil para visualizar el uso e ingresos de los equipos.  
+**Severidad:** 3  
+**Heurística violada:** Information Architecture – Visibilidad del estado del sistema  
+**Problema:** Los usuarios (Anthony y Estefano) consideraron importante disponer de un panel que muestre métricas del negocio como uso, disponibilidad o ingresos.  
+**Recomendación:** Incluir un dashboard estadístico dentro del perfil del usuario con gráficos básicos y métricas clave.  
+<br>

@@ -1147,9 +1147,9 @@ También sirve como base para otros contextos (como Solicitud de Servicios o Mon
 La capa de **Domain** representa el **núcleo del dominio** de autenticación.  
 Aquí se definen las entidades, objetos de valor e interfaces que encapsulan las **reglas de negocio**.  
 Su función es modelar cómo el sistema entiende un usuario, su rol y su relación con la empresa.
-### 🧱 Clases principales
+### Clases principales
 
-#### 🟦 User (Entity)
+#### User (Entity)
 **Atributos:**  
 `user_id`, `name`, `username`, `password`, `email`, `role`, `company_id`, `is_active`
 
@@ -1163,7 +1163,7 @@ Representa al usuario dentro del dominio. Contiene la lógica principal sobre au
 
 ---
 
-#### 🟩 Role (Value Object / Enum)
+#### Role (Value Object / Enum)
 **Valores posibles:**  
 `ADMIN`, `PROVIDER`, `CLIENT`
 
@@ -1172,7 +1172,7 @@ Encapsula los roles disponibles de forma inmutable. Facilita el control de permi
 
 ---
 
-#### 🟪 Company (Entity ligera)
+#### Company (Entity ligera)
 **Atributos:**  
 `company_id`, `name`
 
@@ -1182,7 +1182,7 @@ Se usa como referencia, ya que el detalle completo de la empresa se gestiona en 
 
 ---
 
-#### 🟨 UserRepository (Interface)
+#### UserRepository (Interface)
 **Métodos:**  
 - `findByUsername()`  
 - `findByEmail()`  
@@ -1196,7 +1196,7 @@ Se usa como referencia, ya que el detalle completo de la empresa se gestiona en 
 La **Interface Layer** contiene los **controladores REST** que actúan como punto de entrada entre el cliente y el sistema.  
 Transforma las solicitudes HTTP en comandos o servicios de aplicación.
 
-### 🧩 AuthController (REST API Controller)
+### AuthController (REST API Controller)
 **Endpoints:**
 - `POST /auth/login` → Inicia sesión y genera token JWT.  
 - `POST /auth/register` → Registra nuevo usuario.  
@@ -1214,7 +1214,7 @@ No contiene lógica de negocio, solo delega las acciones a la capa de aplicació
 La **Application Layer** orquesta los **casos de uso** del dominio.  
 Se encarga de manejar la lógica de flujo entre el controlador, el dominio y la infraestructura.
 
-### ⚙️ Clases principales
+### Clases principales
 
 #### 🔹 LoginHandler
 **Responsabilidad:** Manejar el proceso de inicio de sesión.  
@@ -1250,16 +1250,16 @@ Se comunica con los *handlers*, el repositorio, el servicio de hashing y el prov
 La capa de **Infrastructure** contiene las implementaciones técnicas necesarias para que el dominio funcione en un entorno real.  
 Aquí se manejan bases de datos, seguridad y servicios externos.
 
-### 🧩 Componentes
+### Componentes
 
-#### 🟩 UserRepositoryImpl
+#### UserRepositoryImpl
 **Implementa:** `UserRepository`  
 **Tecnología:** Androidstudio
 **Explicación:** Ejecuta las operaciones reales de almacenamiento, actualización y búsqueda de usuarios.
 
 ---
 
-#### 🟪 PasswordHasher
+#### PasswordHasher
 **Función:** Encriptar y verificar contraseñas.  
 **Tecnología:** bcrypt o Argon2.  
 **Explicación:** Las contraseñas se almacenan de forma segura, evitando texto plano.
@@ -1271,10 +1271,10 @@ Aquí se manejan bases de datos, seguridad y servicios externos.
 
 ### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 
-### 🧠 Introducción
+### Introducción
 El diagrama de componentes muestra cómo interactúan los distintos módulos dentro del bounded context de Autenticación.
 
-### 🔗 Flujo general
+### Flujo general
 1. `AuthController` recibe la petición del cliente.  
 2. Llama a `AuthService`, que coordina la lógica de autenticación.  
 3. `AuthService` usa `UserRepository` para consultar usuarios y `PasswordHasher` para validar contraseñas.  
@@ -1311,13 +1311,13 @@ Este contexto se comunica con los bounded contexts de **Autenticación** y **Not
 ### 2.6.2.1.Domain Layer
 La capa de **Domain** representa el núcleo del negocio de solicitudes de servicio.  
 Aquí se definen las **entidades principales**, los **value objects**, las **interfaces** y las **reglas de negocio** que rigen la gestión de servicios.
-### 🧠 Introducción
+### Introducción
 La capa de **Domain** representa el núcleo del negocio de solicitudes de servicio.  
 Aquí se definen las **entidades principales**, los **value objects**, las **interfaces** y las **reglas de negocio** que rigen la gestión de servicios.
 
-### 🧱 Clases principales
+### Clases principales
 
-#### 🟦 ServiceRequest (Entity)
+#### ServiceRequest (Entity)
 **Atributos:**  
 `service_request_id`, `title`, `description`, `priority`, `issue_type`, `category`, `status`,  
 `client_company_id`, `client_user_id`, `provider_company_id`, `technician_id`,  
@@ -1334,7 +1334,7 @@ Representa el ciclo de vida de una solicitud de servicio desde su creación hast
 
 ---
 
-#### 🟩 Priority (Value Object / Enum)
+#### Priority (Value Object / Enum)
 **Valores posibles:**  
 `LOW`, `MEDIUM`, `HIGH`, `CRITICAL`.
 
@@ -1343,7 +1343,7 @@ Determina el nivel de urgencia o severidad de la solicitud, influyendo en los ti
 
 ---
 
-#### 🟪 Status (Value Object / Enum)
+#### Status (Value Object / Enum)
 **Valores posibles:**  
 `OPEN`, `ASSIGNED`, `IN_PROGRESS`, `COMPLETED`, `CANCELLED`, `CLOSED`.
 
@@ -1356,11 +1356,11 @@ Define los diferentes estados del flujo operativo de la solicitud.
 
 ### 2.6.2.2. Interface Layer
 
-### 🧠 Introducción
+### Introducción
 La **Interface Layer** expone las funcionalidades del sistema mediante **endpoints REST**.  
 Actúa como intermediario entre los clientes y la capa de aplicación.
 
-### 🧩 ServiceRequestController (REST API Controller)
+### ServiceRequestController (REST API Controller)
 
 **Endpoints:**
 - `POST /service-requests` → Crea una nueva solicitud de servicio.  
@@ -1378,11 +1378,11 @@ Cada endpoint se conecta con un **Handler** o **Service** en la capa de aplicaci
 <img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/interfaceservice.png">
 
 ### 2.6.2.3. Application Layer
-### 🧠 Introducción
+### Introducción
 La **Application Layer** coordina la ejecución de los casos de uso del contexto.  
 Controla los flujos de datos entre las capas Interface, Domain e Infrastructure.
 
-### ⚙️ Clases principales
+### Clases principales
 
 #### 🔹 CreateServiceRequestHandler
 **Responsabilidad:** Crear una nueva solicitud.  
@@ -1426,12 +1426,12 @@ Controla los flujos de datos entre las capas Interface, Domain e Infrastructure.
 ### 2.6.2.4  Infrastructure Layer
 
 
-### 🧠 Introducción
+### Introducción
 La capa de **Infrastructure** contiene las implementaciones concretas que permiten la persistencia y comunicación con servicios externos.
 
-### 🧩 Componentes principales
+### Componentes principales
 
-#### 🟩 ServiceRequestRepositoryImpl
+#### ServiceRequestRepositoryImpl
 **Implementa:** `ServiceRequestRepository`  
 **Tecnología:** Android studio
 **Explicación:**  
@@ -1439,7 +1439,7 @@ Ejecuta consultas  sobre la tabla `service_requests`, mapeando entidades del dom
 
 ---
 
-#### 🟪 NotificationAdapter
+#### NotificationAdapter
 **Función:**  
 Envia notificaciones al bounded context de **Notificaciones** cuando una solicitud cambia de estado.
 
@@ -1449,7 +1449,7 @@ Envia notificaciones al bounded context de **Notificaciones** cuando una solicit
 
 ### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams 
 
-### 🔗 Flujo general
+### Flujo general
 1. `ServiceRequestController` recibe solicitudes del cliente.  
 2. Llama a los *handlers* correspondientes de la capa de aplicación.  
 3. Los *handlers* usan `ServiceRequestRepository` para leer/escribir datos.  
@@ -1510,7 +1510,7 @@ Este contexto se comunica directamente con **Notificaciones**, **Solicitud de Se
 La capa de **Domain** define las entidades y reglas de negocio que representan el núcleo del monitoreo.  
 Cada clase encapsula la lógica de medición, validación y almacenamiento de las lecturas provenientes de sensores.
 
-#### 🟦 Equipment (Entity)
+#### Equipment (Entity)
 **Atributos:**  
 `equipment_id`, `name`, `description`, `type`, `status`, `owner_company_id`,  
 `current_location_id`, `min_temperature`, `max_temperature`, `optimal_temperature`,  
@@ -1526,7 +1526,7 @@ Representa un equipo físico que se encuentra bajo monitoreo activo.
 
 ---
 
-#### 🟩 TemperatureReading (Entity)
+#### TemperatureReading (Entity)
 **Atributos:**  
 `temperature_reading_id`, `value`, `status`, `alert_triggered`, `timestamp`, `equipment_id`.
 
@@ -1539,7 +1539,7 @@ Registrar lecturas de temperatura y determinar si deben generar alertas.
 
 ---
 
-#### 🟪 EnergyReading (Entity)
+#### EnergyReading (Entity)
 **Atributos:**  
 `energy_reading_id`, `consumption_kwh`, `power_watts`, `voltage`, `current_amps`,  
 `frequency_hz`, `power_factor`, `usage_minutes`, `cost_estimate`, `timestamp`.
@@ -1553,7 +1553,7 @@ Registrar y analizar el comportamiento energético del equipo.
 
 ---
 
-#### 🟨 MonitoringService (Domain Service)
+#### MonitoringService (Domain Service)
 **Métodos:**  
 - `processTemperatureReading(reading)`  
 - `processEnergyReading(reading)`  
@@ -1571,7 +1571,7 @@ Encapsular la lógica de monitoreo y detección de alertas críticas en tiempo r
 La **Interface Layer** permite que los usuarios o sistemas externos consulten y visualicen el estado del monitoreo.  
 Esta capa expone endpoints para la consulta de métricas, promedios diarios y alertas.
 
-### 🧩 MonitoringController (REST API Controller)
+### MonitoringController (REST API Controller)
 
 **Endpoints:**
 - `GET /monitoring/equipments` → Lista todos los equipos bajo monitoreo.  
@@ -1591,7 +1591,7 @@ Permite integrar dashboards o sistemas IoT externos.
 La capa de **Application** coordina los casos de uso que permiten registrar, procesar y consultar lecturas de sensores.  
 Actúa como intermediaria entre la API, el dominio y la infraestructura.
 
-### ⚙️ Clases principales
+### Clases principales
 
 #### 🔹 RecordTemperatureHandler
 **Responsabilidad:** Procesar y guardar una lectura de temperatura.  
@@ -1633,9 +1633,9 @@ Centraliza la lógica del monitoreo continuo y detección de alertas, usando dat
 
 La capa de **Infrastructure** implementa las dependencias reales del sistema: bases de datos, mensajería y servicios externos de notificación.
 
-### 🧩 Componentes principales
+### Componentes principales
 
-#### 🟩 MonitoringRepositoryImpl
+#### MonitoringRepositoryImpl
 **Implementa:** `MonitoringRepository`  
 **Tecnología:** Android studio 
 **Explicación:**  
@@ -1643,13 +1643,13 @@ Se encarga de guardar lecturas en las tablas `temperature_readings` y `energy_re
 
 ---
 
-#### 🟦 AlertPublisher
+#### AlertPublisher
 **Función:**  
 Envía mensajes o notificaciones al bounded context de **Notificaciones** cuando se detectan lecturas críticas.
 
 ---
 
-#### 🟧 SensorGateway
+#### SensorGateway
 **Propósito:**  
 Permite recibir datos de sensores IoT en tiempo real mediante protocolos como MQTT o HTTP.
 
@@ -1660,7 +1660,7 @@ Permite recibir datos de sensores IoT en tiempo real mediante protocolos como MQ
 ### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams 
 
 
-### 🔗 Flujo general
+### Flujo general
 1. `SensorGateway` recibe lecturas de sensores.  
 2. Llama a los *handlers* (`RecordTemperatureHandler`, `RecordEnergyHandler`).  
 3. Los *handlers* procesan la información mediante `MonitoringService`.  
@@ -1700,25 +1700,25 @@ El **bounded context de Notificaciones** se encarga de gestionar toda la comunic
 Su objetivo es garantizar que cada usuario reciba la información correcta en el momento adecuado, utilizando diversos canales como correo electrónico, mensajes del sistema o integraciones externas.
 
 ### 2.6.4.1.Domain Layer
-# 🧩 2.6.4. Bounded Context: Notificaciones
+# 2.6.4. Bounded Context: Notificaciones
 
-## 🔹 Introducción general
+## Introducción general
 El **bounded context de Notificaciones** se encarga de gestionar toda la comunicación del sistema hacia los usuarios y empresas, tanto de manera interna (alertas de monitoreo, estados de servicio) como externa (recordatorios, actualizaciones, avisos de mantenimiento).  
 Su objetivo es garantizar que cada usuario reciba la información correcta en el momento adecuado, utilizando diversos canales como correo electrónico, mensajes del sistema o integraciones externas.
 
 ---
 
-## 🔸 2.6.4.1. Domain Layer
+## 2.6.4.1. Domain Layer
 
-### 🧠 Introducción
+### Introducción
 La capa de **Domain** modela las entidades y servicios fundamentales para manejar notificaciones dentro del ecosistema PolarNet.  
 Define cómo se crean, programan, envían y marcan como leídas las notificaciones.
 
 ---
 
-### 🧱 Clases principales
+### Clases principales
 
-#### 🟦 Notification (Entity)
+#### Notification (Entity)
 **Atributos:**  
 `notification_id`, `title`, `message`, `type`, `category`, `priority`,  
 `recipient_user_id`, `recipient_company_id`,  
@@ -1737,7 +1737,7 @@ Representar una notificación individual dirigida a un usuario o empresa, con tr
 
 ---
 
-#### 🟩 NotificationService (Domain Service)
+#### NotificationService (Domain Service)
 **Métodos:**  
 - `createNotification(notification)` → Crea una nueva notificación en el sistema.  
 - `sendNotification(notification)` → Envía la notificación por los canales disponibles.  
@@ -1749,7 +1749,7 @@ Centralizar la lógica de negocio para el envío, programación y actualización
 
 ---
 
-#### 🟨 NotificationRepository (Interface)
+#### NotificationRepository (Interface)
 **Métodos:**  
 - `save(notification)` → Guarda una nueva notificación.  
 - `findByRecipient(userId)` → Retorna las notificaciones de un usuario.  
@@ -1761,7 +1761,7 @@ Definir las operaciones de persistencia que deben implementarse en la infraestru
 
 ---
 
-#### 🟧 NotificationType (Value Object / Enum)
+#### NotificationType (Value Object / Enum)
 **Valores:**  
 `ALERT`, `INFO`, `WARNING`, `SUCCESS`, `REMINDER`.
 
@@ -1776,7 +1776,7 @@ Permite listar, leer y gestionar notificaciones desde la aplicación o desde int
 
 ---
 
-### 🧩 NotificationController (REST API Controller)
+### NotificationController (REST API Controller)
 
 **Endpoints:**
 - `GET /notifications` → Lista todas las notificaciones del usuario autenticado.  
@@ -1794,9 +1794,9 @@ Se encarga de aplicar la lógica de negocio definida en el dominio y comunicarla
 
 ---
 
-### ⚙️ Clases principales
+### Clases principales
 
-#### 🔹 CreateNotificationHandler
+#### CreateNotificationHandler
 **Responsabilidad:** Crear una nueva notificación y delegar su envío.  
 **Flujo:**  
 1. Recibe los datos desde el controlador.  
@@ -1807,7 +1807,7 @@ Se encarga de aplicar la lógica de negocio definida en el dominio y comunicarla
 
 ---
 
-#### 🔹 SendNotificationHandler
+#### SendNotificationHandler
 **Responsabilidad:** Gestionar el envío inmediato o programado.  
 **Flujo:**  
 1. Recupera la notificación pendiente.  
@@ -1817,7 +1817,7 @@ Se encarga de aplicar la lógica de negocio definida en el dominio y comunicarla
 
 ---
 
-#### 🔹 MarkAsReadHandler
+#### MarkAsReadHandler
 **Responsabilidad:** Cambiar el estado de una notificación a “READ”.  
 **Flujo:**  
 1. Recibe el ID de la notificación.  
@@ -1826,7 +1826,7 @@ Se encarga de aplicar la lógica de negocio definida en el dominio y comunicarla
 
 ---
 
-#### 🔹 GetUserNotificationsHandler
+#### GetUserNotificationsHandler
 **Responsabilidad:** Consultar notificaciones de un usuario.  
 **Flujo:**  
 1. Recibe el `userId` autenticado.  
@@ -1840,9 +1840,9 @@ La capa de **Infrastructure** implementa los servicios concretos de persistencia
 
 ---
 
-### 🧩 Componentes principales
+### Componentes principales
 
-#### 🟦 NotificationRepositoryImpl
+#### NotificationRepositoryImpl
 **Implementa:** `NotificationRepository`  
 **Tecnología:** Android studio
 **Explicación:**  
@@ -1850,19 +1850,19 @@ Se encarga de almacenar, consultar y actualizar notificaciones en la tabla `noti
 
 ---
 
-#### 🟩 EmailNotifier
+#### EmailNotifier
 **Función:**  
 Envía correos electrónicos cuando el tipo de notificación lo requiere (`ALERT`, `REMINDER`).
 
 ---
 
-#### 🟧 SystemNotifier
+#### SystemNotifier
 **Función:**  
 Muestra notificaciones dentro de la interfaz de usuario o dashboard del sistema.
 
 ---
 
-#### 🟨 MessageBrokerAdapter
+#### MessageBrokerAdapter
 **Función:**  
 Permite enviar notificaciones a otros sistemas externos o microservicios mediante colas (ej. RabbitMQ, Kafka).
 
@@ -1871,7 +1871,7 @@ Permite enviar notificaciones a otros sistemas externos o microservicios mediant
 
 ### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams 
 
-### 🔗 Flujo general
+### Flujo general
 1. `NotificationController` recibe solicitudes del usuario o de otros servicios.  
 2. Llama a los *handlers* correspondientes (crear, leer, marcar como leído).  
 3. Los *handlers* utilizan `NotificationService` para aplicar las reglas de negocio.  

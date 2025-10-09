@@ -1425,13 +1425,17 @@ El sistema de búsqueda en **PolarNet** se ha diseñado para ofrecer **acceso r�
  ### 3.1.3.1. Landing Page Wireframe
 El wireframe que hemos diseñado para nuestra empresa PolarNet cuenta con una navegación sencilla para todo tipo de personas, basándonos en las entrevistas, lo hemos diseñado de manera intuittva.
 ### **Desktop Web Browser**
+
 **Landing Page Home**
+
 <img width="872" height="433" alt="polarnet" src="https://github.com/user-attachments/assets/83e2ed46-cb20-4991-8672-72ac8c80d429" />
 
 **Contact with us**
+
 <img width="861" height="417" alt="polarnet2" src="https://github.com/user-attachments/assets/dca50775-e5dc-498c-bb4c-9a325a314c07" />
 
 **Reviews**
+
 <img width="911" height="450" alt="polarnet3" src="https://github.com/user-attachments/assets/1700ce51-83ed-4b50-9a69-df50078aaafd" />
 
 **Work with us**
@@ -1439,16 +1443,20 @@ El wireframe que hemos diseñado para nuestra empresa PolarNet cuenta con una na
 <img width="642" height="304" alt="polarnet4" src="https://github.com/user-attachments/assets/21ef2ef1-f57c-43da-9575-9cb510260a00" />
 
 **Login**
+
 <img width="646" height="296" alt="polarnet5" src="https://github.com/user-attachments/assets/2b2e171c-5150-4d81-b205-b556dad2f286" />
 
 ### **Mobile Web Browser**
 **Contact with us**
+
 <img width="235" height="382" alt="mobile1" src="https://github.com/user-attachments/assets/1ac5954a-ae21-424f-b472-8d95a8d717d2" />
 
 **Reviews**
+
 <img width="231" height="387" alt="mobile2" src="https://github.com/user-attachments/assets/ec3832c1-4243-4ee7-ab91-6263187c7faa" />
 
 **Work with us**
+
 <img width="223" height="372" alt="mobile3" src="https://github.com/user-attachments/assets/4a1a13dc-8efe-4cb0-ae71-750e9ac2e1f4" />
 
 **Login**
@@ -1458,31 +1466,40 @@ El wireframe que hemos diseñado para nuestra empresa PolarNet cuenta con una na
  ### 3.1.3.2. Landing Page Mock-Up
 ### **Desktop Web Browser**
 **Landing Page Home**
+
 <img width="754" height="367" alt="landing1" src="https://github.com/user-attachments/assets/58a99e6f-1972-43e1-ad6f-6a83b1478d58" />
 
 **Contact with us**
+
 <img width="759" height="358" alt="landing4" src="https://github.com/user-attachments/assets/6a39c326-bb5d-479a-865b-8250736901c3" />
 
 **Reviews**
+
 <img width="763" height="339" alt="landing2" src="https://github.com/user-attachments/assets/09fbeb3f-208c-4c3e-8a28-ee34c5d1860d" />
 
 **Work with us**
+
 <img width="789" height="408" alt="landing3" src="https://github.com/user-attachments/assets/d4062b16-b062-45ca-bd63-d740f1941409" />
 
 **Login**
+
 <img width="745" height="358" alt="landing5" src="https://github.com/user-attachments/assets/d9ddd2a6-b540-4ae4-93cd-0742346bf290" />
 
 ### **Mobile Web Browser**
 **Contact with us**
+
 <img width="241" height="351" alt="mobi" src="https://github.com/user-attachments/assets/980ec495-0091-4f52-b8f2-385ba4f1bcbb" />
 
 **Reviews**
+
 <img width="217" height="353" alt="mobi2" src="https://github.com/user-attachments/assets/29177cd7-1f12-421b-8fb2-1475833e1f16" />
 
 **Work with us**
+
 <img width="215" height="336" alt="mobi4" src="https://github.com/user-attachments/assets/9714af7f-1a78-4098-9712-41e6f755aa7a" />
 
 **Login**
+
 <img width="213" height="354" alt="mobi3" src="https://github.com/user-attachments/assets/d2800a18-955d-4ec7-92eb-83ea4f912a61" />
 
 

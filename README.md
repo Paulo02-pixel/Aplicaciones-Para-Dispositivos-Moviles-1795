@@ -1637,7 +1637,7 @@ En esta sección se presentan los detalles de las entrevistas de validación rea
 ### 4.3.1 Diseño de Entrevistas
 **Objetivo de la sesión de validación**
 
-Validar la usabilidad, claridad y funcionalidad de las principales vistas de la aplicación móvil de PolarNet, verificando que los usuarios comprendan cómo acceder, explorar y registrar equipos disponibles para alquiler.
+Validar la usabilidad, claridad y funcionalidad de las principales vistas de la aplicación móvil de CoolGuard, verificando que los usuarios comprendan cómo acceder, explorar y registrar equipos disponibles para alquiler.
 
 **Elementos incluidos en la sesión**
 
@@ -1675,4 +1675,112 @@ Validar la usabilidad, claridad y funcionalidad de las principales vistas de la 
 - ¿Agregarías una opción para ver estadísticas de tus equipos (uso, disponibilidad, ingresos)?
 
 ### 4.3.2 Registro de Entrevistas
+En esta sección tenemos el análisis de las entrevistas por segmentos objetivos.
+
+**Entrevista 1: Proveedores de equipos de refrigeración**
+
+<table border="1" style="text-align: left;">
+	<tbody>
+		<tr>
+			<td colspan="1" rowspan="7">
+                <img src="./images/chapter-IV/Entrevista-Nelson.png" alt="Entrevista Nelson" width="400" height="250">
+            </td>
+            <td><strong>Nombre del entrevistado</strong><br>Nelson Mundo</td>
+		</tr>
+        <tr>
+            <td><strong>Edad</strong><br>25 años</td>
+        </tr>
+        <tr>
+            <td><strong>Distrito</strong><br>Los Olivos</td>
+        </tr>
+        <tr>
+            <td><strong>Nombre del entrevistador</strong><br>Jamir Marzál</td>
+        </tr>
+        <tr>
+            <td><strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u201824409_upc_edu_pe/EbqEPVytlY5Bj2BZs-qSPKkBzcxvvqEMfqhFW4FZV395qw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=fFzeRL">URL Entrevista</a></strong></td>
+        </tr>
+        <tr>
+            <td><strong>Timing Inicial</strong><br><u>00:00</u></td>
+        </tr>
+        <tr>
+            <td><strong>Timing Final</strong><br><u>04:08</u></td>
+        </tr>
+	</tbody>
+</table>
+
+<p><strong>Resumen:</strong><br>
+Nelson considera que el formulario de inicio de sesión es simple y directo, pero sugiere agregar funciones como “recordar usuario” o “inicio con Google”. En la vista de inicio, le parece fácil encontrar los equipos disponibles y cree que las alertas de vencimiento serían útiles. En el inventario, menciona que es sencillo identificar los estados de los equipos, aunque el texto podría ser más grande. Propone filtros por tipo o cliente. El proceso de agregar un equipo le parece intuitivo, y en el perfil desea ver su historial y estadísticas de uso o ingresos.
+</p>
+
+**Entrevista 2: Proveedores de equipos de refrigeración**
+
+<table border="1" style="text-align: left;">
+	<tbody>
+		<tr>
+			<td colspan="1" rowspan="7">
+                <img src="./images/chapter-IV/entrevista-Anthony.png" alt="Entrevista Anthony" width="400" height="250">
+            </td>
+            <td><strong>Nombre del entrevistado</strong><br>Anthony Huapaya</td>
+		</tr>
+        <tr>
+            <td><strong>Edad</strong><br>23 años</td>
+        </tr>
+        <tr>
+            <td><strong>Distrito</strong><br>Surco</td>
+        </tr>
+        <tr>
+            <td><strong>Nombre del entrevistador</strong><br>Jamir Marzál</td>
+        </tr>
+        <tr>
+            <td><strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u201824409_upc_edu_pe/Efbuqyk0LFlPh1eURsMJHEoBa3g8ItAUrxiE_Udw3QzYZA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=H7P02C">URL Entrevista</a></strong></td>
+        </tr>
+        <tr>
+            <td><strong>Timing Inicial</strong><br><u>00:00</u></td>
+        </tr>
+        <tr>
+            <td><strong>Timing Final</strong><br><u>06:36</u></td>
+        </tr>
+	</tbody>
+</table>
+
+<p><strong>Resumen:</strong><br>
+Anthony comentó que el inicio de sesión le resultó claro, aunque sugirió incluir un botón de acceso rápido. En la vista principal, destacó que la organización de los equipos facilita la búsqueda y consideró importante recibir notificaciones antes de que un alquiler venza. En el inventario, mencionó que los colores ayudan a identificar los estados, pero propuso mejorar el tamaño de las etiquetas. El proceso de agregar equipos le pareció fácil y rápido. En la sección de perfil, valoró la idea de poder visualizar su historial de alquileres y consideró útil incluir un resumen estadístico del uso de los equipos.
+</p>
+
+**Entrevista 3: Proveedores de equipos de refrigeración**
+
+<table border="1" style="text-align: left;">
+	<tbody>
+		<tr>
+			<td colspan="1" rowspan="7">
+                <img src="./images/chapter-IV/Entrevista-Estefano.png" alt="Entrevista Estefano" width="400" height="250">
+            </td>
+            <td><strong>Nombre del entrevistado</strong><br>Estefano Mundo</td>
+		</tr>
+        <tr>
+            <td><strong>Edad</strong><br>28 años</td>
+        </tr>
+        <tr>
+            <td><strong>Distrito</strong><br>Los olivos</td>
+        </tr>
+        <tr>
+            <td><strong>Nombre del entrevistador</strong><br>Jamir Marzál</td>
+        </tr>
+        <tr>
+            <td><strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u201824409_upc_edu_pe/EQsBh7aPDpNOpNdpocHrCM4Bk5QsUbgCjogiz1vddCSalw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=MlFYbW">URL Entrevista</a></strong></td>
+        </tr>
+        <tr>
+            <td><strong>Timing Inicial</strong><br><u>00:00</u></td>
+        </tr>
+        <tr>
+            <td><strong>Timing Final</strong><br><u>03:38</u></td>
+        </tr>
+	</tbody>
+</table>
+
+<p><strong>Resumen:</strong><br>
+Estefano indica que ingresar a la aplicación es sencillo, aunque preferiría una opción de inicio rápido o con Google. En la vista de inicio, menciona que los equipos están bien organizados y que las alertas por vencimiento de alquiler serían muy útiles. En el inventario, dice que los colores ayudan a identificar el estado de los equipos y considera importante añadir filtros por tipo o cliente. Afirma que el proceso de agregar equipos es rápido. Finalmente, le gustaría contar con un historial de alquileres y estadísticas de uso para analizar mejor su negocio.
+</p>
+
+
 ### 4.3.3 Evaluaciones según heurísticas

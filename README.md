@@ -1619,8 +1619,13 @@ https://www.figma.com/board/GEzLVBXaA4J8wWvV1EKmSc/Untitled?node-id=0-1&t=3k7O2J
 
 ### 3.1.4.4. Mobile Applications User Flow Diagrams
 
+<img width="1074" height="630" alt="user goal1" src="https://github.com/user-attachments/assets/de3b19c1-0977-4fa4-8fd6-6092da524780" />
 
 
+<img width="875" height="851" alt="usegola1" src="https://github.com/user-attachments/assets/193beb7f-bff2-4172-801d-5373a27f1083" />
+
+
+<img width="636" height="747" alt="user gol1" src="https://github.com/user-attachments/assets/4162e177-210a-44ff-ac45-917417d987f8" />
 
 ### 3.1.4.5. Mobile Applications Protyping
 

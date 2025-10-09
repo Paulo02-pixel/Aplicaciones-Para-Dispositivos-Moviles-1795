@@ -1676,6 +1676,122 @@ Validar la usabilidad, claridad y funcionalidad de las principales vistas de la 
 ### 4.3.2 Registro de Entrevistas
 En esta sección tenemos el análisis de las entrevistas por segmentos objetivos.
 
+
+**Entrevista 1: Proveedores de equipos de refrigeración**
+
+<table border="1" style="text-align: left;">
+	<tbody>
+		<tr>
+			<td colspan="1" rowspan="7">
+                <img src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-4/images/chapter-IV/angelmoroco.png"  width="400" height="250">
+            </td>
+            <td><strong>Nombre del entrevistado</strong><br>Angel Moroco</td>
+		</tr>
+        <tr>	
+        <td><strong>Edad</strong><br>21 años</td>
+        </tr>
+        <tr>
+            <td><strong>Distrito</strong><br>Pueblo Libre</td>
+        </tr>
+        <tr>
+            <td><strong>Nombre del entrevistador</strong><br>Pablo geronimo</td>
+        </tr>
+        <tr>
+            <td><strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202314304_upc_edu_pe/ESE4COjO8o1Mh9_btqgo18UBLPOOawZRioA_nUdtqkjfKw?e=bGHYIa&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">URL Entrevista</a></strong></td>
+        </tr>
+        <tr>
+            <td><strong>Timing Inicial</strong><br><u>00:00</u></td>
+        </tr>
+        <tr>
+            <td><strong>Timing Final</strong><br><u>08:41</u></td>
+        </tr>
+	</tbody>
+</table>
+
+<p><strong>Resumen:</strong><br>
+Angel moroco considera que la aplicacion mobile contiene muchas fallas y que deberia ser corregido directamente tambien nos dio recomendaciones y que le gusto las funcionalidades que implementaremos para su segmento objetivo tambien comento que la interfaz suele ser un poco dificil de entender y que si pudiera le agregariamos un tutorial o algo similar para que sea de su agrado
+</p>
+
+
+
+
+**Entrevista 2: Negocios que utilizan Equipos de Refrigeración**
+
+<table border="1" style="text-align: left;">
+	<tbody>
+		<tr>
+			<td colspan="1" rowspan="7">
+  <img src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-4/images/chapter-IV/erinqueelera.png"  width="400" height="250">
+            </td>
+            <td><strong>Nombre del entrevistado</strong><br>Enrique elera </td>
+		</tr>
+        <tr>
+            <td><strong>Edad</strong><br>20 años</td>
+        </tr>
+        <tr>
+            <td><strong>Distrito</strong><br>Los Olivos</td>
+        </tr>
+        <tr>
+            <td><strong>Nombre del entrevistador</strong><br>Pablo Geronimo</td>
+        </tr>
+        <tr>
+            <td><strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202314304_upc_edu_pe/EcmtkSysliJLkl7pF2V1-gABkKnwxHKiiyyVra5Xl9fk4A?e=cAxLBk&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">URL Entrevista</a></strong></td>
+        </tr>
+        <tr>
+            <td><strong>Timing Inicial</strong><br><u>00:00</u></td>
+        </tr>
+        <tr>
+            <td><strong>Timing Final</strong><br><u>06:06</u></td>
+        </tr>
+	</tbody>
+</table>
+
+<p><strong>Resumen:</strong><br>
+Enrique elera es una persona que tiene su panaderia y muchos productos que dependen en si del manejo de temperatura tambien nos informo que ha tenido problemas ya que su equipo suele dañarse muy a menudo y que quisiera tener un tecnico de confianza con quien contactarse inmediatamente cuando eso pasa le mostramos la aplicacion mobile y nos definio que le parecio muy buena ya que tenia todas las funcionalidades que el buscaba tambien comento que le gustaria que implementaramos el detalle para saber un poco mas de la revision o mantenimiento tecnico
+ </p>
+
+
+
+
+**Entrevista 3: Negocios que utilizan Equipos de Refrigeración**
+
+
+
+<table border="1" style="text-align: left;">
+	<tbody>
+		<tr>
+			<td colspan="1" rowspan="7">
+  <img src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-4/images/chapter-IV/marcoscontreras.png"  width="400" height="250">
+            </td>
+            <td><strong>Nombre del entrevistado</strong><br>Marcos Contreras</td>
+		</tr>
+        <tr>
+            <td><strong>Edad</strong><br>25 años</td>
+        </tr>
+        <tr>
+            <td><strong>Distrito</strong><br>Los Olivos</td>
+        </tr>
+        <tr>
+            <td><strong>Nombre del entrevistador</strong><br>Pablo Geronimo</td>
+        </tr>
+        <tr>
+            <td><strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202314304_upc_edu_pe/EX3ffC2XYGtPqmUGVge9sq8B2Lhw_oB__iXAQ04HIfyu-Q?e=Ij9YjA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">URL Entrevista</a></strong></td>
+        </tr>
+        <tr>
+            <td><strong>Timing Inicial</strong><br><u>00:00</u></td>
+        </tr>
+        <tr>
+            <td><strong>Timing Final</strong><br><u>07:10</u></td>
+        </tr>
+	</tbody>
+</table>
+
+<p><strong>Resumen:</strong><br>
+Marcos contreras estaba un poco disgustado con el formato de la aplicacion mobile y de la landing ya que segun el no era lo suficiente mente interactiva y le aburria un poco ese formato tambien nos conto un poco que es un heladereo que tiene gente encargada para fijar su area de refrigeracion le comente sobre la aplicacion y le parecio una solucion ideal tambien nos comento que la aplicacion mobile tendria un poco de defectos ya que no le gusto el tipo de catalogo que mostramos y le gustaria algo mas interactivo 
+ </p>
+
+
+ 
 **Entrevista 1: Proveedores de equipos de refrigeración**
 
 <table border="1" style="text-align: left;">

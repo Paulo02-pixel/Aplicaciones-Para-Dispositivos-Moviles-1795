@@ -1633,6 +1633,46 @@ Para el primer sprint, desarrollamos la estructura y las funcionalidades básica
 #### 4.2.1.7 Software Deployment Evidence
 #### 4.2.1.8 Team Collaboration Insights
 ## 4.3 Validation Interviews
+En esta sección se presentan los detalles de las entrevistas de validación realizadas.
 ### 4.3.1 Diseño de Entrevistas
+**Objetivo de la sesión de validación**
+
+Validar la usabilidad, claridad y funcionalidad de las principales vistas de la aplicación móvil de PolarNet, verificando que los usuarios comprendan cómo acceder, explorar y registrar equipos disponibles para alquiler.
+
+**Elementos incluidos en la sesión**
+
+- Aplicación móvil de PolarNet.
+
+**User Flow propuesto para la sesión**
+
+**Para el Segmento: Empresas Proveedoras de Servicios**
+
+1. Inicio de sesión: El usuario ingresa sus credenciales para acceder a la aplicación.
+2. Inicio: Visualiza un resumen general de los equipos disponibles o en uso.
+3. Inventario: Consulta el estado detallado de cada maquinaria y sus condiciones.
+4. Agregar equipo: Registra un nuevo equipo disponible para alquiler.
+5. Perfil: Revisa su información personal y configuración de arrendador.
+
+**Preguntas para el Segmento 2: Empresas Proveedoras de Servicios**
+
+**Vista: Inicio de sesión**
+- ¿Te resulta claro cómo ingresar a la aplicación?
+- ¿Te gustaría tener opciones como “recordar usuario” o “inicio con Google”?
+
+**Vista: Inicio**
+- ¿Encuentras rápidamente los equipos disponibles o en uso?
+- ¿Te gustaría que aparecieran alertas cuando un equipo está por vencer su periodo de alquiler?
+
+**Vista: Inventario**
+- ¿Te resulta fácil identificar qué equipos están disponibles, alquilados o en mantenimiento?
+- ¿Te gustaría tener filtros para buscar equipos por tipo o por cliente?
+
+**Vista: Agregar equipo**
+- ¿El proceso de agregar un nuevo equipo te resulta simple y claro?
+
+**Vista: Perfil**
+- ¿Te gustaría ver tu historial de alquileres o contratos activos?
+- ¿Agregarías una opción para ver estadísticas de tus equipos (uso, disponibilidad, ingresos)?
+
 ### 4.3.2 Registro de Entrevistas
 ### 4.3.3 Evaluaciones según heurísticas

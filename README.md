@@ -1600,31 +1600,30 @@ El Sprint Planning 1 es una reunión esencial para iniciar el primer sprint de u
 | **Date**       |     2025-10-05        |
 | Time           | 10:00 PM                      |
 | Location       | Virtual - Meet               |
-| Prepared By    | xxxxxxxxx              |
-| Attendees (to planning meeting)| xxxxxxx, xxxxxxx, xxxxx, Ayrton Inga, xxxxxxx                |
+| Prepared By    | Paulo Quincho              |
+| Attendees (to planning meeting)| Paulo Quincho, Sandro Dinklange, Jamir Marzál, Ayrton Inga, Pablo Geronimo  |
 | Sprint n - 1 Review Summary    | Este es el primer Sprint, por lo que este campo no aplica.                                            |
 | Sprint n - 1 Retrospective Summary | Este es el primer Sprint, por lo que este campo no aplica.                                       |
-| Sprint 1 Goal                  | Nuestra prioridad en este sprint es implementar la landing page de nuestra aplicación. Creemos que esto brindará una presentación satisfactoria de nuestro producto a los posibles usuarios. Esto se confirmará cuando las visitas a nuestra landing page superen un cierto índice. |
+| Sprint 1 Goal                  | Nuestra prioridad en este sprint es implementar la landing page de nuestra aplicación. Creemos que esto brindará una presentación satisfactoria de nuestro producto a los posibles usuarios. Asimismo, avanzar con gran parte del backend y mostrar las pincipales vistas de la aplicacion mobile. |
 | Sprint 1 Velocity              | Nuestro equipo puede aceptar hasta xx Story Points.                                                  |
 | Sum of Story Points            | La suma de Story Points atendidos es de  .                 
 
 #### 4.2.1.2 Sprint Backlog 1
 
-Para el primer sprint, desarrollamos la estructura y las funcionalidades básicas de la landing page, así como el diseño visual y la barra de navegación.
+Para el primer sprint, desarrollamos la estructura y las funcionalidades básicas de la landing page, así como parte del backend y pantallas principales de la app mobile.
 
 | **Sprint #**   | Sprint 1   |             |             |             |             |             |             |
 |----------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|
 | **User Story** |             | **Work-Item/task** |             |             |             |             |             |
 | **ID**         | **Título**  | **ID**             | **Título**   | **Descripción**        | **Estimación (hrs)** | **Assigned to**    | **Status** |
-| US-23 | Visualizar propuesta de valor principal | T01 | Mostrar propuesta de valor principal | Crear una sección en la landing page donde se muestren los beneficios clave de la app. | xx  | xxxxx  | Done |
-| US-23 | Visualizar propuesta de valor principal | T02 | Añadir estilos CSS | Aplicar estilos según el diseño aprobado. | xx  | xxxxx  | Done |
-| US-23 | Visualizar propuesta de valor principal | T03 | Añadir interacciones con JS | Agregar efectos y validaciones según el diseño | xx  | xxxxx  | Done |
-| US-24 | Explorar soluciones específicas para mi rubro | T04 | Crear la sección 'Beneficios' | Añadir la sección donde se visualizan las soluciones específicas a cada segmento (beneficios) | xx  | xxxxx  | Done |
-| US-24 | Explorar soluciones específicas para mi rubro | T05 | Añadir estilos CSS | Aplicar estilos según el diseño aprobado de 'Beneficios' | xx  | xxxxx  | Done |
-| US-24 | Explorar soluciones específicas para mi rubro | T06 | Añadir interacciones con JS | Agregar efectos y validaciones según el diseño de 'Beneficios' | xx  | xxxxx  | Done |
-| US-25 | Comprender funcionalidades destacadas | T07 | Crear la sección 'Funcionalidades' | Añadir la sección donde se visualizan las funciones principales de la plataforma | xx  | xxxxx  | Done |
-| US-25 | Comprender funcionalidades destacadas | T08 | Añadir estilos CSS | Aplicar estilos según el diseño aprobado de 'Funcionalidades' | xx  | xxxxx  | Done |
-| US-25 | Comprender funcionalidades destacadas | T09 | Añadir interacciones con JS | Agregar efectos y validaciones según el diseño de 'Funcionalidades' | xx  | xxxxx  | Done |
+| US-23 | Visualizar propuesta de valor principal | T01 | Mostrar propuesta de valor principal | Crear una sección en la landing page donde se muestren los beneficios clave de la app. | xx  | Front Developer  | Done |
+| US-24 | Explorar soluciones específicas para mi rubro | T02 | Crear la sección 'Beneficios' | Añadir la sección donde se visualizan las soluciones específicas a cada segmento (beneficios) | xx  | Front Developer  | Done |
+| US-25 | Comprender funcionalidades destacadas | T03 | Crear la sección 'Funcionalidades' | Añadir la sección donde se visualizan las funciones principales de la plataforma | xx  | Front Developer  | Done |
+| TS-36| Integrar sistema IAM en el backend | T04 | Creacion de endpoint | Integrar un sistema de Identity Access Management (IAM) en el backend para gestionar de forma segura el acceso |  | Back Developer | Done |
+| TS-40| Registrar nuevo usuario vía API RESTful | T05 | Creacion de endpoint | Desarrollar un endpoint para registrar nuevos usuarios en la plataforma. |  | Back Developer | Done |
+| TS-42| Solicitar mantenimiento preventivo vía API | T06 | Creacion de endpoint | Implementar un endpoint para registrar solicitudes de mantenimiento preventivo. |  | Back Developer | Done |
+| TS-43| Eliminar/Asignar técnico a solicitud de servicio vía API | T07 | Creacion de endpoint | Crear un endpoint que permita asignar/eliminar técnicos de solicitudes de servicio. |  | Back Developer | Done |
+| TS-44| Consultar historial de servicios por API | T08 | Creacion de endpoint | Exponer un endpoint para consultar el historial de servicios. |  | Back Developer | Done |
 
 #### 4.2.1.3 Development Evidence
 #### 4.2.1.4 Testing Suite Evidence

@@ -1522,13 +1522,29 @@ El wireframe que hemos diseñado para nuestra empresa PolarNet cuenta con una na
 
 
 
- 
 ## 3.1.4. Mobile Applications UX/UI Design
-### 3.1.4.1. Landing Page Wireframe
-### 3.1.4.2. Landing Page Wireframe
-### 3.1.4.3. Landing Page Wireframe
-### 3.1.4.4. Landing Page Wireframe
-### 3.1.4.5. Landing Page Wireframe
+### 3.1.4.1. Mobile Applications Wireframe
+
+**Main**
+
+<img width="316" height="584" alt="wire" src="https://github.com/user-attachments/assets/5950f5d2-939a-4ab2-93a5-96c5f682797f" />
+
+**Registration**
+
+<img width="305" height="628" alt="regi" src="https://github.com/user-attachments/assets/9f23a9cf-7ea3-4c4c-aedf-375d92e1cd4c" />
+
+**Login**
+
+<img width="277" height="605" alt="login" src="https://github.com/user-attachments/assets/ba6aa616-87c5-486f-b9ff-40aa187acda7" />
+
+
+
+
+
+### 3.1.4.2. Mobile Applications Wireframe Diagrams
+### 3.1.4.3. Mobile Applications Mock-ups
+### 3.1.4.4. Mobile Applications User Flow Diagrams
+### 3.1.4.5. Mobile Applications Protyping
 
 
 

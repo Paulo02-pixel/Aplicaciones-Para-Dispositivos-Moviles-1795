@@ -1137,96 +1137,772 @@ En el software architecture container diagram se puede apreciar la forma de más
 
 ## 2.6.1. Bounded Context:Authentification Bounded Context
 
+El **bounded context de Autenticación** gestiona todo lo relacionado con el acceso y la identidad de los usuarios dentro del sistema.  
+Define cómo los usuarios se **registran**, **inician sesión**, **obtienen sus roles** y **mantienen sesiones seguras** mediante tokens JWT.  
+También sirve como base para otros contextos (como Solicitud de Servicios o Monitoreo), permitiendo validar la identidad y los permisos de los usuarios.
+
+
 ### 2.6.1.1.Domain Layer
+
+La capa de **Domain** representa el **núcleo del dominio** de autenticación.  
+Aquí se definen las entidades, objetos de valor e interfaces que encapsulan las **reglas de negocio**.  
+Su función es modelar cómo el sistema entiende un usuario, su rol y su relación con la empresa.
+### 🧱 Clases principales
+
+#### 🟦 User (Entity)
+**Atributos:**  
+`user_id`, `name`, `username`, `password`, `email`, `role`, `company_id`, `is_active`
+
+**Métodos:**  
+- `validatePassword()` → verifica si la contraseña ingresada coincide con la almacenada.  
+- `assignRole()` → asigna un rol al usuario.  
+- `activateUser()` / `deactivateUser()` → controlan si el usuario puede iniciar sesión.
+
+**Explicación:**  
+Representa al usuario dentro del dominio. Contiene la lógica principal sobre autenticación, validación y estado.
+
+---
+
+#### 🟩 Role (Value Object / Enum)
+**Valores posibles:**  
+`ADMIN`, `PROVIDER`, `CLIENT`
+
+**Propósito:**  
+Encapsula los roles disponibles de forma inmutable. Facilita el control de permisos y la autorización sin necesidad de acceder a la base de datos.
+
+---
+
+#### 🟪 Company (Entity ligera)
+**Atributos:**  
+`company_id`, `name`
+
+**Propósito:**  
+Representa la organización a la que pertenece el usuario.  
+Se usa como referencia, ya que el detalle completo de la empresa se gestiona en otro bounded context.
+
+---
+
+#### 🟨 UserRepository (Interface)
+**Métodos:**  
+- `findByUsername()`  
+- `findByEmail()`  
+- `save()`  
+- `update()`
 
 <img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/iamd.png">
 
 ### 2.6.1.2. Interface Layer
 
+La **Interface Layer** contiene los **controladores REST** que actúan como punto de entrada entre el cliente y el sistema.  
+Transforma las solicitudes HTTP en comandos o servicios de aplicación.
+
+### 🧩 AuthController (REST API Controller)
+**Endpoints:**
+- `POST /auth/login` → Inicia sesión y genera token JWT.  
+- `POST /auth/register` → Registra nuevo usuario.  
+- `POST /auth/logout` → Cierra sesión.  
+- `GET /auth/profile` → Devuelve datos del usuario autenticado.
+
+**Explicación:**  
+Este controlador recibe las peticiones del cliente (por ejemplo, desde la app móvil o web) y coordina la ejecución de los casos de uso.  
+No contiene lógica de negocio, solo delega las acciones a la capa de aplicación.
+
 <img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/iaminterface.png">
 
 ### 2.6.1.3. Application Layer
 
+La **Application Layer** orquesta los **casos de uso** del dominio.  
+Se encarga de manejar la lógica de flujo entre el controlador, el dominio y la infraestructura.
+
+### ⚙️ Clases principales
+
+#### 🔹 LoginHandler
+**Responsabilidad:** Manejar el proceso de inicio de sesión.  
+**Flujo:**  
+Recibe credenciales, busca el usuario en el repositorio, valida la contraseña y genera un token JWT.  
+**Método:** `handle(loginCommand)`.
+
+---
+
+#### 🔹 RegisterHandler
+**Responsabilidad:** Registrar nuevos usuarios.  
+**Flujo:**  
+Valida los datos, encripta la contraseña, asigna el rol y guarda el usuario.  
+**Método:** `handle(registerCommand)`.
+
+---
+
+#### 🔹 ProfileHandler
+**Responsabilidad:** Devolver la información del usuario autenticado.  
+**Flujo:**  
+Valida el token JWT y obtiene los datos desde el repositorio.
+
+#### 🔹 AuthService
+**Propósito:**  
+Orquesta toda la lógica de autenticación y autorización.  
+Se comunica con los *handlers*, el repositorio, el servicio de hashing y el proveedor de tokens.
+
+
 <img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/aplicationiam.png">
 
 ### 2.6.1.4  Infrastructure Layer
+
+La capa de **Infrastructure** contiene las implementaciones técnicas necesarias para que el dominio funcione en un entorno real.  
+Aquí se manejan bases de datos, seguridad y servicios externos.
+
+### 🧩 Componentes
+
+#### 🟩 UserRepositoryImpl
+**Implementa:** `UserRepository`  
+**Tecnología:** Androidstudio
+**Explicación:** Ejecuta las operaciones reales de almacenamiento, actualización y búsqueda de usuarios.
+
+---
+
+#### 🟪 PasswordHasher
+**Función:** Encriptar y verificar contraseñas.  
+**Tecnología:** bcrypt o Argon2.  
+**Explicación:** Las contraseñas se almacenan de forma segura, evitando texto plano.
+
+---
 
 <img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/infrastructure.png">
 
 
 ### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 
+### 🧠 Introducción
+El diagrama de componentes muestra cómo interactúan los distintos módulos dentro del bounded context de Autenticación.
+
+### 🔗 Flujo general
+1. `AuthController` recibe la petición del cliente.  
+2. Llama a `AuthService`, que coordina la lógica de autenticación.  
+3. `AuthService` usa `UserRepository` para consultar usuarios y `PasswordHasher` para validar contraseñas.  
+4. Si todo es correcto, `JWTProvider` genera el token JWT.  
+5. La respuesta es enviada de vuelta al cliente.
+
+
+<img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/main/images/chapter-II/authentificationc4.png">
+---
+
 
 #### 2.6.1.6.2. Bounded Context Database Design Diagram 
+Base de datos y relaciones usadas en el bounded context authentification de uno a muchos o viceversa
+**Tablas:**
+- `users`
+- `companies`
+
+**Relaciones:**
+- `users.company_id` → `companies.company_id`
+
+**Restricciones:**
+- `username` y `email` son **únicos**.  
+- `company_id` asegura la pertenencia de cada usuario a una empresa.  
+- `users` guarda referencias al contexto organizacional del usuario.
+  
 <img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/dbiam.png">
 
 ## 2.6.2. Bounded Context:Service request Bounded Context
 
-### 2.6.2.1.Domain Layer
+El **bounded context de Solicitud de Servicios** gestiona todo el ciclo de vida de una solicitud técnica dentro de la plataforma.  
+Permite a los clientes registrar solicitudes de mantenimiento, instalación o reparación, y a los proveedores gestionarlas, asignar técnicos, dar seguimiento y cerrarlas con reportes y calificaciones.  
+Este contexto se comunica con los bounded contexts de **Autenticación** y **Notificaciones** para validar usuarios y emitir alertas de estado.
 
+### 2.6.2.1.Domain Layer
+La capa de **Domain** representa el núcleo del negocio de solicitudes de servicio.  
+Aquí se definen las **entidades principales**, los **value objects**, las **interfaces** y las **reglas de negocio** que rigen la gestión de servicios.
+### 🧠 Introducción
+La capa de **Domain** representa el núcleo del negocio de solicitudes de servicio.  
+Aquí se definen las **entidades principales**, los **value objects**, las **interfaces** y las **reglas de negocio** que rigen la gestión de servicios.
+
+### 🧱 Clases principales
+
+#### 🟦 ServiceRequest (Entity)
+**Atributos:**  
+`service_request_id`, `title`, `description`, `priority`, `issue_type`, `category`, `status`,  
+`client_company_id`, `client_user_id`, `provider_company_id`, `technician_id`,  
+`equipment_id`, `location_id`, `estimated_cost`, `final_cost`, `currency`.
+
+**Métodos:**  
+- `assignTechnician()` → asigna un técnico disponible.  
+- `updateStatus()` → cambia el estado del servicio (OPEN, IN_PROGRESS, COMPLETED, CANCELLED).  
+- `calculateFinalCost()` → calcula el costo final del servicio.  
+- `closeRequest()` → marca la solicitud como finalizada.  
+
+**Propósito:**  
+Representa el ciclo de vida de una solicitud de servicio desde su creación hasta su cierre.
+
+---
+
+#### 🟩 Priority (Value Object / Enum)
+**Valores posibles:**  
+`LOW`, `MEDIUM`, `HIGH`, `CRITICAL`.
+
+**Propósito:**  
+Determina el nivel de urgencia o severidad de la solicitud, influyendo en los tiempos de respuesta y asignación.
+
+---
+
+#### 🟪 Status (Value Object / Enum)
+**Valores posibles:**  
+`OPEN`, `ASSIGNED`, `IN_PROGRESS`, `COMPLETED`, `CANCELLED`, `CLOSED`.
+
+**Propósito:**  
+Define los diferentes estados del flujo operativo de la solicitud.
+
+---
 <img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/servicedomain.png">
 
 
 ### 2.6.2.2. Interface Layer
+
+### 🧠 Introducción
+La **Interface Layer** expone las funcionalidades del sistema mediante **endpoints REST**.  
+Actúa como intermediario entre los clientes y la capa de aplicación.
+
+### 🧩 ServiceRequestController (REST API Controller)
+
+**Endpoints:**
+- `POST /service-requests` → Crea una nueva solicitud de servicio.  
+- `GET /service-requests/{id}` → Obtiene detalles de una solicitud específica.  
+- `PUT /service-requests/{id}/assign` → Asigna un técnico a una solicitud.  
+- `PUT /service-requests/{id}/status` → Actualiza el estado de una solicitud.  
+- `GET /service-requests/company/{companyId}` → Lista todas las solicitudes de una empresa.
+
+**Explicación:**  
+Este controlador centraliza el acceso a las operaciones principales del contexto.  
+Cada endpoint se conecta con un **Handler** o **Service** en la capa de aplicación para ejecutar la lógica de negocio.
+
+---
+
 <img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/interfaceservice.png">
 
 ### 2.6.2.3. Application Layer
+### 🧠 Introducción
+La **Application Layer** coordina la ejecución de los casos de uso del contexto.  
+Controla los flujos de datos entre las capas Interface, Domain e Infrastructure.
 
+### ⚙️ Clases principales
+
+#### 🔹 CreateServiceRequestHandler
+**Responsabilidad:** Crear una nueva solicitud.  
+**Flujo:**  
+1. Valida los datos ingresados.  
+2. Crea un objeto `ServiceRequest`.  
+3. Persiste en la base de datos a través de `ServiceRequestRepository`.  
+4. Notifica al proveedor.
+
+---
+
+#### 🔹 AssignTechnicianHandler
+**Responsabilidad:** Asignar un técnico disponible a una solicitud.  
+**Flujo:**  
+1. Verifica que la solicitud esté en estado `OPEN`.  
+2. Actualiza el técnico asignado.  
+3. Cambia el estado a `ASSIGNED`.
+
+---
+
+#### 🔹 UpdateStatusHandler
+**Responsabilidad:** Cambiar el estado de una solicitud.  
+**Flujo:**  
+1. Recibe el nuevo estado.  
+2. Valida que la transición sea válida.  
+3. Persiste el nuevo estado en la base de datos.
+
+---
+
+#### 🔹 CompleteServiceHandler
+**Responsabilidad:** Marcar la solicitud como completada y registrar feedback.  
+**Flujo:**  
+1. Registra el costo final.  
+2. Cambia el estado a `COMPLETED`.  
+3. Guarda el feedback del cliente.
+
+---
 <img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/aplicationservice.png">
 
 
 ### 2.6.2.4  Infrastructure Layer
 
+
+### 🧠 Introducción
+La capa de **Infrastructure** contiene las implementaciones concretas que permiten la persistencia y comunicación con servicios externos.
+
+### 🧩 Componentes principales
+
+#### 🟩 ServiceRequestRepositoryImpl
+**Implementa:** `ServiceRequestRepository`  
+**Tecnología:** Android studio
+**Explicación:**  
+Ejecuta consultas  sobre la tabla `service_requests`, mapeando entidades del dominio.
+
+---
+
+#### 🟪 NotificationAdapter
+**Función:**  
+Envia notificaciones al bounded context de **Notificaciones** cuando una solicitud cambia de estado.
+
+---
+
 <img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/infrastructureservice.png">
 
 ### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams 
 
+### 🔗 Flujo general
+1. `ServiceRequestController` recibe solicitudes del cliente.  
+2. Llama a los *handlers* correspondientes de la capa de aplicación.  
+3. Los *handlers* usan `ServiceRequestRepository` para leer/escribir datos.  
+4. `NotificationAdapter` informa a otros bounded contexts (por ejemplo, notificaciones).  
+5. Toda persistencia se realiza mediante `ServiceRequestRepositoryImpl`.
+<img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/main/images/chapter-II/servicerequestbc.png">
+---
 ### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams   
+
 #### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams 
 
+**Clases incluidas:**
+- `ServiceRequest`
+- `Priority` (Enum)
+- `Status` (Enum)
+- `Technician`
+- `ServiceRequestRepository`
+
+**Relaciones:**
+- `ServiceRequest` → pertenece a un `Technician` (0..1).  
+- `ServiceRequest` → usa `Priority` y `Status` como value objects.  
+- `ServiceRequestRepository` → interfaz para persistencia del dominio.
+
+---
 <img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/domainlayerservice.png">
 
 #### 2.6.2.6.2. Bounded Context Database Design Diagram 
 
+**Tablas involucradas:**
+- `service_requests`  
+- `users` (para técnicos y clientes)  
+- `companies`  
+- `equipments`  
+- `equipment_locations`
+
+**Relaciones:**
+- `service_requests.client_company_id` → `companies.company_id`  
+- `service_requests.provider_company_id` → `companies.company_id`  
+- `service_requests.technician_id` → `users.user_id`  
+- `service_requests.equipment_id` → `equipments.equipment_id`  
+- `service_requests.location_id` → `equipment_locations.equipment_location_id`
+
+**Restricciones:**
+- `service_request_id` es **PRIMARY KEY**.  
+- Relaciones **FOREIGN KEY** entre `users`, `equipments` y `companies`.  
+- Estados controlados por `CHECK (status IN (...))`.  
+- Fechas `request_date`, `completion_date` y `deadline_date` con formato `timestamp`.
 <img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/databaseservices.png">
 
 ## 2.6.3. Bounded Context:Equipment monitoringBounded Context
 
+El **bounded context de Monitoreo de Equipos** gestiona la recolección, análisis y almacenamiento de datos provenientes de los sensores instalados en equipos industriales o de refrigeración.  
+Su objetivo es asegurar la trazabilidad, el control térmico y energético, y permitir la detección temprana de fallas mediante alertas automáticas.  
+Este contexto se comunica directamente con **Notificaciones**, **Solicitud de Servicios** y **Autenticación** para identificar usuarios responsables y generar alertas técnicas.
+
 ### 2.6.3.1.Domain Layer
+
+La capa de **Domain** define las entidades y reglas de negocio que representan el núcleo del monitoreo.  
+Cada clase encapsula la lógica de medición, validación y almacenamiento de las lecturas provenientes de sensores.
+
+#### 🟦 Equipment (Entity)
+**Atributos:**  
+`equipment_id`, `name`, `description`, `type`, `status`, `owner_company_id`,  
+`current_location_id`, `min_temperature`, `max_temperature`, `optimal_temperature`,  
+`energy_consumption_kwh`, `power_watts`.
+
+**Métodos:**  
+- `recordTemperature(reading)` → Registra una lectura de temperatura.  
+- `recordEnergy(reading)` → Registra consumo energético.  
+- `checkStatus()` → Evalúa si el equipo está en condiciones normales o de alerta.  
+
+**Propósito:**  
+Representa un equipo físico que se encuentra bajo monitoreo activo.
+
+---
+
+#### 🟩 TemperatureReading (Entity)
+**Atributos:**  
+`temperature_reading_id`, `value`, `status`, `alert_triggered`, `timestamp`, `equipment_id`.
+
+**Métodos:**  
+- `validateRange(min, max)` → Determina si el valor está dentro del rango permitido.  
+- `triggerAlert()` → Lanza una alerta si el valor excede los límites.  
+
+**Propósito:**  
+Registrar lecturas de temperatura y determinar si deben generar alertas.
+
+---
+
+#### 🟪 EnergyReading (Entity)
+**Atributos:**  
+`energy_reading_id`, `consumption_kwh`, `power_watts`, `voltage`, `current_amps`,  
+`frequency_hz`, `power_factor`, `usage_minutes`, `cost_estimate`, `timestamp`.
+
+**Métodos:**  
+- `calculateEfficiency()` → Evalúa el rendimiento energético.  
+- `detectAnomaly()` → Identifica valores fuera del patrón habitual.  
+
+**Propósito:**  
+Registrar y analizar el comportamiento energético del equipo.
+
+---
+
+#### 🟨 MonitoringService (Domain Service)
+**Métodos:**  
+- `processTemperatureReading(reading)`  
+- `processEnergyReading(reading)`  
+- `detectCriticalConditions(equipment)`  
+- `generateAlert(equipment, reading)`  
+
+**Propósito:**  
+Encapsular la lógica de monitoreo y detección de alertas críticas en tiempo real.
+
+---
 <img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/dmonitoring.png">
 
 ### 2.6.3.2. Interface Layer
+
+La **Interface Layer** permite que los usuarios o sistemas externos consulten y visualicen el estado del monitoreo.  
+Esta capa expone endpoints para la consulta de métricas, promedios diarios y alertas.
+
+### 🧩 MonitoringController (REST API Controller)
+
+**Endpoints:**
+- `GET /monitoring/equipments` → Lista todos los equipos bajo monitoreo.  
+- `GET /monitoring/equipments/{id}` → Muestra el detalle del equipo y su historial de lecturas.  
+- `GET /monitoring/equipments/{id}/readings/temperature` → Retorna lecturas de temperatura.  
+- `GET /monitoring/equipments/{id}/readings/energy` → Retorna lecturas energéticas.  
+- `GET /monitoring/alerts` → Lista alertas activas.  
+
+**Explicación:**  
+El controlador ofrece acceso a las métricas de equipos, promedios diarios y alertas.  
+Permite integrar dashboards o sistemas IoT externos.
+
 <img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/monitoringinterface.png">
 
 ### 2.6.3.3. Application Layer
+
+La capa de **Application** coordina los casos de uso que permiten registrar, procesar y consultar lecturas de sensores.  
+Actúa como intermediaria entre la API, el dominio y la infraestructura.
+
+### ⚙️ Clases principales
+
+#### 🔹 RecordTemperatureHandler
+**Responsabilidad:** Procesar y guardar una lectura de temperatura.  
+**Flujo:**  
+1. Recibe los datos del sensor.  
+2. Crea una entidad `TemperatureReading`.  
+3. Valida el rango permitido.  
+4. Si hay anomalía → llama a `MonitoringService.generateAlert()`.  
+5. Guarda la lectura en `MonitoringRepository`.
+
+---
+
+#### 🔹 RecordEnergyHandler
+**Responsabilidad:** Procesar lecturas energéticas.  
+**Flujo:**  
+1. Recibe los datos eléctricos.  
+2. Calcula eficiencia y consumo estimado.  
+3. Guarda la lectura en `MonitoringRepository`.
+
+---
+
+#### 🔹 GetEquipmentStatusHandler
+**Responsabilidad:** Consultar el estado de un equipo.  
+**Flujo:**  
+1. Recupera lecturas recientes.  
+2. Evalúa si existen alertas activas.  
+3. Devuelve resumen de estado (OK, ALERT, CRITICAL).
+
+---
+
+#### 🔹 MonitoringService
+**Propósito:**  
+Centraliza la lógica del monitoreo continuo y detección de alertas, usando datos de sensores o reportes externos.
+
+---
 <img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/aplicationMonitoring.png">
 
 ### 2.6.3.4  Infrastructure Layer
+
+La capa de **Infrastructure** implementa las dependencias reales del sistema: bases de datos, mensajería y servicios externos de notificación.
+
+### 🧩 Componentes principales
+
+#### 🟩 MonitoringRepositoryImpl
+**Implementa:** `MonitoringRepository`  
+**Tecnología:** Android studio 
+**Explicación:**  
+Se encarga de guardar lecturas en las tablas `temperature_readings` y `energy_readings`, y de consultar promedios o alertas.
+
+---
+
+#### 🟦 AlertPublisher
+**Función:**  
+Envía mensajes o notificaciones al bounded context de **Notificaciones** cuando se detectan lecturas críticas.
+
+---
+
+#### 🟧 SensorGateway
+**Propósito:**  
+Permite recibir datos de sensores IoT en tiempo real mediante protocolos como MQTT o HTTP.
+
+---
+
 <img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/infrastructuremonitoring.png">
 
 ### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams 
-### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams   
+
+
+### 🔗 Flujo general
+1. `SensorGateway` recibe lecturas de sensores.  
+2. Llama a los *handlers* (`RecordTemperatureHandler`, `RecordEnergyHandler`).  
+3. Los *handlers* procesan la información mediante `MonitoringService`.  
+4. `MonitoringRepositoryImpl` guarda las lecturas.  
+5. Si se detectan alertas, `AlertPublisher` envía notificaciones.  
+6. `MonitoringController` expone los resultados a los usuarios.
+
+---
+<img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/main/images/chapter-II/monitoringbc.png">
 #### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams 
 <img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/Monitoringdomain.png">
 
 #### 2.6.3.6.2. Bounded Context Database Design Diagram 
+**Tablas involucradas:**
+- `equipments`  
+- `temperature_readings`  
+- `daily_temperature_averages`  
+- `energy_readings`
+
+**Relaciones:**
+- `temperature_readings.equipment_id` → `equipments.equipment_id`  
+- `energy_readings.equipment_id` → `equipments.equipment_id`  
+- `daily_temperature_averages.equipment_id` → `equipments.equipment_id`
+
+**Restricciones:**
+- Clave primaria en cada tabla (`equipment_id`, `temperature_reading_id`, `energy_reading_id`).  
+- Claves foráneas que garantizan consistencia con los equipos monitoreados.  
+- Índices únicos `(equipment_id, date)` en `daily_temperature_averages` para optimizar consultas de reportes diarios.
+
+---
+
 <img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/databasemonitoring.png">
 
 ## 2.6.4. Bounded Context:Notification Bounded Context
+
+El **bounded context de Notificaciones** se encarga de gestionar toda la comunicación del sistema hacia los usuarios y empresas, tanto de manera interna (alertas de monitoreo, estados de servicio) como externa (recordatorios, actualizaciones, avisos de mantenimiento).  
+Su objetivo es garantizar que cada usuario reciba la información correcta en el momento adecuado, utilizando diversos canales como correo electrónico, mensajes del sistema o integraciones externas.
+
 ### 2.6.4.1.Domain Layer
+# 🧩 2.6.4. Bounded Context: Notificaciones
+
+## 🔹 Introducción general
+El **bounded context de Notificaciones** se encarga de gestionar toda la comunicación del sistema hacia los usuarios y empresas, tanto de manera interna (alertas de monitoreo, estados de servicio) como externa (recordatorios, actualizaciones, avisos de mantenimiento).  
+Su objetivo es garantizar que cada usuario reciba la información correcta en el momento adecuado, utilizando diversos canales como correo electrónico, mensajes del sistema o integraciones externas.
+
+---
+
+## 🔸 2.6.4.1. Domain Layer
+
+### 🧠 Introducción
+La capa de **Domain** modela las entidades y servicios fundamentales para manejar notificaciones dentro del ecosistema PolarNet.  
+Define cómo se crean, programan, envían y marcan como leídas las notificaciones.
+
+---
+
+### 🧱 Clases principales
+
+#### 🟦 Notification (Entity)
+**Atributos:**  
+`notification_id`, `title`, `message`, `type`, `category`, `priority`,  
+`recipient_user_id`, `recipient_company_id`,  
+`equipment_id`, `service_request_id`, `maintenance_id`,  
+`status`, `action_required`, `action_url`, `action_label`,  
+`scheduled_send`, `sent_at`, `read_at`, `expires_at`, `created_at`.
+
+**Métodos:**  
+- `markAsRead()` → Cambia el estado a *READ*.  
+- `markAsArchived()` → Cambia el estado a *ARCHIVED*.  
+- `isExpired()` → Verifica si la notificación caducó.  
+- `requiresAction()` → Indica si el usuario debe realizar alguna acción.  
+
+**Propósito:**  
+Representar una notificación individual dirigida a un usuario o empresa, con trazabilidad completa de envío y recepción.
+
+---
+
+#### 🟩 NotificationService (Domain Service)
+**Métodos:**  
+- `createNotification(notification)` → Crea una nueva notificación en el sistema.  
+- `sendNotification(notification)` → Envía la notificación por los canales disponibles.  
+- `scheduleNotification(notification, datetime)` → Programa el envío de una notificación.  
+- `markAsRead(notificationId)` → Marca una notificación como leída.  
+
+**Propósito:**  
+Centralizar la lógica de negocio para el envío, programación y actualización de notificaciones.
+
+---
+
+#### 🟨 NotificationRepository (Interface)
+**Métodos:**  
+- `save(notification)` → Guarda una nueva notificación.  
+- `findByRecipient(userId)` → Retorna las notificaciones de un usuario.  
+- `findUnread(userId)` → Devuelve solo las no leídas.  
+- `updateStatus(notificationId, status)` → Actualiza el estado.  
+
+**Propósito:**  
+Definir las operaciones de persistencia que deben implementarse en la infraestructura.
+
+---
+
+#### 🟧 NotificationType (Value Object / Enum)
+**Valores:**  
+`ALERT`, `INFO`, `WARNING`, `SUCCESS`, `REMINDER`.
+
+**Propósito:**  
+Encapsular los tipos de notificación que determinan el canal y prioridad del envío.
+
+---
 <img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/domainNotification.png">
 ### 2.6.4.2. Interface Layer
+La **Interface Layer** ofrece los puntos de acceso a las funcionalidades del contexto de notificaciones.  
+Permite listar, leer y gestionar notificaciones desde la aplicación o desde integraciones externas.
+
+---
+
+### 🧩 NotificationController (REST API Controller)
+
+**Endpoints:**
+- `GET /notifications` → Lista todas las notificaciones del usuario autenticado.  
+- `GET /notifications/unread` → Muestra las no leídas.  
+- `POST /notifications/mark-read/{id}` → Marca una notificación como leída.  
+- `POST /notifications/create` → Permite crear una notificación manualmente (por un administrador o sistema interno).  
+
+**Explicación:**  
+Este controlador actúa como puente entre los usuarios y el sistema de notificaciones, usando servicios de dominio para realizar las operaciones.
+
 <img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/interfaceNotification.png">
 ### 2.6.4.3. Application Layer
+La capa de **Application** define los casos de uso que coordinan la creación, envío, lectura y actualización de notificaciones.  
+Se encarga de aplicar la lógica de negocio definida en el dominio y comunicarla con la infraestructura.
+
+---
+
+### ⚙️ Clases principales
+
+#### 🔹 CreateNotificationHandler
+**Responsabilidad:** Crear una nueva notificación y delegar su envío.  
+**Flujo:**  
+1. Recibe los datos desde el controlador.  
+2. Valida los campos requeridos.  
+3. Crea la entidad `Notification`.  
+4. Llama a `NotificationService.createNotification()`.  
+5. Persiste usando `NotificationRepository`.
+
+---
+
+#### 🔹 SendNotificationHandler
+**Responsabilidad:** Gestionar el envío inmediato o programado.  
+**Flujo:**  
+1. Recupera la notificación pendiente.  
+2. Determina el canal según el tipo (alerta, recordatorio, etc.).  
+3. Usa `NotificationService.sendNotification()`.  
+4. Actualiza el estado en el repositorio.  
+
+---
+
+#### 🔹 MarkAsReadHandler
+**Responsabilidad:** Cambiar el estado de una notificación a “READ”.  
+**Flujo:**  
+1. Recibe el ID de la notificación.  
+2. Llama a `NotificationService.markAsRead()`.  
+3. Persiste el cambio en la base de datos.  
+
+---
+
+#### 🔹 GetUserNotificationsHandler
+**Responsabilidad:** Consultar notificaciones de un usuario.  
+**Flujo:**  
+1. Recibe el `userId` autenticado.  
+2. Consulta `NotificationRepository.findByRecipient(userId)`.  
+3. Devuelve la lista ordenada por prioridad y fecha.  
+
+---
 <img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/aplication.png">
 ### 2.6.4.4  Infrastructure Layer
+La capa de **Infrastructure** implementa los servicios concretos de persistencia y comunicación con sistemas externos.
+
+---
+
+### 🧩 Componentes principales
+
+#### 🟦 NotificationRepositoryImpl
+**Implementa:** `NotificationRepository`  
+**Tecnología:** Android studio
+**Explicación:**  
+Se encarga de almacenar, consultar y actualizar notificaciones en la tabla `notifications`.
+
+---
+
+#### 🟩 EmailNotifier
+**Función:**  
+Envía correos electrónicos cuando el tipo de notificación lo requiere (`ALERT`, `REMINDER`).
+
+---
+
+#### 🟧 SystemNotifier
+**Función:**  
+Muestra notificaciones dentro de la interfaz de usuario o dashboard del sistema.
+
+---
+
+#### 🟨 MessageBrokerAdapter
+**Función:**  
+Permite enviar notificaciones a otros sistemas externos o microservicios mediante colas (ej. RabbitMQ, Kafka).
+
+---
 <img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/infrastructurenotification.png">
 
 ### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams 
-### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams   
-#### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams 
 
-#### 2.6.4.6.2. Bounded Context Database Design Diagram 
+### 🔗 Flujo general
+1. `NotificationController` recibe solicitudes del usuario o de otros servicios.  
+2. Llama a los *handlers* correspondientes (crear, leer, marcar como leído).  
+3. Los *handlers* utilizan `NotificationService` para aplicar las reglas de negocio.  
+4. `NotificationRepositoryImpl` persiste los cambios.  
+5. `EmailNotifier` o `SystemNotifier` envían el mensaje al usuario.  
+6. `MessageBrokerAdapter` comunica alertas a otros bounded contexts.
+
+
+<img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/main/images/chapter-II/notificationbc.png">
+
+### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams   
+
+#### 2.6.4.6.2. Bounded Context Database Design Diagram
+
+**Tabla:** `notifications`  
+**Campos principales:**  
+`notification_id`, `title`, `message`, `type`, `priority`,  
+`recipient_user_id`, `recipient_company_id`, `status`,  
+`action_required`, `scheduled_send`, `sent_at`, `read_at`, `expires_at`.
+
+**Relaciones:**
+- `recipient_user_id` → `users.user_id`  
+- `recipient_company_id` → `companies.company_id`  
+- `equipment_id` → `equipments.equipment_id` (opcional)  
+- `service_request_id` → `service_requests.service_request_id` (opcional)  
+- `maintenance_id` → `maintenances.maintenance_id` (opcional)  
+
+**Restricciones:**
+- Clave primaria: `notification_id`.  
+- Claves foráneas hacia usuarios, empresas, equipos y servicios.  
+- Campos de control de estado y fechas para trazabilidad.
 
 <img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/databasediagramnotification.png">
 
@@ -1619,8 +2295,13 @@ https://www.figma.com/board/GEzLVBXaA4J8wWvV1EKmSc/Untitled?node-id=0-1&t=3k7O2J
 
 ### 3.1.4.4. Mobile Applications User Flow Diagrams
 
+<img width="1074" height="630" alt="user goal1" src="https://github.com/user-attachments/assets/de3b19c1-0977-4fa4-8fd6-6092da524780" />
 
 
+<img width="875" height="851" alt="usegola1" src="https://github.com/user-attachments/assets/193beb7f-bff2-4172-801d-5373a27f1083" />
+
+
+<img width="636" height="747" alt="user gol1" src="https://github.com/user-attachments/assets/4162e177-210a-44ff-ac45-917417d987f8" />
 
 ### 3.1.4.5. Mobile Applications Protyping
 

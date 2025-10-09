@@ -1421,6 +1421,22 @@ El sistema de búsqueda en **PolarNet** se ha diseñado para ofrecer **acceso r�
 - **Revisiones y Comentarios:**  
   Los técnicos y proveedores pueden dejar observaciones sobre intervenciones o reportes previos, ayudando a mejorar la trazabilidad y la calidad del servicio.
 
+## 3.1.3. Landing Page UI Design
+ ### 3.1.3.1. Landing Page Wireframe
+El wireframe que hemos diseñado para nuestra empresa PolarNet cuenta con una navegación sencilla para todo tipo de personas, basándonos en las entrevistas, lo hemos diseñado de manera intuittva. Incluye 
+ ### 3.1.3.2. Landing Page Wireframe
+ 
+## 3.1.4. Mobile Applications UX/UI Design
+### 3.1.4.1. Landing Page Wireframe
+### 3.1.4.2. Landing Page Wireframe
+### 3.1.4.3. Landing Page Wireframe
+### 3.1.4.4. Landing Page Wireframe
+### 3.1.4.5. Landing Page Wireframe
+
+
+
+
+
 # Anexo A
 
 ## Student Outcome

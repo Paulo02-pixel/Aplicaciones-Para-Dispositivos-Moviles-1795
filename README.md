@@ -1643,8 +1643,8 @@ Este resultado busca evidenciar la **mejora continua en competencias técnicas, 
 
 | **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
 |-------------------------|--------------------------|------------------|
-| Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de ingeniería de software. | **Paulo Percy Quincho Gamarra (U20191E562)**<br>Revisó fundamentos de análisis de requerimientos y documentación técnica para la elaboración del Capítulo I. Aplicó conceptos de ingeniería de software relacionados con la justificación del problema y los objetivos del proyecto.<br><br>**Geronimo Quispe Pablo Antonio (U202314304)**<br>Actualizó conocimientos sobre metodologías ágiles y estructuras de informes técnicos, aplicándolos en la redacción del Capítulo II. <br><br>**Sandro Dinklange Arevalo (U202313419)**<br>Reforzó conceptos de modelado de sistemas y usabilidad, colaborando en la elaboración de diagramas y descripciones del análisis funcional. <br><br>**Jamir Ángel Marzál Pérez (U201824409)**<br>Actualizó conocimientos en técnicas de *needfinding* y especificación de requisitos, elaborando artefactos como *User Personas* y *User Journey Mapping*. <br><br>**Ayrton Damian Inga Hernandez (U201924756)**<br>Reforzó conocimientos sobre documentación estructurada y coherencia técnica en informes de software, participando en la organización y revisión de los capítulos. | **Paulo:** Fortaleció su capacidad de análisis y redacción técnica al aplicar conceptos teóricos en el desarrollo del informe.<br><br>**Geronimo:** Consolidó sus conocimientos en gestión ágil y documentación, contribuyendo a la claridad del contenido técnico.<br><br>**Sandro:** Mejoró su comprensión del modelado de sistemas y su aplicación en documentos de ingeniería.<br><br>**Jamir:** Potenció sus habilidades en investigación de usuarios y especificación de requerimientos.<br><br>**Ayrton:** Desarrolló competencias en la elaboración de documentación técnica estructurada y colaborativa. |
-| Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de tecnologías de ingeniería de software. | **Paulo Percy Quincho Gamarra (U20191E562)**<br>Mostró interés en actualizarse en redacción académica y normas de citación aplicadas al informe técnico.<br><br>**Geronimo Quispe Pablo Antonio (U202314304)**<br>Investigó nuevas herramientas de planificación y coordinación de tareas para mejorar la gestión del trabajo en equipo.<br><br>**Sandro Dinklange Arevalo (U202313419)**<br>Se capacitó de manera autónoma en herramientas de diagramación digital y documentación colaborativa.<br><br>**Jamir Ángel Marzál Pérez (U201824409)**<br>Buscó información sobre tendencias actuales en ingeniería de software y su documentación, integrándolas al desarrollo del capítulo asignado.<br><br>**Ayrton Damian Inga Hernandez (U201924756)**<br>Investigó sobre buenas prácticas de redacción técnica y su aplicación en informes académicos. | **Paulo:** Reconoció la importancia de mantener una actitud de mejora continua en la elaboración de informes técnicos.<br><br>**Geronimo:** Entendió que el aprendizaje permanente es clave para mejorar la organización y productividad del equipo.<br><br>**Sandro:** Comprendió que la actualización constante en herramientas tecnológicas favorece la calidad del trabajo técnico.<br><br>**Jamir:** Valoró la necesidad de investigar continuamente para mantenerse actualizado en metodologías y tendencias del área.<br><br>**Ayrton:** Reafirmó la importancia del aprendizaje constante para lograr informes con mayor claridad y rigor técnico. |
+| Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de ingeniería de software. | **Paulo Percy Quincho Gamarra (U20191E562)**<br>Revisó fundamentos de análisis de requerimientos y documentación técnica para la elaboración del Capítulo I. Aplicó conceptos de ingeniería de software relacionados con la justificación del problema y los objetivos del proyecto.<br><br>**Geronimo Quispe Pablo Antonio (U202314304)**<br>Actualizó conocimientos sobre metodologías ágiles y estructuras de informes técnicos, aplicándolos en la redacción del Capítulo II. <br><br>**Sandro Dinklange Arevalo (U202313419)**<br>Reforzó conceptos de modelado de sistemas y usabilidad, colaborando en la elaboración de diagramas y descripciones del análisis funcional. <br><br>**Jamir Ángel Marzál Pérez (U201824409)**<br>**TB1:** Actualizó conocimientos en técnicas de *needfinding* y especificación de requisitos, elaborando artefactos como *User Personas* y *User Journey Mapping*. <br>**TP1:** Se realizaron entrevistas de validación y evaluaciones heurísticas para identificar mejoras en la aplicación PolarNet. Estas actividades permitieron actualizar conocimientos sobre usabilidad, diseño centrado en el usuario y validación de interfaces. <br><br>**Ayrton Damian Inga Hernandez (U201924756)**<br>Reforzó conocimientos sobre documentación estructurada y coherencia técnica en informes de software, participando en la organización y revisión de los capítulos. | **Paulo:** Fortaleció su capacidad de análisis y redacción técnica al aplicar conceptos teóricos en el desarrollo del informe.<br><br>**Geronimo:** Consolidó sus conocimientos en gestión ágil y documentación, contribuyendo a la claridad del contenido técnico.<br><br>**Sandro:** Mejoró su comprensión del modelado de sistemas y su aplicación en documentos de ingeniería.<br><br>**Jamir TB1:** Potenció sus habilidades en investigación de usuarios y especificación de requerimientos.<br><br>**Jamir TP1:** Se fortalecieron las competencias técnicas y analíticas aplicadas al desarrollo de soluciones de software, reconociendo la importancia de adaptar el diseño a las necesidades del usuario.<br><br>**Ayrton:** Desarrolló competencias en la elaboración de documentación técnica estructurada y colaborativa.  |
+| Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de tecnologías de ingeniería de software. | **Paulo Percy Quincho Gamarra (U20191E562)**<br>Mostró interés en actualizarse en redacción académica y normas de citación aplicadas al informe técnico.<br><br>**Geronimo Quispe Pablo Antonio (U202314304)**<br>Investigó nuevas herramientas de planificación y coordinación de tareas para mejorar la gestión del trabajo en equipo.<br><br>**Sandro Dinklange Arevalo (U202313419)**<br>Se capacitó de manera autónoma en herramientas de diagramación digital y documentación colaborativa.<br><br>**Jamir Ángel Marzál Pérez (U201824409)**<br>**TB1**Buscó información sobre tendencias actuales en ingeniería de software y su documentación, integrándolas al desarrollo del capítulo asignado.<br><br>**TP1**BDurante el proceso se investigaron principios de usabilidad e inclusive design, aplicándolos en la evaluación del prototipo. Esto implicó aprendizaje autónomo y actualización constante.<br><br>**Ayrton Damian Inga Hernandez (U201924756)**<br>Investigó sobre buenas prácticas de redacción técnica y su aplicación en informes académicos. | **Paulo:** Reconoció la importancia de mantener una actitud de mejora continua en la elaboración de informes técnicos.<br><br>**Geronimo:** Entendió que el aprendizaje permanente es clave para mejorar la organización y productividad del equipo.<br><br>**Sandro:** Comprendió que la actualización constante en herramientas tecnológicas favorece la calidad del trabajo técnico.<br><br>**Jamir TB1:** Valoró la necesidad de investigar continuamente para mantenerse actualizado en metodologías y tendencias del área.<br><br>**Jamir TP1:** Se reafirmó la importancia del aprendizaje continuo para mejorar la calidad de los proyectos y adaptarse a nuevas metodologías en ingeniería de software.<br><br>**Ayrton:** Reafirmó la importancia del aprendizaje constante para lograr informes con mayor claridad y rigor técnico. |
 
 # Anexo B
 
@@ -1789,3 +1789,459 @@ quiero investigar y prototipar la integración de sensores IoT en la aplicación
 - PMCID (2023). *Cold Chain Monitoring Systems: Integration Challenges and IoT Applications*. **National Center for Biotechnology Information**. [https://pmc.ncbi.nlm.nih.gov/articles/PMC11244810/](https://pmc.ncbi.nlm.nih.gov/articles/PMC11244810/)  
 - Bai, Y. et al. (2023). *Reducing Food Waste through Smart Cold Chain Management*. **PMC**, Article 10417803. [https://pmc.ncbi.nlm.nih.gov/articles/PMC10417803/](https://pmc.ncbi.nlm.nih.gov/articles/PMC10417803/)
 
+
+
+
+<b></b>
+
+# Capítulo IV: Product Implementation & Validation
+## 4.1 Software Configuration Management
+### 4.1.1 Development Environment Configuration
+### 4.1.2 Source Code Management
+### 4.1.3 Source Code Style Guide & Conventions
+### 4.1.4 Deployment Configuration
+## 4.2 Landing Page & Mobile Application Implementation
+### 4.2.1 Sprint 1
+#### 4.2.1.1 Sprint Planning 1
+
+El Sprint Planning 1 es una reunión esencial para iniciar el primer sprint de un proyecto, donde el equipo define los objetivos y la estrategia para cumplirlos. En este caso, nuestro objetivo principal es implementar la landing page de la aplicación, asegurando una presentación efectiva del producto.
+
+| Sprint #                             | Sprint 1                                                                                               |
+|--------------------------------|--------------------------------------------------------------------------------------------------------|
+| **Date**       |     2025-10-05        |
+| Time           | 10:00 PM                      |
+| Location       | Virtual - Meet               |
+| Prepared By    | Paulo Quincho              |
+| Attendees (to planning meeting)| Paulo Quincho, Sandro Dinklange, Jamir Marzál, Ayrton Inga, Pablo Geronimo  |
+| Sprint n - 1 Review Summary    | Este es el primer Sprint, por lo que este campo no aplica.                                            |
+| Sprint n - 1 Retrospective Summary | Este es el primer Sprint, por lo que este campo no aplica.                                       |
+| Sprint 1 Goal                  | Nuestra prioridad en este sprint es implementar la landing page de nuestra aplicación. Creemos que esto brindará una presentación satisfactoria de nuestro producto a los posibles usuarios. Asimismo, avanzar con gran parte del backend y mostrar las pincipales vistas de la aplicacion mobile. |
+| Sprint 1 Velocity              | Nuestro equipo puede aceptar hasta xx Story Points.                                                  |
+| Sum of Story Points            | La suma de Story Points atendidos es de  .                 
+
+#### 4.2.1.2 Sprint Backlog 1
+
+Para el primer sprint, desarrollamos la estructura y las funcionalidades básicas de la landing page, así como parte del backend y pantallas principales de la app mobile.
+
+| **Sprint #**   | Sprint 1   |             |             |             |             |             |             |
+|----------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|
+| **User Story** |             | **Work-Item/task** |             |             |             |             |             |
+| **ID**         | **Título**  | **ID**             | **Título**   | **Descripción**        | **Estimación (hrs)** | **Assigned to**    | **Status** |
+| US-23 | Visualizar propuesta de valor principal | T01 | Mostrar propuesta de valor principal | Crear una sección en la landing page donde se muestren los beneficios clave de la app. | xx  | Front Developer  | Done |
+| US-24 | Explorar soluciones específicas para mi rubro | T02 | Crear la sección 'Beneficios' | Añadir la sección donde se visualizan las soluciones específicas a cada segmento (beneficios) | xx  | Front Developer  | Done |
+| US-25 | Comprender funcionalidades destacadas | T03 | Crear la sección 'Funcionalidades' | Añadir la sección donde se visualizan las funciones principales de la plataforma | xx  | Front Developer  | Done |
+| TS-36| Integrar sistema IAM en el backend | T04 | Creacion de endpoint | Integrar un sistema de Identity Access Management (IAM) en el backend para gestionar de forma segura el acceso |  | Back Developer | Done |
+| TS-40| Registrar nuevo usuario vía API RESTful | T05 | Creacion de endpoint | Desarrollar un endpoint para registrar nuevos usuarios en la plataforma. |  | Back Developer | Done |
+| TS-42| Solicitar mantenimiento preventivo vía API | T06 | Creacion de endpoint | Implementar un endpoint para registrar solicitudes de mantenimiento preventivo. |  | Back Developer | Done |
+| TS-43| Eliminar/Asignar técnico a solicitud de servicio vía API | T07 | Creacion de endpoint | Crear un endpoint que permita asignar/eliminar técnicos de solicitudes de servicio. |  | Back Developer | Done |
+| TS-44| Consultar historial de servicios por API | T08 | Creacion de endpoint | Exponer un endpoint para consultar el historial de servicios. |  | Back Developer | Done |
+
+#### 4.2.1.3 Development Evidence
+#### 4.2.1.4 Testing Suite Evidence
+#### 4.2.1.5 Execution Evidence
+#### 4.2.1.6 Services Documentation Evidence
+#### 4.2.1.7 Software Deployment Evidence
+#### 4.2.1.8 Team Collaboration Insights
+## 4.3 Validation Interviews
+En esta sección se presentan los detalles de las entrevistas de validación realizadas.
+### 4.3.1 Diseño de Entrevistas
+**Objetivo de la sesión de validación**
+
+Validar la usabilidad, claridad y funcionalidad de las principales vistas de la aplicación móvil de CoolGuard, verificando que los usuarios comprendan cómo acceder, explorar y registrar equipos disponibles para alquiler.
+
+**Elementos incluidos en la sesión**
+
+- Aplicación móvil de PolarNet.
+
+**User Flow propuesto para la sesión**
+
+**Para el Segmento: Empresas Proveedoras de Servicios**
+
+1. Inicio de sesión: El usuario ingresa sus credenciales para acceder a la aplicación.
+2. Inicio: Visualiza un resumen general de los equipos disponibles o en uso.
+3. Inventario: Consulta el estado detallado de cada maquinaria y sus condiciones.
+4. Agregar equipo: Registra un nuevo equipo disponible para alquiler.
+5. Perfil: Revisa su información personal y configuración de arrendador.
+
+**Preguntas para el Segmento 2: Empresas Proveedoras de Servicios**
+
+**Vista: Inicio de sesión**
+- ¿Te resulta claro cómo ingresar a la aplicación?
+- ¿Te gustaría tener opciones como “recordar usuario” o “inicio con Google”?
+
+**Vista: Inicio**
+- ¿Encuentras rápidamente los equipos disponibles o en uso?
+- ¿Te gustaría que aparecieran alertas cuando un equipo está por vencer su periodo de alquiler?
+
+**Vista: Inventario**
+- ¿Te resulta fácil identificar qué equipos están disponibles, alquilados o en mantenimiento?
+- ¿Te gustaría tener filtros para buscar equipos por tipo o por cliente?
+
+**Vista: Agregar equipo**
+- ¿El proceso de agregar un nuevo equipo te resulta simple y claro?
+
+**Vista: Perfil**
+- ¿Te gustaría ver tu historial de alquileres o contratos activos?
+- ¿Agregarías una opción para ver estadísticas de tus equipos (uso, disponibilidad, ingresos)?
+
+### 4.3.2 Registro de Entrevistas
+En esta sección tenemos el análisis de las entrevistas por segmentos objetivos.
+
+
+**Entrevista 1: Proveedores de equipos de refrigeración**
+
+<table border="1" style="text-align: left;">
+	<tbody>
+		<tr>
+			<td colspan="1" rowspan="7">
+                <img src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-4/images/chapter-IV/angelmoroco.png"  width="400" height="250">
+            </td>
+            <td><strong>Nombre del entrevistado</strong><br>Angel Moroco</td>
+		</tr>
+        <tr>	
+        <td><strong>Edad</strong><br>21 años</td>
+        </tr>
+        <tr>
+            <td><strong>Distrito</strong><br>Pueblo Libre</td>
+        </tr>
+        <tr>
+            <td><strong>Nombre del entrevistador</strong><br>Pablo geronimo</td>
+        </tr>
+        <tr>
+            <td><strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202314304_upc_edu_pe/ESE4COjO8o1Mh9_btqgo18UBLPOOawZRioA_nUdtqkjfKw?e=bGHYIa&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">URL Entrevista</a></strong></td>
+        </tr>
+        <tr>
+            <td><strong>Timing Inicial</strong><br><u>00:00</u></td>
+        </tr>
+        <tr>
+            <td><strong>Timing Final</strong><br><u>08:41</u></td>
+        </tr>
+	</tbody>
+</table>
+
+<p><strong>Resumen:</strong><br>
+Angel moroco considera que la aplicacion mobile contiene muchas fallas y que deberia ser corregido directamente tambien nos dio recomendaciones y que le gusto las funcionalidades que implementaremos para su segmento objetivo tambien comento que la interfaz suele ser un poco dificil de entender y que si pudiera le agregariamos un tutorial o algo similar para que sea de su agrado
+</p>
+
+
+
+
+**Entrevista 2: Negocios que utilizan Equipos de Refrigeración**
+
+<table border="1" style="text-align: left;">
+	<tbody>
+		<tr>
+			<td colspan="1" rowspan="7">
+  <img src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-4/images/chapter-IV/erinqueelera.png"  width="400" height="250">
+            </td>
+            <td><strong>Nombre del entrevistado</strong><br>Enrique elera </td>
+		</tr>
+        <tr>
+            <td><strong>Edad</strong><br>20 años</td>
+        </tr>
+        <tr>
+            <td><strong>Distrito</strong><br>Los Olivos</td>
+        </tr>
+        <tr>
+            <td><strong>Nombre del entrevistador</strong><br>Pablo Geronimo</td>
+        </tr>
+        <tr>
+            <td><strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202314304_upc_edu_pe/EcmtkSysliJLkl7pF2V1-gABkKnwxHKiiyyVra5Xl9fk4A?e=cAxLBk&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">URL Entrevista</a></strong></td>
+        </tr>
+        <tr>
+            <td><strong>Timing Inicial</strong><br><u>00:00</u></td>
+        </tr>
+        <tr>
+            <td><strong>Timing Final</strong><br><u>06:06</u></td>
+        </tr>
+	</tbody>
+</table>
+
+<p><strong>Resumen:</strong><br>
+Enrique elera es una persona que tiene su panaderia y muchos productos que dependen en si del manejo de temperatura tambien nos informo que ha tenido problemas ya que su equipo suele dañarse muy a menudo y que quisiera tener un tecnico de confianza con quien contactarse inmediatamente cuando eso pasa le mostramos la aplicacion mobile y nos definio que le parecio muy buena ya que tenia todas las funcionalidades que el buscaba tambien comento que le gustaria que implementaramos el detalle para saber un poco mas de la revision o mantenimiento tecnico
+ </p>
+
+
+
+
+**Entrevista 3: Negocios que utilizan Equipos de Refrigeración**
+
+
+
+<table border="1" style="text-align: left;">
+	<tbody>
+		<tr>
+			<td colspan="1" rowspan="7">
+  <img src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-4/images/chapter-IV/marcoscontreras.png"  width="400" height="250">
+            </td>
+            <td><strong>Nombre del entrevistado</strong><br>Marcos Contreras</td>
+		</tr>
+        <tr>
+            <td><strong>Edad</strong><br>25 años</td>
+        </tr>
+        <tr>
+            <td><strong>Distrito</strong><br>Los Olivos</td>
+        </tr>
+        <tr>
+            <td><strong>Nombre del entrevistador</strong><br>Pablo Geronimo</td>
+        </tr>
+        <tr>
+            <td><strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202314304_upc_edu_pe/EX3ffC2XYGtPqmUGVge9sq8B2Lhw_oB__iXAQ04HIfyu-Q?e=Ij9YjA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">URL Entrevista</a></strong></td>
+        </tr>
+        <tr>
+            <td><strong>Timing Inicial</strong><br><u>00:00</u></td>
+        </tr>
+        <tr>
+            <td><strong>Timing Final</strong><br><u>07:10</u></td>
+        </tr>
+	</tbody>
+</table>
+
+<p><strong>Resumen:</strong><br>
+Marcos contreras estaba un poco disgustado con el formato de la aplicacion mobile y de la landing ya que segun el no era lo suficiente mente interactiva y le aburria un poco ese formato tambien nos conto un poco que es un heladereo que tiene gente encargada para fijar su area de refrigeracion le comente sobre la aplicacion y le parecio una solucion ideal tambien nos comento que la aplicacion mobile tendria un poco de defectos ya que no le gusto el tipo de catalogo que mostramos y le gustaria algo mas interactivo 
+ </p>
+
+
+ 
+**Entrevista 1: Proveedores de equipos de refrigeración**
+
+<table border="1" style="text-align: left;">
+	<tbody>
+		<tr>
+			<td colspan="1" rowspan="7">
+                <img src="./images/chapter-IV/Entrevista-Nelson.png" alt="Entrevista Nelson" width="400" height="250">
+            </td>
+            <td><strong>Nombre del entrevistado</strong><br>Nelson Mundo</td>
+		</tr>
+        <tr>
+            <td><strong>Edad</strong><br>25 años</td>
+        </tr>
+        <tr>
+            <td><strong>Distrito</strong><br>Los Olivos</td>
+        </tr>
+        <tr>
+            <td><strong>Nombre del entrevistador</strong><br>Jamir Marzál</td>
+        </tr>
+        <tr>
+            <td><strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u201824409_upc_edu_pe/EbqEPVytlY5Bj2BZs-qSPKkBzcxvvqEMfqhFW4FZV395qw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=fFzeRL">URL Entrevista</a></strong></td>
+        </tr>
+        <tr>
+            <td><strong>Timing Inicial</strong><br><u>00:00</u></td>
+        </tr>
+        <tr>
+            <td><strong>Timing Final</strong><br><u>04:08</u></td>
+        </tr>
+	</tbody>
+</table>
+
+<p><strong>Resumen:</strong><br>
+Nelson considera que el formulario de inicio de sesión es simple y directo, pero sugiere agregar funciones como “recordar usuario” o “inicio con Google”. En la vista de inicio, le parece fácil encontrar los equipos disponibles y cree que las alertas de vencimiento serían útiles. En el inventario, menciona que es sencillo identificar los estados de los equipos, aunque el texto podría ser más grande. Propone filtros por tipo o cliente. El proceso de agregar un equipo le parece intuitivo, y en el perfil desea ver su historial y estadísticas de uso o ingresos.
+</p>
+
+**Entrevista 2: Proveedores de equipos de refrigeración**
+
+<table border="1" style="text-align: left;">
+	<tbody>
+		<tr>
+			<td colspan="1" rowspan="7">
+                <img src="./images/chapter-IV/entrevista-Anthony.png" alt="Entrevista Anthony" width="400" height="250">
+            </td>
+            <td><strong>Nombre del entrevistado</strong><br>Anthony Huapaya</td>
+		</tr>
+        <tr>
+            <td><strong>Edad</strong><br>23 años</td>
+        </tr>
+        <tr>
+            <td><strong>Distrito</strong><br>Surco</td>
+        </tr>
+        <tr>
+            <td><strong>Nombre del entrevistador</strong><br>Jamir Marzál</td>
+        </tr>
+        <tr>
+            <td><strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u201824409_upc_edu_pe/Efbuqyk0LFlPh1eURsMJHEoBa3g8ItAUrxiE_Udw3QzYZA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=H7P02C">URL Entrevista</a></strong></td>
+        </tr>
+        <tr>
+            <td><strong>Timing Inicial</strong><br><u>00:00</u></td>
+        </tr>
+        <tr>
+            <td><strong>Timing Final</strong><br><u>06:36</u></td>
+        </tr>
+	</tbody>
+</table>
+
+<p><strong>Resumen:</strong><br>
+Anthony considera que la aplicación es clara y funcional en general, aunque sugiere mejorar el diseño visual para hacerlo más atractivo. En la vista de **inicio de sesión**, le parece simple ingresar, pero recomienda incluir opciones como *“recordar usuario”* o *inicio con Google* para mayor comodidad.  
+En la vista de **inicio**, menciona que la información sobre los equipos se presenta de forma clara, pero cree que sería muy útil implementar un sistema de alertas o *dashboard* que advierta sobre equipos próximos a vencer o con bajo stock.  
+En **inventario**, destaca la buena organización de la información y sugiere añadir filtros por tipo de equipo para agilizar la búsqueda.  
+Durante la prueba de la vista **agregar**, señaló que el formulario es sencillo y bien estructurado, ya que cada campo tiene una descripción clara.  
+Finalmente, en la vista de **perfil**, valoró la posibilidad de visualizar los datos del usuario, y propuso incluir un *historial de alquileres* y un módulo de *estadísticas* sobre el uso y mantenimiento de los equipos, lo cual considera importante para una mejor gestión de su negocio.
+</p>
+
+**Entrevista 3: Proveedores de equipos de refrigeración**
+
+<table border="1" style="text-align: left;">
+	<tbody>
+		<tr>
+			<td colspan="1" rowspan="7">
+                <img src="./images/chapter-IV/Entrevista-Estefano.png" alt="Entrevista Estefano" width="400" height="250">
+            </td>
+            <td><strong>Nombre del entrevistado</strong><br>Estefano Mundo</td>
+		</tr>
+        <tr>
+            <td><strong>Edad</strong><br>28 años</td>
+        </tr>
+        <tr>
+            <td><strong>Distrito</strong><br>Los olivos</td>
+        </tr>
+        <tr>
+            <td><strong>Nombre del entrevistador</strong><br>Jamir Marzál</td>
+        </tr>
+        <tr>
+            <td><strong><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u201824409_upc_edu_pe/EQsBh7aPDpNOpNdpocHrCM4Bk5QsUbgCjogiz1vddCSalw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=MlFYbW">URL Entrevista</a></strong></td>
+        </tr>
+        <tr>
+            <td><strong>Timing Inicial</strong><br><u>00:00</u></td>
+        </tr>
+        <tr>
+            <td><strong>Timing Final</strong><br><u>03:38</u></td>
+        </tr>
+	</tbody>
+</table>
+
+<p><strong>Resumen:</strong><br>
+Estefano indica que ingresar a la aplicación es sencillo, aunque preferiría una opción de inicio rápido o con Google. En la vista de inicio, menciona que los equipos están bien organizados y que las alertas por vencimiento de alquiler serían muy útiles. En el inventario, dice que los colores ayudan a identificar el estado de los equipos y considera importante añadir filtros por tipo o cliente. Afirma que el proceso de agregar equipos es rápido. Finalmente, le gustaría contar con un historial de alquileres y estadísticas de uso para analizar mejor su negocio.
+</p>
+
+
+### 4.3.3 Evaluaciones según heurísticas
+En este capítulo se presenta la evaluación de la aplicación  basada en principios heurísticos de **usabilidad**, **arquitectura de la información** e **inclusive design**.  
+El objetivo de esta evaluación es identificar posibles problemas de interacción, diseño visual o accesibilidad que puedan afectar la experiencia del usuario durante el uso de las diferentes vistas de la aplicación: **Inicio de sesión**, **Inicio**, **Inventario**, **Agregar** y **Perfil**.  
+
+Las observaciones se sustentan en las entrevistas realizadas a los usuarios, quienes probaron las funciones principales de la aplicación y brindaron retroalimentación sobre su facilidad de uso, claridad visual y eficiencia en las tareas.  
+A partir de estos hallazgos, se determinan los principales problemas detectados, su nivel de severidad y las heurísticas afectadas, junto con recomendaciones para optimizar la experiencia general.
+
+>UX Heuristics & Principles Evaluation  
+Usability – Inclusive Design – Information Architecture  
+
+- **Carrera:** Ingeniería de Software  
+- **Curso:** Aplicaciones para Dispositivos Móviles  
+- **Sección:** 1795  
+- **Profesores:** Todos  
+- **Auditor:** Equipo de desarrollo Grupo 1 - PolarNet  
+- **Cliente(s):** PolarNet   
+
+**Sitio o app a evaluar:** CoolGuard - Sistema de gestión de alquiler de equipos frioríficos  
+
+**Tareas a evaluar:**  
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:  
+- Inicio de sesión  
+- Visualización de equipos disponibles  
+- Gestión del inventario  
+- Registro de nuevos equipos  
+- Visualización de perfil del usuario  
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:  
+- Reportes estadísticos avanzados  
+- Integración con pagos  
+- Módulo de notificaciones o alertas  
+
+---
+
+### Escala de severidad
+Los errores fueron evaluados según la siguiente escala:
+
+<table border="1">
+	<tbody>
+        <tr>
+            <td style="text-align:center;"><strong>Nivel</strong></td>
+            <td style="text-align:center;"><strong>Descripción</strong></td>
+        </tr>
+		<tr>
+			<td>1</td>
+            <td>Problema superficial: puede ser fácilmente superado por el usuario o ocurre con poca frecuencia. No requiere corrección inmediata.</td>
+		</tr>
+        <tr>
+            <td>2</td>
+            <td>Problema menor: ocurre ocasionalmente o genera leve confusión. Puede corregirse en futuras versiones.</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Problema mayor: ocurre con frecuencia o afecta la eficiencia de uso. Se recomienda corregir antes del lanzamiento.</td>
+        </tr>
+	    <tr>
+            <td>4</td>
+            <td>Problema crítico: impide la continuidad de las tareas principales. Requiere corrección inmediata.</td>
+        </tr>	
+	</tbody>
+</table>
+
+---
+
+### Tabla de resumen
+
+<table border="1">
+	<tbody>
+        <tr>
+            <td style="text-align:center;"><strong>#</strong></td>
+            <td style="text-align:center;"><strong>Problema</strong></td>
+            <td style="text-align:center;"><strong>Escala de severidad</strong></td>
+            <td style="text-align:center;"><strong>Heurística/Principio violado</strong></td>
+        </tr>
+		<tr>
+			<td>1</td>
+            <td>Los textos y etiquetas en el inventario son pequeños, dificultando la lectura.</td>
+            <td>2</td>
+            <td>Usabilidad – Visibilidad y legibilidad del sistema</td>
+		</tr>
+        <tr>
+            <td>2</td>
+            <td>No existen alertas visibles sobre la expiración del periodo de alquiler.</td>
+            <td>3</td>
+            <td>Information Architecture – Feedback del sistema</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>El inicio de sesión carece de opciones rápidas como “recordar usuario” o “inicio con Google”.</td>
+            <td>2</td>
+            <td>Usabilidad – Flexibilidad y eficiencia de uso</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Falta un apartado de estadísticas en el perfil para visualizar el uso e ingresos de los equipos.</td>
+            <td>3</td>
+            <td>Information Architecture – Visibilidad del estado del sistema</td>
+        </tr>
+	</tbody>
+</table>
+
+---
+
+### Descripción de problemas
+
+**Problema #1:** Los textos y etiquetas en el inventario son pequeños, dificultando la lectura.  
+**Severidad:** 2  
+**Heurística violada:** Usabilidad – Visibilidad y legibilidad del sistema  
+**Problema:** Durante las entrevistas, algunos usuarios (como Nelson) mencionaron que ciertos textos en la vista de inventario eran demasiado pequeños, dificultando identificar los estados de los equipos.  
+**Recomendación:** Aumentar el tamaño de texto y contraste de color en las etiquetas “Disponible”, “Alquilado” y “En mantenimiento”.  
+<br>
+
+**Problema #2:** No existen alertas visibles sobre la expiración del periodo de alquiler.  
+**Severidad:** 3  
+**Heurística violada:** Information Architecture – Feedback del sistema  
+**Problema:** Los usuarios (Nelson y Estefano) destacaron la necesidad de recibir alertas o notificaciones sobre los equipos próximos a vencer, ya que esta ausencia podría generar olvidos o retrasos.  
+**Recomendación:** Implementar un sistema de notificaciones visuales y alertas automáticas en el panel principal.  
+<br>
+
+**Problema #3:** El inicio de sesión carece de opciones rápidas como “recordar usuario” o “inicio con Google”.  
+**Severidad:** 2  
+**Heurística violada:** Usabilidad – Flexibilidad y eficiencia de uso  
+**Problema:** Los entrevistados expresaron que escribir el correo cada vez es tedioso y preferirían alternativas rápidas de acceso.  
+**Recomendación:** Agregar las opciones de “Recordar usuario” y “Inicio con Google” para optimizar el proceso de autenticación.  
+<br>
+
+**Problema #4:** Falta un apartado de estadísticas en el perfil para visualizar el uso e ingresos de los equipos.  
+**Severidad:** 3  
+**Heurística violada:** Information Architecture – Visibilidad del estado del sistema  
+**Problema:** Los usuarios (Anthony y Estefano) consideraron importante disponer de un panel que muestre métricas del negocio como uso, disponibilidad o ingresos.  
+**Recomendación:** Incluir un dashboard estadístico dentro del perfil del usuario con gráficos básicos y métricas clave.  
+<br>

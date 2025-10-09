@@ -1472,30 +1472,174 @@ En el software architecture container diagram se puede apreciar la forma de más
 
 ## 2.6.1. Bounded Context:Authentification Bounded Context
 
+El **bounded context de Autenticación** gestiona todo lo relacionado con el acceso y la identidad de los usuarios dentro del sistema.  
+Define cómo los usuarios se **registran**, **inician sesión**, **obtienen sus roles** y **mantienen sesiones seguras** mediante tokens JWT.  
+También sirve como base para otros contextos (como Solicitud de Servicios o Monitoreo), permitiendo validar la identidad y los permisos de los usuarios.
+
+
 ### 2.6.1.1.Domain Layer
+
+La capa de **Domain** representa el **núcleo del dominio** de autenticación.  
+Aquí se definen las entidades, objetos de valor e interfaces que encapsulan las **reglas de negocio**.  
+Su función es modelar cómo el sistema entiende un usuario, su rol y su relación con la empresa.
+### 🧱 Clases principales
+
+#### 🟦 User (Entity)
+**Atributos:**  
+`user_id`, `name`, `username`, `password`, `email`, `role`, `company_id`, `is_active`
+
+**Métodos:**  
+- `validatePassword()` → verifica si la contraseña ingresada coincide con la almacenada.  
+- `assignRole()` → asigna un rol al usuario.  
+- `activateUser()` / `deactivateUser()` → controlan si el usuario puede iniciar sesión.
+
+**Explicación:**  
+Representa al usuario dentro del dominio. Contiene la lógica principal sobre autenticación, validación y estado.
+
+---
+
+#### 🟩 Role (Value Object / Enum)
+**Valores posibles:**  
+`ADMIN`, `PROVIDER`, `CLIENT`
+
+**Propósito:**  
+Encapsula los roles disponibles de forma inmutable. Facilita el control de permisos y la autorización sin necesidad de acceder a la base de datos.
+
+---
+
+#### 🟪 Company (Entity ligera)
+**Atributos:**  
+`company_id`, `name`
+
+**Propósito:**  
+Representa la organización a la que pertenece el usuario.  
+Se usa como referencia, ya que el detalle completo de la empresa se gestiona en otro bounded context.
+
+---
+
+#### 🟨 UserRepository (Interface)
+**Métodos:**  
+- `findByUsername()`  
+- `findByEmail()`  
+- `save()`  
+- `update()`
 
 <img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/iamd.png">
 
 ### 2.6.1.2. Interface Layer
 
+La **Interface Layer** contiene los **controladores REST** que actúan como punto de entrada entre el cliente y el sistema.  
+Transforma las solicitudes HTTP en comandos o servicios de aplicación.
+
+### 🧩 AuthController (REST API Controller)
+**Endpoints:**
+- `POST /auth/login` → Inicia sesión y genera token JWT.  
+- `POST /auth/register` → Registra nuevo usuario.  
+- `POST /auth/logout` → Cierra sesión.  
+- `GET /auth/profile` → Devuelve datos del usuario autenticado.
+
+**Explicación:**  
+Este controlador recibe las peticiones del cliente (por ejemplo, desde la app móvil o web) y coordina la ejecución de los casos de uso.  
+No contiene lógica de negocio, solo delega las acciones a la capa de aplicación.
+
 <img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/iaminterface.png">
 
 ### 2.6.1.3. Application Layer
 
+La **Application Layer** orquesta los **casos de uso** del dominio.  
+Se encarga de manejar la lógica de flujo entre el controlador, el dominio y la infraestructura.
+
+### ⚙️ Clases principales
+
+#### 🔹 LoginHandler
+**Responsabilidad:** Manejar el proceso de inicio de sesión.  
+**Flujo:**  
+Recibe credenciales, busca el usuario en el repositorio, valida la contraseña y genera un token JWT.  
+**Método:** `handle(loginCommand)`.
+
+---
+
+#### 🔹 RegisterHandler
+**Responsabilidad:** Registrar nuevos usuarios.  
+**Flujo:**  
+Valida los datos, encripta la contraseña, asigna el rol y guarda el usuario.  
+**Método:** `handle(registerCommand)`.
+
+---
+
+#### 🔹 ProfileHandler
+**Responsabilidad:** Devolver la información del usuario autenticado.  
+**Flujo:**  
+Valida el token JWT y obtiene los datos desde el repositorio.
+
+#### 🔹 AuthService
+**Propósito:**  
+Orquesta toda la lógica de autenticación y autorización.  
+Se comunica con los *handlers*, el repositorio, el servicio de hashing y el proveedor de tokens.
+
+
 <img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/aplicationiam.png">
 
 ### 2.6.1.4  Infrastructure Layer
+
+La capa de **Infrastructure** contiene las implementaciones técnicas necesarias para que el dominio funcione en un entorno real.  
+Aquí se manejan bases de datos, seguridad y servicios externos.
+
+### 🧩 Componentes
+
+#### 🟩 UserRepositoryImpl
+**Implementa:** `UserRepository`  
+**Tecnología:** Androidstudio
+**Explicación:** Ejecuta las operaciones reales de almacenamiento, actualización y búsqueda de usuarios.
+
+---
+
+#### 🟪 PasswordHasher
+**Función:** Encriptar y verificar contraseñas.  
+**Tecnología:** bcrypt o Argon2.  
+**Explicación:** Las contraseñas se almacenan de forma segura, evitando texto plano.
+
+---
 
 <img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/infrastructure.png">
 
 
 ### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 
+### 🧠 Introducción
+El diagrama de componentes muestra cómo interactúan los distintos módulos dentro del bounded context de Autenticación.
+
+### 🔗 Flujo general
+1. `AuthController` recibe la petición del cliente.  
+2. Llama a `AuthService`, que coordina la lógica de autenticación.  
+3. `AuthService` usa `UserRepository` para consultar usuarios y `PasswordHasher` para validar contraseñas.  
+4. Si todo es correcto, `JWTProvider` genera el token JWT.  
+5. La respuesta es enviada de vuelta al cliente.
+
+---
+
 
 #### 2.6.1.6.2. Bounded Context Database Design Diagram 
+Base de datos y relaciones usadas en el bounded context authentification de uno a muchos o viceversa
+**Tablas:**
+- `users`
+- `companies`
+
+**Relaciones:**
+- `users.company_id` → `companies.company_id`
+
+**Restricciones:**
+- `username` y `email` son **únicos**.  
+- `company_id` asegura la pertenencia de cada usuario a una empresa.  
+- `users` guarda referencias al contexto organizacional del usuario.
+  
 <img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/dbiam.png">
 
 ## 2.6.2. Bounded Context:Service request Bounded Context
+
+El **bounded context de Solicitud de Servicios** gestiona todo el ciclo de vida de una solicitud técnica dentro de la plataforma.  
+Permite a los clientes registrar solicitudes de mantenimiento, instalación o reparación, y a los proveedores gestionarlas, asignar técnicos, dar seguimiento y cerrarlas con reportes y calificaciones.  
+Este contexto se comunica con los bounded contexts de **Autenticación** y **Notificaciones** para validar usuarios y emitir alertas de estado.
 
 ### 2.6.2.1.Domain Layer
 

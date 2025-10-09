@@ -1784,3 +1784,134 @@ Estefano indica que ingresar a la aplicación es sencillo, aunque preferiría un
 
 
 ### 4.3.3 Evaluaciones según heurísticas
+En este capítulo se presenta la evaluación de la aplicación  basada en principios heurísticos de **usabilidad**, **arquitectura de la información** e **inclusive design**.  
+El objetivo de esta evaluación es identificar posibles problemas de interacción, diseño visual o accesibilidad que puedan afectar la experiencia del usuario durante el uso de las diferentes vistas de la aplicación: **Inicio de sesión**, **Inicio**, **Inventario**, **Agregar** y **Perfil**.  
+
+Las observaciones se sustentan en las entrevistas realizadas a los usuarios, quienes probaron las funciones principales de la aplicación y brindaron retroalimentación sobre su facilidad de uso, claridad visual y eficiencia en las tareas.  
+A partir de estos hallazgos, se determinan los principales problemas detectados, su nivel de severidad y las heurísticas afectadas, junto con recomendaciones para optimizar la experiencia general.
+
+>UX Heuristics & Principles Evaluation  
+Usability – Inclusive Design – Information Architecture  
+
+- **Carrera:** Ingeniería de Software  
+- **Curso:** Aplicaciones para Dispositivos Móviles  
+- **Sección:** 1795  
+- **Profesores:** Todos  
+- **Auditor:** Equipo de desarrollo Grupo 1 - PolarNet  
+- **Cliente(s):** PolarNet   
+
+**Sitio o app a evaluar:** CoolGuard - Sistema de gestión de alquiler de equipos frioríficos  
+
+**Tareas a evaluar:**  
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:  
+- Inicio de sesión  
+- Visualización de equipos disponibles  
+- Gestión del inventario  
+- Registro de nuevos equipos  
+- Visualización de perfil del usuario  
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:  
+- Reportes estadísticos avanzados  
+- Integración con pagos  
+- Módulo de notificaciones o alertas  
+
+---
+
+### Escala de severidad
+Los errores fueron evaluados según la siguiente escala:
+
+<table border="1">
+	<tbody>
+        <tr>
+            <td style="text-align:center;"><strong>Nivel</strong></td>
+            <td style="text-align:center;"><strong>Descripción</strong></td>
+        </tr>
+		<tr>
+			<td>1</td>
+            <td>Problema superficial: puede ser fácilmente superado por el usuario o ocurre con poca frecuencia. No requiere corrección inmediata.</td>
+		</tr>
+        <tr>
+            <td>2</td>
+            <td>Problema menor: ocurre ocasionalmente o genera leve confusión. Puede corregirse en futuras versiones.</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Problema mayor: ocurre con frecuencia o afecta la eficiencia de uso. Se recomienda corregir antes del lanzamiento.</td>
+        </tr>
+	    <tr>
+            <td>4</td>
+            <td>Problema crítico: impide la continuidad de las tareas principales. Requiere corrección inmediata.</td>
+        </tr>	
+	</tbody>
+</table>
+
+---
+
+### Tabla de resumen
+
+<table border="1">
+	<tbody>
+        <tr>
+            <td style="text-align:center;"><strong>#</strong></td>
+            <td style="text-align:center;"><strong>Problema</strong></td>
+            <td style="text-align:center;"><strong>Escala de severidad</strong></td>
+            <td style="text-align:center;"><strong>Heurística/Principio violado</strong></td>
+        </tr>
+		<tr>
+			<td>1</td>
+            <td>Los textos y etiquetas en el inventario son pequeños, dificultando la lectura.</td>
+            <td>2</td>
+            <td>Usabilidad – Visibilidad y legibilidad del sistema</td>
+		</tr>
+        <tr>
+            <td>2</td>
+            <td>No existen alertas visibles sobre la expiración del periodo de alquiler.</td>
+            <td>3</td>
+            <td>Information Architecture – Feedback del sistema</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>El inicio de sesión carece de opciones rápidas como “recordar usuario” o “inicio con Google”.</td>
+            <td>2</td>
+            <td>Usabilidad – Flexibilidad y eficiencia de uso</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Falta un apartado de estadísticas en el perfil para visualizar el uso e ingresos de los equipos.</td>
+            <td>3</td>
+            <td>Information Architecture – Visibilidad del estado del sistema</td>
+        </tr>
+	</tbody>
+</table>
+
+---
+
+### Descripción de problemas
+
+**Problema #1:** Los textos y etiquetas en el inventario son pequeños, dificultando la lectura.  
+**Severidad:** 2  
+**Heurística violada:** Usabilidad – Visibilidad y legibilidad del sistema  
+**Problema:** Durante las entrevistas, algunos usuarios (como Nelson) mencionaron que ciertos textos en la vista de inventario eran demasiado pequeños, dificultando identificar los estados de los equipos.  
+**Recomendación:** Aumentar el tamaño de texto y contraste de color en las etiquetas “Disponible”, “Alquilado” y “En mantenimiento”.  
+<br>
+
+**Problema #2:** No existen alertas visibles sobre la expiración del periodo de alquiler.  
+**Severidad:** 3  
+**Heurística violada:** Information Architecture – Feedback del sistema  
+**Problema:** Los usuarios (Nelson y Estefano) destacaron la necesidad de recibir alertas o notificaciones sobre los equipos próximos a vencer, ya que esta ausencia podría generar olvidos o retrasos.  
+**Recomendación:** Implementar un sistema de notificaciones visuales y alertas automáticas en el panel principal.  
+<br>
+
+**Problema #3:** El inicio de sesión carece de opciones rápidas como “recordar usuario” o “inicio con Google”.  
+**Severidad:** 2  
+**Heurística violada:** Usabilidad – Flexibilidad y eficiencia de uso  
+**Problema:** Los entrevistados expresaron que escribir el correo cada vez es tedioso y preferirían alternativas rápidas de acceso.  
+**Recomendación:** Agregar las opciones de “Recordar usuario” y “Inicio con Google” para optimizar el proceso de autenticación.  
+<br>
+
+**Problema #4:** Falta un apartado de estadísticas en el perfil para visualizar el uso e ingresos de los equipos.  
+**Severidad:** 3  
+**Heurística violada:** Information Architecture – Visibilidad del estado del sistema  
+**Problema:** Los usuarios (Anthony y Estefano) consideraron importante disponer de un panel que muestre métricas del negocio como uso, disponibilidad o ingresos.  
+**Recomendación:** Incluir un dashboard estadístico dentro del perfil del usuario con gráficos básicos y métricas clave.  
+<br>

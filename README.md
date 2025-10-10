@@ -1835,6 +1835,7 @@ Se encarga de aplicar la lógica de negocio definida en el dominio y comunicarla
 
 ---
 <img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/aplication.png">
+
 ### 2.6.4.4  Infrastructure Layer
 La capa de **Infrastructure** implementa los servicios concretos de persistencia y comunicación con sistemas externos.
 
@@ -2628,6 +2629,69 @@ Durante este Sprint inicial, nuestro equipo alcanzó con éxito la creación e i
 </p>
 
 **Aplicación Móvil PolarNet:**
+
+Login (Cliente y Proveedor)
+
+**Sección donde se muesta la forma de autenticación**
+
+<p align="center"><img src="images/login.png" alt="Landing Page - Footer" />
+</p>
+
+Inicio - Cliente
+
+**Sección donde se muestra como será el inicio de la app movil del cliente**
+
+<p align="center"><img src="images/inicio-clie.png" alt="Landing Page - Footer" />
+</p>
+
+Equipos - Cliente
+
+**Sección donde se muestra los equipos que el cliente ha alquilado**
+
+<p align="center"><img src="images/equipos-clie.png" alt="Landing Page - Footer" />
+</p>
+
+Servicios - Cliente
+
+**Sección donde se muestra los servicios que el cliente pedira al rentar o pida un mantenimiento**
+
+<p align="center"><img src="images/servicios-clie.png" alt="Landing Page - Footer" />
+</p>
+
+Perfil - Cliente
+
+**Sección donde se mostrara los datos del usuario**
+
+<p align="center"><img src="images/perfil-clie.png" alt="Landing Page - Footer" />
+</p>
+
+Inicio - Proveedor
+
+**Sección donde se muestra como será el inicio de la app movil del proveedor**
+
+<p align="center"><img src="images/inicio-prove.png" alt="Landing Page - Footer" />
+</p>
+
+Inventario - Proveedor
+
+**Sección donde se muestra el inventario que tiene el proveedor que va a alquilar**
+
+<p align="center"><img src="images/inventario-prove.png" alt="Landing Page - Footer" />
+</p>
+
+Agregar - Proveedor
+
+**Sección donde el proveedor podra agregar mas equipos los cuales se mostraran despues en su inventario**
+
+<p align="center"><img src="images/agregar-proveedor.png" alt="Landing Page - Footer" />
+</p>
+
+Perfil - Proveedor
+
+**Sección donde se mostrara los datos del usuario**
+
+<p align="center"><img src="images/perfil-prove.png" alt="Landing Page - Footer" />
+</p>
 
 #### 4.2.1.6 Services Documentation Evidence for Sprint Review
 

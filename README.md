@@ -624,6 +624,7 @@ Con sedes en Latinoamérica, sus funciones más relevantes cuentan con asignaci�
     <td> Sustitución tecnológica por soluciones puras sin hardware. </td>
   </tr>
 </table>
+
 #### 2.1.2. Estrategias y tácticas frente a competidores
 
 Hemos identificado diversas estrategias y tácticas para diferenciarse y competir efectivamente con otros actores del mercado de la gestión y monitoreo de sistemas de refrigeración. A continuación se detallan las principales:
@@ -960,6 +961,110 @@ Se elaboraron mapas de empatía para cada User Persona utilizando la herramienta
 | EP-06 | Evaluación de Servicios | Esta epic está orientada a permitir que los clientes puedan evaluar los servicios recibidos, para proporcionar retroalimentación y permitir que se realicen correcciones si es necesario. |
 | EP-07 | Sitio Web y Experiencia Web (Landing Page) | Esta epic se enfoca en las funcionalidades de la página de aterrizaje, incluyendo la visualización de la propuesta de valor, la facilidad para solicitar demos, y el acceso a canales de contacto directo con el equipo de ventas. |
 
+## Spike
+
+### Spike: Investigación sobre la Integración de Monitoreo IoT en Tiempo Real para Equipos de Congelación en la Plataforma PolarNet
+
+### Contexto
+
+La plataforma **PolarNet** es una aplicación móvil inteligente orientada a optimizar la **gestión, monitoreo y mantenimiento de equipos de congelación** en sectores críticos como el alimentario, farmacéutico, de investigación y servicios de restauración.  
+
+El sistema está desarrollado como una aplicación **Android nativa** en **Kotlin**, con **arquitectura MVVM**, uso de **Room** para persistencia local, **Hilt** para inyección de dependencias y **coroutines/flows** para operaciones asíncronas. La compilación y gestión de dependencias se realiza mediante **Gradle**.  
+
+El backend está implementado con **Spring Boot 3.5.5 (Java 24)**, utilizando **Spring Data JPA**, **Spring Web**, **Spring Security** y **JWT** para autenticación. Además, se está evaluando la integración de **Supabase** como plataforma de base de datos y autenticación en la nube, complementada con servicios de **Firebase** para mensajería en tiempo real, almacenamiento o notificaciones push, según el caso de uso.  
+
+El objetivo de este *Spike* es **investigar la integración de un sistema de monitoreo IoT en tiempo real** para capturar datos de sensores (temperatura, humedad, vibración, voltaje, entre otros), procesarlos mediante un **servicio en la nube (Firebase Realtime Database, Supabase Realtime o MQTT Broker)**, y visualizarlos dinámicamente en la app móvil PolarNet.  
+
+Este Spike permitirá determinar la viabilidad técnica de integrar sensores IoT y establecer una arquitectura escalable que soporte monitoreo constante, alertas automáticas ante fallas y registro histórico de rendimiento de los equipos.  
+
+#### Fundamentación Académica
+
+La optimización del monitoreo y mantenimiento de equipos de congelación es fundamental en sectores sensibles como el alimentario y farmacéutico. En la literatura, se ha demostrado que la implementación de tecnologías **IoT (Internet of Things)** permite monitorear variables críticas como **temperatura y humedad** en tiempo real, detectar anomalías y prevenir pérdidas económicas significativas (Gillespie et al., 2023) [Fuente: *MDPI*].  
+
+Además, en el ámbito del transporte en cadena de frío, se han desplegado soluciones basadas en **sensores inalámbricos y redes de sensores (WSN)** para supervisar contenedores y activar alertas tempranas frente a desviaciones ambientales (SpringerOpen, 2022) [Fuente: *SpringerOpen Journal of Shipping and Trade*].  
+
+Según **Badía-Melis et al. (2018)**, las tecnologías emergentes como **RFID** y **WSN** son esenciales para mejorar la trazabilidad y visibilidad en todo el proceso logístico [Fuente: *ScienceDirect*]. Sin embargo, su adopción enfrenta retos técnicos y económicos que dificultan la integración en soluciones móviles asequibles (PMCID, 2023) [Fuente: *PMC*].  
+
+Frente a estos desafíos, **PolarNet** busca cerrar la brecha entre investigación académica y aplicación práctica, ofreciendo una solución móvil accesible que integre **monitoreo IoT, gestión de mantenimiento y comunicación técnica** en un único entorno digital.
+
+---
+
+## Spike Story
+
+**Como equipo de desarrollo (móvil y backend),**  
+quiero investigar y prototipar la integración de sensores IoT en la aplicación móvil PolarNet y su backend,  
+**para** comprender las implicaciones técnicas, riesgos potenciales y esfuerzo requerido para habilitar el monitoreo en tiempo real de equipos de congelación.
+
+---
+
+## Criterios de Aceptación (Formato Given–When–Then)
+
+1. **Revisión de Tecnologías IoT**
+   - **Dado** que el equipo necesita comprender las opciones de comunicación IoT disponibles,  
+   - **Cuando** el desarrollador analiza alternativas como *Firebase Realtime Database*, *Supabase Realtime*, *MQTT (Mosquitto/Broker)* o *AWS IoT Core*,  
+   - **Entonces** se documentan las ventajas, limitaciones y compatibilidad con Android/Kotlin y Spring Boot.
+
+2. **Evaluación de la Integración con Android**
+   - **Dado** que la app PolarNet utiliza Kotlin, Room y Hilt,  
+   - **Cuando** se investiga cómo consumir datos de sensores en tiempo real (vía MQTT, Supabase o Firebase SDK),  
+   - **Entonces** se documentan los requisitos técnicos, dependencias Gradle y configuración necesaria (e.g., conexión MQTT, listeners de Supabase Realtime o Firebase, coroutines/flows).
+
+3. **Evaluación del Backend**
+   - **Dado** que el backend usa Spring Boot 3.5.5,  
+   - **Cuando** se analizan estrategias para recibir, almacenar y procesar datos de sensores (e.g., endpoints REST, WebSocket, integración con brokers IoT o Supabase Realtime),  
+   - **Entonces** se documenta un esquema base de endpoints y entidad `SensorReading` con campos como `temperature`, `humidity`, `timestamp` y `deviceId`.
+
+4. **Prototipo de Comunicación**
+   - **Dado** que se debe validar la conectividad,  
+   - **Cuando** se construye un *Proof of Concept (PoC)* enviando datos simulados desde un dispositivo IoT (e.g., ESP32 o Raspberry Pi) al backend y visualizándolos en la app móvil,  
+   - **Entonces** el PoC demuestra comunicación estable y visualización en tiempo real.
+
+5. **Análisis de Seguridad**
+   - **Dado** que los datos de sensores son sensibles para la operación del negocio,  
+   - **Cuando** se revisa la transmisión y almacenamiento de datos,  
+   - **Entonces** se incluyen mecanismos de autenticación (JWT), cifrado TLS/HTTPS, y reglas de acceso en Supabase, Firebase o MQTT.
+
+6. **Evaluación de Rendimiento**
+   - **Dado** que el sistema debe procesar múltiples lecturas por minuto,  
+   - **Cuando** se evalúan la latencia de envío, consumo de batería y uso de red,  
+   - **Entonces** se documentan métricas y posibles optimizaciones (e.g., reducción de frecuencia de envío, compresión de payloads).
+
+7. **Revisión de Cumplimiento**
+   - **Dado** que los datos pueden incluir información de operación crítica,  
+   - **Cuando** el desarrollador revisa normativas aplicables (GDPR, ISO 27001),  
+   - **Entonces** documenta consideraciones de privacidad y retención segura de datos.
+
+8. **Identificación de Dependencias y Costos**
+   - **Dado** que la integración IoT puede requerir servicios externos,  
+   - **Cuando** se identifican dependencias (Firebase SDK, Supabase client, paho-mqtt, Spring MQTT, sensores ESP32/DHT11),  
+   - **Entonces** se listan costos asociados (hardware, nube, almacenamiento).
+
+9. **Prueba de Integración**
+   - **Dado** el PoC configurado,  
+   - **Cuando** se transmiten datos reales o simulados,  
+   - **Entonces** la app muestra actualizaciones automáticas de temperatura/humedad en una vista “Dashboard”.
+
+10. **Estimación de Esfuerzo**
+    - **Dado** la información recopilada,  
+    - **Cuando** se desglosan tareas de implementación (e.g., integración MQTT en backend: 5h, PoC Android: 6h, Supabase/Firebase configuración: 4h, seguridad TLS: 3h),  
+    - **Entonces** se estiman puntos de historia y esfuerzo total para la integración final.
+
+11. **Documentación y Revisión**
+    - **Dado** que el Spike finaliza,  
+    - **Cuando** el equipo compila hallazgos y prototipo,  
+    - **Entonces** se genera un informe con pros/contras, arquitectura recomendada (MQTT vs Supabase vs Firebase), riesgos y pasos siguientes, revisado en sesión técnica.
+
+---
+
+## Definition of Done (DoD)
+
+- El código del PoC está en una rama del repositorio (`feature/iot-monitoring-spike`).  
+- El informe del Spike está documentado en formato Markdown y compartido en la wiki del proyecto.  
+- Se presenta una demostración funcional de comunicación IoT en tiempo real (PoC).  
+- Se definen historias de usuario derivadas para la implementación definitiva.  
+- El Spike se completa dentro del sprint, con duración máxima de 8–16 horas.  
+
+---
 
 ### 2.4.2. Impact Mapping
 
@@ -3247,113 +3352,6 @@ necesario, utilizando estrategias deaprendizaje apropiadas.
 | 3 | **Sandro Dinklange Arevalo** |TB1 <br> CAP 2<br>TP1<br>CAP 3.3 – 3.4 | X |  |  |  | 20 |
 | 4 | **Inga Hernandez, Ayrton Damian** | TB1<br>CAP 2<br>TP1 <br>CAP 4.3 | X |  |  |  | 20 |
 | 5 | **Marzál Pérez, Jamir Ángel** | TB1<br>CAP 2<br>TP1<br>CAP 4.3 | X |  |  |  | 20 |
-
-# Anexo C
-
-# Anexo D. Spike Story
-
-## Spike: Investigación sobre la Integración de Monitoreo IoT en Tiempo Real para Equipos de Congelación en la Plataforma PolarNet
-
-### Contexto
-
-La plataforma **PolarNet** es una aplicación móvil inteligente orientada a optimizar la **gestión, monitoreo y mantenimiento de equipos de congelación** en sectores críticos como el alimentario, farmacéutico, de investigación y servicios de restauración.  
-
-El sistema está desarrollado como una aplicación **Android nativa** en **Kotlin**, con **arquitectura MVVM**, uso de **Room** para persistencia local, **Hilt** para inyección de dependencias y **coroutines/flows** para operaciones asíncronas. La compilación y gestión de dependencias se realiza mediante **Gradle**.  
-
-El backend está implementado con **Spring Boot 3.5.5 (Java 24)**, utilizando **Spring Data JPA**, **Spring Web**, **Spring Security** y **JWT** para autenticación. Además, se está evaluando la integración de **Supabase** como plataforma de base de datos y autenticación en la nube, complementada con servicios de **Firebase** para mensajería en tiempo real, almacenamiento o notificaciones push, según el caso de uso.  
-
-El objetivo de este *Spike* es **investigar la integración de un sistema de monitoreo IoT en tiempo real** para capturar datos de sensores (temperatura, humedad, vibración, voltaje, entre otros), procesarlos mediante un **servicio en la nube (Firebase Realtime Database, Supabase Realtime o MQTT Broker)**, y visualizarlos dinámicamente en la app móvil PolarNet.  
-
-Este Spike permitirá determinar la viabilidad técnica de integrar sensores IoT y establecer una arquitectura escalable que soporte monitoreo constante, alertas automáticas ante fallas y registro histórico de rendimiento de los equipos.  
-
-#### Fundamentación Académica
-
-La optimización del monitoreo y mantenimiento de equipos de congelación es fundamental en sectores sensibles como el alimentario y farmacéutico. En la literatura, se ha demostrado que la implementación de tecnologías **IoT (Internet of Things)** permite monitorear variables críticas como **temperatura y humedad** en tiempo real, detectar anomalías y prevenir pérdidas económicas significativas (Gillespie et al., 2023) [Fuente: *MDPI*].  
-
-Además, en el ámbito del transporte en cadena de frío, se han desplegado soluciones basadas en **sensores inalámbricos y redes de sensores (WSN)** para supervisar contenedores y activar alertas tempranas frente a desviaciones ambientales (SpringerOpen, 2022) [Fuente: *SpringerOpen Journal of Shipping and Trade*].  
-
-Según **Badía-Melis et al. (2018)**, las tecnologías emergentes como **RFID** y **WSN** son esenciales para mejorar la trazabilidad y visibilidad en todo el proceso logístico [Fuente: *ScienceDirect*]. Sin embargo, su adopción enfrenta retos técnicos y económicos que dificultan la integración en soluciones móviles asequibles (PMCID, 2023) [Fuente: *PMC*].  
-
-Frente a estos desafíos, **PolarNet** busca cerrar la brecha entre investigación académica y aplicación práctica, ofreciendo una solución móvil accesible que integre **monitoreo IoT, gestión de mantenimiento y comunicación técnica** en un único entorno digital.
-
----
-
-## Spike Story
-
-**Como equipo de desarrollo (móvil y backend),**  
-quiero investigar y prototipar la integración de sensores IoT en la aplicación móvil PolarNet y su backend,  
-**para** comprender las implicaciones técnicas, riesgos potenciales y esfuerzo requerido para habilitar el monitoreo en tiempo real de equipos de congelación.
-
----
-
-## Criterios de Aceptación (Formato Given–When–Then)
-
-1. **Revisión de Tecnologías IoT**
-   - **Dado** que el equipo necesita comprender las opciones de comunicación IoT disponibles,  
-   - **Cuando** el desarrollador analiza alternativas como *Firebase Realtime Database*, *Supabase Realtime*, *MQTT (Mosquitto/Broker)* o *AWS IoT Core*,  
-   - **Entonces** se documentan las ventajas, limitaciones y compatibilidad con Android/Kotlin y Spring Boot.
-
-2. **Evaluación de la Integración con Android**
-   - **Dado** que la app PolarNet utiliza Kotlin, Room y Hilt,  
-   - **Cuando** se investiga cómo consumir datos de sensores en tiempo real (vía MQTT, Supabase o Firebase SDK),  
-   - **Entonces** se documentan los requisitos técnicos, dependencias Gradle y configuración necesaria (e.g., conexión MQTT, listeners de Supabase Realtime o Firebase, coroutines/flows).
-
-3. **Evaluación del Backend**
-   - **Dado** que el backend usa Spring Boot 3.5.5,  
-   - **Cuando** se analizan estrategias para recibir, almacenar y procesar datos de sensores (e.g., endpoints REST, WebSocket, integración con brokers IoT o Supabase Realtime),  
-   - **Entonces** se documenta un esquema base de endpoints y entidad `SensorReading` con campos como `temperature`, `humidity`, `timestamp` y `deviceId`.
-
-4. **Prototipo de Comunicación**
-   - **Dado** que se debe validar la conectividad,  
-   - **Cuando** se construye un *Proof of Concept (PoC)* enviando datos simulados desde un dispositivo IoT (e.g., ESP32 o Raspberry Pi) al backend y visualizándolos en la app móvil,  
-   - **Entonces** el PoC demuestra comunicación estable y visualización en tiempo real.
-
-5. **Análisis de Seguridad**
-   - **Dado** que los datos de sensores son sensibles para la operación del negocio,  
-   - **Cuando** se revisa la transmisión y almacenamiento de datos,  
-   - **Entonces** se incluyen mecanismos de autenticación (JWT), cifrado TLS/HTTPS, y reglas de acceso en Supabase, Firebase o MQTT.
-
-6. **Evaluación de Rendimiento**
-   - **Dado** que el sistema debe procesar múltiples lecturas por minuto,  
-   - **Cuando** se evalúan la latencia de envío, consumo de batería y uso de red,  
-   - **Entonces** se documentan métricas y posibles optimizaciones (e.g., reducción de frecuencia de envío, compresión de payloads).
-
-7. **Revisión de Cumplimiento**
-   - **Dado** que los datos pueden incluir información de operación crítica,  
-   - **Cuando** el desarrollador revisa normativas aplicables (GDPR, ISO 27001),  
-   - **Entonces** documenta consideraciones de privacidad y retención segura de datos.
-
-8. **Identificación de Dependencias y Costos**
-   - **Dado** que la integración IoT puede requerir servicios externos,  
-   - **Cuando** se identifican dependencias (Firebase SDK, Supabase client, paho-mqtt, Spring MQTT, sensores ESP32/DHT11),  
-   - **Entonces** se listan costos asociados (hardware, nube, almacenamiento).
-
-9. **Prueba de Integración**
-   - **Dado** el PoC configurado,  
-   - **Cuando** se transmiten datos reales o simulados,  
-   - **Entonces** la app muestra actualizaciones automáticas de temperatura/humedad en una vista “Dashboard”.
-
-10. **Estimación de Esfuerzo**
-    - **Dado** la información recopilada,  
-    - **Cuando** se desglosan tareas de implementación (e.g., integración MQTT en backend: 5h, PoC Android: 6h, Supabase/Firebase configuración: 4h, seguridad TLS: 3h),  
-    - **Entonces** se estiman puntos de historia y esfuerzo total para la integración final.
-
-11. **Documentación y Revisión**
-    - **Dado** que el Spike finaliza,  
-    - **Cuando** el equipo compila hallazgos y prototipo,  
-    - **Entonces** se genera un informe con pros/contras, arquitectura recomendada (MQTT vs Supabase vs Firebase), riesgos y pasos siguientes, revisado en sesión técnica.
-
----
-
-## Definition of Done (DoD)
-
-- El código del PoC está en una rama del repositorio (`feature/iot-monitoring-spike`).  
-- El informe del Spike está documentado en formato Markdown y compartido en la wiki del proyecto.  
-- Se presenta una demostración funcional de comunicación IoT en tiempo real (PoC).  
-- Se definen historias de usuario derivadas para la implementación definitiva.  
-- El Spike se completa dentro del sprint, con duración máxima de 8–16 horas.  
-
----
 
 ## Referencias
 

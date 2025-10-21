@@ -170,7 +170,7 @@ De igual manera, **PolarNet** incluye un módulo especializado para técnicos y 
       <p align="center">
         Paulo Percy Quincho Gamarra - U20191E562  
         <br>
-        <img src="images/paulo-foto.PNG" alt="Foto Paulo" width="45%">
+        <img src="images/paulo-foto.PNG" alt="Foto Paulo" width="70" height="60">
       </p>
     </td>
     <td style="text-align: center" align="center">
@@ -186,7 +186,7 @@ De igual manera, **PolarNet** incluye un módulo especializado para técnicos y 
       <p align="center">
         Geronimo Quispe Pablo Antonio - U202314304  
         <br>
-        <img src="images/pablo-foto.PNG" alt="Foto Geronimo" width="45%">
+        <img src="images/pablo-foto.PNG" alt="Foto Geronimo" width="70" height="60">
       </p>
     </td>
     <td style="text-align: center" align="center">
@@ -202,7 +202,7 @@ De igual manera, **PolarNet** incluye un módulo especializado para técnicos y 
       <p align="center">
         Sandro Dinklange Arevalo - U202313419  
         <br>
-        <img src="images/sandro-foto.PNG" alt="Foto Sandro" width="45%">
+        <img src="images/sandro-foto.PNG" alt="Foto Sandro" width="70" height="60">
       </p>
     </td>
     <td style="text-align: center" align="center">
@@ -218,7 +218,7 @@ De igual manera, **PolarNet** incluye un módulo especializado para técnicos y 
       <p align="center">
         Jamir Ángel Marzál Pérez - U201824409  
         <br>
-        <img src="images/jamir-foto.PNG" alt="Foto Jamir" width="45%">
+        <img src="images/jamir-foto.PNG" alt="Foto Jamir" width="70" height="60">
       </p>
     </td>
     <td style="text-align: center" align="center">
@@ -234,7 +234,7 @@ De igual manera, **PolarNet** incluye un módulo especializado para técnicos y 
       <p align="center">
         Ayrton Damian Inga Hernandez - U201924756  
         <br>
-        <img src="images\Ayrton-foto.png" alt="Foto Integrante 5" width="45%">
+        <img src="images\Ayrton-foto.png" alt="Foto Integrante 5" width="70" height="60">
       </p>
     </td>
     <td style="text-align: center" align="center">

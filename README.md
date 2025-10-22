@@ -1168,27 +1168,55 @@ Finalmente, se agregaron los commands (acciones que disparan eventos), las polic
 
 #### 2.5.1.1 Candidate Context Discovery
 
-Para poder identificar los bounded contexts se tuvo que modificar la línea de tiempo del modelado del dominio que se hizo a partir del EventStorming, se organizaron los conceptos que tenían relación por medio de aggregates.
+A partir del modelado realizado en el EventStorming, se llevó a cabo una sesión de Candidate Context Discovery con el objetivo de identificar los bounded contexts dentro del dominio. Para ello, se aplicó la técnica “look-for-pivotal-events”, que permitió detectar los eventos clave del negocio que marcan transiciones de estado y delimitan responsabilidades entre diferentes partes del proceso.
+
+Durante la sesión, se reorganizó la línea de tiempo del EventStorm para agrupar los elementos relacionados eventos, comandos, políticas y read models en torno a sus respectivos aggregates. Esto facilitó distinguir los límites naturales entre los contextos y definir con mayor claridad las interacciones entre ellos.
 
 ![EventStorming 5](images/Storming5.png)
 
+Como resultado, se obtuvieron los bounded contexts principales del dominio, los cuales servirán como base para el diseño modular y la arquitectura del sistema, asegurando una separación coherente de responsabilidades y facilitando la escalabilidad de la solución.
+
 #### 2.5.1.2 Domain Message Flow Modeling
 
-En esta sección se muestran los principales flujos identificados donde existe colaboración entre los diferentes bounded context identificador. Para una mayor comprensión se utiliza la técnica de visualización Domain Storytelling.
+En esta sección se presentan los principales flujos de colaboración entre los bounded contexts identificados. Para ello, se utilizó la técnica de visualización Domain Storytelling, la cual permite describir de forma narrativa y visual cómo los diferentes sistemas del dominio interactúan para atender los casos de uso clave del negocio.
 
 #### User creates a new account
 
-Mediante este diagrama podemos apreciar la comunicación que existe entre el Sistema de Autenticacion y el Sistema de notificaciones cuando el usuario realiza la creación de su perfil.
+1. El usuario solicita crear una nueva cuenta en el sistema.
+
+2. El Sistema de Autenticación valida la información ingresada y registra el nuevo perfil.
+
+3. Una vez completado el registro, el sistema emite un evento de confirmación.
+
+4. El Sistema de Notificaciones recibe el evento y envía un mensaje de bienvenida al usuario.
 
 ![Flow 1](images/Flow1.png)
 
-Mediante el siguiente diagrama podemos apreciar la comunicación que existe entre el Sistema de Monitoreo de Equipos y el Sistema de notificaciones cuando el usuario realiza el registro de un nuevo equipo de refrigeracion.
+#### Equipment registration
+
+1. El usuario registra un nuevo equipo de refrigeración desde su cuenta.
+
+2. El Sistema de Monitoreo de Equipos valida la información técnica y almacena el registro del nuevo equipo.
+
+3. Posteriormente, se genera un evento de registro exitoso.
+
+4. El Sistema de Notificaciones capta el evento y comunica al usuario que el equipo fue registrado correctamente.
 
 ![Flow 2](images/Flow2.png)
 
-Mediante el siguiente diagrama podemos apreciar la comunicación que existe entre el Sistema de Solicitud de Servicios y el Sistema de notificaciones cuando el usuario realiza la compra o alquiler de un nuevo equipo de refrigeracion.
+#### Service request
+
+1. El usuario solicita un servicio de compra o alquiler de un equipo de refrigeración.
+
+2. El Sistema de Solicitud de Servicios procesa la solicitud y verifica la disponibilidad del equipo.
+
+3. Una vez confirmada la operación, se genera un evento de servicio aprobado.
+
+4. El Sistema de Notificaciones recibe el evento y notifica al usuario sobre el estado de su solicitud.
 
 ![Flow 3](images/flow3.png)
+
+Estos flujos permiten visualizar la colaboración entre los bounded contexts, asegurando una comunicación clara entre sistemas y un entendimiento compartido de los procesos del dominio.
 
 #### 2.5.1.3 Bounded Context Canvases
 

@@ -1139,40 +1139,30 @@ Para la priorización y estimación del esfuerzo, se ha utilizado la escala de S
   </tbody>
 </table>
 
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## 2.5 Strategic-Level Domain-Driven Design
 ### 2.5.1 EventStorming
 
-Con el fin de plantear una aproximación del modelado de nivel general para el dominio del problema, utilizamos el proceso de EventStorming. Para esto, se decidió organizar una sesión en donde los integrantes del grupo empezarían el modelamiento.
+Con el fin de plantear una aproximación del modelado de nivel general para el dominio del problema, se aplicó la técnica de EventStorming. Este proceso permitió al equipo comprender el flujo de eventos que ocurren dentro del dominio y definir las interacciones principales entre los actores, comandos y políticas del sistema.
+
+Pasos del proceso:
+
+**1. Identificación de los Domain Events:**
+ En la primera fase, se identificaron los eventos clave que ocurren dentro del dominio (por ejemplo, “Equipo alquilado”, “Contrato finalizado”, “Equipo devuelto”). Estos se colocaron en secuencia sobre una línea de tiempo para visualizar el flujo del negocio.
 
 ![EventStorming 1](images/Storming1.png)
 
-Continuando con los pasos del EventStorming, se decidió organizar los eventos del dominio en el orden en que ocurren en el dominio empresarial.
+**2. Organización cronológica de los eventos:**
+Luego, los eventos fueron ordenados según el momento en que ocurren dentro del proceso real, permitiendo entender la secuencia lógica de las operaciones.
 
 ![EventStorming 2](images/Storming2.png)
 
-Se identificaron los puntos que puedan dar complicaciones durante el proceso (Pain Points) y se agregaron a la línea de tiempo. Asimismo, se identificaron los eventos comerciales importantes (Pivotal Points) y se marcaron con una barra vertical.
+**3. Identificación de Pain Points y Pivotal Points:**
+En esta etapa se marcaron los pain points, es decir, las posibles dificultades o cuellos de botella del proceso, y los pivotal points, que representan los eventos más críticos o de cambio dentro del flujo.
 
 ![EventStorming 3](images/Storming3.png)
 
-Se agregaron los commands a la línea de tiempo, así como los policies y los read models.
+**4. Incorporación de Commands, Policies y Read Models:**
+Finalmente, se agregaron los commands (acciones que disparan eventos), las policies (reglas de negocio que responden a eventos) y los read models (consultas de información). Esto permitió obtener una visión más completa y técnica del dominio.
 
 ![EventStorming 4](images/Storming4.png)
 

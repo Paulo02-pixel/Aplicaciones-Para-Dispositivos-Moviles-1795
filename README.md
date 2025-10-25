@@ -1223,14 +1223,121 @@ Estos flujos permiten visualizar la colaboración entre los bounded contexts, as
 Para la presente sección, elaboramos el Bounded Context Canvas de cada uno de los Bounded Context candidatos que identificamos. Aplicamos el modelo versión 5 propuesto por el Domain Driven Design Group.
 En cada uno de los canvases registramos las secciones específicas como el Context Overview Definition, Business Rules Distillation y el Ubiquitous Language, identificando claramente el tipo de Bounded Context y sus interacciones de entrada y salida con otros contextos.
 
+## Bounded Context Canvas – Sistema de Autenticación
 
-![Autenticacion](images/Autenticacion.png)
+**Context Overview Definition**
 
-![Monitoreo](images/Monitoreo.png)
+Se encarga del registro, inicio de sesión y gestión de credenciales de los usuarios en la aplicación móvil. Permite autenticar y autorizar a los usuarios antes de acceder a los módulos principales del sistema.
 
-![Servicios](images/Servicios.png)
+**Capability Analysis**
 
-![Notificaciones](images/Notificacion.png)
+- Registro de nuevos usuarios.
+- Inicio y cierre de sesión.
+- Recuperación de contraseña.
+- Actualización de perfil.
+- Validación de token de autenticación.
+
+**Capability Layering**
+
+- Capa de presentación: Interfaz móvil de login y registro.
+- Capa de dominio: Lógica de autenticación y validación.
+- Capa de infraestructura: Comunicación con la API de autenticación.
+
+**Dependencies Capture**
+
+Depende del sistema de Notificaciones (para confirmar registro o recuperación de contraseña).
+
+**Design Critique**
+
+El contexto está bien delimitado y desacoplado. Solo maneja autenticación, sin interferir en la lógica de monitoreo o servicios.
+
+![Autenticacion](images/authentication.png)
+
+## Bounded Context Canvas – Sistema de Monitoreo de Equipos
+
+**Context Overview Definition**
+
+Permite al usuario registrar, visualizar y monitorear sus equipos de refrigeración desde la app móvil, verificando su estado, temperatura y funcionamiento en tiempo real.
+
+**Capability Analysis**
+
+- Registro y configuración de equipos.
+- Visualización de estado en tiempo real.
+- Envío de alertas por valores fuera de rango.
+- Generación de reportes históricos.
+
+**Capability Layering**
+
+- Capa de presentación: Vista móvil de monitoreo.
+- Capa de dominio: Lógica de lectura y validación de datos.
+- Capa de infraestructura: Integración con sensores y API IoT.
+
+**Dependencies Capture**
+
+Depende del sistema de Notificaciones para enviar alertas al usuario.
+
+**Design Critique**
+
+El diseño mantiene independencia y escalabilidad, con foco en datos IoT. Podría ampliarse con métricas predictivas en futuras versiones.
+
+![Monitoreo](images/monitoring.png)
+
+## Bounded Context Canvas – Sistema de Solicitud de Servicios
+
+**Context Overview Definition**
+
+Gestiona la compra, alquiler o mantenimiento de equipos de refrigeración por parte del usuario desde la aplicación móvil.
+
+**Capability Analysis**
+
+- Creación y seguimiento de solicitudes.
+- Asignación automática de técnicos.
+- Actualización de estado de servicio.
+- Generación de comprobantes y facturas.
+
+**Capability Layering**
+
+- Capa de presentación: Interfaz de solicitud y seguimiento.
+- Capa de dominio: Lógica de negocio del flujo de servicios.
+- Capa de infraestructura: Conexión con sistemas externos de pago o facturación.
+
+**Dependencies Capture**
+
+Se comunica con Notificaciones para informar el avance o finalización de los servicios.
+
+**Design Critique**
+
+Tiene un ciclo de vida bien definido y su integración con otros contextos es clara. Posibilidad de añadir automatización de asignaciones en el futuro.
+
+![Servicios](images/servicesrequest.png)
+
+## Bounded Context Canvas – Sistema de Notificaciones
+
+**Context Overview Definition**
+
+Administra el envío de mensajes y alertas al usuario, ya sea por eventos del sistema o acciones propias del usuario dentro de la app móvil.
+
+**Capability Analysis**
+
+- Envío de notificaciones automáticas.
+- Configuración de canales y prioridades.
+- Registro de historial de notificaciones.
+- Integración con servicios externos de mensajería.
+
+**Capability Layering**
+
+- Capa de dominio: Reglas de envío y priorización.
+- Capa de infraestructura: Conexión con proveedores externos de mensajes.
+
+**Dependencies Capture**
+
+Recibe eventos desde Autenticación, Monitoreo y Servicios para ejecutar los envíos.
+
+**Design Critique**
+
+Diseño desacoplado y reutilizable. Centraliza la comunicación entre contextos, lo que facilita la trazabilidad de mensajes.
+
+![Notificaciones](images/notification.png)
 
 ### 2.5.2 Context Mapping
 
@@ -1239,6 +1346,7 @@ En el context mapping podemos definir las relaciones entre los bounded context. 
 ![Context Map](images/ContextMap.png)
 
 ### 2.5.3 Software Arquitecture
+
 #### 2.5.3.1 Context Level Diagram
 
 En el software architecture context diagram se puede apreciar los componentes mas importantes que componen el sistema,asi como los usuarios y las principales funciones.
@@ -1255,28 +1363,27 @@ En el software architecture container diagram se puede apreciar la forma de más
 
 ![DeploymentSys](images/PolarDeployment.png)
 
-
-
-
 ## 2.6.1. Bounded Context:Authentification Bounded Context
 
 El **bounded context de Autenticación** gestiona todo lo relacionado con el acceso y la identidad de los usuarios dentro del sistema.  
 Define cómo los usuarios se **registran**, **inician sesión**, **obtienen sus roles** y **mantienen sesiones seguras** mediante tokens JWT.  
 También sirve como base para otros contextos (como Solicitud de Servicios o Monitoreo), permitiendo validar la identidad y los permisos de los usuarios.
 
-
 ### 2.6.1.1.Domain Layer
 
 La capa de **Domain** representa el **núcleo del dominio** de autenticación.  
 Aquí se definen las entidades, objetos de valor e interfaces que encapsulan las **reglas de negocio**.  
 Su función es modelar cómo el sistema entiende un usuario, su rol y su relación con la empresa.
+
 ### Clases principales
 
 #### User (Entity)
+
 **Atributos:**  
 `user_id`, `name`, `username`, `password`, `email`, `role`, `company_id`, `is_active`
 
 **Métodos:**  
+
 - `validatePassword()` → verifica si la contraseña ingresada coincide con la almacenada.  
 - `assignRole()` → asigna un rol al usuario.  
 - `activateUser()` / `deactivateUser()` → controlan si el usuario puede iniciar sesión.
@@ -1780,10 +1887,10 @@ Permite recibir datos de sensores IoT en tiempo real mediante protocolos como MQ
 
 <img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/infrastructuremonitoring.png">
 
-### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams 
-
+### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
 
 ### Flujo general
+
 1. `SensorGateway` recibe lecturas de sensores.  
 2. Llama a los *handlers* (`RecordTemperatureHandler`, `RecordEnergyHandler`).  
 3. Los *handlers* procesan la información mediante `MonitoringService`.  
@@ -1823,9 +1930,11 @@ El **bounded context de Notificaciones** se encarga de gestionar toda la comunic
 Su objetivo es garantizar que cada usuario reciba la información correcta en el momento adecuado, utilizando diversos canales como correo electrónico, mensajes del sistema o integraciones externas.
 
 ### 2.6.4.1.Domain Layer
+
 # 2.6.4. Bounded Context: Notificaciones
 
 ## Introducción general
+
 El **bounded context de Notificaciones** se encarga de gestionar toda la comunicación del sistema hacia los usuarios y empresas, tanto de manera interna (alertas de monitoreo, estados de servicio) como externa (recordatorios, actualizaciones, avisos de mantenimiento).  
 Su objetivo es garantizar que cada usuario reciba la información correcta en el momento adecuado, utilizando diversos canales como correo electrónico, mensajes del sistema o integraciones externas.
 
@@ -2494,14 +2603,16 @@ Para la distribución de la aplicación móvil se utilizarán plataformas como G
 
 ### 4.1.2. Source Code Management
 
-#### Estructura de ramas Git Flow:
+#### Estructura de ramas Git Flow
+
 - **main:** rama primaria donde siempre se mantiene el código estable y preparado para producción.
 - **develop:** rama de desarrollo donde se consolidan todas las nuevas características antes de ser transferidas a producción.
 - **feature/:** ramas destinadas a desarrollar nuevas funcionalidades.
 - **release/:** ramas temporales para preparar una nueva versión estable.
 - **hotfix/:** ramas para solucionar errores críticos en producción.
 
-#### Versionado Semántico (Semantic Versioning):
+#### Versionado Semántico (Semantic Versioning)
+
 Se implementará el sistema de versionado semántico (Semantic Versioning 2.0.0), aplicando el formato: **MAJOR.MINOR.PATCH**.
 
 - 1.0.0 → versión estable inicial
@@ -2509,19 +2620,23 @@ Se implementará el sistema de versionado semántico (Semantic Versioning 2.0.0)
 - 1.1.1 → corrección de errores
 
 #### Estándar de mensajes de commits
-El equipo adoptará el estándar de mensajes de commits establecido en "Conventional Commits". 
+
+El equipo adoptará el estándar de mensajes de commits establecido en "Conventional Commits".
 
 **Ejemplos de mensajes:**
+
 - `feat: implementar nuevo sistema de autenticación`
 - `fix: resolver validación en formulario de registro`
 - `docs: actualizar README con guías de implementación`
 
 #### Nomenclatura para numeración de versiones:
+
 - **Cambios Mayores:** Cuando el código o versión nueva del proyecto implementado presenta modificaciones sustanciales respecto a la versión anterior, estos cambios resultan incompatibles con la versión previa.
 - **Cambios Menores:** Cuando el código o versión nueva del proyecto implementado presenta modificaciones respecto a alguna característica específica.
 - **Patch:** Cuando se resuelven errores menores.
 
 #### Repositorio de Github:
+
 - Enlace para acceder a la organización en Github
 - Enlace para acceder al repositorio de la aplicación móvil
 - Enlace para acceder al repositorio del Informe
@@ -2596,6 +2711,7 @@ Adicionalmente, se implementó un archivo "languages.js" que contiene los textos
 La URL que GitHub Pages proporciona para acceder a la landing page es la siguiente: https://paulorepository.github.io/PolarNet-LandingPage/
 
 ### 4.2.1 Sprint 1
+
 #### 4.2.1.1 Sprint Planning 1
 
 El Sprint Planning 1 es una reunión esencial para iniciar el primer sprint de un proyecto, donde el equipo define los objetivos y la estrategia para cumplirlos. En este caso, nuestro objetivo principal es implementar la landing page de la aplicación, asegurando una presentación efectiva del producto.

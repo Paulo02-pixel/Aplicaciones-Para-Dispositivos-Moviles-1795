@@ -1341,7 +1341,28 @@ Diseño desacoplado y reutilizable. Centraliza la comunicación entre contextos,
 
 ### 2.5.2 Context Mapping
 
-En el context mapping podemos definir las relaciones entre los bounded context. Identificamos las relaciones analizando sus patrones, entre ellos destacamos que el Sistema de Autenticacion, solicitud de servicios y de notificacion cuentan con un anticorruption layer debido a que estos bounded context interactuan con sistemas de terceros.
+El proceso de Context Mapping nos permitió analizar y definir las relaciones estructurales y los patrones de integración entre los bounded contexts del sistema. Este análisis fue clave para garantizar una comunicación clara, minimizar dependencias innecesarias y mantener una alta cohesión interna dentro de cada contexto.
+
+**Análisis del proceso**
+
+Durante la elaboración de los context maps, el equipo se planteó las siguientes preguntas para refinar los límites y relaciones entre los bounded contexts:
+
+- ¿Qué pasaría si movemos ciertas capacidades del sistema de notificaciones al sistema de autenticación?
+
+  Se descartó esta opción, ya que se perdería la independencia del módulo de notificaciones, generando una sobrecarga innecesaria en el proceso de login.
+
+- ¿Qué pasaría si descomponemos el sistema de solicitud de servicios en subcontextos separados para compras y alquileres?
+
+  Se concluyó que no era necesario por el momento, ya que ambos comparten reglas de negocio y procesos similares.
+
+- ¿Qué pasaría si el sistema de monitoreo de equipos dependiera directamente del sistema de autenticación?
+
+  Se determinó mantener la dependencia indirecta mediante tokens y servicios API para evitar acoplamientos fuertes.
+
+- ¿Qué pasaría si creamos un servicio compartido para notificaciones y alertas del sistema de monitoreo?
+
+  Se decidió crear una integración mediante event-driven communication usando un Shared Kernel, dado que ambos contextos requieren enviar mensajes al usuario final.
+
 
 ![Context Map](images/ContextMap.png)
 

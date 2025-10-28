@@ -2658,9 +2658,9 @@ El equipo adoptará el estándar de mensajes de commits establecido en "Conventi
 
 #### Repositorio de Github:
 
-- Enlace para acceder a la organización en Github
-- Enlace para acceder al repositorio de la aplicación móvil
-- Enlace para acceder al repositorio del Informe
+- Enlace para acceder al repositorio de la landing page: https://github.com/PauloRepository/PolarNet-Client/tree/main
+- Enlace para acceder al repositorio de la aplicación móvil: https://github.com/1ACC0238-2520-1795-G01-POLARNET/App
+- Enlace para acceder al repositorio del Informe: https://github.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795
 
 #### Metodología de trabajo GitFlow
 La metodología de trabajo se fundamentará en un modelo de ramas Git Flow, el cual se basa en la generación de ramas específicas para cada funcionalidad o corrección de errores. El modelo de "A successful Git branching model"

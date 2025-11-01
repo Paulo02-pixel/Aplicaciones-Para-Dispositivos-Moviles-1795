@@ -170,7 +170,7 @@ De igual manera, **PolarNet** incluye un módulo especializado para técnicos y 
       <p align="center">
         Paulo Percy Quincho Gamarra - U20191E562  
         <br>
-        <img src="images/paulo-foto.PNG" alt="Foto Paulo" width="45%">
+        <img src="images/paulo-foto.PNG" alt="Foto Paulo" width="70" height="60">
       </p>
     </td>
     <td style="text-align: center" align="center">
@@ -186,7 +186,7 @@ De igual manera, **PolarNet** incluye un módulo especializado para técnicos y 
       <p align="center">
         Geronimo Quispe Pablo Antonio - U202314304  
         <br>
-        <img src="images/pablo-foto.PNG" alt="Foto Geronimo" width="45%">
+        <img src="images/pablo-foto.PNG" alt="Foto Geronimo" width="70" height="60">
       </p>
     </td>
     <td style="text-align: center" align="center">
@@ -202,7 +202,7 @@ De igual manera, **PolarNet** incluye un módulo especializado para técnicos y 
       <p align="center">
         Sandro Dinklange Arevalo - U202313419  
         <br>
-        <img src="images/sandro-foto.PNG" alt="Foto Sandro" width="45%">
+        <img src="images/sandro-foto.PNG" alt="Foto Sandro" width="70" height="60">
       </p>
     </td>
     <td style="text-align: center" align="center">
@@ -218,7 +218,7 @@ De igual manera, **PolarNet** incluye un módulo especializado para técnicos y 
       <p align="center">
         Jamir Ángel Marzál Pérez - U201824409  
         <br>
-        <img src="images/jamir-foto.PNG" alt="Foto Jamir" width="45%">
+        <img src="images/jamir-foto.PNG" alt="Foto Jamir" width="70" height="60">
       </p>
     </td>
     <td style="text-align: center" align="center">
@@ -234,7 +234,7 @@ De igual manera, **PolarNet** incluye un módulo especializado para técnicos y 
       <p align="center">
         Ayrton Damian Inga Hernandez - U201924756  
         <br>
-        <img src="images\Ayrton-foto.png" alt="Foto Integrante 5" width="45%">
+        <img src="images\Ayrton-foto.png" alt="Foto Integrante 5" width="70" height="60">
       </p>
     </td>
     <td style="text-align: center" align="center">
@@ -624,6 +624,7 @@ Con sedes en Latinoamérica, sus funciones más relevantes cuentan con asignaci�
     <td> Sustitución tecnológica por soluciones puras sin hardware. </td>
   </tr>
 </table>
+
 #### 2.1.2. Estrategias y tácticas frente a competidores
 
 Hemos identificado diversas estrategias y tácticas para diferenciarse y competir efectivamente con otros actores del mercado de la gestión y monitoreo de sistemas de refrigeración. A continuación se detallan las principales:
@@ -960,6 +961,110 @@ Se elaboraron mapas de empatía para cada User Persona utilizando la herramienta
 | EP-06 | Evaluación de Servicios | Esta epic está orientada a permitir que los clientes puedan evaluar los servicios recibidos, para proporcionar retroalimentación y permitir que se realicen correcciones si es necesario. |
 | EP-07 | Sitio Web y Experiencia Web (Landing Page) | Esta epic se enfoca en las funcionalidades de la página de aterrizaje, incluyendo la visualización de la propuesta de valor, la facilidad para solicitar demos, y el acceso a canales de contacto directo con el equipo de ventas. |
 
+## Spike
+
+### Spike: Investigación sobre la Integración de Monitoreo IoT en Tiempo Real para Equipos de Congelación en la Plataforma PolarNet
+
+### Contexto
+
+La plataforma **PolarNet** es una aplicación móvil inteligente orientada a optimizar la **gestión, monitoreo y mantenimiento de equipos de congelación** en sectores críticos como el alimentario, farmacéutico, de investigación y servicios de restauración.  
+
+El sistema está desarrollado como una aplicación **Android nativa** en **Kotlin**, con **arquitectura MVVM**, uso de **Room** para persistencia local, **Hilt** para inyección de dependencias y **coroutines/flows** para operaciones asíncronas. La compilación y gestión de dependencias se realiza mediante **Gradle**.  
+
+El backend está implementado con **Spring Boot 3.5.5 (Java 24)**, utilizando **Spring Data JPA**, **Spring Web**, **Spring Security** y **JWT** para autenticación. Además, se está evaluando la integración de **Supabase** como plataforma de base de datos y autenticación en la nube, complementada con servicios de **Firebase** para mensajería en tiempo real, almacenamiento o notificaciones push, según el caso de uso.  
+
+El objetivo de este *Spike* es **investigar la integración de un sistema de monitoreo IoT en tiempo real** para capturar datos de sensores (temperatura, humedad, vibración, voltaje, entre otros), procesarlos mediante un **servicio en la nube (Firebase Realtime Database, Supabase Realtime o MQTT Broker)**, y visualizarlos dinámicamente en la app móvil PolarNet.  
+
+Este Spike permitirá determinar la viabilidad técnica de integrar sensores IoT y establecer una arquitectura escalable que soporte monitoreo constante, alertas automáticas ante fallas y registro histórico de rendimiento de los equipos.  
+
+#### Fundamentación Académica
+
+La optimización del monitoreo y mantenimiento de equipos de congelación es fundamental en sectores sensibles como el alimentario y farmacéutico. En la literatura, se ha demostrado que la implementación de tecnologías **IoT (Internet of Things)** permite monitorear variables críticas como **temperatura y humedad** en tiempo real, detectar anomalías y prevenir pérdidas económicas significativas (Gillespie et al., 2023) [Fuente: *MDPI*].  
+
+Además, en el ámbito del transporte en cadena de frío, se han desplegado soluciones basadas en **sensores inalámbricos y redes de sensores (WSN)** para supervisar contenedores y activar alertas tempranas frente a desviaciones ambientales (SpringerOpen, 2022) [Fuente: *SpringerOpen Journal of Shipping and Trade*].  
+
+Según **Badía-Melis et al. (2018)**, las tecnologías emergentes como **RFID** y **WSN** son esenciales para mejorar la trazabilidad y visibilidad en todo el proceso logístico [Fuente: *ScienceDirect*]. Sin embargo, su adopción enfrenta retos técnicos y económicos que dificultan la integración en soluciones móviles asequibles (PMCID, 2023) [Fuente: *PMC*].  
+
+Frente a estos desafíos, **PolarNet** busca cerrar la brecha entre investigación académica y aplicación práctica, ofreciendo una solución móvil accesible que integre **monitoreo IoT, gestión de mantenimiento y comunicación técnica** en un único entorno digital.
+
+---
+
+## Spike Story
+
+**Como equipo de desarrollo (móvil y backend),**  
+quiero investigar y prototipar la integración de sensores IoT en la aplicación móvil PolarNet y su backend,  
+**para** comprender las implicaciones técnicas, riesgos potenciales y esfuerzo requerido para habilitar el monitoreo en tiempo real de equipos de congelación.
+
+---
+
+## Criterios de Aceptación (Formato Given–When–Then)
+
+1. **Revisión de Tecnologías IoT**
+   - **Dado** que el equipo necesita comprender las opciones de comunicación IoT disponibles,  
+   - **Cuando** el desarrollador analiza alternativas como *Firebase Realtime Database*, *Supabase Realtime*, *MQTT (Mosquitto/Broker)* o *AWS IoT Core*,  
+   - **Entonces** se documentan las ventajas, limitaciones y compatibilidad con Android/Kotlin y Spring Boot.
+
+2. **Evaluación de la Integración con Android**
+   - **Dado** que la app PolarNet utiliza Kotlin, Room y Hilt,  
+   - **Cuando** se investiga cómo consumir datos de sensores en tiempo real (vía MQTT, Supabase o Firebase SDK),  
+   - **Entonces** se documentan los requisitos técnicos, dependencias Gradle y configuración necesaria (e.g., conexión MQTT, listeners de Supabase Realtime o Firebase, coroutines/flows).
+
+3. **Evaluación del Backend**
+   - **Dado** que el backend usa Spring Boot 3.5.5,  
+   - **Cuando** se analizan estrategias para recibir, almacenar y procesar datos de sensores (e.g., endpoints REST, WebSocket, integración con brokers IoT o Supabase Realtime),  
+   - **Entonces** se documenta un esquema base de endpoints y entidad `SensorReading` con campos como `temperature`, `humidity`, `timestamp` y `deviceId`.
+
+4. **Prototipo de Comunicación**
+   - **Dado** que se debe validar la conectividad,  
+   - **Cuando** se construye un *Proof of Concept (PoC)* enviando datos simulados desde un dispositivo IoT (e.g., ESP32 o Raspberry Pi) al backend y visualizándolos en la app móvil,  
+   - **Entonces** el PoC demuestra comunicación estable y visualización en tiempo real.
+
+5. **Análisis de Seguridad**
+   - **Dado** que los datos de sensores son sensibles para la operación del negocio,  
+   - **Cuando** se revisa la transmisión y almacenamiento de datos,  
+   - **Entonces** se incluyen mecanismos de autenticación (JWT), cifrado TLS/HTTPS, y reglas de acceso en Supabase, Firebase o MQTT.
+
+6. **Evaluación de Rendimiento**
+   - **Dado** que el sistema debe procesar múltiples lecturas por minuto,  
+   - **Cuando** se evalúan la latencia de envío, consumo de batería y uso de red,  
+   - **Entonces** se documentan métricas y posibles optimizaciones (e.g., reducción de frecuencia de envío, compresión de payloads).
+
+7. **Revisión de Cumplimiento**
+   - **Dado** que los datos pueden incluir información de operación crítica,  
+   - **Cuando** el desarrollador revisa normativas aplicables (GDPR, ISO 27001),  
+   - **Entonces** documenta consideraciones de privacidad y retención segura de datos.
+
+8. **Identificación de Dependencias y Costos**
+   - **Dado** que la integración IoT puede requerir servicios externos,  
+   - **Cuando** se identifican dependencias (Firebase SDK, Supabase client, paho-mqtt, Spring MQTT, sensores ESP32/DHT11),  
+   - **Entonces** se listan costos asociados (hardware, nube, almacenamiento).
+
+9. **Prueba de Integración**
+   - **Dado** el PoC configurado,  
+   - **Cuando** se transmiten datos reales o simulados,  
+   - **Entonces** la app muestra actualizaciones automáticas de temperatura/humedad en una vista “Dashboard”.
+
+10. **Estimación de Esfuerzo**
+    - **Dado** la información recopilada,  
+    - **Cuando** se desglosan tareas de implementación (e.g., integración MQTT en backend: 5h, PoC Android: 6h, Supabase/Firebase configuración: 4h, seguridad TLS: 3h),  
+    - **Entonces** se estiman puntos de historia y esfuerzo total para la integración final.
+
+11. **Documentación y Revisión**
+    - **Dado** que el Spike finaliza,  
+    - **Cuando** el equipo compila hallazgos y prototipo,  
+    - **Entonces** se genera un informe con pros/contras, arquitectura recomendada (MQTT vs Supabase vs Firebase), riesgos y pasos siguientes, revisado en sesión técnica.
+
+---
+
+## Definition of Done (DoD)
+
+- El código del PoC está en una rama del repositorio (`feature/iot-monitoring-spike`).  
+- El informe del Spike está documentado en formato Markdown y compartido en la wiki del proyecto.  
+- Se presenta una demostración funcional de comunicación IoT en tiempo real (PoC).  
+- Se definen historias de usuario derivadas para la implementación definitiva.  
+- El Spike se completa dentro del sprint, con duración máxima de 8–16 horas.  
+
+---
 
 ### 2.4.2. Impact Mapping
 
@@ -1034,88 +1139,235 @@ Para la priorización y estimación del esfuerzo, se ha utilizado la escala de S
   </tbody>
 </table>
 
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## 2.5 Strategic-Level Domain-Driven Design
 ### 2.5.1 EventStorming
 
-Con el fin de plantear una aproximación del modelado de nivel general para el dominio del problema, utilizamos el proceso de EventStorming. Para esto, se decidió organizar una sesión en donde los integrantes del grupo empezarían el modelamiento.
+Con el fin de plantear una aproximación del modelado de nivel general para el dominio del problema, se aplicó la técnica de EventStorming. Este proceso permitió al equipo comprender el flujo de eventos que ocurren dentro del dominio y definir las interacciones principales entre los actores, comandos y políticas del sistema.
+
+Pasos del proceso:
+
+**1. Identificación de los Domain Events:**
+ En la primera fase, se identificaron los eventos clave que ocurren dentro del dominio (por ejemplo, “Equipo alquilado”, “Contrato finalizado”, “Equipo devuelto”). Estos se colocaron en secuencia sobre una línea de tiempo para visualizar el flujo del negocio.
 
 ![EventStorming 1](images/Storming1.png)
 
-Continuando con los pasos del EventStorming, se decidió organizar los eventos del dominio en el orden en que ocurren en el dominio empresarial.
+**2. Organización cronológica de los eventos:**
+Luego, los eventos fueron ordenados según el momento en que ocurren dentro del proceso real, permitiendo entender la secuencia lógica de las operaciones.
 
 ![EventStorming 2](images/Storming2.png)
 
-Se identificaron los puntos que puedan dar complicaciones durante el proceso (Pain Points) y se agregaron a la línea de tiempo. Asimismo, se identificaron los eventos comerciales importantes (Pivotal Points) y se marcaron con una barra vertical.
+**3. Identificación de Pain Points y Pivotal Points:**
+En esta etapa se marcaron los pain points, es decir, las posibles dificultades o cuellos de botella del proceso, y los pivotal points, que representan los eventos más críticos o de cambio dentro del flujo.
 
 ![EventStorming 3](images/Storming3.png)
 
-Se agregaron los commands a la línea de tiempo, así como los policies y los read models.
+**4. Incorporación de Commands, Policies y Read Models:**
+Finalmente, se agregaron los commands (acciones que disparan eventos), las policies (reglas de negocio que responden a eventos) y los read models (consultas de información). Esto permitió obtener una visión más completa y técnica del dominio.
 
 ![EventStorming 4](images/Storming4.png)
 
 #### 2.5.1.1 Candidate Context Discovery
 
-Para poder identificar los bounded contexts se tuvo que modificar la línea de tiempo del modelado del dominio que se hizo a partir del EventStorming, se organizaron los conceptos que tenían relación por medio de aggregates.
+A partir del modelado realizado en el EventStorming, se llevó a cabo una sesión de Candidate Context Discovery con el objetivo de identificar los bounded contexts dentro del dominio. Para ello, se aplicó la técnica “look-for-pivotal-events”, que permitió detectar los eventos clave del negocio que marcan transiciones de estado y delimitan responsabilidades entre diferentes partes del proceso.
+
+Durante la sesión, se reorganizó la línea de tiempo del EventStorm para agrupar los elementos relacionados eventos, comandos, políticas y read models en torno a sus respectivos aggregates. Esto facilitó distinguir los límites naturales entre los contextos y definir con mayor claridad las interacciones entre ellos.
 
 ![EventStorming 5](images/Storming5.png)
 
+Como resultado, se obtuvieron los bounded contexts principales del dominio, los cuales servirán como base para el diseño modular y la arquitectura del sistema, asegurando una separación coherente de responsabilidades y facilitando la escalabilidad de la solución.
+
 #### 2.5.1.2 Domain Message Flow Modeling
 
-En esta sección se muestran los principales flujos identificados donde existe colaboración entre los diferentes bounded context identificador. Para una mayor comprensión se utiliza la técnica de visualización Domain Storytelling.
+En esta sección se presentan los principales flujos de colaboración entre los bounded contexts identificados. Para ello, se utilizó la técnica de visualización Domain Storytelling, la cual permite describir de forma narrativa y visual cómo los diferentes sistemas del dominio interactúan para atender los casos de uso clave del negocio.
 
 #### User creates a new account
 
-Mediante este diagrama podemos apreciar la comunicación que existe entre el Sistema de Autenticacion y el Sistema de notificaciones cuando el usuario realiza la creación de su perfil.
+1. El usuario solicita crear una nueva cuenta en el sistema.
+
+2. El Sistema de Autenticación valida la información ingresada y registra el nuevo perfil.
+
+3. Una vez completado el registro, el sistema emite un evento de confirmación.
+
+4. El Sistema de Notificaciones recibe el evento y envía un mensaje de bienvenida al usuario.
 
 ![Flow 1](images/Flow1.png)
 
-Mediante el siguiente diagrama podemos apreciar la comunicación que existe entre el Sistema de Monitoreo de Equipos y el Sistema de notificaciones cuando el usuario realiza el registro de un nuevo equipo de refrigeracion.
+#### Equipment registration
+
+1. El usuario registra un nuevo equipo de refrigeración desde su cuenta.
+
+2. El Sistema de Monitoreo de Equipos valida la información técnica y almacena el registro del nuevo equipo.
+
+3. Posteriormente, se genera un evento de registro exitoso.
+
+4. El Sistema de Notificaciones capta el evento y comunica al usuario que el equipo fue registrado correctamente.
 
 ![Flow 2](images/Flow2.png)
 
-Mediante el siguiente diagrama podemos apreciar la comunicación que existe entre el Sistema de Solicitud de Servicios y el Sistema de notificaciones cuando el usuario realiza la compra o alquiler de un nuevo equipo de refrigeracion.
+#### Service request
+
+1. El usuario solicita un servicio de compra o alquiler de un equipo de refrigeración.
+
+2. El Sistema de Solicitud de Servicios procesa la solicitud y verifica la disponibilidad del equipo.
+
+3. Una vez confirmada la operación, se genera un evento de servicio aprobado.
+
+4. El Sistema de Notificaciones recibe el evento y notifica al usuario sobre el estado de su solicitud.
 
 ![Flow 3](images/flow3.png)
+
+Estos flujos permiten visualizar la colaboración entre los bounded contexts, asegurando una comunicación clara entre sistemas y un entendimiento compartido de los procesos del dominio.
 
 #### 2.5.1.3 Bounded Context Canvases
 
 Para la presente sección, elaboramos el Bounded Context Canvas de cada uno de los Bounded Context candidatos que identificamos. Aplicamos el modelo versión 5 propuesto por el Domain Driven Design Group.
 En cada uno de los canvases registramos las secciones específicas como el Context Overview Definition, Business Rules Distillation y el Ubiquitous Language, identificando claramente el tipo de Bounded Context y sus interacciones de entrada y salida con otros contextos.
 
+## Bounded Context Canvas – Sistema de Autenticación
 
-![Autenticacion](images/Autenticacion.png)
+**Context Overview Definition**
 
-![Monitoreo](images/Monitoreo.png)
+Se encarga del registro, inicio de sesión y gestión de credenciales de los usuarios en la aplicación móvil. Permite autenticar y autorizar a los usuarios antes de acceder a los módulos principales del sistema.
 
-![Servicios](images/Servicios.png)
+**Capability Analysis**
 
-![Notificaciones](images/Notificacion.png)
+- Registro de nuevos usuarios.
+- Inicio y cierre de sesión.
+- Recuperación de contraseña.
+- Actualización de perfil.
+- Validación de token de autenticación.
+
+**Capability Layering**
+
+- Capa de presentación: Interfaz móvil de login y registro.
+- Capa de dominio: Lógica de autenticación y validación.
+- Capa de infraestructura: Comunicación con la API de autenticación.
+
+**Dependencies Capture**
+
+Depende del sistema de Notificaciones (para confirmar registro o recuperación de contraseña).
+
+**Design Critique**
+
+El contexto está bien delimitado y desacoplado. Solo maneja autenticación, sin interferir en la lógica de monitoreo o servicios.
+
+![Autenticacion](images/authentication.png)
+
+## Bounded Context Canvas – Sistema de Monitoreo de Equipos
+
+**Context Overview Definition**
+
+Permite al usuario registrar, visualizar y monitorear sus equipos de refrigeración desde la app móvil, verificando su estado, temperatura y funcionamiento en tiempo real.
+
+**Capability Analysis**
+
+- Registro y configuración de equipos.
+- Visualización de estado en tiempo real.
+- Envío de alertas por valores fuera de rango.
+- Generación de reportes históricos.
+
+**Capability Layering**
+
+- Capa de presentación: Vista móvil de monitoreo.
+- Capa de dominio: Lógica de lectura y validación de datos.
+- Capa de infraestructura: Integración con sensores y API IoT.
+
+**Dependencies Capture**
+
+Depende del sistema de Notificaciones para enviar alertas al usuario.
+
+**Design Critique**
+
+El diseño mantiene independencia y escalabilidad, con foco en datos IoT. Podría ampliarse con métricas predictivas en futuras versiones.
+
+![Monitoreo](images/monitoring.png)
+
+## Bounded Context Canvas – Sistema de Solicitud de Servicios
+
+**Context Overview Definition**
+
+Gestiona la compra, alquiler o mantenimiento de equipos de refrigeración por parte del usuario desde la aplicación móvil.
+
+**Capability Analysis**
+
+- Creación y seguimiento de solicitudes.
+- Asignación automática de técnicos.
+- Actualización de estado de servicio.
+- Generación de comprobantes y facturas.
+
+**Capability Layering**
+
+- Capa de presentación: Interfaz de solicitud y seguimiento.
+- Capa de dominio: Lógica de negocio del flujo de servicios.
+- Capa de infraestructura: Conexión con sistemas externos de pago o facturación.
+
+**Dependencies Capture**
+
+Se comunica con Notificaciones para informar el avance o finalización de los servicios.
+
+**Design Critique**
+
+Tiene un ciclo de vida bien definido y su integración con otros contextos es clara. Posibilidad de añadir automatización de asignaciones en el futuro.
+
+![Servicios](images/servicesrequest.png)
+
+## Bounded Context Canvas – Sistema de Notificaciones
+
+**Context Overview Definition**
+
+Administra el envío de mensajes y alertas al usuario, ya sea por eventos del sistema o acciones propias del usuario dentro de la app móvil.
+
+**Capability Analysis**
+
+- Envío de notificaciones automáticas.
+- Configuración de canales y prioridades.
+- Registro de historial de notificaciones.
+- Integración con servicios externos de mensajería.
+
+**Capability Layering**
+
+- Capa de dominio: Reglas de envío y priorización.
+- Capa de infraestructura: Conexión con proveedores externos de mensajes.
+
+**Dependencies Capture**
+
+Recibe eventos desde Autenticación, Monitoreo y Servicios para ejecutar los envíos.
+
+**Design Critique**
+
+Diseño desacoplado y reutilizable. Centraliza la comunicación entre contextos, lo que facilita la trazabilidad de mensajes.
+
+![Notificaciones](images/notification.png)
 
 ### 2.5.2 Context Mapping
 
-En el context mapping podemos definir las relaciones entre los bounded context. Identificamos las relaciones analizando sus patrones, entre ellos destacamos que el Sistema de Autenticacion, solicitud de servicios y de notificacion cuentan con un anticorruption layer debido a que estos bounded context interactuan con sistemas de terceros.
+El proceso de Context Mapping nos permitió analizar y definir las relaciones estructurales y los patrones de integración entre los bounded contexts del sistema. Este análisis fue clave para garantizar una comunicación clara, minimizar dependencias innecesarias y mantener una alta cohesión interna dentro de cada contexto.
+
+**Análisis del proceso**
+
+Durante la elaboración de los context maps, el equipo se planteó las siguientes preguntas para refinar los límites y relaciones entre los bounded contexts:
+
+- ¿Qué pasaría si movemos ciertas capacidades del sistema de notificaciones al sistema de autenticación?
+
+  Se descartó esta opción, ya que se perdería la independencia del módulo de notificaciones, generando una sobrecarga innecesaria en el proceso de login.
+
+- ¿Qué pasaría si descomponemos el sistema de solicitud de servicios en subcontextos separados para compras y alquileres?
+
+  Se concluyó que no era necesario por el momento, ya que ambos comparten reglas de negocio y procesos similares.
+
+- ¿Qué pasaría si el sistema de monitoreo de equipos dependiera directamente del sistema de autenticación?
+
+  Se determinó mantener la dependencia indirecta mediante tokens y servicios API para evitar acoplamientos fuertes.
+
+- ¿Qué pasaría si creamos un servicio compartido para notificaciones y alertas del sistema de monitoreo?
+
+  Se decidió crear una integración mediante event-driven communication usando un Shared Kernel, dado que ambos contextos requieren enviar mensajes al usuario final.
+
 
 ![Context Map](images/ContextMap.png)
 
 ### 2.5.3 Software Arquitecture
+
 #### 2.5.3.1 Context Level Diagram
 
 En el software architecture context diagram se puede apreciar los componentes mas importantes que componen el sistema,asi como los usuarios y las principales funciones.
@@ -1132,28 +1384,27 @@ En el software architecture container diagram se puede apreciar la forma de más
 
 ![DeploymentSys](images/PolarDeployment.png)
 
-
-
-
 ## 2.6.1. Bounded Context:Authentification Bounded Context
 
 El **bounded context de Autenticación** gestiona todo lo relacionado con el acceso y la identidad de los usuarios dentro del sistema.  
 Define cómo los usuarios se **registran**, **inician sesión**, **obtienen sus roles** y **mantienen sesiones seguras** mediante tokens JWT.  
 También sirve como base para otros contextos (como Solicitud de Servicios o Monitoreo), permitiendo validar la identidad y los permisos de los usuarios.
 
-
 ### 2.6.1.1.Domain Layer
 
 La capa de **Domain** representa el **núcleo del dominio** de autenticación.  
 Aquí se definen las entidades, objetos de valor e interfaces que encapsulan las **reglas de negocio**.  
 Su función es modelar cómo el sistema entiende un usuario, su rol y su relación con la empresa.
+
 ### Clases principales
 
 #### User (Entity)
+
 **Atributos:**  
 `user_id`, `name`, `username`, `password`, `email`, `role`, `company_id`, `is_active`
 
 **Métodos:**  
+
 - `validatePassword()` → verifica si la contraseña ingresada coincide con la almacenada.  
 - `assignRole()` → asigna un rol al usuario.  
 - `activateUser()` / `deactivateUser()` → controlan si el usuario puede iniciar sesión.
@@ -1657,10 +1908,10 @@ Permite recibir datos de sensores IoT en tiempo real mediante protocolos como MQ
 
 <img width="auto" src="https://raw.githubusercontent.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795/chapter-2/images/chapter-II/infrastructuremonitoring.png">
 
-### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams 
-
+### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
 
 ### Flujo general
+
 1. `SensorGateway` recibe lecturas de sensores.  
 2. Llama a los *handlers* (`RecordTemperatureHandler`, `RecordEnergyHandler`).  
 3. Los *handlers* procesan la información mediante `MonitoringService`.  
@@ -1700,9 +1951,11 @@ El **bounded context de Notificaciones** se encarga de gestionar toda la comunic
 Su objetivo es garantizar que cada usuario reciba la información correcta en el momento adecuado, utilizando diversos canales como correo electrónico, mensajes del sistema o integraciones externas.
 
 ### 2.6.4.1.Domain Layer
+
 # 2.6.4. Bounded Context: Notificaciones
 
 ## Introducción general
+
 El **bounded context de Notificaciones** se encarga de gestionar toda la comunicación del sistema hacia los usuarios y empresas, tanto de manera interna (alertas de monitoreo, estados de servicio) como externa (recordatorios, actualizaciones, avisos de mantenimiento).  
 Su objetivo es garantizar que cada usuario reciba la información correcta en el momento adecuado, utilizando diversos canales como correo electrónico, mensajes del sistema o integraciones externas.
 
@@ -2371,14 +2624,16 @@ Para la distribución de la aplicación móvil se utilizarán plataformas como G
 
 ### 4.1.2. Source Code Management
 
-#### Estructura de ramas Git Flow:
+#### Estructura de ramas Git Flow
+
 - **main:** rama primaria donde siempre se mantiene el código estable y preparado para producción.
 - **develop:** rama de desarrollo donde se consolidan todas las nuevas características antes de ser transferidas a producción.
 - **feature/:** ramas destinadas a desarrollar nuevas funcionalidades.
 - **release/:** ramas temporales para preparar una nueva versión estable.
 - **hotfix/:** ramas para solucionar errores críticos en producción.
 
-#### Versionado Semántico (Semantic Versioning):
+#### Versionado Semántico (Semantic Versioning)
+
 Se implementará el sistema de versionado semántico (Semantic Versioning 2.0.0), aplicando el formato: **MAJOR.MINOR.PATCH**.
 
 - 1.0.0 → versión estable inicial
@@ -2386,22 +2641,26 @@ Se implementará el sistema de versionado semántico (Semantic Versioning 2.0.0)
 - 1.1.1 → corrección de errores
 
 #### Estándar de mensajes de commits
-El equipo adoptará el estándar de mensajes de commits establecido en "Conventional Commits". 
+
+El equipo adoptará el estándar de mensajes de commits establecido en "Conventional Commits".
 
 **Ejemplos de mensajes:**
+
 - `feat: implementar nuevo sistema de autenticación`
 - `fix: resolver validación en formulario de registro`
 - `docs: actualizar README con guías de implementación`
 
 #### Nomenclatura para numeración de versiones:
+
 - **Cambios Mayores:** Cuando el código o versión nueva del proyecto implementado presenta modificaciones sustanciales respecto a la versión anterior, estos cambios resultan incompatibles con la versión previa.
 - **Cambios Menores:** Cuando el código o versión nueva del proyecto implementado presenta modificaciones respecto a alguna característica específica.
 - **Patch:** Cuando se resuelven errores menores.
 
 #### Repositorio de Github:
-- Enlace para acceder a la organización en Github
-- Enlace para acceder al repositorio de la aplicación móvil
-- Enlace para acceder al repositorio del Informe
+
+- Enlace para acceder al repositorio de la landing page: https://github.com/PauloRepository/PolarNet-Client/tree/main
+- Enlace para acceder al repositorio de la aplicación móvil: https://github.com/1ACC0238-2520-1795-G01-POLARNET/App
+- Enlace para acceder al repositorio del Informe: https://github.com/Paulo02-pixel/Aplicaciones-Para-Dispositivos-Moviles-1795
 
 #### Metodología de trabajo GitFlow
 La metodología de trabajo se fundamentará en un modelo de ramas Git Flow, el cual se basa en la generación de ramas específicas para cada funcionalidad o corrección de errores. El modelo de "A successful Git branching model"
@@ -2473,6 +2732,7 @@ Adicionalmente, se implementó un archivo "languages.js" que contiene los textos
 La URL que GitHub Pages proporciona para acceder a la landing page es la siguiente: https://paulorepository.github.io/PolarNet-LandingPage/
 
 ### 4.2.1 Sprint 1
+
 #### 4.2.1.1 Sprint Planning 1
 
 El Sprint Planning 1 es una reunión esencial para iniciar el primer sprint de un proyecto, donde el equipo define los objetivos y la estrategia para cumplirlos. En este caso, nuestro objetivo principal es implementar la landing page de la aplicación, asegurando una presentación efectiva del producto.
@@ -3220,9 +3480,8 @@ Los errores fueron evaluados según la siguiente escala:
 ## Student Outcome
 
 **Descripción:**  
-El *Student Outcome* evalúa la capacidad del estudiante para **actualizar y aplicar conocimientos de ingeniería de software**, así como su **compromiso con el aprendizaje permanente** para su desarrollo profesional.  
-Este resultado busca evidenciar la **mejora continua en competencias técnicas, metodológicas y éticas**, necesarias para diseñar, desarrollar y mantener **soluciones tecnológicas innovadoras y sostenibles**.
-
+El *Student Outcome 7* evalúa la capacidad del estudiante de adquirir y aplicar nuevos conocimientos según sea
+necesario, utilizando estrategias deaprendizaje apropiadas.
 
 | **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
 |-------------------------|--------------------------|------------------|
@@ -3248,113 +3507,6 @@ Este resultado busca evidenciar la **mejora continua en competencias técnicas, 
 | 3 | **Sandro Dinklange Arevalo** |TB1 <br> CAP 2<br>TP1<br>CAP 3.3 – 3.4 | X |  |  |  | 20 |
 | 4 | **Inga Hernandez, Ayrton Damian** | TB1<br>CAP 2<br>TP1 <br>CAP 4.3 | X |  |  |  | 20 |
 | 5 | **Marzál Pérez, Jamir Ángel** | TB1<br>CAP 2<br>TP1<br>CAP 4.3 | X |  |  |  | 20 |
-
-# Anexo C
-
-# Anexo D. Spike Story
-
-## Spike: Investigación sobre la Integración de Monitoreo IoT en Tiempo Real para Equipos de Congelación en la Plataforma PolarNet
-
-### Contexto
-
-La plataforma **PolarNet** es una aplicación móvil inteligente orientada a optimizar la **gestión, monitoreo y mantenimiento de equipos de congelación** en sectores críticos como el alimentario, farmacéutico, de investigación y servicios de restauración.  
-
-El sistema está desarrollado como una aplicación **Android nativa** en **Kotlin**, con **arquitectura MVVM**, uso de **Room** para persistencia local, **Hilt** para inyección de dependencias y **coroutines/flows** para operaciones asíncronas. La compilación y gestión de dependencias se realiza mediante **Gradle**.  
-
-El backend está implementado con **Spring Boot 3.5.5 (Java 24)**, utilizando **Spring Data JPA**, **Spring Web**, **Spring Security** y **JWT** para autenticación. Además, se está evaluando la integración de **Supabase** como plataforma de base de datos y autenticación en la nube, complementada con servicios de **Firebase** para mensajería en tiempo real, almacenamiento o notificaciones push, según el caso de uso.  
-
-El objetivo de este *Spike* es **investigar la integración de un sistema de monitoreo IoT en tiempo real** para capturar datos de sensores (temperatura, humedad, vibración, voltaje, entre otros), procesarlos mediante un **servicio en la nube (Firebase Realtime Database, Supabase Realtime o MQTT Broker)**, y visualizarlos dinámicamente en la app móvil PolarNet.  
-
-Este Spike permitirá determinar la viabilidad técnica de integrar sensores IoT y establecer una arquitectura escalable que soporte monitoreo constante, alertas automáticas ante fallas y registro histórico de rendimiento de los equipos.  
-
-#### Fundamentación Académica
-
-La optimización del monitoreo y mantenimiento de equipos de congelación es fundamental en sectores sensibles como el alimentario y farmacéutico. En la literatura, se ha demostrado que la implementación de tecnologías **IoT (Internet of Things)** permite monitorear variables críticas como **temperatura y humedad** en tiempo real, detectar anomalías y prevenir pérdidas económicas significativas (Gillespie et al., 2023) [Fuente: *MDPI*].  
-
-Además, en el ámbito del transporte en cadena de frío, se han desplegado soluciones basadas en **sensores inalámbricos y redes de sensores (WSN)** para supervisar contenedores y activar alertas tempranas frente a desviaciones ambientales (SpringerOpen, 2022) [Fuente: *SpringerOpen Journal of Shipping and Trade*].  
-
-Según **Badía-Melis et al. (2018)**, las tecnologías emergentes como **RFID** y **WSN** son esenciales para mejorar la trazabilidad y visibilidad en todo el proceso logístico [Fuente: *ScienceDirect*]. Sin embargo, su adopción enfrenta retos técnicos y económicos que dificultan la integración en soluciones móviles asequibles (PMCID, 2023) [Fuente: *PMC*].  
-
-Frente a estos desafíos, **PolarNet** busca cerrar la brecha entre investigación académica y aplicación práctica, ofreciendo una solución móvil accesible que integre **monitoreo IoT, gestión de mantenimiento y comunicación técnica** en un único entorno digital.
-
----
-
-## Spike Story
-
-**Como equipo de desarrollo (móvil y backend),**  
-quiero investigar y prototipar la integración de sensores IoT en la aplicación móvil PolarNet y su backend,  
-**para** comprender las implicaciones técnicas, riesgos potenciales y esfuerzo requerido para habilitar el monitoreo en tiempo real de equipos de congelación.
-
----
-
-## Criterios de Aceptación (Formato Given–When–Then)
-
-1. **Revisión de Tecnologías IoT**
-   - **Dado** que el equipo necesita comprender las opciones de comunicación IoT disponibles,  
-   - **Cuando** el desarrollador analiza alternativas como *Firebase Realtime Database*, *Supabase Realtime*, *MQTT (Mosquitto/Broker)* o *AWS IoT Core*,  
-   - **Entonces** se documentan las ventajas, limitaciones y compatibilidad con Android/Kotlin y Spring Boot.
-
-2. **Evaluación de la Integración con Android**
-   - **Dado** que la app PolarNet utiliza Kotlin, Room y Hilt,  
-   - **Cuando** se investiga cómo consumir datos de sensores en tiempo real (vía MQTT, Supabase o Firebase SDK),  
-   - **Entonces** se documentan los requisitos técnicos, dependencias Gradle y configuración necesaria (e.g., conexión MQTT, listeners de Supabase Realtime o Firebase, coroutines/flows).
-
-3. **Evaluación del Backend**
-   - **Dado** que el backend usa Spring Boot 3.5.5,  
-   - **Cuando** se analizan estrategias para recibir, almacenar y procesar datos de sensores (e.g., endpoints REST, WebSocket, integración con brokers IoT o Supabase Realtime),  
-   - **Entonces** se documenta un esquema base de endpoints y entidad `SensorReading` con campos como `temperature`, `humidity`, `timestamp` y `deviceId`.
-
-4. **Prototipo de Comunicación**
-   - **Dado** que se debe validar la conectividad,  
-   - **Cuando** se construye un *Proof of Concept (PoC)* enviando datos simulados desde un dispositivo IoT (e.g., ESP32 o Raspberry Pi) al backend y visualizándolos en la app móvil,  
-   - **Entonces** el PoC demuestra comunicación estable y visualización en tiempo real.
-
-5. **Análisis de Seguridad**
-   - **Dado** que los datos de sensores son sensibles para la operación del negocio,  
-   - **Cuando** se revisa la transmisión y almacenamiento de datos,  
-   - **Entonces** se incluyen mecanismos de autenticación (JWT), cifrado TLS/HTTPS, y reglas de acceso en Supabase, Firebase o MQTT.
-
-6. **Evaluación de Rendimiento**
-   - **Dado** que el sistema debe procesar múltiples lecturas por minuto,  
-   - **Cuando** se evalúan la latencia de envío, consumo de batería y uso de red,  
-   - **Entonces** se documentan métricas y posibles optimizaciones (e.g., reducción de frecuencia de envío, compresión de payloads).
-
-7. **Revisión de Cumplimiento**
-   - **Dado** que los datos pueden incluir información de operación crítica,  
-   - **Cuando** el desarrollador revisa normativas aplicables (GDPR, ISO 27001),  
-   - **Entonces** documenta consideraciones de privacidad y retención segura de datos.
-
-8. **Identificación de Dependencias y Costos**
-   - **Dado** que la integración IoT puede requerir servicios externos,  
-   - **Cuando** se identifican dependencias (Firebase SDK, Supabase client, paho-mqtt, Spring MQTT, sensores ESP32/DHT11),  
-   - **Entonces** se listan costos asociados (hardware, nube, almacenamiento).
-
-9. **Prueba de Integración**
-   - **Dado** el PoC configurado,  
-   - **Cuando** se transmiten datos reales o simulados,  
-   - **Entonces** la app muestra actualizaciones automáticas de temperatura/humedad en una vista “Dashboard”.
-
-10. **Estimación de Esfuerzo**
-    - **Dado** la información recopilada,  
-    - **Cuando** se desglosan tareas de implementación (e.g., integración MQTT en backend: 5h, PoC Android: 6h, Supabase/Firebase configuración: 4h, seguridad TLS: 3h),  
-    - **Entonces** se estiman puntos de historia y esfuerzo total para la integración final.
-
-11. **Documentación y Revisión**
-    - **Dado** que el Spike finaliza,  
-    - **Cuando** el equipo compila hallazgos y prototipo,  
-    - **Entonces** se genera un informe con pros/contras, arquitectura recomendada (MQTT vs Supabase vs Firebase), riesgos y pasos siguientes, revisado en sesión técnica.
-
----
-
-## Definition of Done (DoD)
-
-- El código del PoC está en una rama del repositorio (`feature/iot-monitoring-spike`).  
-- El informe del Spike está documentado en formato Markdown y compartido en la wiki del proyecto.  
-- Se presenta una demostración funcional de comunicación IoT en tiempo real (PoC).  
-- Se definen historias de usuario derivadas para la implementación definitiva.  
-- El Spike se completa dentro del sprint, con duración máxima de 8–16 horas.  
-
----
 
 ## Referencias
 

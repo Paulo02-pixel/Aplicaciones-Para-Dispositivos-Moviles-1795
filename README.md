@@ -4056,7 +4056,7 @@ Los errores fueron evaluados según la siguiente escala:
 | 2 | **Geronimo Quispe Pablo Antonio** | TB1: Capítulo II - Requirements Development and Software Solution Design<br>TP1: Capítulo IV - Secciones 4.1 y 4.2 |  |  |  | X | 0 |
 | 3 | **Sandro Dinklange Arevalo** | TB1: Capítulo II - Requirements Development and Software Solution Design<br>TP1: Capítulo III - Secciones 3.3 y 3.4 | |  |  | X | 0 |
 | 4 | **Inga Hernandez, Ayrton Damian** | TB1: Capítulo II - Requirements Development and Software Solution Design<br>TP1: Capítulo IV - Sección 4.3 |  |  |  | X | 0 |
-| 5 | **Marzál Pérez, Jamir Ángel** | TB1: Capítulo II - Requirements Development and Software Solution Design<br>TP1: Capítulo IV - Sección 4.3<br>TB2: Flutter del móvil | X |  |  |  | 20 |
+| 5 | **Marzál Pérez, Jamir Ángel** | TB1: Capítulo II - Requirements Development and Software Solution Design<br>TP1: Capítulo IV - Sección 4.3<br>TB2: Desarrollo en Flutter del móvil app y correcciones del TP1| X |  |  |  | 20 |
 
 ## Referencias
 

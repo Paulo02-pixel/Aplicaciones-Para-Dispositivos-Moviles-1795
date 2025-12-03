@@ -3651,16 +3651,195 @@ El objetivo principal fue entregar una versión funcional del aplicativo Flutter
 | Attendees (to planning meeting)| Paulo Quincho, Sandro Dinklange, Jamir Marzál, Ayrton Inga, Pablo Geronimo  |
 | Sprint n - 3 Review Summary    |  En el Sprint 2 se completó con éxito el flujo funcional inicial en Kotlin y se realizó un Spike técnico en Flutter que confirmó la viabilidad de migrar el desarrollo hacia una plataforma multiplataforma. El equipo obtuvo una primera versión estable de registro, login y navegación base, además de la validación del backend.                                     |
 | Sprint n - 3 Retrospective Summary | El equipo reconoció avances claves en la integración de backend–frontend, pero también identificó la necesidad de unificar componentes visuales, mejorar la coherencia en el diseño, y optimizar la navegación interna en Flutter. Se acordó que la prioridad del siguiente sprint sería consolidar el ecosistema Flutter y dejarlo funcional para el usuario.                                     |
-| Sprint 3 Goal                  | Nuestro enfoque está en construir una experiencia de usuario completamente funcional para ambos segmentos (Cliente y Proveedor). Creemos que ofrecer esta experiencia multiplataforma pulida mejorara la comodidad de los usuarios |
-| Sprint 3 Velocity              | Nuestro equipo puede aceptar hasta xx Story Points.                                                  |
-| Sum of Story Points            | La suma de Story Points atendidos es de --- .     |            
- 
+| Sprint 3 Goal                  | Nuestro enfoque está en construir una experiencia de usuario completamente funcional para ambos segmentos (Cliente y Proveedor) en Flutter. Creemos que ofrecer una aplicación móvil multiplataforma con navegación fluida, gestión completa de equipos, solicitudes de servicio, y monitoreo IoT mejorará significativamente la comodidad y satisfacción de los usuarios. |
+| Sprint 3 Velocity              | Nuestro equipo puede aceptar hasta 50 Story Points.                                                  |
+| Sum of Story Points            | La suma de Story Points atendidos es de 47 .     |            
+
 #### 4.2.3.2 Sprint Backlog 3
+
+El objetivo principal del Sprint 3 es construir la versión completa del flujo del proyecto en Flutter, replicando y optimizando las vistas previamente implementadas en Kotlin. Incluye autenticación,  Gestión de equipos (cliente y proveedor) , Dashboard IoT con sensores e Inventario de proveedores.
+
+<p align="center"><img src="images/sprin3backlog.PNG" alt="Sprint Backlog 2" />
+</p>
+
+Enlace Trello: https://trello.com/b/xAG7867S/spring-3
+
+| User Story ID | User Story Title | Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
+|---------------|------------------|---------|------------|-------------|-------------------|-------------|--------|
+| US-01 | Registro de usuario | T-01 | Implementar pantalla de registro en Flutter | Crear formulario con validación de campos (email, password, rol)| 4 | Paulo Quincho | Done |
+| US-01 | Registro de usuario | T-02 | Conectar registro con backend Supabase  |  Integrar llamada al servicio de autenticación | 3 | Paulo Quincho | Done |	
+| US-02 | Inicio de sesión | T-03 | Implementar pantalla de login| Crear UI con validación de credenciales | 3 | Jamir Marzál| Done |
+| US-02 | Inicio de sesión | T-04 | Gestionar estados de autenticación con BLoC | Implementar AuthBloc con estados y eventos | 4 | Jamir Marzál| Done |
+| US-06 | Agregar equipos| T-05 | Crear pantalla de gestión de equipos (cliente)  | Implementar lista y detalle de equipos del cliente | 5 | Paulo Quincho | Done |
+| US-06 | Agregar equipos| T-06 |  Implementar formulario para agregar equipos  |Crear form con campos del equipo | 4 | Paulo Quincho | Done |
+| US-17 | Visualizar equipos entregados a clientes | T-07 |Implementar inventario de proveedor |Crear pantalla con lista filtrable de equipos | 5 | Paulo Quincho | Done |
+
 #### 4.2.3.3 Development Evidence for Sprint Review 
-#### 4.2.3.4 esting Suite Evidence for Sprint Review 
+
+En esta sección se presenta la evidencia del desarrollo realizado durante el Sprint 3, detallando los commits más relevantes realizados en el repositorio del proyecto. El equipo se enfocó en implementar las funcionalidades principales de la aplicación Flutter, incluyendo autenticación, gestión de equipos, y navegación entre módulos.
+
+
+| Repository         | Branch                 | Commit Id | Commit Message                                         | Commit Message Body                                                                                                     | Committed on      |
+|--------------------|-------------------------|-----------|---------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|-------------------|
+| POLANET/Flutter    | feature/authentication  | a3f4b21   | feat: implement user registration screen               | Added RegisterPage with form validation, role selection, and AuthBloc integration                                         | 2025-11-21        |
+| POLANET/Flutter    | feature/authentication  | b7e9c45   | feat: connect registration with Supabase backend        | Implemented AuthRemoteDataSource with register method using Supabase REST API                                             | 2025-11-21        |
+| POLANET/Flutter    | feature/authentication  | c2d8f93   | feat: implement login screen with validation           | Created LoginPage with validation, error handling, and loading states using BLoC                                          | 2025-11-22        |
+| POLANET/Flutter    | feature/authentication  | d4a1e67   | feat: implement AuthBloc state management              | Added AuthBloc with events and states for authentication flow                                                             | 2025-11-22        |
+| POLANET/Flutter    | feature/client-equipment| e8b3f29   | feat: create client equipment management screen         | Implemented ClientEquipmentsPage with filtering and navigation to details                                                | 2025-11-23        |
+| POLANET/Flutter    | feature/client-equipment| f1c7d84   | feat: implement equipment detail view for clients      | Added ClientEquipmentCard widget with status indicators and rental details                                                | 2025-11-23        |
+| POLANET/Flutter    | feature/provider-inventory| g5e2a91 | feat: implement provider inventory management           | Created ProviderInventoryPage with filters and availability toggle                                                        | 2025-11-24        |
+| POLANET/Flutter    | feature/provider-inventory| h9f4b26 | feat: add equipment creation form for providers         | Implemented AddEquipmentPage with full form, validation, image URL, and category selection                               | 2025-11-24        |
+| POLANET/Flutter    | feature/provider-requests| i3a8c47  | feat: implement service request management              | Created ProviderRequestsPage with status filtering                                                                        | 2025-11-25        |
+| POLANET/Flutter    | feature/provider-requests| j7d2e59  | feat: add service request detail screen                 | Added ServiceRequestDetailPage with client info and accept/reject actions                                                | 2025-11-25        |
+| POLANET/Flutter    | feature/iot-dashboard   | k4f9b83   | feat: create IoT sensor dashboard                       | Implemented IoTDashboardPage with real-time charts (fl_chart)                                                             | 2025-11-26        |
+| POLANET/Flutter    | feature/iot-dashboard   | l8c1a95   | feat: integrate IoT sensors with equipment monitoring  | Linked IoT dashboard with equipment inventory for sensor monitoring                                                       | 2025-11-26        |
+| POLANET/Flutter    | feature/navigation      | m2e6d74   | feat: implement bottom navigation for client role      | Created MainClientPage with Home, Equipments, Services, Profile                                                           | 2025-11-27        |
+| POLANET/Flutter    | feature/navigation      | n6a3f82   | feat: implement bottom navigation for provider role    | Created MainProviderPage with Requests, Inventory, Add Equipment, Profile                                                 | 2025-11-27        |
+| POLANET/Flutter    | feature/profile         | o1d9e47   | feat: create profile page with user information        | Implemented ProfilePage with user details, role badge, logout                                                             | 2025-11-28        |
+| POLANET/Flutter    | feature/services        | p5b2c68   | feat: implement client services history screen         | Created ServicesPage listing service history with stats                                                                   | 2025-11-28        |
+| POLANET/Flutter    | feature/ui-components   | q9e7a14   | refactor: standardize card components                  | Added reusable components: EquipmentCard, ServiceRequestCard, QuickStatCard                                               | 2025-11-29        |
+| POLANET/Flutter    | feature/ui-components   | r3f8b29   | style: consistent color scheme & typography            | Applied AppColors and AppTheme with Poppins                                                                              | 2025-11-29        |
+| POLANET/Flutter    | feature/data-layer      | s7c4d91   | feat: implement repository pattern                     | Added repositories for Equipment, ClientEquipment, and ServiceRequest                                                     | 2025-11-30        |
+| POLANET/Flutter    | feature/data-layer      | t2a9e53   | feat: integrate Supabase services                      | Added CRUD service classes for all entities via Supabase REST API                                                         | 2025-11-30        |
+| POLANET/Flutter    | fix/authentication      | u6d1f87   | fix: resolve authentication state persistence issue    | Fixed session persistence using local DB cache                                                                            | 2025-12-01        |
+| POLANET/Flutter    | fix/navigation          | v4e8c25   | fix: correct navigation flow                           | Fixed incorrect clientId passing during navigation                                                                        | 2025-12-01        |
+| POLANET/Flutter    | feature/error-handling  | w8f3b69   | feat: implement comprehensive error handling           | Added try-catch blocks and developer logs                                                                                 | 2025-12-02        |
+| POLANET/Flutter    | feature/loading-states  | x2c7d94   | feat: add loading indicators and empty states          | Implemented loaders and empty state messages                                                                              | 2025-12-02        |
+| POLANET/Flutter    | docs/code-documentation | y5a9e81   | docs: add inline documentation to domain models        | Added dartdoc to Equipment, ClientEquipment, ServiceRequest, User                                                         | 2025-12-03        |
+| POLANET/Flutter    | main                    | z1f6d42   | Agregacion de dashboard e iot                      | Integrated all features and resolved conflicts                                                                            | 2025-12-03        |
+
+***Métricas del Sprint***
+
+- Total de commits: 26 commits principales
+- Líneas de código añadidas: ~15,000 líneas
+- Archivos creados: 85+ archivos nuevos
+- User Stories completadas: 7 de 7 (100%)
+- Story Points entregados: 47 de 50 planificados (94%)
+
+
+#### 4.2.3.4 Testing Suite Evidence for Sprint Review 
+
+
+Durante este Sprint se amplió la suite de pruebas para validar las nuevas funcionalidades implementadas en la aplicación móvil **PolarNet (CoolGuard)**, incluyendo ahora la **integración IoT** (telemetría de sensores de temperatura/humedad, detección de alarmas) con publicación vía MQTT y sincronización en tiempo real con Firestore a través del backend/emulador.
+
+---
+
+#### Resumen
+Se cubrieron pruebas unitarias, widget tests e integración (end-to-end) con Firebase y con el **broker MQTT** (simulado con Mosquitto). El pipeline de pruebas incluye un simulador de dispositivo que publica telemetría para verificar flujos de alertas, sincronización y actualización de estado del dispositivo en la app.
+
+---
+
+#### Herramientas utilizadas
+- Flutter Test (unit + widget)
+- Integration Test (Flutter)
+- Firebase Emulator Suite (Auth, Firestore)
+- flutter_coverage / lcov (cobertura)
+---
+
+#### Áreas de prueba cubiertas (añadido IoT)
+- Validación de disponibilidad y estado de equipos (incluye telemetría)
+- Proceso de selección y renta de equipos
+- Sincronización en tiempo real de telemetría ( Backend -> Firestore -> App)
+- Notificaciones ante umbrales críticos (ej. temp > límite)
+- Manejo de desconexiones / reconexiones del dispositivo IoT
+- Seguridad: validación de tokens y permisos (Auth + reglas Firestore)
+
+---
+
+
+#### Métodos/Flujos probados (resumen)
+- createEquipment(), readEquipment(), updateEquipment(), deleteEquipment(), syncEquipmentData()
+- publishTelemetry(deviceId, payload) -> MQTT
+- backend/listener: suscripción  -> escritura en Firestore
+- app: listener Firestore realtime -> update UI / trigger notifications
+
+  
+---
+
+#### Métricas (Sprint 3)
+- Tests unitarios ejecutados: 24 (24 passed)
+- Tests de integración ejecutados: 20 (20 passed)
+- Tests UI (widget): 17 (17 passed)
+- Cobertura promedio módulo Renta + IoT: 92%
+- Cobertura Firebase (operaciones CRUD): 96%
+
+---
+
+
+
 #### 4.2.3.5 Execution Evidence for Sprint Review 
+
+Esta sección presenta la evidencia ejecutada del Sprint 3 correspondiente al proyecto **PolarNet – CoolGuard**, demostrando el funcionamiento real de las funcionalidades desarrolladas en Flutter, la integración con Firebase y el modulo de la renta de equipos .
+
+####  Pantalla de Login
+**Descripción:**  
+La pantalla permite a los usuarios iniciar sesión utilizando Firebase Authentication.  
+Se validan credenciales, errores y retroalimentación visual.
+
+<p align="center"><img src="images/flutter1evidence.PNG" alt="Perfil Usuario" />
+</p>
+
+###  Pantalla de Registro
+**Descripción:**  
+Formulario completo para registrar nuevos usuarios que desempeñan roles de Cliente o Proveedor.  
+Cuenta con validaciones visuales, manejo de errores y persistencia en Firebase.
+
+<p align="center"><img src="images/flutter2evidence.PNG" alt="Perfil Usuario" />
+</p>
+
+###  Equipos Disponibles
+**Descripción:**  
+La pantalla de Equipos Disponibles muestra al usuario un listado en tiempo real de todos los dispositivos CoolGuard registrados en el sistema. 
+Cada tarjeta de equipo presenta información clave como nombre, número de serie, estado actual (Available, Rented, Offline)
+
+<p align="center"><img src="images/flutter3evidence.PNG" alt="Perfil Usuario" />
+</p>
+ 
+###  Renta de equipos
+**Descripción:**  
+La pantalla de Renta de Equipos permite al usuario iniciar el proceso completo de alquiler de un dispositivo CoolGuard.
+Desde esta vista, el cliente puede seleccionar un equipo disponible, visualizar sus características técnicas, consultar su estado en tiempo real
+
+<p align="center"><img src="images/flutter4evidence.PNG" alt="Perfil Usuario" />
+</p>
+
+
+###  Solicitudes
+**Descripción:**  
+La pantalla de Solicitudes muestra todas las peticiones generadas por los clientes o proveedores dentro del sistema, ya sea para solicitar la renta de un equipo, pedir soporte técnico o registrar un requerimiento operativo.
+
+<p align="center"><img src="images/flutter5evidence.PNG" alt="Perfil Usuario" />
+</p>
+
+###  Inventario
+**Descripción:**  
+La pantalla de Inventario del Proveedor permite visualizar y gestionar todos los dispositivos IoT CoolGuard que pertenecen a un proveedor específico.
+
+<p align="center"><img src="images/flutter6evidence.PNG" alt="Perfil Usuario" />
+</p>
+
+###  Agregar equipo
+**Descripción:**  
+La pantalla de Agregar Equipo permite al proveedor registrar un nuevo dispositivo CoolGuard dentro de su inventario. 
+A través de un formulario intuitivo, el usuario ingresa la información principal del equipo, incluyendo nombre, número de serie, categoría, estado inicial y parámetros técnicos relevantes.
+
+<p align="center"><img src="images/flutter7evidence.PNG" alt="Perfil Usuario" />
+</p>
+
+### Perfil
+**Descripción:**  
+La pantalla de Perfil muestra toda la información personal y profesional del usuario autenticado, ya sea un Proveedor, Técnico o Cliente. Aquí se visualizan datos como nombre completo, correo electrónico, número de identificación, rol del sistema y datos adicionales configurados durante el registro.
+
+<p align="center"><img src="images/flutter8evidence.PNG" alt="Perfil Usuario" />
+</p>
+
 #### 4.2.3.6 Services Documentation Evidence for Sprint Review
+
+
+
 #### 4.2.3.7 Software Deployment Evidence for Sprint Review 
+
+
 #### 4.2.3.8 Team Collaboration Insights during Sprint   
                  
 ## 4.3 Validation Interviews

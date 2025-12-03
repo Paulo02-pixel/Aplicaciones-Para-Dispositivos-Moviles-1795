@@ -4,11 +4,10 @@
 <p align="center"><strong>Universidad Peruana de Ciencias Aplicadas</strong></p>
 
 <p align="center"><strong>Ingeniería de Software</strong><br>
-Aplicaciones para Dispositivos Móviles<br>
-<strong>Profesor:</strong> Jorge Luis Mayta  </p>
-<h3 align="center">Seccion: 1795  </h3>
-
-<h2 align="center">INFORME</h2>
+1ACC0238 | Aplicaciones para Dispositivos Móviles<br>	
+<h3 align="center">NRC: 1795  </h3>
+<h3 align="center"><strong>Profesor:</strong> Jorge Luis Mayta  </p></h3>
+<h2 align="center">INFORME DEL TRABAJO FINAL </h2>
 <h2 align="center">2025 - 20</h2>
 
 <h3 align="center">Startup: PolarNet</h3>
@@ -20,11 +19,11 @@ Aplicaciones para Dispositivos Móviles<br>
 
 | **Member**                           | **Code**     |
 |--------------------------------------|--------------|
-|  Paulo Percy Quincho Gamarra     |   U20191E562 |
+|    Dinklange Arevalo  Sandro |  u202313419 |
 |   Geronimo Quispe Pablo Antonio     | u202314304  |
-|    Sandro Dinklange Arevalo   |  u202313419 |
+| Ayrton Damian Inga Hernandez    |   u201924756 |
 |   Jamir Ángel Marzál Pérez      |  u201824409 |
-|  Ayrton Damian Inga Hernandez     | u201924756   |
+|   Paulo Percy Quincho Gamarra   |  U20191E56  | 
 
 </div>
 

@@ -17,13 +17,13 @@
 
 <div align="center">
 
-| **Member**                           | **Code**     |
+| **Code**                           | **Menbers**     |
 |--------------------------------------|--------------|
-|    Dinklange Arevalo  Sandro |  u202313419 |
-|   Geronimo Quispe Pablo Antonio     | u202314304  |
-| Ayrton Damian Inga Hernandez    |   u201924756 |
-|   Jamir Ángel Marzál Pérez      |  u201824409 |
-|   Paulo Percy Quincho Gamarra   |  U20191E56  | 
+|    u202313419  |  Dinklange Arevalo  Sandro  |
+|   u202314304     | Geronimo Quispe Pablo Antonio   |
+| u201924756   |  Ayrton Damian Inga Hernandez  |
+|  u201824409   |   Jamir Ángel Marzál Pérez |
+|   U20191E56  |     Paulo Percy Quincho Gamarra | 
 
 </div>
 
@@ -3633,6 +3633,36 @@ Durante el Sprint 2, el equipo realizó:
 - **Jamir Marzál**: Correcciones en autenticación y DTOs
 - **Equipo completo**: Participación en testing, revisión de código y documentación
 
+
+
+
+### 4.2.3 Sprint 3
+
+#### 4.2.3.1 Sprint Planning 3
+En esta sección presenta los detalles de la tercera reunión de planificación de Sprint del equipo Polarnet, correspondiente al desarrollo del proyecto  Coolguard.
+El objetivo principal fue entregar una versión funcional del aplicativo Flutter, con pantallas interactivas, navegación completa y conexión a los servicios principales del backend, asegurando una experiencia fluida y coherente para los usuarios.
+
+| Sprint #                             | Sprint 3                                                                                              |
+|--------------------------------|--------------------------------------------------------------------------------------------------------|
+| **Date**       |     2025-11-20        |
+| Time           | 10:00 PM                      |
+| Location       | Virtual - Meet               |
+| Prepared By    | Paulo Quincho              |
+| Attendees (to planning meeting)| Paulo Quincho, Sandro Dinklange, Jamir Marzál, Ayrton Inga, Pablo Geronimo  |
+| Sprint n - 3 Review Summary    |  En el Sprint 2 se completó con éxito el flujo funcional inicial en Kotlin y se realizó un Spike técnico en Flutter que confirmó la viabilidad de migrar el desarrollo hacia una plataforma multiplataforma. El equipo obtuvo una primera versión estable de registro, login y navegación base, además de la validación del backend.                                     |
+| Sprint n - 3 Retrospective Summary | El equipo reconoció avances claves en la integración de backend–frontend, pero también identificó la necesidad de unificar componentes visuales, mejorar la coherencia en el diseño, y optimizar la navegación interna en Flutter. Se acordó que la prioridad del siguiente sprint sería consolidar el ecosistema Flutter y dejarlo funcional para el usuario.                                     |
+| Sprint 3 Goal                  | Nuestro enfoque está en construir una experiencia de usuario completamente funcional para ambos segmentos (Cliente y Proveedor). Creemos que ofrecer esta experiencia multiplataforma pulida mejorara la comodidad de los usuarios |
+| Sprint 3 Velocity              | Nuestro equipo puede aceptar hasta xx Story Points.                                                  |
+| Sum of Story Points            | La suma de Story Points atendidos es de --- .     |            
+ 
+#### 4.2.3.2 Sprint Backlog 3
+#### 4.2.3.3 Development Evidence for Sprint Review 
+#### 4.2.3.4 esting Suite Evidence for Sprint Review 
+#### 4.2.3.5 Execution Evidence for Sprint Review 
+#### 4.2.3.6 Services Documentation Evidence for Sprint Review
+#### 4.2.3.7 Software Deployment Evidence for Sprint Review 
+#### 4.2.3.8 Team Collaboration Insights during Sprint   
+                 
 ## 4.3 Validation Interviews
 En esta sección se presentan los detalles de las entrevistas de validación realizadas.
 ### 4.3.1 Diseño de Entrevistas

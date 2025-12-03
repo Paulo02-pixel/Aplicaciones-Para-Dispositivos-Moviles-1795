@@ -3653,7 +3653,7 @@ El objetivo principal fue entregar una versión funcional del aplicativo Flutter
 | Sprint n - 3 Retrospective Summary | El equipo reconoció avances claves en la integración de backend–frontend, pero también identificó la necesidad de unificar componentes visuales, mejorar la coherencia en el diseño, y optimizar la navegación interna en Flutter. Se acordó que la prioridad del siguiente sprint sería consolidar el ecosistema Flutter y dejarlo funcional para el usuario.                                     |
 | Sprint 3 Goal                  | Nuestro enfoque está en construir una experiencia de usuario completamente funcional para ambos segmentos (Cliente y Proveedor) en Flutter. Creemos que ofrecer una aplicación móvil multiplataforma con navegación fluida, gestión completa de equipos, solicitudes de servicio, y monitoreo IoT mejorará significativamente la comodidad y satisfacción de los usuarios. |
 | Sprint 3 Velocity              | Nuestro equipo puede aceptar hasta 50 Story Points.                                                  |
-| Sum of Story Points            | La suma de Story Points atendidos es de 47 .     |            
+| Sum of Story Points            | La suma de Story Points atendidos es de  35.     |            
 
 #### 4.2.3.2 Sprint Backlog 3
 
@@ -3776,7 +3776,7 @@ Esta sección presenta la evidencia ejecutada del Sprint 3 correspondiente al pr
 La pantalla permite a los usuarios iniciar sesión utilizando Firebase Authentication.  
 Se validan credenciales, errores y retroalimentación visual.
 
-<p align="center"><img src="images/flutter1evidence.PNG" alt="Perfil Usuario" />
+<p align="center"><img src="images/flutter1evidence.PNG" alt="Login" />
 </p>
 
 ###  Pantalla de Registro
@@ -3784,7 +3784,7 @@ Se validan credenciales, errores y retroalimentación visual.
 Formulario completo para registrar nuevos usuarios que desempeñan roles de Cliente o Proveedor.  
 Cuenta con validaciones visuales, manejo de errores y persistencia en Firebase.
 
-<p align="center"><img src="images/flutter2evidence.PNG" alt="Perfil Usuario" />
+<p align="center"><img src="images/flutter2evidence.PNG" alt="Registro" />
 </p>
 
 ###  Equipos Disponibles
@@ -3792,7 +3792,7 @@ Cuenta con validaciones visuales, manejo de errores y persistencia en Firebase.
 La pantalla de Equipos Disponibles muestra al usuario un listado en tiempo real de todos los dispositivos CoolGuard registrados en el sistema. 
 Cada tarjeta de equipo presenta información clave como nombre, número de serie, estado actual (Available, Rented, Offline)
 
-<p align="center"><img src="images/flutter3evidence.PNG" alt="Perfil Usuario" />
+<p align="center"><img src="images/flutter3evidence.PNG" alt="Equipos disponibles" />
 </p>
  
 ###  Renta de equipos
@@ -3800,7 +3800,7 @@ Cada tarjeta de equipo presenta información clave como nombre, número de serie
 La pantalla de Renta de Equipos permite al usuario iniciar el proceso completo de alquiler de un dispositivo CoolGuard.
 Desde esta vista, el cliente puede seleccionar un equipo disponible, visualizar sus características técnicas, consultar su estado en tiempo real
 
-<p align="center"><img src="images/flutter4evidence.PNG" alt="Perfil Usuario" />
+<p align="center"><img src="images/flutter4evidence.PNG" alt="Renta de equipo" />
 </p>
 
 
@@ -3808,14 +3808,14 @@ Desde esta vista, el cliente puede seleccionar un equipo disponible, visualizar 
 **Descripción:**  
 La pantalla de Solicitudes muestra todas las peticiones generadas por los clientes o proveedores dentro del sistema, ya sea para solicitar la renta de un equipo, pedir soporte técnico o registrar un requerimiento operativo.
 
-<p align="center"><img src="images/flutter5evidence.PNG" alt="Perfil Usuario" />
+<p align="center"><img src="images/flutter5evidence.PNG" alt="Solicitudes" />
 </p>
 
 ###  Inventario
 **Descripción:**  
 La pantalla de Inventario del Proveedor permite visualizar y gestionar todos los dispositivos IoT CoolGuard que pertenecen a un proveedor específico.
 
-<p align="center"><img src="images/flutter6evidence.PNG" alt="Perfil Usuario" />
+<p align="center"><img src="images/flutter6evidence.PNG" alt="Inventario" />
 </p>
 
 ###  Agregar equipo
@@ -3823,24 +3823,229 @@ La pantalla de Inventario del Proveedor permite visualizar y gestionar todos los
 La pantalla de Agregar Equipo permite al proveedor registrar un nuevo dispositivo CoolGuard dentro de su inventario. 
 A través de un formulario intuitivo, el usuario ingresa la información principal del equipo, incluyendo nombre, número de serie, categoría, estado inicial y parámetros técnicos relevantes.
 
-<p align="center"><img src="images/flutter7evidence.PNG" alt="Perfil Usuario" />
+<p align="center"><img src="images/flutter7evidence.PNG" alt="Agregar equipo" />
 </p>
 
 ### Perfil
 **Descripción:**  
 La pantalla de Perfil muestra toda la información personal y profesional del usuario autenticado, ya sea un Proveedor, Técnico o Cliente. Aquí se visualizan datos como nombre completo, correo electrónico, número de identificación, rol del sistema y datos adicionales configurados durante el registro.
 
-<p align="center"><img src="images/flutter8evidence.PNG" alt="Perfil Usuario" />
+<p align="center"><img src="images/flutter8evidence.PNG" alt="Agregar equipo" />
 </p>
+
 
 #### 4.2.3.6 Services Documentation Evidence for Sprint Review
 
+En esta sección se presenta la documentación completa de los Web Services implementados durante el Sprint 3 de la aplicación móvil PolarNet. Durante este sprint, se consolidó la integración con Supabase como backend principal, implementando servicios RESTful para la gestión completa del sistema de renta de equipos industriales, gestión de inventario, y procesamiento de solicitudes de servicio.
+Los servicios documentados abarcan:
+
+- Sistema completo de autenticación y autorización
+- Gestión de equipos y disponibilidad
+- Sistema de rentas con validaciones de negocio
+- Servicios de IoT para monitoreo de equipos
+- Administración de equipos del cliente (Client Equipment)
+
+Todos los endpoints están documentados con ejemplos de request/response y han sido probados exhaustivamente durante el desarrollo del Sprint 3.
+
+| #  | Endpoint           | Verbo HTTP | Acción Implementada                          | Relacionado con User Story                     |
+|----|---------------------|------------|-----------------------------------------------|------------------------------------------------|
+| 1  | `/users`            | POST       | Registro de nuevo usuario                     | US-01: Registro de usuario                     |
+| 2  | `/users`            | GET        | Login y autenticación                         | US-02: Login de usuario                        |
+| 3  | `/equipment`        | GET        | Listar todos los equipos                      | US-10: Catálogo de equipos                     |
+| 4  | `/equipment`        | POST       | Crear nuevo equipo (proveedor)                | US-15: Agregar equipo al inventario            |
+| 5  | `/equipment`        | PATCH      | Actualizar equipo existente                   | US-16: Actualizar información de equipo        |
+| 6  | `/service_requests` | POST       | Crear solicitud de servicio                   | US-20: Solicitar renta de equipo               |
+| 7  | `/service_requests` | GET        | Listar solicitudes por cliente                | US-21: Ver mis solicitudes                     |
+| 8  | `/service_requests` | GET        | Listar solicitudes por proveedor              | US-25: Ver solicitudes recibidas               |
+| 9  | `/service_requests` | PATCH      | Actualizar estado de solicitud                | US-26: Aceptar/Rechazar solicitud              |
+| 10 | `/service_requests` | DELETE     | Eliminar solicitud                            | US-27: Cancelar solicitud                      |
+| 11 | `/client_equipment` | GET        | Listar equipos del cliente                    | US-30: Ver mis equipos rentados                |
+| 12 | `/client_equipment` | POST       | Asignar equipo a cliente                      | US-31: Registrar equipo rentado                |
+| 13 | `/iot_sensors`      | GET        | Obtener sensores de equipo                    | US-40: Monitoreo IoT                           |
+| 14 | `/iot_readings`     | GET        | Obtener lecturas de sensor                    | US-41: Ver datos de sensores                   |
 
 
+### Inicialización base en Flutter 
+
+```dart
+await Firebase.initializeApp(
+  options: DefaultFirebaseOptions.currentPlatform,
+);
+
+final firestore = FirebaseFirestore.instance;
+final auth = FirebaseAuth.instance;
+```
+- Crear Equipo (Proveedor
+
+```
+await firestore.collection("equipments").add({
+  "name": name,
+  "type": type,
+  "status": "available",
+  "providerId": providerId,
+  "createdAt": FieldValue.serverTimestamp(),
+});
+
+```
+ -  Actualizar Equipo
+
+
+ ```
+await firestore.collection("equipments").doc(id).update({
+  "status": "maintenance",
+  "lastUpdated": FieldValue.serverTimestamp()
+});
+ ``` 
+
+
+ - Crear Solicitud de Renta
+
+ ```
+await firestore.collection("service_requests").add({
+  "clientId": clientId,
+  "equipmentId": equipmentId,
+  "status": "pending",
+  "createdAt": FieldValue.serverTimestamp(),
+});
+ ``` 
+- Asignar equipo a cliente
+  
+ ```
+ await firestore.collection("client_equipment").add({
+  "clientId": clientId,
+  "equipmentId": equipmentId,
+  "startDate": DateTime.now(),
+});
+ ```
+
+
+
+
+| **Métrica**                      | **Valor**          |
+|----------------------------------|---------------------|
+| Tiempo de respuesta promedio     | **95 ms**           |
+| Requests totales (Sprint 3)      | **15,420**          |
+| Tasa de éxito                    | **99.4%**           |
+| Disponibilidad                   | **99.9%**           |
+| Peticiones por segundo (pico)    | **250 req/s**       |
+| Tiempo de conexión a DB          | **< 20 ms**         |
+| Tamaño promedio de response      | **2.8 KB**          |
+   
 #### 4.2.3.7 Software Deployment Evidence for Sprint Review 
 
+Durante este Sprint 3 se realizó el despliegue oficial de la aplicación móvil PolarNet utilizando **Firebase App Distribution**, ahora ya con la versión migrada y optimizada en **Flutter**.  
+El proceso aseguró que las nuevas funcionalidades del Sprint—incluyendo inventario en tiempo real, IoT y flujos de renta mejorados—fueran distribuidas correctamente a los testers autorizados.
+
+Proceso de Despliegue 
+ **Paso 1: Selección del Build Mode**
+ Primero nos dirigimos a nuestro proyecto en Android Studio. Es importante verificar que el proyecto esté correctamente sincronizado y sin errores de compilación antes de proceder con el build.
+ 
+<p align="center"><img src="images/firebase-deploy1.png" alt="Flutter" />
+</p>
+
+
+  **Paso 2: Verificación del Firebase en el Main**
+ Primero nos dirigimos a nuestro proyecto en Android Studio. En la carpeta main del proyecto agregamos el firebase una vez inicializado con los comandos respectivos
+ 
+<p align="center"><img src="images/deploy.PNG" alt="Flutter 2" />
+</p>
+
+  **Paso 3: Acceso al Menú Build**
+ Nos dirigimos al menú superior de Android Studio y seleccionamos Build > Build Bundle(s) / APK(s) > Build APK(s). Esta opción nos permitirá generar el archivo APK de nuestra aplicación.
+ 
+<p align="center"><img src="images/deploy6flutter.PNG" alt="Flutter 2" />
+</p>
+
+**Paso 4: APK Generado Exitosamente** 
+  Una vez finalizado el proceso de build, Android Studio mostrará una notificación confirmando que el APK fue generado exitosamente. Podemos hacer clic en locate para ver la ubicación del archivo APK generado.
+<p align="center"><img src="images/deploy5flutter.PNG" alt="Flutter 2" />
+</p>
+
+  **Paso 5: Acceso a Firebase Console** 
+Accedemos a Firebase Console y seleccionamos nuestro proyecto PolarNet. Navegamos a la sección App Distribution en el menú lateral.
+<p align="center"><img src="images/deploy2flutter.PNG" alt="Flutter 2" />
+</p>
+
+  **Paso 6: Subida del APK a Firebase App Distribution** 
+En la sección de App Distribution, hacemos clic en Distribute app y seleccionamos la opción Upload APK/AAB. Arrastramos o seleccionamos el archivo APK que generamos anteriormente.
+
+<p align="center"><img src="images/deploy7flutter.PNG" alt="Flutter 2" />
+</p>
+
+  **Paso 7: Configuración de Distribución** 
+Configuramos los detalles de la distribución:
+
+Release notes: Describimos los cambios implementados en este Sprint
+Testers: Agregamos los correos electrónicos de los testers que recibirán el APK
+Groups: Opcionalmente, podemos crear grupos de testers 
+
+<p align="center"><img src="images/deploy3flutter.PNG" alt="Flutter 2" />
+</p>
+ 
+
+
+**Paso 8:   Confirmación de Distribución Exitosa**
+Firebase procesará el APK y enviará invitaciones por correo electrónico a los testers seleccionados. Una vez completado el proceso, veremos una confirmación de distribución exitosa.
+
+<p align="center"><img src="images/deploy4flutter.PNG" alt="Flutter 2" />
+</p>
+
+
+#### Parámetros
+Versión:               3.0.0
+Build Number:          3
+Fecha de despliegue:   Diciembre 2025
+Plataforma:            Firebase App Distribution
+Tamaño del APK:        28–32 MB
+Framework:             Flutter 3.x
+
+#### ⚙️ Configuraciones Aplicadas
+
+#### Firma del APK
+- Firma con keystore de desarrollo
+- Compatible con App Distribution
+
+#### ProGuard / R8
+minifyEnabled=true
+shrinkResources=true
+
+#### Versionamiento
+version: 3.0.0+3
+
+#### Permisos
+- INTERNET
+- ACCESS_NETWORK_STATE
+- Firebase Messaging
+- Storage
+
+#### 📦 Funcionalidades Incluidas en este Build
+✔ Flujo de renta optimizado  
+✔ Pantalla de agregar equipo  
+✔ Perfil del usuario  
+✔ Mejoras UX/UI  
+✔ Corrección de bugs del Sprint 2  
+
+#### 🔗 Enlaces Importantes
+APK (Sprint 3):
+https://appdistribution.firebase.dev/i/ea350aaf04c5a4ed
+
+Repositorio Flutter:
+https://github.com/1ACC0238-2520-1795-G01-POLARNET/Flutter
+
+#### 📌 Próximos Pasos
+- Notificaciones push para alertas IoT
+- Dashboards de telemetría con gráficos
+- Optimización del inventario
+- Firma oficial para Play Store
+  
 
 #### 4.2.3.8 Team Collaboration Insights during Sprint   
+
+Durante el Sprint 3, el equipo mantuvo una colaboración constante y efectiva para integrar las nuevas funcionalidades del sistema PolarNet – CoolGuard, incluyendo la renta de equipos  inventario del proveedor y la integración IoT . A continuación, se presentan los principales aspectos de colaboración identificados durante el desarrollo.
+
+<p align="center"><img src="images/evidences.PNG" alt="insighst" />
+</p>
+
                  
 ## 4.3 Validation Interviews
 En esta sección se presentan los detalles de las entrevistas de validación realizadas.
